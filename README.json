@@ -52,7 +52,7 @@
             "last_commit": "2025-10-24T07:22:49Z",
             "owner": "polm",
             "repo": "fugashi",
-            "stars": 534
+            "stars": 536
           }
         },
         {
@@ -832,7 +832,7 @@
             "last_commit": "2026-08-13T12:18:49Z",
             "owner": "google",
             "repo": "budoux",
-            "stars": 1760
+            "stars": 1763
           }
         },
         {
@@ -857,7 +857,7 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-08T21:23:16Z",
+            "last_commit": "2026-08-15T21:23:06Z",
             "owner": "wwwcojp",
             "repo": "ja_sentence_segmenter",
             "stars": 76
@@ -1248,7 +1248,7 @@
             "last_commit": "2024-07-11T15:33:26Z",
             "owner": "clovaai",
             "repo": "donut",
-            "stars": 6911
+            "stars": 6912
           }
         },
         {
@@ -1262,7 +1262,7 @@
             "last_commit": "2026-07-19T08:43:43Z",
             "owner": "kha-white",
             "repo": "manga-ocr",
-            "stars": 2748
+            "stars": 2749
           }
         },
         {
@@ -1986,7 +1986,7 @@
             "last_commit": "2026-08-07T14:44:35Z",
             "owner": "VOICEVOX",
             "repo": "voicevox_engine",
-            "stars": 1749
+            "stars": 1750
           }
         },
         {
@@ -2014,7 +2014,7 @@
             "last_commit": "2026-08-11T02:20:18Z",
             "owner": "Aratako",
             "repo": "Irodori-TTS",
-            "stars": 1176
+            "stars": 1180
           }
         },
         {
@@ -2193,7 +2193,7 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-15T07:55:07Z",
+            "last_commit": "2026-08-16T09:50:37Z",
             "owner": "ayutaz",
             "repo": "piper-plus",
             "stars": 196
@@ -2210,7 +2210,7 @@
             "last_commit": "2024-10-09T13:53:59Z",
             "owner": "oshizo",
             "repo": "JapaneseEmbeddingEval",
-            "stars": 183
+            "stars": 184
           }
         },
         {
@@ -2392,7 +2392,7 @@
             "last_commit": "2026-01-05T14:12:50Z",
             "owner": "nu-dialogue",
             "repo": "moshi-finetune",
-            "stars": 105
+            "stars": 106
           }
         },
         {
@@ -2445,7 +2445,7 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-15T12:24:07Z",
+            "last_commit": "2026-08-16T14:10:26Z",
             "owner": "cihai",
             "repo": "cihai",
             "stars": 93
@@ -2504,7 +2504,7 @@
             "last_commit": "2026-06-29T07:47:22Z",
             "owner": "sbintuitions",
             "repo": "sarashina2.2-tts",
-            "stars": 80
+            "stars": 81
           }
         },
         {
@@ -5115,10 +5115,10 @@
           "repo_info": {
             "archived": false,
             "language": "Rust",
-            "last_commit": "2026-08-15T14:16:13Z",
+            "last_commit": "2026-08-16T14:32:26Z",
             "owner": "lindera",
             "repo": "lindera",
-            "stars": 653
+            "stars": 656
           }
         },
         {
@@ -5455,10 +5455,10 @@
           "repo_info": {
             "archived": false,
             "language": "Rust",
-            "last_commit": "2026-08-15T15:18:39Z",
+            "last_commit": "2026-08-16T12:31:13Z",
             "owner": "mayocream",
             "repo": "koharu",
-            "stars": 5236
+            "stars": 5269
           }
         },
         {
@@ -5483,7 +5483,7 @@
           "repo_info": {
             "archived": false,
             "language": "Rust",
-            "last_commit": "2026-08-13T16:39:08Z",
+            "last_commit": "2026-08-16T14:59:17Z",
             "owner": "daac-tools",
             "repo": "daachorse",
             "stars": 275
@@ -5640,7 +5640,7 @@
             "last_commit": "2026-05-04T04:18:53Z",
             "owner": "VOICEVOX",
             "repo": "kanalizer",
-            "stars": 30
+            "stars": 31
           }
         },
         {
@@ -5791,7 +5791,7 @@
             "last_commit": "2023-11-12T07:55:12Z",
             "owner": "takuyaa",
             "repo": "kuromoji.js",
-            "stars": 997
+            "stars": 999
           }
         },
         {
@@ -5895,7 +5895,7 @@
             "last_commit": "2026-06-29T21:14:25Z",
             "owner": "WaniKani",
             "repo": "WanaKana",
-            "stars": 932
+            "stars": 933
           }
         },
         {
@@ -5909,7 +5909,7 @@
             "last_commit": "2026-08-15T11:56:00Z",
             "owner": "InterfaceX-co-jp",
             "repo": "genshijin",
-            "stars": 309
+            "stars": 310
           }
         },
         {
@@ -6083,7 +6083,7 @@
             "last_commit": "2026-08-09T07:57:44Z",
             "owner": "VOICEVOX",
             "repo": "voicevox",
-            "stars": 3217
+            "stars": 3218
           }
         },
         {
@@ -6388,7 +6388,7 @@
           "repo_info": {
             "archived": false,
             "language": "TypeScript",
-            "last_commit": "2026-08-15T15:43:32Z",
+            "last_commit": "2026-08-16T00:11:29Z",
             "owner": "compile10",
             "repo": "Kaitai",
             "stars": 1
@@ -6601,7 +6601,7 @@
             "last_commit": "2026-07-14T02:34:14Z",
             "owner": "WorksApplications",
             "repo": "Sudachi",
-            "stars": 996
+            "stars": 995
           }
         },
         {
@@ -7451,7 +7451,7 @@
           "repo_info": {
             "archived": false,
             "language": "HTML",
-            "last_commit": "2026-08-13T08:33:28Z",
+            "last_commit": "2026-08-16T02:40:09Z",
             "owner": "dahatake",
             "repo": "GenerativeAI-Prompt-Sample-Japanese",
             "stars": 434
@@ -7465,7 +7465,7 @@
           "repo_info": {
             "archived": false,
             "language": "HTML",
-            "last_commit": "2026-08-13T08:33:28Z",
+            "last_commit": "2026-08-16T02:40:09Z",
             "owner": "dahatake",
             "repo": "GenerativeAI-Prompt-Sample-Japanese",
             "stars": 434
@@ -7774,7 +7774,7 @@
             "last_commit": "2026-03-18T05:31:23Z",
             "owner": "MarvNC",
             "repo": "yomitan-dictionaries",
-            "stars": 885
+            "stars": 886
           }
         },
         {
@@ -7799,10 +7799,10 @@
           "repo_info": {
             "archived": false,
             "language": "Rust",
-            "last_commit": "2026-08-15T10:07:26Z",
+            "last_commit": "2026-08-16T11:42:38Z",
             "owner": "togatoga",
             "repo": "karukan",
-            "stars": 698
+            "stars": 701
           }
         },
         {
@@ -7844,7 +7844,7 @@
             "last_commit": "2026-07-04T22:00:26Z",
             "owner": "tshatrov",
             "repo": "ichiran",
-            "stars": 403
+            "stars": 404
           }
         },
         {
@@ -7883,7 +7883,7 @@
           "repo_info": {
             "archived": false,
             "language": "Kotlin",
-            "last_commit": "2026-08-15T04:07:34Z",
+            "last_commit": "2026-08-16T13:58:57Z",
             "owner": "KazumaProject",
             "repo": "JapaneseKeyboard",
             "stars": 325
@@ -7897,7 +7897,7 @@
           "repo_info": {
             "archived": false,
             "language": "Shell",
-            "last_commit": "2026-08-15T05:24:12Z",
+            "last_commit": "2026-08-16T05:26:57Z",
             "owner": "yomidevs",
             "repo": "jmdict-yomitan",
             "stars": 309
@@ -7911,7 +7911,7 @@
           "repo_info": {
             "archived": false,
             "language": "Swift",
-            "last_commit": "2026-08-15T03:47:38Z",
+            "last_commit": "2026-08-16T13:25:20Z",
             "owner": "mtgto",
             "repo": "macSKK",
             "stars": 304
@@ -8185,6 +8185,20 @@
         },
         {
           "node_type": "item",
+          "title": "pixiv-yomitan",
+          "description": "Pixiv Encyclopedia Dictionary for Yomitan",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-16T00:10:11Z",
+            "owner": "MarvNC",
+            "repo": "pixiv-yomitan",
+            "stars": 67
+          }
+        },
+        {
+          "node_type": "item",
           "title": "jisho-open",
           "description": "Web frontend for the JMdict Japanese-English dictionary project, with study list support!",
           "children": [],
@@ -8195,20 +8209,6 @@
             "owner": "hlorenzi",
             "repo": "jisho-open",
             "stars": 67
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "pixiv-yomitan",
-          "description": "Pixiv Encyclopedia Dictionary for Yomitan",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-15T00:11:13Z",
-            "owner": "MarvNC",
-            "repo": "pixiv-yomitan",
-            "stars": 66
           }
         },
         {
@@ -8247,7 +8247,7 @@
           "repo_info": {
             "archived": false,
             "language": "Emacs Lisp",
-            "last_commit": "2026-08-01T12:06:23Z",
+            "last_commit": "2026-08-16T09:44:18Z",
             "owner": "kiyoka",
             "repo": "Sumibi",
             "stars": 62
@@ -8261,7 +8261,7 @@
           "repo_info": {
             "archived": false,
             "language": "Emacs Lisp",
-            "last_commit": "2026-08-01T12:06:23Z",
+            "last_commit": "2026-08-16T09:44:18Z",
             "owner": "kiyoka",
             "repo": "Sumibi",
             "stars": 62
@@ -8334,7 +8334,7 @@
             "last_commit": "2026-07-21T09:16:34Z",
             "owner": "Umichang",
             "repo": "nijisanji-ime-dic",
-            "stars": 41
+            "stars": 42
           }
         },
         {
@@ -8737,7 +8737,7 @@
           "repo_info": {
             "archived": false,
             "language": "Kotlin",
-            "last_commit": "2026-08-14T21:47:37Z",
+            "last_commit": "2026-08-16T13:52:46Z",
             "owner": "KazumaProject",
             "repo": "kotlin-kana-kanji-converter",
             "stars": 6
@@ -9523,7 +9523,7 @@
             "last_commit": "2026-06-10T03:45:53Z",
             "owner": "reazon-research",
             "repo": "ReazonSpeech",
-            "stars": 396
+            "stars": 397
           }
         },
         {
@@ -9593,7 +9593,7 @@
             "last_commit": "2026-02-27T07:44:49Z",
             "owner": "davidluzgouveia",
             "repo": "kanji-data",
-            "stars": 230
+            "stars": 231
           }
         },
         {
@@ -9674,7 +9674,7 @@
           "repo_info": {
             "archived": false,
             "language": "JavaScript",
-            "last_commit": "2026-08-15T14:08:46Z",
+            "last_commit": "2026-08-16T14:09:15Z",
             "owner": "smartnews-smri",
             "repo": "house-of-representatives",
             "stars": 181
@@ -9786,7 +9786,7 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-15T14:20:00Z",
+            "last_commit": "2026-08-16T14:21:22Z",
             "owner": "smartnews-smri",
             "repo": "house-of-councillors",
             "stars": 109
@@ -10928,6 +10928,20 @@
         },
         {
           "node_type": "item",
+          "title": "jacwir",
+          "description": "JaCWIR: Japanese Casual Web IR - 日本語情報検索評価のための小規模でカジュアルなWebタイトルと概要のデータセット",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-09-09T07:44:04Z",
+            "owner": "hotchpotch",
+            "repo": "JaCWIR",
+            "stars": 9
+          }
+        },
+        {
+          "node_type": "item",
           "title": "j-unimorph",
           "description": "Dataset of UniMorph in Japanese",
           "children": [],
@@ -10984,27 +10998,13 @@
         },
         {
           "node_type": "item",
-          "title": "jacwir",
-          "description": "JaCWIR: Japanese Casual Web IR - 日本語情報検索評価のための小規模でカジュアルなWebタイトルと概要のデータセット",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-09-09T07:44:04Z",
-            "owner": "hotchpotch",
-            "repo": "JaCWIR",
-            "stars": 8
-          }
-        },
-        {
-          "node_type": "item",
           "title": "elaws-history",
           "description": "e-Gov 法令検索で配布されている「全ての法令データ」を定期的にダウンロードし、アーカイブしています",
           "children": [],
           "repo_info": {
             "archived": false,
             "language": null,
-            "last_commit": "2026-08-15T14:52:00Z",
+            "last_commit": "2026-08-16T14:52:29Z",
             "owner": "kissge",
             "repo": "elaws-history",
             "stars": 8
@@ -12137,7 +12137,7 @@
             "last_commit": "2025-09-09T07:51:29Z",
             "owner": "masamasa59",
             "repo": "genai-agent-advanced-book",
-            "stars": 202
+            "stars": 203
           }
         },
         {
@@ -12176,7 +12176,7 @@
           "repo_info": {
             "archived": false,
             "language": null,
-            "last_commit": "2026-08-15T14:44:01Z",
+            "last_commit": "2026-08-16T13:24:45Z",
             "owner": "yoheikikuta",
             "repo": "support-genAI-book",
             "stars": 102
@@ -12263,7 +12263,7 @@
             "last_commit": "2026-07-05T12:02:50Z",
             "owner": "sinchir0",
             "repo": "kaggle_llm_book",
-            "stars": 37
+            "stars": 38
           }
         },
         {
@@ -12659,7 +12659,7 @@
             "last_commit": "2023-09-25T15:36:33Z",
             "owner": "vaaaaanquish",
             "repo": "Awesome-Rust-MachineLearning",
-            "stars": 2263
+            "stars": 2265
           }
         },
         {
@@ -12693,7 +12693,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-15T16:44:29.565Z",
+    "last_updated": "2026-08-16T16:44:49.470Z",
     "original_repository": "taishi-i/awesome-japanese-nlp-resources",
     "original_repository_sha": "2f073deab6e58de427feeb2db624935ccf8d6e92",
     "enhanced_repository": "enhansome/enhansome-japanese-nlp-resources",
