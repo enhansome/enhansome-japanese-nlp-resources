@@ -15,7 +15,7 @@
             "last_commit": "2026-08-07T02:34:13Z",
             "owner": "pfnet-research",
             "repo": "pfgen-bench",
-            "stars": 107
+            "stars": 108
           }
         },
         {
@@ -42,10 +42,10 @@
             "archived": false,
             "id": 1217671326,
             "language": "Python",
-            "last_commit": "2026-08-13T07:13:42Z",
+            "last_commit": "2026-08-21T06:50:42Z",
             "owner": "sbintuitions",
             "repo": "j-tau-bench",
-            "stars": 11
+            "stars": 12
           }
         },
         {
@@ -754,7 +754,7 @@
                 "archived": false,
                 "id": 685862267,
                 "language": "Python",
-                "last_commit": "2026-08-17T23:13:09Z",
+                "last_commit": "2026-08-20T18:02:00Z",
                 "owner": "34j",
                 "repo": "mecab-text-cleaner",
                 "stars": 7
@@ -951,7 +951,7 @@
                 "last_commit": "2026-08-20T12:10:59Z",
                 "owner": "google",
                 "repo": "budoux",
-                "stars": 1766
+                "stars": 1768
               }
             },
             {
@@ -1399,7 +1399,7 @@
                 "last_commit": "2024-07-11T15:33:26Z",
                 "owner": "clovaai",
                 "repo": "donut",
-                "stars": 6914
+                "stars": 6915
               }
             },
             {
@@ -1414,7 +1414,7 @@
                 "last_commit": "2026-07-19T08:43:43Z",
                 "owner": "kha-white",
                 "repo": "manga-ocr",
-                "stars": 2755
+                "stars": 2756
               }
             },
             {
@@ -1429,7 +1429,7 @@
                 "last_commit": "2026-07-20T07:18:29Z",
                 "owner": "kha-white",
                 "repo": "mokuro",
-                "stars": 1705
+                "stars": 1708
               }
             },
             {
@@ -1474,7 +1474,7 @@
                 "last_commit": "2026-08-17T07:45:02Z",
                 "owner": "rtr46",
                 "repo": "meikipop",
-                "stars": 633
+                "stars": 637
               }
             },
             {
@@ -1489,7 +1489,7 @@
                 "last_commit": "2023-11-23T01:59:17Z",
                 "owner": "blueaxis",
                 "repo": "Poricom",
-                "stars": 440
+                "stars": 441
               }
             },
             {
@@ -2193,7 +2193,7 @@
                 "last_commit": "2025-02-23T13:04:40Z",
                 "owner": "Ayanaminn",
                 "repo": "N46Whisper",
-                "stars": 1709
+                "stars": 1708
               }
             },
             {
@@ -2208,7 +2208,7 @@
                 "last_commit": "2026-08-11T02:20:18Z",
                 "owner": "Aratako",
                 "repo": "Irodori-TTS",
-                "stars": 1201
+                "stars": 1203
               }
             },
             {
@@ -2220,10 +2220,10 @@
                 "archived": false,
                 "id": 1196059417,
                 "language": "Python",
-                "last_commit": "2026-08-06T13:53:53Z",
+                "last_commit": "2026-08-21T05:58:53Z",
                 "owner": "FujitsuResearch",
                 "repo": "OneCompression",
-                "stars": 416
+                "stars": 421
               }
             },
             {
@@ -2400,7 +2400,7 @@
                 "archived": false,
                 "id": 952988376,
                 "language": "Python",
-                "last_commit": "2026-08-20T06:37:08Z",
+                "last_commit": "2026-08-21T08:57:14Z",
                 "owner": "ayutaz",
                 "repo": "piper-plus",
                 "stars": 197
@@ -2898,7 +2898,7 @@
                 "last_commit": "2026-08-11T20:59:08Z",
                 "owner": "tsukumijima",
                 "repo": "pyopenjtalk-plus",
-                "stars": 60
+                "stars": 61
               }
             },
             {
@@ -5400,7 +5400,7 @@
                 "last_commit": "2026-08-14T07:52:31Z",
                 "owner": "google",
                 "repo": "mozc",
-                "stars": 2966
+                "stars": 2967
               }
             },
             {
@@ -5515,7 +5515,7 @@
                 "archived": false,
                 "id": 235590808,
                 "language": "Rust",
-                "last_commit": "2026-08-20T15:21:33Z",
+                "last_commit": "2026-08-21T14:48:21Z",
                 "owner": "lindera",
                 "repo": "lindera",
                 "stars": 660
@@ -5762,7 +5762,7 @@
                 "archived": false,
                 "id": 1097681246,
                 "language": "Rust",
-                "last_commit": "2026-08-20T12:52:23Z",
+                "last_commit": "2026-08-21T05:12:11Z",
                 "owner": "o24s",
                 "repo": "haqumei",
                 "stars": 7
@@ -5881,10 +5881,10 @@
                 "archived": false,
                 "id": 963223041,
                 "language": "Rust",
-                "last_commit": "2026-08-20T10:47:23Z",
+                "last_commit": "2026-08-21T10:36:10Z",
                 "owner": "mayocream",
                 "repo": "koharu",
-                "stars": 5330
+                "stars": 5339
               }
             },
             {
@@ -5896,7 +5896,7 @@
                 "archived": false,
                 "id": 401730442,
                 "language": "Rust",
-                "last_commit": "2026-08-19T19:18:20Z",
+                "last_commit": "2026-08-21T02:47:44Z",
                 "owner": "VOICEVOX",
                 "repo": "voicevox_core",
                 "stars": 1131
@@ -5944,7 +5944,7 @@
                 "last_commit": "2022-12-03T13:32:36Z",
                 "owner": "algon-320",
                 "repo": "vime",
-                "stars": 229
+                "stars": 228
               }
             },
             {
@@ -6004,7 +6004,7 @@
                 "last_commit": "2025-03-13T03:24:22Z",
                 "owner": "daac-tools",
                 "repo": "find-simdoc",
-                "stars": 62
+                "stars": 61
               }
             },
             {
@@ -6031,7 +6031,7 @@
                 "archived": false,
                 "id": 579599640,
                 "language": "Rust",
-                "last_commit": "2026-08-16T18:14:39Z",
+                "last_commit": "2026-08-20T19:49:55Z",
                 "owner": "jpreprocess",
                 "repo": "jpreprocess",
                 "stars": 59
@@ -6336,7 +6336,7 @@
                 "archived": false,
                 "id": 299460746,
                 "language": "TypeScript",
-                "last_commit": "2026-08-17T06:46:21Z",
+                "last_commit": "2026-08-21T09:16:41Z",
                 "owner": "geolonia",
                 "repo": "normalize-japanese-addresses",
                 "stars": 959
@@ -6354,7 +6354,7 @@
                 "last_commit": "2026-06-29T21:14:25Z",
                 "owner": "WaniKani",
                 "repo": "WanaKana",
-                "stars": 934
+                "stars": 935
               }
             },
             {
@@ -6369,7 +6369,7 @@
                 "last_commit": "2026-08-15T11:56:00Z",
                 "owner": "InterfaceX-co-jp",
                 "repo": "genshijin",
-                "stars": 310
+                "stars": 311
               }
             },
             {
@@ -6556,7 +6556,7 @@
                 "last_commit": "2026-08-09T07:57:44Z",
                 "owner": "VOICEVOX",
                 "repo": "voicevox",
-                "stars": 3223
+                "stars": 3224
               }
             },
             {
@@ -6583,7 +6583,7 @@
                 "archived": false,
                 "id": 987749923,
                 "language": "TypeScript",
-                "last_commit": "2026-08-02T13:19:54Z",
+                "last_commit": "2026-08-21T15:50:45Z",
                 "owner": "cokice",
                 "repo": "japanese-analyzer",
                 "stars": 787
@@ -6823,7 +6823,7 @@
                 "archived": false,
                 "id": 897669882,
                 "language": "TypeScript",
-                "last_commit": "2026-06-13T01:16:42Z",
+                "last_commit": "2026-08-20T20:53:18Z",
                 "owner": "otnc",
                 "repo": "closewords",
                 "stars": 5
@@ -7107,7 +7107,7 @@
                 "last_commit": "2026-07-14T02:34:14Z",
                 "owner": "WorksApplications",
                 "repo": "Sudachi",
-                "stars": 996
+                "stars": 998
               }
             },
             {
@@ -7997,10 +7997,10 @@
             "archived": false,
             "id": 646174248,
             "language": "Python",
-            "last_commit": "2026-08-18T11:31:00Z",
+            "last_commit": "2026-08-21T00:00:35Z",
             "owner": "uezo",
             "repo": "aiavatarkit",
-            "stars": 656
+            "stars": 657
           }
         },
         {
@@ -8060,7 +8060,7 @@
             "last_commit": "2023-05-22T16:54:20Z",
             "owner": "rkmt",
             "repo": "summarize_arxv",
-            "stars": 173
+            "stars": 172
           }
         },
         {
@@ -8321,7 +8321,7 @@
             "last_commit": "2023-12-27T06:46:17Z",
             "owner": "neologd",
             "repo": "mecab-ipadic-neologd",
-            "stars": 2787
+            "stars": 2788
           }
         },
         {
@@ -8351,7 +8351,7 @@
             "last_commit": "2026-03-18T05:31:23Z",
             "owner": "MarvNC",
             "repo": "yomitan-dictionaries",
-            "stars": 889
+            "stars": 890
           }
         },
         {
@@ -8378,7 +8378,7 @@
             "archived": false,
             "id": 840918816,
             "language": "Rust",
-            "last_commit": "2026-08-16T11:42:38Z",
+            "last_commit": "2026-08-21T11:13:08Z",
             "owner": "togatoga",
             "repo": "karukan",
             "stars": 706
@@ -8441,7 +8441,7 @@
             "last_commit": "2026-08-17T12:25:03Z",
             "owner": "scriptin",
             "repo": "jmdict-simplified",
-            "stars": 387
+            "stars": 389
           }
         },
         {
@@ -8468,10 +8468,10 @@
             "archived": false,
             "id": 696033236,
             "language": "Kotlin",
-            "last_commit": "2026-08-19T22:39:08Z",
+            "last_commit": "2026-08-21T05:16:12Z",
             "owner": "KazumaProject",
             "repo": "JapaneseKeyboard",
-            "stars": 328
+            "stars": 327
           }
         },
         {
@@ -8483,10 +8483,10 @@
             "archived": false,
             "id": 696075636,
             "language": "Shell",
-            "last_commit": "2026-08-20T05:29:44Z",
+            "last_commit": "2026-08-21T05:31:51Z",
             "owner": "yomidevs",
             "repo": "jmdict-yomitan",
-            "stars": 309
+            "stars": 310
           }
         },
         {
@@ -8501,7 +8501,7 @@
             "last_commit": "2026-08-16T13:25:20Z",
             "owner": "mtgto",
             "repo": "macSKK",
-            "stars": 307
+            "stars": 309
           }
         },
         {
@@ -8798,7 +8798,7 @@
             "archived": false,
             "id": 755454455,
             "language": "TypeScript",
-            "last_commit": "2026-08-20T00:10:57Z",
+            "last_commit": "2026-08-21T00:11:10Z",
             "owner": "MarvNC",
             "repo": "pixiv-yomitan",
             "stars": 68
@@ -8828,7 +8828,7 @@
             "archived": false,
             "id": 289701036,
             "language": "Python",
-            "last_commit": "2026-08-14T10:00:00Z",
+            "last_commit": "2026-08-21T14:16:05Z",
             "owner": "tokuhirom",
             "repo": "jawiki-kana-kanji-dict",
             "stars": 65
@@ -9023,7 +9023,7 @@
             "archived": false,
             "id": 1173894195,
             "language": "Rust",
-            "last_commit": "2026-08-09T00:24:52Z",
+            "last_commit": "2026-08-21T00:14:44Z",
             "owner": "fukuyori",
             "repo": "rakukan",
             "stars": 29
@@ -9203,7 +9203,7 @@
             "archived": false,
             "id": 55282742,
             "language": "C++",
-            "last_commit": "2026-07-18T03:23:19Z",
+            "last_commit": "2026-08-21T11:39:39Z",
             "owner": "katahiromz",
             "repo": "mzimeja",
             "stars": 19
@@ -9296,7 +9296,7 @@
             "last_commit": "2026-06-20T04:35:12Z",
             "owner": "SethClydesdale",
             "repo": "colloquial-kansai-dictionary",
-            "stars": 9
+            "stars": 10
           }
         },
         {
@@ -9593,7 +9593,7 @@
             "archived": false,
             "id": 1064335981,
             "language": null,
-            "last_commit": "2026-03-17T04:14:19Z",
+            "last_commit": "2026-08-21T12:04:49Z",
             "owner": "junikematsu",
             "repo": "shitto-mania-dic",
             "stars": 0
@@ -10255,7 +10255,7 @@
                 "last_commit": "2026-07-03T06:09:03Z",
                 "owner": "mmorise",
                 "repo": "ita-corpus",
-                "stars": 241
+                "stars": 239
               }
             },
             {
@@ -10270,7 +10270,7 @@
                 "last_commit": "2023-11-13T02:21:09Z",
                 "owner": "sarulab-speech",
                 "repo": "jtubespeech",
-                "stars": 233
+                "stars": 234
               }
             },
             {
@@ -10372,7 +10372,7 @@
                 "archived": false,
                 "id": 482728164,
                 "language": "JavaScript",
-                "last_commit": "2026-08-20T14:17:21Z",
+                "last_commit": "2026-08-21T14:16:41Z",
                 "owner": "smartnews-smri",
                 "repo": "house-of-representatives",
                 "stars": 181
@@ -10465,7 +10465,7 @@
                 "last_commit": "2017-10-04T04:38:32Z",
                 "owner": "Hironsan",
                 "repo": "ja.text8",
-                "stars": 112
+                "stars": 113
               }
             },
             {
@@ -10492,7 +10492,7 @@
                 "archived": false,
                 "id": 504049094,
                 "language": "Python",
-                "last_commit": "2026-08-20T14:27:27Z",
+                "last_commit": "2026-08-21T14:28:24Z",
                 "owner": "smartnews-smri",
                 "repo": "house-of-councillors",
                 "stars": 109
@@ -10510,7 +10510,7 @@
                 "last_commit": "2026-08-07T02:34:13Z",
                 "owner": "pfnet-research",
                 "repo": "pfgen-bench",
-                "stars": 107
+                "stars": 108
               }
             },
             {
@@ -11655,6 +11655,21 @@
             },
             {
               "node_type": "item",
+              "title": "j-tau-bench",
+              "description": "J-tau: A Japanese tau-bench for Benchmarking Tool-Agent-User Interaction in Real-World Domains",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1217671326,
+                "language": "Python",
+                "last_commit": "2026-08-21T06:50:42Z",
+                "owner": "sbintuitions",
+                "repo": "j-tau-bench",
+                "stars": 12
+              }
+            },
+            {
+              "node_type": "item",
               "title": "J-CRe3",
               "description": "Code for J-CRe3 experiments (Ueda et al., LREC-COLING, 2024)",
               "children": [],
@@ -11695,21 +11710,6 @@
                 "last_commit": "2026-06-10T19:41:27Z",
                 "owner": "naoto-iwase",
                 "repo": "JMLE2026-Bench",
-                "stars": 11
-              }
-            },
-            {
-              "node_type": "item",
-              "title": "j-tau-bench",
-              "description": "J-tau: A Japanese tau-bench for Benchmarking Tool-Agent-User Interaction in Real-World Domains",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "id": 1217671326,
-                "language": "Python",
-                "last_commit": "2026-08-13T07:13:42Z",
-                "owner": "sbintuitions",
-                "repo": "j-tau-bench",
                 "stars": 11
               }
             },
@@ -11842,7 +11842,7 @@
                 "archived": false,
                 "id": 474831645,
                 "language": null,
-                "last_commit": "2026-08-20T15:08:54Z",
+                "last_commit": "2026-08-21T15:07:49Z",
                 "owner": "kissge",
                 "repo": "elaws-history",
                 "stars": 8
@@ -13293,7 +13293,7 @@
             "archived": false,
             "id": 900699377,
             "language": "Jupyter Notebook",
-            "last_commit": "2026-08-20T13:43:49Z",
+            "last_commit": "2026-08-21T15:48:25Z",
             "owner": "yuiseki",
             "repo": "NLP2025-tutorial-2",
             "stars": 17
@@ -13430,7 +13430,7 @@
             "language": "Jupyter Notebook",
             "last_commit": "2025-06-18T07:42:36Z",
             "owner": "liber-craft-co-ltd",
-            "repo": "book_impress_it-basic-education-ai",
+            "repo": "book-impress-it-basic-education-ai",
             "stars": 4
           }
         },
@@ -13608,7 +13608,7 @@
             "last_commit": "2023-09-25T15:36:33Z",
             "owner": "vaaaaanquish",
             "repo": "Awesome-Rust-MachineLearning",
-            "stars": 2264
+            "stars": 2266
           }
         },
         {
@@ -13631,7 +13631,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-20T16:55:05.698Z",
+    "last_updated": "2026-08-21T16:55:16.449Z",
     "original_repository": "taishi-i/awesome-japanese-nlp-resources",
     "original_repository_id": 501192860,
     "original_repository_sha": "06a5952ea0b930492f14f7a235b4d9675965f9d8",
