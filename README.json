@@ -129,10 +129,10 @@
             "archived": false,
             "id": 1306619570,
             "language": "Rust",
-            "last_commit": "2026-08-25T00:31:25Z",
+            "last_commit": "2026-08-25T14:52:11Z",
             "owner": "kimushun1101",
             "repo": "mikke",
-            "stars": 43
+            "stars": 44
           }
         },
         {
@@ -246,7 +246,7 @@
                 "last_commit": "2026-06-29T05:54:19Z",
                 "owner": "WorksApplications",
                 "repo": "sudachi.rs",
-                "stars": 472
+                "stars": 473
               }
             },
             {
@@ -1909,7 +1909,7 @@
                 "last_commit": "2026-08-24T00:58:42Z",
                 "owner": "google",
                 "repo": "budoux",
-                "stars": 1770
+                "stars": 1772
               }
             },
             {
@@ -2089,7 +2089,7 @@
                 "last_commit": "2026-08-24T00:58:42Z",
                 "owner": "google",
                 "repo": "budoux",
-                "stars": 1770
+                "stars": 1772
               }
             },
             {
@@ -2792,7 +2792,7 @@
                 "last_commit": "2026-07-19T08:43:43Z",
                 "owner": "kha-white",
                 "repo": "manga-ocr",
-                "stars": 2757
+                "stars": 2758
               }
             },
             {
@@ -2882,7 +2882,7 @@
                 "last_commit": "2026-06-03T13:46:41Z",
                 "owner": "AuroraWright",
                 "repo": "owocr",
-                "stars": 289
+                "stars": 290
               }
             },
             {
@@ -3062,7 +3062,7 @@
                 "last_commit": "2026-07-19T08:43:43Z",
                 "owner": "kha-white",
                 "repo": "manga-ocr",
-                "stars": 2757
+                "stars": 2758
               }
             },
             {
@@ -3212,7 +3212,7 @@
                 "last_commit": "2026-06-03T13:46:41Z",
                 "owner": "AuroraWright",
                 "repo": "owocr",
-                "stars": 289
+                "stars": 290
               }
             },
             {
@@ -4336,7 +4336,7 @@
                 "last_commit": "2026-08-11T02:20:18Z",
                 "owner": "Aratako",
                 "repo": "Irodori-TTS",
-                "stars": 1213
+                "stars": 1216
               }
             },
             {
@@ -4348,7 +4348,7 @@
                 "archived": false,
                 "id": 1196059417,
                 "language": "Python",
-                "last_commit": "2026-08-25T02:22:59Z",
+                "last_commit": "2026-08-25T14:11:11Z",
                 "owner": "FujitsuResearch",
                 "repo": "OneCompression",
                 "stars": 424
@@ -4528,7 +4528,7 @@
                 "archived": false,
                 "id": 952988376,
                 "language": "Python",
-                "last_commit": "2026-08-25T05:54:12Z",
+                "last_commit": "2026-08-25T16:26:49Z",
                 "owner": "ayutaz",
                 "repo": "piper-plus",
                 "stars": 201
@@ -5026,7 +5026,7 @@
                 "last_commit": "2026-08-11T20:59:08Z",
                 "owner": "tsukumijima",
                 "repo": "pyopenjtalk-plus",
-                "stars": 61
+                "stars": 62
               }
             },
             {
@@ -6351,6 +6351,21 @@
             },
             {
               "node_type": "item",
+              "title": "aozora-corpus-generator",
+              "description": "Generates plain or tokenized text files from the Aozora Bunko",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 106248659,
+                "language": "Python",
+                "last_commit": "2025-06-12T10:16:01Z",
+                "owner": "borh",
+                "repo": "aozora-corpus-generator",
+                "stars": 9
+              }
+            },
+            {
+              "node_type": "item",
               "title": "JaMIE",
               "description": "A Japanese Medical Information Extraction Toolkit",
               "children": [],
@@ -6451,21 +6466,6 @@
                 "last_commit": "2024-10-08T07:46:54Z",
                 "owner": "itayperl",
                 "repo": "kantan",
-                "stars": 8
-              }
-            },
-            {
-              "node_type": "item",
-              "title": "aozora-corpus-generator",
-              "description": "Generates plain or tokenized text files from the Aozora Bunko",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "id": 106248659,
-                "language": "Python",
-                "last_commit": "2025-06-12T10:16:01Z",
-                "owner": "borh",
-                "repo": "aozora-corpus-generator",
                 "stars": 8
               }
             },
@@ -8011,7 +8011,7 @@
                 "last_commit": "2025-06-12T10:16:01Z",
                 "owner": "borh",
                 "repo": "aozora-corpus-generator",
-                "stars": 8
+                "stars": 9
               }
             },
             {
@@ -9856,7 +9856,7 @@
                 "last_commit": "2026-08-11T20:59:08Z",
                 "owner": "tsukumijima",
                 "repo": "pyopenjtalk-plus",
-                "stars": 61
+                "stars": 62
               }
             },
             {
@@ -9943,7 +9943,7 @@
                 "archived": false,
                 "id": 952988376,
                 "language": "Python",
-                "last_commit": "2026-08-25T05:54:12Z",
+                "last_commit": "2026-08-25T16:26:49Z",
                 "owner": "ayutaz",
                 "repo": "piper-plus",
                 "stars": 201
@@ -10273,7 +10273,7 @@
                 "archived": false,
                 "id": 1196059417,
                 "language": "Python",
-                "last_commit": "2026-08-25T02:22:59Z",
+                "last_commit": "2026-08-25T14:11:11Z",
                 "owner": "FujitsuResearch",
                 "repo": "OneCompression",
                 "stars": 424
@@ -10336,7 +10336,7 @@
                 "last_commit": "2026-08-11T02:20:18Z",
                 "owner": "Aratako",
                 "repo": "Irodori-TTS",
-                "stars": 1213
+                "stars": 1216
               }
             },
             {
@@ -10780,7 +10780,7 @@
                 "archived": false,
                 "id": 23496638,
                 "language": "C",
-                "last_commit": "2026-08-14T05:43:12Z",
+                "last_commit": "2026-08-25T12:40:04Z",
                 "owner": "nathancorvussolis",
                 "repo": "corvusskk",
                 "stars": 373
@@ -10915,7 +10915,7 @@
                 "archived": false,
                 "id": 23496638,
                 "language": "C",
-                "last_commit": "2026-08-14T05:43:12Z",
+                "last_commit": "2026-08-25T12:40:04Z",
                 "owner": "nathancorvussolis",
                 "repo": "corvusskk",
                 "stars": 373
@@ -10958,7 +10958,7 @@
                 "archived": false,
                 "id": 235590808,
                 "language": "Rust",
-                "last_commit": "2026-08-25T04:46:22Z",
+                "last_commit": "2026-08-25T12:19:44Z",
                 "owner": "lindera",
                 "repo": "lindera",
                 "stars": 663
@@ -11093,7 +11093,7 @@
                 "archived": false,
                 "id": 235590808,
                 "language": "Rust",
-                "last_commit": "2026-08-25T04:46:22Z",
+                "last_commit": "2026-08-25T12:19:44Z",
                 "owner": "lindera",
                 "repo": "lindera",
                 "stars": 663
@@ -11340,7 +11340,7 @@
                 "archived": false,
                 "id": 1097681246,
                 "language": "Rust",
-                "last_commit": "2026-08-25T05:24:16Z",
+                "last_commit": "2026-08-25T09:56:06Z",
                 "owner": "o24s",
                 "repo": "haqumei",
                 "stars": 7
@@ -11475,7 +11475,7 @@
                 "archived": false,
                 "id": 1097681246,
                 "language": "Rust",
-                "last_commit": "2026-08-25T05:24:16Z",
+                "last_commit": "2026-08-25T09:56:06Z",
                 "owner": "o24s",
                 "repo": "haqumei",
                 "stars": 7
@@ -11669,10 +11669,10 @@
                 "archived": false,
                 "id": 963223041,
                 "language": "Rust",
-                "last_commit": "2026-08-25T05:38:10Z",
+                "last_commit": "2026-08-25T16:00:53Z",
                 "owner": "mayocream",
                 "repo": "koharu",
-                "stars": 5390
+                "stars": 5394
               }
             },
             {
@@ -11684,7 +11684,7 @@
                 "archived": false,
                 "id": 401730442,
                 "language": "Rust",
-                "last_commit": "2026-08-24T03:41:58Z",
+                "last_commit": "2026-08-25T15:42:32Z",
                 "owner": "VOICEVOX",
                 "repo": "voicevox_core",
                 "stars": 1131
@@ -11849,10 +11849,10 @@
                 "archived": false,
                 "id": 1306619570,
                 "language": "Rust",
-                "last_commit": "2026-08-25T00:31:25Z",
+                "last_commit": "2026-08-25T14:52:11Z",
                 "owner": "kimushun1101",
                 "repo": "mikke",
-                "stars": 43
+                "stars": 44
               }
             },
             {
@@ -12119,7 +12119,7 @@
                 "archived": false,
                 "id": 401730442,
                 "language": "Rust",
-                "last_commit": "2026-08-24T03:41:58Z",
+                "last_commit": "2026-08-25T15:42:32Z",
                 "owner": "VOICEVOX",
                 "repo": "voicevox_core",
                 "stars": 1131
@@ -12284,10 +12284,10 @@
                 "archived": false,
                 "id": 963223041,
                 "language": "Rust",
-                "last_commit": "2026-08-25T05:38:10Z",
+                "last_commit": "2026-08-25T16:00:53Z",
                 "owner": "mayocream",
                 "repo": "koharu",
-                "stars": 5390
+                "stars": 5394
               }
             },
             {
@@ -12374,10 +12374,10 @@
                 "archived": false,
                 "id": 1306619570,
                 "language": "Rust",
-                "last_commit": "2026-08-25T00:31:25Z",
+                "last_commit": "2026-08-25T14:52:11Z",
                 "owner": "kimushun1101",
                 "repo": "mikke",
-                "stars": 43
+                "stars": 44
               }
             }
           ],
@@ -12592,7 +12592,7 @@
                 "last_commit": "2026-06-29T21:14:25Z",
                 "owner": "WaniKani",
                 "repo": "WanaKana",
-                "stars": 937
+                "stars": 938
               }
             },
             {
@@ -12607,7 +12607,7 @@
                 "last_commit": "2026-08-15T11:56:00Z",
                 "owner": "InterfaceX-co-jp",
                 "repo": "genshijin",
-                "stars": 311
+                "stars": 312
               }
             },
             {
@@ -12664,7 +12664,7 @@
                 "archived": false,
                 "id": 855106135,
                 "language": "TypeScript",
-                "last_commit": "2026-08-20T11:55:37Z",
+                "last_commit": "2026-08-25T07:39:22Z",
                 "owner": "geolonia",
                 "repo": "japanese-addresses-v2",
                 "stars": 79
@@ -12862,7 +12862,7 @@
                 "last_commit": "2026-06-29T21:14:25Z",
                 "owner": "WaniKani",
                 "repo": "WanaKana",
-                "stars": 937
+                "stars": 938
               }
             },
             {
@@ -12949,7 +12949,7 @@
                 "archived": false,
                 "id": 855106135,
                 "language": "TypeScript",
-                "last_commit": "2026-08-20T11:55:37Z",
+                "last_commit": "2026-08-25T07:39:22Z",
                 "owner": "geolonia",
                 "repo": "japanese-addresses-v2",
                 "stars": 79
@@ -12997,7 +12997,7 @@
                 "last_commit": "2026-08-15T11:56:00Z",
                 "owner": "InterfaceX-co-jp",
                 "repo": "genshijin",
-                "stars": 311
+                "stars": 312
               }
             }
           ],
@@ -13064,7 +13064,7 @@
                 "last_commit": "2026-08-17T12:44:38Z",
                 "owner": "bangumi-data",
                 "repo": "bangumi-data",
-                "stars": 635
+                "stars": 634
               }
             },
             {
@@ -13394,7 +13394,7 @@
                 "last_commit": "2026-08-17T12:44:38Z",
                 "owner": "bangumi-data",
                 "repo": "bangumi-data",
-                "stars": 635
+                "stars": 634
               }
             },
             {
@@ -16558,10 +16558,10 @@
             "archived": false,
             "id": 581086426,
             "language": "Swift",
-            "last_commit": "2026-08-24T00:43:48Z",
+            "last_commit": "2026-08-25T13:57:20Z",
             "owner": "azooKey",
             "repo": "azooKey",
-            "stars": 755
+            "stars": 757
           }
         },
         {
@@ -16576,7 +16576,7 @@
             "last_commit": "2026-08-21T19:49:14Z",
             "owner": "togatoga",
             "repo": "karukan",
-            "stars": 708
+            "stars": 709
           }
         },
         {
@@ -18433,10 +18433,10 @@
             "archived": false,
             "id": 581086426,
             "language": "Swift",
-            "last_commit": "2026-08-24T00:43:48Z",
+            "last_commit": "2026-08-25T13:57:20Z",
             "owner": "azooKey",
             "repo": "azooKey",
-            "stars": 755
+            "stars": 757
           }
         },
         {
@@ -18946,7 +18946,7 @@
             "last_commit": "2026-08-21T19:49:14Z",
             "owner": "togatoga",
             "repo": "karukan",
-            "stars": 708
+            "stars": 709
           }
         },
         {
@@ -20190,7 +20190,7 @@
                 "last_commit": "2026-08-17T22:52:52Z",
                 "owner": "willnet",
                 "repo": "gimei",
-                "stars": 426
+                "stars": 425
               }
             },
             {
@@ -20280,7 +20280,7 @@
                 "last_commit": "2026-02-27T07:44:49Z",
                 "owner": "davidluzgouveia",
                 "repo": "kanji-data",
-                "stars": 230
+                "stars": 231
               }
             },
             {
@@ -20367,7 +20367,7 @@
                 "archived": false,
                 "id": 482728164,
                 "language": "JavaScript",
-                "last_commit": "2026-08-24T14:19:23Z",
+                "last_commit": "2026-08-25T14:19:51Z",
                 "owner": "smartnews-smri",
                 "repo": "house-of-representatives",
                 "stars": 181
@@ -20487,7 +20487,7 @@
                 "archived": false,
                 "id": 504049094,
                 "language": "Python",
-                "last_commit": "2026-08-24T14:30:51Z",
+                "last_commit": "2026-08-25T14:31:42Z",
                 "owner": "smartnews-smri",
                 "repo": "house-of-councillors",
                 "stars": 109
@@ -20892,7 +20892,7 @@
                 "archived": false,
                 "id": 44466151,
                 "language": null,
-                "last_commit": "2026-08-25T06:04:55Z",
+                "last_commit": "2026-08-25T08:31:50Z",
                 "owner": "shikeda",
                 "repo": "HDIC",
                 "stars": 44
@@ -21837,7 +21837,7 @@
                 "archived": false,
                 "id": 474831645,
                 "language": null,
-                "last_commit": "2026-08-24T15:14:56Z",
+                "last_commit": "2026-08-25T15:19:14Z",
                 "owner": "kissge",
                 "repo": "elaws-history",
                 "stars": 8
@@ -22587,7 +22587,7 @@
                 "archived": false,
                 "id": 1244058329,
                 "language": "Python",
-                "last_commit": "2026-08-19T11:17:40Z",
+                "last_commit": "2026-08-25T08:21:56Z",
                 "owner": "shimo4228",
                 "repo": "doctrine-corpus",
                 "stars": 2
@@ -22980,7 +22980,7 @@
                 "last_commit": "2026-02-27T07:44:49Z",
                 "owner": "davidluzgouveia",
                 "repo": "kanji-data",
-                "stars": 230
+                "stars": 231
               }
             },
             {
@@ -23262,7 +23262,7 @@
                 "archived": false,
                 "id": 504049094,
                 "language": "Python",
-                "last_commit": "2026-08-24T14:30:51Z",
+                "last_commit": "2026-08-25T14:31:42Z",
                 "owner": "smartnews-smri",
                 "repo": "house-of-councillors",
                 "stars": 109
@@ -23277,7 +23277,7 @@
                 "archived": false,
                 "id": 482728164,
                 "language": "JavaScript",
-                "last_commit": "2026-08-24T14:19:23Z",
+                "last_commit": "2026-08-25T14:19:51Z",
                 "owner": "smartnews-smri",
                 "repo": "house-of-representatives",
                 "stars": 181
@@ -24597,7 +24597,7 @@
                 "archived": false,
                 "id": 474831645,
                 "language": null,
-                "last_commit": "2026-08-24T15:14:56Z",
+                "last_commit": "2026-08-25T15:19:14Z",
                 "owner": "kissge",
                 "repo": "elaws-history",
                 "stars": 8
@@ -24627,7 +24627,7 @@
                 "archived": false,
                 "id": 44466151,
                 "language": null,
-                "last_commit": "2026-08-25T06:04:55Z",
+                "last_commit": "2026-08-25T08:31:50Z",
                 "owner": "shikeda",
                 "repo": "HDIC",
                 "stars": 44
@@ -24810,7 +24810,7 @@
                 "last_commit": "2026-08-17T22:52:52Z",
                 "owner": "willnet",
                 "repo": "gimei",
-                "stars": 426
+                "stars": 425
               }
             },
             {
@@ -25632,7 +25632,7 @@
                 "archived": false,
                 "id": 1244058329,
                 "language": "Python",
-                "last_commit": "2026-08-19T11:17:40Z",
+                "last_commit": "2026-08-25T08:21:56Z",
                 "owner": "shimo4228",
                 "repo": "doctrine-corpus",
                 "stars": 2
@@ -27061,7 +27061,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T06:07:50.526Z",
+    "last_updated": "2026-08-25T16:59:22.612Z",
     "original_repository": "taishi-i/awesome-japanese-nlp-resources",
     "original_repository_id": 501192860,
     "original_repository_sha": "b7f30b6fd4efb5b0d7b8897bfa1f971f25c597f1",
