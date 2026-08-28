@@ -1906,7 +1906,7 @@
                 "archived": false,
                 "id": 429243895,
                 "language": "Python",
-                "last_commit": "2026-08-24T00:58:42Z",
+                "last_commit": "2026-08-27T21:34:00Z",
                 "owner": "google",
                 "repo": "budoux",
                 "stars": 1772
@@ -2086,7 +2086,7 @@
                 "archived": false,
                 "id": 429243895,
                 "language": "Python",
-                "last_commit": "2026-08-24T00:58:42Z",
+                "last_commit": "2026-08-27T21:34:00Z",
                 "owner": "google",
                 "repo": "budoux",
                 "stars": 1772
@@ -2792,7 +2792,7 @@
                 "last_commit": "2026-07-19T08:43:43Z",
                 "owner": "kha-white",
                 "repo": "manga-ocr",
-                "stars": 2760
+                "stars": 2761
               }
             },
             {
@@ -3062,7 +3062,7 @@
                 "last_commit": "2026-07-19T08:43:43Z",
                 "owner": "kha-white",
                 "repo": "manga-ocr",
-                "stars": 2760
+                "stars": 2761
               }
             },
             {
@@ -4303,7 +4303,7 @@
                 "archived": false,
                 "id": 389985077,
                 "language": "Python",
-                "last_commit": "2026-08-26T15:03:06Z",
+                "last_commit": "2026-08-27T17:23:24Z",
                 "owner": "VOICEVOX",
                 "repo": "voicevox_engine",
                 "stars": 1752
@@ -4528,7 +4528,7 @@
                 "archived": false,
                 "id": 952988376,
                 "language": "Python",
-                "last_commit": "2026-08-27T10:21:07Z",
+                "last_commit": "2026-08-28T00:09:09Z",
                 "owner": "ayutaz",
                 "repo": "piper-plus",
                 "stars": 201
@@ -5053,7 +5053,7 @@
                 "archived": false,
                 "id": 616948662,
                 "language": "Python",
-                "last_commit": "2026-08-20T11:54:59Z",
+                "last_commit": "2026-08-27T21:06:55Z",
                 "owner": "lazyfoxchan",
                 "repo": "rime-jaroomaji",
                 "stars": 56
@@ -5706,6 +5706,21 @@
             },
             {
               "node_type": "item",
+              "title": "medical-paper-summarizer-public",
+              "description": "毎日PubMedから最新の循環器内科論文を自動収集・AI要約してGmailに届けるシステム",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1211933536,
+                "language": "Python",
+                "last_commit": "2026-04-18T14:09:37Z",
+                "owner": "yush02084",
+                "repo": "medical-paper-summarizer-public",
+                "stars": 20
+              }
+            },
+            {
+              "node_type": "item",
               "title": "text-generation",
               "description": "Easy-to-use scripts to fine-tune GPT-2-JA with your own texts, to generate sentences, and to tweet them automatically.",
               "children": [],
@@ -5731,21 +5746,6 @@
                 "last_commit": "2023-05-22T22:16:07Z",
                 "owner": "GINK03",
                 "repo": "minimal-search-engine",
-                "stars": 19
-              }
-            },
-            {
-              "node_type": "item",
-              "title": "medical-paper-summarizer-public",
-              "description": "毎日PubMedから最新の循環器内科論文を自動収集・AI要約してGmailに届けるシステム",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "id": 1211933536,
-                "language": "Python",
-                "last_commit": "2026-04-18T14:09:37Z",
-                "owner": "yush02084",
-                "repo": "medical-paper-summarizer-public",
                 "stars": 19
               }
             },
@@ -9028,7 +9028,7 @@
                 "archived": false,
                 "id": 389985077,
                 "language": "Python",
-                "last_commit": "2026-08-26T15:03:06Z",
+                "last_commit": "2026-08-27T17:23:24Z",
                 "owner": "VOICEVOX",
                 "repo": "voicevox_engine",
                 "stars": 1752
@@ -9268,7 +9268,7 @@
                 "archived": false,
                 "id": 616948662,
                 "language": "Python",
-                "last_commit": "2026-08-20T11:54:59Z",
+                "last_commit": "2026-08-27T21:06:55Z",
                 "owner": "lazyfoxchan",
                 "repo": "rime-jaroomaji",
                 "stars": 56
@@ -9943,7 +9943,7 @@
                 "archived": false,
                 "id": 952988376,
                 "language": "Python",
-                "last_commit": "2026-08-27T10:21:07Z",
+                "last_commit": "2026-08-28T00:09:09Z",
                 "owner": "ayutaz",
                 "repo": "piper-plus",
                 "stars": 201
@@ -10321,7 +10321,7 @@
                 "last_commit": "2026-04-18T14:09:37Z",
                 "owner": "yush02084",
                 "repo": "medical-paper-summarizer-public",
-                "stars": 19
+                "stars": 20
               }
             },
             {
@@ -10735,7 +10735,7 @@
                 "archived": false,
                 "id": 34376625,
                 "language": "C++",
-                "last_commit": "2026-08-26T08:41:51Z",
+                "last_commit": "2026-08-27T17:27:05Z",
                 "owner": "google",
                 "repo": "mozc",
                 "stars": 2970
@@ -10765,7 +10765,7 @@
                 "archived": false,
                 "id": 23496638,
                 "language": "C",
-                "last_commit": "2026-08-25T12:40:04Z",
+                "last_commit": "2026-08-27T13:22:14Z",
                 "owner": "nathancorvussolis",
                 "repo": "corvusskk",
                 "stars": 374
@@ -10870,7 +10870,7 @@
                 "archived": false,
                 "id": 34376625,
                 "language": "C++",
-                "last_commit": "2026-08-26T08:41:51Z",
+                "last_commit": "2026-08-27T17:27:05Z",
                 "owner": "google",
                 "repo": "mozc",
                 "stars": 2970
@@ -10915,7 +10915,7 @@
                 "archived": false,
                 "id": 23496638,
                 "language": "C",
-                "last_commit": "2026-08-25T12:40:04Z",
+                "last_commit": "2026-08-27T13:22:14Z",
                 "owner": "nathancorvussolis",
                 "repo": "corvusskk",
                 "stars": 374
@@ -11669,10 +11669,10 @@
                 "archived": false,
                 "id": 963223041,
                 "language": "Rust",
-                "last_commit": "2026-08-27T08:41:56Z",
+                "last_commit": "2026-08-27T18:55:04Z",
                 "owner": "koharu-rs",
                 "repo": "koharu",
-                "stars": 5417
+                "stars": 5419
               }
             },
             {
@@ -11684,7 +11684,7 @@
                 "archived": false,
                 "id": 401730442,
                 "language": "Rust",
-                "last_commit": "2026-08-26T23:38:26Z",
+                "last_commit": "2026-08-27T23:16:14Z",
                 "owner": "VOICEVOX",
                 "repo": "voicevox_core",
                 "stars": 1131
@@ -12119,7 +12119,7 @@
                 "archived": false,
                 "id": 401730442,
                 "language": "Rust",
-                "last_commit": "2026-08-26T23:38:26Z",
+                "last_commit": "2026-08-27T23:16:14Z",
                 "owner": "VOICEVOX",
                 "repo": "voicevox_core",
                 "stars": 1131
@@ -12284,10 +12284,10 @@
                 "archived": false,
                 "id": 963223041,
                 "language": "Rust",
-                "last_commit": "2026-08-27T08:41:56Z",
+                "last_commit": "2026-08-27T18:55:04Z",
                 "owner": "koharu-rs",
                 "repo": "koharu",
-                "stars": 5417
+                "stars": 5419
               }
             },
             {
@@ -13016,7 +13016,7 @@
                 "archived": false,
                 "id": 389984027,
                 "language": "TypeScript",
-                "last_commit": "2026-08-26T12:23:18Z",
+                "last_commit": "2026-08-27T21:06:40Z",
                 "owner": "VOICEVOX",
                 "repo": "voicevox",
                 "stars": 3231
@@ -13586,7 +13586,7 @@
                 "archived": false,
                 "id": 389984027,
                 "language": "TypeScript",
-                "last_commit": "2026-08-26T12:23:18Z",
+                "last_commit": "2026-08-27T21:06:40Z",
                 "owner": "VOICEVOX",
                 "repo": "voicevox",
                 "stars": 3231
@@ -14102,7 +14102,7 @@
                 "last_commit": "2023-01-23T08:45:18Z",
                 "owner": "atilika",
                 "repo": "kuromoji",
-                "stars": 1056
+                "stars": 1057
               }
             },
             {
@@ -14162,7 +14162,7 @@
                 "last_commit": "2023-01-23T08:45:18Z",
                 "owner": "atilika",
                 "repo": "kuromoji",
-                "stars": 1056
+                "stars": 1057
               }
             },
             {
@@ -16546,7 +16546,7 @@
             "last_commit": "2026-03-18T05:31:23Z",
             "owner": "MarvNC",
             "repo": "yomitan-dictionaries",
-            "stars": 895
+            "stars": 896
           }
         },
         {
@@ -16591,7 +16591,7 @@
             "last_commit": "2026-08-21T22:01:19Z",
             "owner": "Jitendex",
             "repo": "Jitendex",
-            "stars": 523
+            "stars": 524
           }
         },
         {
@@ -16606,7 +16606,7 @@
             "last_commit": "2026-08-21T22:01:19Z",
             "owner": "Jitendex",
             "repo": "Jitendex",
-            "stars": 523
+            "stars": 524
           }
         },
         {
@@ -16678,7 +16678,7 @@
             "archived": false,
             "id": 696075636,
             "language": "Shell",
-            "last_commit": "2026-08-26T05:32:28Z",
+            "last_commit": "2026-08-27T16:07:50Z",
             "owner": "yomidevs",
             "repo": "jmdict-yomitan",
             "stars": 310
@@ -16966,7 +16966,7 @@
             "last_commit": "2026-05-09T23:41:52Z",
             "owner": "reasonset",
             "repo": "mozcdict-ext",
-            "stars": 73
+            "stars": 72
           }
         },
         {
@@ -18166,7 +18166,7 @@
             "last_commit": "2026-05-09T23:41:52Z",
             "owner": "reasonset",
             "repo": "mozcdict-ext",
-            "stars": 73
+            "stars": 72
           }
         },
         {
@@ -18223,7 +18223,7 @@
             "archived": false,
             "id": 696075636,
             "language": "Shell",
-            "last_commit": "2026-08-26T05:32:28Z",
+            "last_commit": "2026-08-27T16:07:50Z",
             "owner": "yomidevs",
             "repo": "jmdict-yomitan",
             "stars": 310
@@ -18256,7 +18256,7 @@
             "last_commit": "2026-08-21T22:01:19Z",
             "owner": "Jitendex",
             "repo": "Jitendex",
-            "stars": 523
+            "stars": 524
           }
         },
         {
@@ -18316,7 +18316,7 @@
             "last_commit": "2026-03-18T05:31:23Z",
             "owner": "MarvNC",
             "repo": "yomitan-dictionaries",
-            "stars": 895
+            "stars": 896
           }
         },
         {
@@ -18931,7 +18931,7 @@
             "last_commit": "2026-08-21T22:01:19Z",
             "owner": "Jitendex",
             "repo": "Jitendex",
-            "stars": 523
+            "stars": 524
           }
         },
         {
@@ -20367,7 +20367,7 @@
                 "archived": false,
                 "id": 482728164,
                 "language": "JavaScript",
-                "last_commit": "2026-08-26T14:19:54Z",
+                "last_commit": "2026-08-27T17:51:05Z",
                 "owner": "smartnews-smri",
                 "repo": "house-of-representatives",
                 "stars": 181
@@ -20487,7 +20487,7 @@
                 "archived": false,
                 "id": 504049094,
                 "language": "Python",
-                "last_commit": "2026-08-26T14:26:41Z",
+                "last_commit": "2026-08-27T18:02:12Z",
                 "owner": "smartnews-smri",
                 "repo": "house-of-councillors",
                 "stars": 109
@@ -21837,7 +21837,7 @@
                 "archived": false,
                 "id": 474831645,
                 "language": null,
-                "last_commit": "2026-08-26T16:04:05Z",
+                "last_commit": "2026-08-27T23:57:37Z",
                 "owner": "kissge",
                 "repo": "elaws-history",
                 "stars": 8
@@ -23262,7 +23262,7 @@
                 "archived": false,
                 "id": 504049094,
                 "language": "Python",
-                "last_commit": "2026-08-26T14:26:41Z",
+                "last_commit": "2026-08-27T18:02:12Z",
                 "owner": "smartnews-smri",
                 "repo": "house-of-councillors",
                 "stars": 109
@@ -23277,7 +23277,7 @@
                 "archived": false,
                 "id": 482728164,
                 "language": "JavaScript",
-                "last_commit": "2026-08-26T14:19:54Z",
+                "last_commit": "2026-08-27T17:51:05Z",
                 "owner": "smartnews-smri",
                 "repo": "house-of-representatives",
                 "stars": 181
@@ -24597,7 +24597,7 @@
                 "archived": false,
                 "id": 474831645,
                 "language": null,
-                "last_commit": "2026-08-26T16:04:05Z",
+                "last_commit": "2026-08-27T23:57:37Z",
                 "owner": "kissge",
                 "repo": "elaws-history",
                 "stars": 8
@@ -27038,7 +27038,7 @@
             "last_commit": "2023-09-25T15:36:33Z",
             "owner": "vaaaaanquish",
             "repo": "Awesome-Rust-MachineLearning",
-            "stars": 2268
+            "stars": 2269
           }
         },
         {
@@ -27061,7 +27061,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T11:45:51.421Z",
+    "last_updated": "2026-08-28T00:58:56.224Z",
     "original_repository_info": {
       "archived": false,
       "id": 501192860,
