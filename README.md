@@ -7,19 +7,21 @@
 
 A curated list of resources dedicated to Python libraries, llms, dictionaries, and corpora of NLP for Japanese
 
-* Listed information on [895 GitHub repositories](https://github.com/taishi-i/awesome-japanese-nlp-resources/blob/main/docs/README.full.md)
-* Listed information on [450 Hugging Face repositories](https://github.com/taishi-i/awesome-japanese-nlp-resources/blob/main/docs/huggingface.md) (models and datasets)
+* Listed information on [898 GitHub repositories](https://github.com/taishi-i/awesome-japanese-nlp-resources/blob/main/docs/README.full.md)
+* Listed information on [454 Hugging Face repositories](https://github.com/taishi-i/awesome-japanese-nlp-resources/blob/main/docs/huggingface.md) (models and datasets)
 * Listed information on [156 multilingual libraries, models, and datasets that also support Japanese](https://github.com/taishi-i/awesome-japanese-nlp-resources/blob/main/docs/multilingual.md)
 
 [English](https://github.com/taishi-i/awesome-japanese-nlp-resources/blob/main/docs/README.en.md) | [日本語 (Japanese) ](https://github.com/taishi-i/awesome-japanese-nlp-resources/blob/main/docs/README.ja.md) | [繁體中文 (Chinese) ](https://github.com/taishi-i/awesome-japanese-nlp-resources/blob/main/docs/README.zh-hant.md) | [简体中文 (Chinese) ](https://github.com/taishi-i/awesome-japanese-nlp-resources/blob/main/docs/README.zh-hans.md)
 
 ## 🎉 The latest additions
 
-**Corpus**
+**Python**
 
-* [jmeeteval](https://github.com/nishika-inc/jmeeteval) ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2026-08-09 - J-MeetEval: 日本語会議タスクにおける指示追従性評価ベンチマーク
+* [natural-japanese](https://github.com/coji/natural-japanese) ⭐ 1,940 | 🐛 0 | 🌐 Python | 📅 2026-10-16 - 仕事の日本語を、読みやすくわかりやすく書く・直すための Agent Skill です。
+* [natural-japanese-writing](https://github.com/kojikojikojikoji/natural-japanese-writing) ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2026-10-15 - An agent skill for Claude Code, Codex and Cursor that rewrites AI-sounding Japanese into natural Japanese without changing the facts. 59-item checklist across six layers, plus an automated checker.
+* [TextToVoicevox](https://github.com/rakuyou211-blip/TextToVoicevox) ⭐ 1 | 🐛 1 | 🌐 Python | 📅 2026-10-18 - Free offline desktop app (Windows/macOS) that reads Japanese PDFs, images, EPUB and Aozora Bunko aloud with VOICEVOX voices (Zundamon etc.), with SRT subtitles. ／ PDF・画像・青空文庫の日本語を VOICEVOX（ずんだもん等）で朗読・音声化する無料デスクトップアプリ。オフラインOCR・行ごとの話者切替・字幕出力。
 
-*Updated on Oct 13, 2026*
+*Updated on Oct 20, 2026*
 
 ## Claude Code & Codex Plugin
 
@@ -138,32 +140,32 @@ Libraries that split Japanese text into words or morphemes and assign part-of-sp
 * [pyknp](https://github.com/ku-nlp/pyknp) ⚠️ Archived - A Python Module for JUMAN++/KNP
 * [python-vibrato](https://github.com/daac-tools/python-vibrato) ⭐ 46 | 🐛 0 | 🌐 Rust | 📅 2026-05-30 -  Viterbi-based accelerated tokenizer (Python wrapper)
 * [Mecari](https://github.com/zbller/Mecari) ⭐ 41 | 🐛 0 | 🌐 Python | 📅 2025-10-21 - Mecari (Japanese Morphological Analysis with Graph Neural Networks)
-* [rhoknp](https://github.com/ku-nlp/rhoknp) ⭐ 40 | 🐛 2 | 🌐 Python | 📅 2026-10-18 - Yet another Python binding for Juman++/KNP
+* [rhoknp](https://github.com/ku-nlp/rhoknp) ⭐ 40 | 🐛 0 | 🌐 Python | 📅 2026-10-19 - Yet another Python binding for Juman++/KNP
 * [Mykytea-python](https://github.com/chezou/Mykytea-python) ⭐ 36 | 🐛 1 | 🌐 C++ | 📅 2026-03-30 - Python wrapper for KyTea
 * [dango](https://github.com/mkartawijaya/dango) ⭐ 26 | 🐛 3 | 🌐 Python | 📅 2021-11-21 - An easy to use tokenizer for Japanese text, aimed at language learners and non-linguists
 * [rakutenma-python](https://github.com/ikegami-yukino/rakutenma-python) ⭐ 23 | 🐛 0 | 🌐 Python | 📅 2017-05-22 - Rakuten MA (Python version)
 * [python-vaporetto](https://github.com/daac-tools/python-vaporetto) ⭐ 21 | 🐛 0 | 🌐 Rust | 📅 2026-05-30 -  Vaporetto is a fast and lightweight pointwise prediction based tokenizer. This is a Python wrapper for Vaporetto.
 * [jagger-python](https://github.com/lighttransport/jagger-python) ⭐ 13 | 🐛 0 | 🌐 C++ | 📅 2025-12-16 - Python binding for Jagger(C++ implementation of Pattern-based Japanese Morphological Analyzer)
 
-| Name                                                                                                                 | downloads/week | total downloads | stars     | last commit       |
-| -------------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | --------- | ----------------- |
-| 🔗 [SudachiPy](https://github.com/WorksApplications/SudachiPy) ⚠️ Archived                                           | 📥 313k        | 📦 75M          | ⭐ 443     | 🔴 october 2022   |
-| 🔗 [Janome](https://github.com/mocobeta/janome) ⭐ 917 \| 🐛 17 \| 🌐 Python \| 📅 2026-06-07                         | 📥 43k         | 📦 14M          | ⭐ 918     | 🟡 june           |
-| 🔗 [mecab-python3](https://github.com/SamuraiT/mecab-python3) ⭐ 580 \| 🐛 2 \| 🌐 C++ \| 📅 2025-11-25               | 📥 133k        | 📦 42M          | ⭐ 579     | 🟡 november 2025  |
-| 🔗 [mecab](https://github.com/ikegami-yukino/mecab/tree/master/mecab/python) ⚠️ Archived                             | 📥 68k         | 📦 3M           | ⭐ 274     | 🔴 october 2024   |
-| 🔗 [fugashi](https://github.com/polm/fugashi) ⭐ 535 \| 🐛 12 \| 🌐 C++ \| 📅 2025-10-24                              | 📥 143k        | 📦 19M          | ⭐ 535     | 🟡 october 2025   |
-| 🔗 [nagisa](https://github.com/taishi-i/nagisa) ⭐ 422 \| 🐛 2 \| 🌐 Python \| 📅 2026-09-22                          | 📥 46k         | 📦 10M          | ⭐ 422     | 🟢 september      |
-| 🔗 [pyknp](https://github.com/ku-nlp/pyknp) ⚠️ Archived                                                              | 📥 531         | 📦 3M           | ⭐ 93      | 🟡 january        |
-| 🔗 [Mykytea-python](https://github.com/chezou/Mykytea-python) ⭐ 36 \| 🐛 1 \| 🌐 C++ \| 📅 2026-03-30                | 📥 606         | 📦 591k         | ⭐ 36      | 🟡 march          |
-| 🔗 [konoha](https://github.com/himkt/konoha) ⭐ 265 \| 🐛 0 \| 🌐 Python \| 📅 2026-10-07                             | 📥 33k         | 📦 7M           | ⭐ 265     | 🟢 last wednesday |
-| 🔗 [natto-py](https://github.com/buruzaemon/natto-py) ⭐ 95 \| 🐛 7 \| 🌐 Python \| 📅 2024-06-06                     | 📥 2k          | 📦 34M          | ⭐ 95      | 🔴 november 2023  |
-| 🔗 [rakutenma-python](https://github.com/ikegami-yukino/rakutenma-python) ⭐ 23 \| 🐛 0 \| 🌐 Python \| 📅 2017-05-22 | 📥 11          | 📦 27k          | ⭐ 23      | 🔴 may 2017       |
-| 🔗 [python-vaporetto](https://github.com/daac-tools/python-vaporetto) ⭐ 21 \| 🐛 0 \| 🌐 Rust \| 📅 2026-05-30       | 📥 402         | 📦 192k         | ⭐ 21      | 🟡 may            |
-| 🔗 [dango](https://github.com/mkartawijaya/dango) ⭐ 26 \| 🐛 3 \| 🌐 Python \| 📅 2021-11-21                         | 📥 25          | 📦 27k          | ⭐ 26      | 🔴 november 2021  |
-| 🔗 [rhoknp](https://github.com/ku-nlp/rhoknp) ⭐ 40 \| 🐛 2 \| 🌐 Python \| 📅 2026-10-18                             | 📥 10k         | 📦 2M           | ⭐ 40      | 🟢 last tuesday   |
-| 🔗 [python-vibrato](https://github.com/daac-tools/python-vibrato) ⭐ 46 \| 🐛 0 \| 🌐 Rust \| 📅 2026-05-30           | 📥 128         | 📦 128k         | ⭐ invalid | 🟡 may            |
-| 🔗 [jagger-python](https://github.com/lighttransport/jagger-python) ⭐ 13 \| 🐛 0 \| 🌐 C++ \| 📅 2025-12-16          | 📥 1k          | 📦 339k         | ⭐ 13      | 🔴 march 2024     |
-| 🔗 [Mecari](https://github.com/zbller/Mecari) ⭐ 41 \| 🐛 0 \| 🌐 Python \| 📅 2025-10-21                             | -              | -               | ⭐ 41      | 🔴 september 2025 |
+| Name                                                                                                                 | downloads/week | total downloads | stars | last commit       |
+| -------------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | ----- | ----------------- |
+| 🔗 [SudachiPy](https://github.com/WorksApplications/SudachiPy) ⚠️ Archived                                           | 📥 354k        | 📦 75M          | ⭐ 443 | 🔴 october 2022   |
+| 🔗 [Janome](https://github.com/mocobeta/janome) ⭐ 917 \| 🐛 17 \| 🌐 Python \| 📅 2026-06-07                         | 📥 54k         | 📦 14M          | ⭐ 917 | 🟡 june           |
+| 🔗 [mecab-python3](https://github.com/SamuraiT/mecab-python3) ⭐ 580 \| 🐛 2 \| 🌐 C++ \| 📅 2025-11-25               | 📥 167k        | 📦 42M          | ⭐ 580 | 🟡 november 2025  |
+| 🔗 [mecab](https://github.com/ikegami-yukino/mecab/tree/master/mecab/python) ⚠️ Archived                             | 📥 76k         | 📦 3M           | ⭐ 274 | 🔴 october 2024   |
+| 🔗 [fugashi](https://github.com/polm/fugashi) ⭐ 535 \| 🐛 12 \| 🌐 C++ \| 📅 2025-10-24                              | 📥 175k        | 📦 19M          | ⭐ 535 | 🔴 october 2025   |
+| 🔗 [nagisa](https://github.com/taishi-i/nagisa) ⭐ 422 \| 🐛 2 \| 🌐 Python \| 📅 2026-09-22                          | 📥 61k         | 📦 10M          | ⭐ 422 | 🟢 september      |
+| 🔗 [pyknp](https://github.com/ku-nlp/pyknp) ⚠️ Archived                                                              | 📥 531         | 📦 3M           | ⭐ 93  | 🟡 january        |
+| 🔗 [Mykytea-python](https://github.com/chezou/Mykytea-python) ⭐ 36 \| 🐛 1 \| 🌐 C++ \| 📅 2026-03-30                | 📥 531         | 📦 591k         | ⭐ 36  | 🟡 march          |
+| 🔗 [konoha](https://github.com/himkt/konoha) ⭐ 265 \| 🐛 0 \| 🌐 Python \| 📅 2026-10-07                             | 📥 32k         | 📦 7M           | ⭐ 265 | 🟢 october        |
+| 🔗 [natto-py](https://github.com/buruzaemon/natto-py) ⭐ 95 \| 🐛 7 \| 🌐 Python \| 📅 2024-06-06                     | 📥 1k          | 📦 34M          | ⭐ 95  | 🔴 november 2023  |
+| 🔗 [rakutenma-python](https://github.com/ikegami-yukino/rakutenma-python) ⭐ 23 \| 🐛 0 \| 🌐 Python \| 📅 2017-05-22 | 📥 23          | 📦 28k          | ⭐ 23  | 🔴 may 2017       |
+| 🔗 [python-vaporetto](https://github.com/daac-tools/python-vaporetto) ⭐ 21 \| 🐛 0 \| 🌐 Rust \| 📅 2026-05-30       | 📥 462         | 📦 192k         | ⭐ 21  | 🟡 may            |
+| 🔗 [dango](https://github.com/mkartawijaya/dango) ⭐ 26 \| 🐛 3 \| 🌐 Python \| 📅 2021-11-21                         | 📥 38          | 📦 27k          | ⭐ 26  | 🔴 november 2021  |
+| 🔗 [rhoknp](https://github.com/ku-nlp/rhoknp) ⭐ 40 \| 🐛 0 \| 🌐 Python \| 📅 2026-10-19                             | 📥 10k         | 📦 2M           | ⭐ 40  | 🟢 yesterday      |
+| 🔗 [python-vibrato](https://github.com/daac-tools/python-vibrato) ⭐ 46 \| 🐛 0 \| 🌐 Rust \| 📅 2026-05-30           | 📥 291         | 📦 128k         | ⭐ 46  | 🟡 may            |
+| 🔗 [jagger-python](https://github.com/lighttransport/jagger-python) ⭐ 13 \| 🐛 0 \| 🌐 C++ \| 📅 2025-12-16          | 📥 1k          | 📦 341k         | ⭐ 13  | 🔴 march 2024     |
+| 🔗 [Mecari](https://github.com/zbller/Mecari) ⭐ 41 \| 🐛 0 \| 🌐 Python \| 📅 2025-10-21                             | -              | -               | ⭐ 41  | 🔴 september 2025 |
 
 ### Parsing
 
@@ -175,7 +177,7 @@ Libraries that analyze syntactic and dependency structures of Japanese sentences
 * [esupar](https://github.com/KoichiYasuoka/esupar) ⭐ 55 | 🐛 1 | 🌐 Python | 📅 2026-09-01 - Tokenizer POS-Tagger and Dependency-parser with BERT/RoBERTa/DeBERTa models for Japanese and other languages
 * [UniDic2UD](https://github.com/KoichiYasuoka/UniDic2UD) ⭐ 38 | 🐛 1 | 🌐 Python | 📅 2025-12-29 - Tokenizer POS-tagger Lemmatizer and Dependency-parser for modern and contemporary Japanese
 * [yomikata](https://github.com/passaglia/yomikata) ⭐ 36 | 🐛 4 | 🌐 Python | 📅 2023-10-03 - Heteronym disambiguation library using a fine-tuned BERT model.
-* [lightblue](https://github.com/daisukebekki/lightblue) ⭐ 29 | 🐛 87 | 🌐 Haskell | 📅 2026-10-16 - A CCG parser for Japanese with DTS-representations
+* [lightblue](https://github.com/daisukebekki/lightblue) ⭐ 29 | 🐛 88 | 🌐 Haskell | 📅 2026-10-16 - A CCG parser for Japanese with DTS-representations
 * [bertknp](https://github.com/ku-nlp/bertknp) ⭐ 23 | 🐛 4 | 🌐 Python | 📅 2022-10-26 - A Japanese dependency parser based on BERT
 * [SuPar-UniDic](https://github.com/KoichiYasuoka/SuPar-UniDic) ⭐ 21 | 🐛 1 | 🌐 Jupyter Notebook | 📅 2026-08-31 - Tokenizer POS-tagger Lemmatizer and Dependency-parser for modern and contemporary Japanese with BERT models
 * [cabocha](https://github.com/ikegami-yukino/cabocha) ⭐ 7 | 🐛 0 | 🌐 C++ | 📅 2022-08-17 - Yet Another Japanese Dependency Structure Analyzer
@@ -183,21 +185,21 @@ Libraries that analyze syntactic and dependency structures of Japanese sentences
 * [jdepp-python](https://github.com/lighttransport/jdepp-python) ⭐ 4 | 🐛 0 | 🌐 C++ | 📅 2024-02-14 - Python binding for J.DepP(C++ implementation of Japanese Dependency Parsers)
 * [jdeppy](https://github.com/matsurih/jdeppy) ⭐ 3 | 🐛 0 | 🌐 Python | 📅 2022-02-07 - Python wrapper for J.DepP, fast Japanese Dependency Parser
 
-| Name                                                                                                                  | downloads/week | total downloads | stars | last commit      |
-| --------------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | ----- | ---------------- |
-| 🔗 [ginza](https://github.com/megagonlabs/ginza) ⭐ 873 \| 🐛 6 \| 🌐 Python \| 📅 2026-09-30                          | 📥 9k          | 📦 2M           | ⭐ 873 | 🟢 september     |
-| 🔗 [cabocha](https://github.com/ikegami-yukino/cabocha/tree/master/python) ⭐ 7 \| 🐛 0 \| 🌐 C++ \| 📅 2022-08-17     | 📥 55          | 📦 56k          | ⭐ 7   | 🔴 august 2022   |
-| 🔗 [UniDic2UD](https://github.com/KoichiYasuoka/UniDic2UD) ⭐ 38 \| 🐛 1 \| 🌐 Python \| 📅 2025-12-29                 | 📥 273         | 📦 341k         | ⭐ 38  | 🟡 december 2025 |
-| 🔗 [camphr](https://github.com/PKSHATechnology-Research/camphr) ⭐ 336 \| 🐛 4 \| 🌐 Python \| 📅 2022-12-09           | 📥 337         | 📦 281k         | ⭐ 336 | 🔴 august 2021   |
-| 🔗 [SuPar-UniDic](https://github.com/KoichiYasuoka/SuPar-UniDic) ⭐ 21 \| 🐛 1 \| 🌐 Jupyter Notebook \| 📅 2026-08-31 | 📥 222         | 📦 125k         | ⭐ 21  | 🟢 august        |
-| 🔗 [depccg](https://github.com/masashi-y/depccg) ⭐ 103 \| 🐛 3 \| 🌐 C \| 📅 2026-10-10                               | 📥 233         | 📦 52k          | ⭐ 103 | 🟢 august        |
-| 🔗 [bertknp](https://github.com/ku-nlp/bertknp) ⭐ 23 \| 🐛 4 \| 🌐 Python \| 📅 2022-10-26                            | -              | -               | ⭐ 23  | 🔴 october 2021  |
-| 🔗 [esupar](https://github.com/KoichiYasuoka/esupar) ⭐ 55 \| 🐛 1 \| 🌐 Python \| 📅 2026-09-01                       | 📥 373         | 📦 187k         | ⭐ 55  | 🟢 september     |
-| 🔗 [yomikata](https://github.com/passaglia/yomikata) ⭐ 36 \| 🐛 4 \| 🌐 Python \| 📅 2023-10-03                       | 📥 25          | 📦 51k          | ⭐ 36  | 🔴 october 2023  |
-| 🔗 [jdepp-python](https://github.com/lighttransport/jdepp-python) ⭐ 4 \| 🐛 0 \| 🌐 C++ \| 📅 2024-02-14              | 📥 544         | 📦 321k         | ⭐ 4   | 🔴 february 2024 |
-| 🔗 [lightblue](https://github.com/daisukebekki/lightblue) ⭐ 29 \| 🐛 87 \| 🌐 Haskell \| 📅 2026-10-16                | -              | -               | ⭐ 29  | 🟢 last thursday |
-| 🔗 [natsume-simple](https://github.com/borh-lab/natsume-simple) ⭐ 5 \| 🐛 5 \| 🌐 Python \| 📅 2026-10-06             | -              | -               | ⭐ 5   | 🟢 last tuesday  |
-| 🔗 [jdeppy](https://github.com/matsurih/jdeppy) ⭐ 3 \| 🐛 0 \| 🌐 Python \| 📅 2022-02-07                             | 📥 14          | 📦 12k          | ⭐ 3   | 🔴 february 2022 |
+| Name                                                                                                                  | downloads/week | total downloads | stars     | last commit      |
+| --------------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | --------- | ---------------- |
+| 🔗 [ginza](https://github.com/megagonlabs/ginza) ⭐ 873 \| 🐛 6 \| 🌐 Python \| 📅 2026-09-30                          | 📥 11k         | 📦 2M           | ⭐ 873     | 🟢 september     |
+| 🔗 [cabocha](https://github.com/ikegami-yukino/cabocha/tree/master/python) ⭐ 7 \| 🐛 0 \| 🌐 C++ \| 📅 2022-08-17     | 📥 64          | 📦 56k          | ⭐ 7       | 🔴 august 2022   |
+| 🔗 [UniDic2UD](https://github.com/KoichiYasuoka/UniDic2UD) ⭐ 38 \| 🐛 1 \| 🌐 Python \| 📅 2025-12-29                 | 📥 353         | 📦 341k         | ⭐ 38      | 🟡 december 2025 |
+| 🔗 [camphr](https://github.com/PKSHATechnology-Research/camphr) ⭐ 336 \| 🐛 4 \| 🌐 Python \| 📅 2022-12-09           | 📥 131         | 📦 281k         | ⭐ 336     | 🔴 august 2021   |
+| 🔗 [SuPar-UniDic](https://github.com/KoichiYasuoka/SuPar-UniDic) ⭐ 21 \| 🐛 1 \| 🌐 Jupyter Notebook \| 📅 2026-08-31 | 📥 141         | 📦 125k         | ⭐ 21      | 🟢 august        |
+| 🔗 [depccg](https://github.com/masashi-y/depccg) ⭐ 103 \| 🐛 3 \| 🌐 C \| 📅 2026-10-10                               | 📥 259         | 📦 53k          | ⭐ 103     | 🟢 august        |
+| 🔗 [bertknp](https://github.com/ku-nlp/bertknp) ⭐ 23 \| 🐛 4 \| 🌐 Python \| 📅 2022-10-26                            | -              | -               | ⭐ 23      | 🔴 october 2021  |
+| 🔗 [esupar](https://github.com/KoichiYasuoka/esupar) ⭐ 55 \| 🐛 1 \| 🌐 Python \| 📅 2026-09-01                       | 📥 277         | 📦 187k         | ⭐ 55      | 🟢 september     |
+| 🔗 [yomikata](https://github.com/passaglia/yomikata) ⭐ 36 \| 🐛 4 \| 🌐 Python \| 📅 2023-10-03                       | 📥 27          | 📦 51k          | ⭐ 36      | 🔴 october 2023  |
+| 🔗 [jdepp-python](https://github.com/lighttransport/jdepp-python) ⭐ 4 \| 🐛 0 \| 🌐 C++ \| 📅 2024-02-14              | 📥 593         | 📦 323k         | ⭐ invalid | 🔴 february 2024 |
+| 🔗 [lightblue](https://github.com/daisukebekki/lightblue) ⭐ 29 \| 🐛 88 \| 🌐 Haskell \| 📅 2026-10-16                | -              | -               | ⭐ 29      | 🟢 last thursday |
+| 🔗 [natsume-simple](https://github.com/borh-lab/natsume-simple) ⭐ 5 \| 🐛 5 \| 🌐 Python \| 📅 2026-10-06             | -              | -               | ⭐ 5       | 🟢 october       |
+| 🔗 [jdeppy](https://github.com/matsurih/jdeppy) ⭐ 3 \| 🐛 0 \| 🌐 Python \| 📅 2022-02-07                             | 📥 17          | 📦 12k          | ⭐ 3       | 🔴 february 2022 |
 
 ### Converter
 
@@ -207,7 +209,7 @@ Libraries that convert between character types such as kana, romaji, and full-wi
 * [cutlet](https://github.com/polm/cutlet) ⭐ 388 | 🐛 5 | 🌐 Python | 📅 2026-09-09 - Japanese to romaji converter in Python
 * [kanjize](https://github.com/nagataaaas/kanjize) ⭐ 68 | 🐛 0 | 🌐 Python | 📅 2025-06-14 - Kanjize(カンジャイズ): Easy converter between Kanji-Number and Integer
 * [Convert-Numbers-to-Japanese](https://github.com/Greatdane/Convert-Numbers-to-Japanese) ⭐ 51 | 🐛 1 | 🌐 Python | 📅 2020-11-26 - Converts Arabic numerals, or 'western' style numbers, to a Japanese context.
-* [mozcpy](https://github.com/ikegami-yukino/mozcpy) ⭐ 49 | 🐛 0 | 🌐 Python | 📅 2025-02-14 - Mozc for Python: Kana-Kanji converter
+* [mozcpy](https://github.com/ikegami-yukino/mozcpy) ⭐ 49 | 🐛 0 | 🌐 Python | 📅 2026-10-19 - Mozc for Python: Kana-Kanji converter
 * [alkana.py](https://github.com/zomysan/alkana.py) ⭐ 35 | 🐛 0 | 🌐 Python | 📅 2021-10-07 - A tool to get the katakana reading of an alphabetical string.
 * [jntajis-python](https://github.com/opencollector/jntajis-python) ⭐ 21 | 🐛 0 | 🌐 C | 📅 2026-03-11 - A fast character conversion and transliteration library based on the scheme defined for Japan National Tax Agency (国税庁) 's
 * [e2k](https://github.com/Patchethium/e2k) ⭐ 20 | 🐛 0 | 🌐 Python | 📅 2026-07-05 - A tool for automatic English to Katakana conversion
@@ -217,31 +219,31 @@ Libraries that convert between character types such as kana, romaji, and full-wi
 * [Jusho](https://github.com/nagataaaas/Jusho) ⭐ 12 | 🐛 0 | 🌐 Python | 📅 2024-06-04 - Easy wrapper for the postal code data of Japan
 * [jamorasep](https://github.com/tachi-hi/jamorasep) ⭐ 11 | 🐛 0 | 🌐 Python | 📅 2026-02-16 - Japanese text parser to separate Hiragana/Katakana string into morae (syllables).
 * [pynormalizenumexp](https://github.com/tkscode/pynormalizenumexp) ⭐ 8 | 🐛 0 | 🌐 Python | 📅 2024-04-28 - 数量表現や時間表現の抽出・正規化を行うNormalizeNumexpのPython実装
-* [mecab-text-cleaner](https://github.com/34j/mecab-text-cleaner) ⭐ 7 | 🐛 14 | 🌐 Python | 📅 2026-10-15 - Simple Python package (CLI/Python API) for getting japanese readings (yomigana) and accents using MeCab.
+* [mecab-text-cleaner](https://github.com/34j/mecab-text-cleaner) ⭐ 7 | 🐛 14 | 🌐 Python | 📅 2026-10-19 - Simple Python package (CLI/Python API) for getting japanese readings (yomigana) and accents using MeCab.
 * [yurenizer](https://github.com/sea-turt1e/yurenizer) ⭐ 6 | 🐛 0 | 🌐 Python | 📅 2025-03-16 - Japanese text normalizer that resolves spelling inconsistencies. （日本語表記揺れ解消ツール）
 * [englishtokanaconverter](https://github.com/actlaboratory/englishtokanaconverter) ⭐ 4 | 🐛 3 | 🌐 Python | 📅 2026-08-20 - 英語文字列をカタカナに変換するプログラム
 * [wiredify](https://github.com/eggplants/wiredify) ⚠️ Archived - Convert japanese kana from ba-bi-bu-be-bo into va-vi-vu-ve-vo
 
 | Name                                                                                                                                  | downloads/week | total downloads | stars | last commit      |
 | ------------------------------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | ----- | ---------------- |
-| 🔗 [pykakasi](https://github.com/miurahr/pykakasi) ⭐ 464 \| 🐛 3 \| 🌐 Python \| 📅 2026-07-17                                        | 📥 557k        | 📦 41M          | ⭐ 464 | 🟢 july          |
-| 🔗 [cutlet](https://github.com/polm/cutlet) ⭐ 388 \| 🐛 5 \| 🌐 Python \| 📅 2026-09-09                                               | 📥 23k         | 📦 2M           | ⭐ 387 | 🟢 september     |
-| 🔗 [alphabet2kana](https://github.com/shihono/alphabet2kana) ⭐ 15 \| 🐛 6 \| 🌐 Python \| 📅 2026-08-01                               | 📥 194         | 📦 65k          | ⭐ 15  | 🟡 february      |
+| 🔗 [pykakasi](https://github.com/miurahr/pykakasi) ⭐ 464 \| 🐛 3 \| 🌐 Python \| 📅 2026-07-17                                        | 📥 609k        | 📦 41M          | ⭐ 464 | 🟡 july          |
+| 🔗 [cutlet](https://github.com/polm/cutlet) ⭐ 388 \| 🐛 5 \| 🌐 Python \| 📅 2026-09-09                                               | 📥 20k         | 📦 2M           | ⭐ 388 | 🟢 september     |
+| 🔗 [alphabet2kana](https://github.com/shihono/alphabet2kana) ⭐ 15 \| 🐛 6 \| 🌐 Python \| 📅 2026-08-01                               | 📥 116         | 📦 65k          | ⭐ 15  | 🟡 february      |
 | 🔗 [Convert-Numbers-to-Japanese](https://github.com/Greatdane/Convert-Numbers-to-Japanese) ⭐ 51 \| 🐛 1 \| 🌐 Python \| 📅 2020-11-26 | -              | -               | ⭐ 51  | 🔴 november 2020 |
-| 🔗 [mozcpy](https://github.com/ikegami-yukino/mozcpy) ⭐ 49 \| 🐛 0 \| 🌐 Python \| 📅 2025-02-14                                      | 📥 258         | 📦 21k          | ⭐ 49  | 🔴 february 2025 |
-| 🔗 [jamorasep](https://github.com/tachi-hi/jamorasep) ⭐ 11 \| 🐛 0 \| 🌐 Python \| 📅 2026-02-16                                      | 📥 249         | 📦 12k          | ⭐ 11  | 🟡 february      |
+| 🔗 [mozcpy](https://github.com/ikegami-yukino/mozcpy) ⭐ 49 \| 🐛 0 \| 🌐 Python \| 📅 2026-10-19                                      | 📥 314         | 📦 22k          | ⭐ 49  | 🔴 february 2025 |
+| 🔗 [jamorasep](https://github.com/tachi-hi/jamorasep) ⭐ 11 \| 🐛 0 \| 🌐 Python \| 📅 2026-02-16                                      | 📥 194         | 📦 12k          | ⭐ 11  | 🟡 february      |
 | 🔗 [text2phoneme](https://github.com/korguchi/text2phoneme) ⭐ 13 \| 🐛 0 \| 🌐 Python \| 📅 2023-05-16                                | -              | -               | ⭐ 13  | 🔴 may 2023      |
-| 🔗 [jntajis-python](https://github.com/opencollector/jntajis-python) ⭐ 21 \| 🐛 0 \| 🌐 C \| 📅 2026-03-11                            | 📥 753         | 📦 149k         | ⭐ 21  | 🟡 march         |
-| 🔗 [wiredify](https://github.com/eggplants/wiredify) ⚠️ Archived                                                                      | 📥 31          | 📦 7k           | ⭐ 3   | 🟡 december 2025 |
-| 🔗 [mecab-text-cleaner](https://github.com/34j/mecab-text-cleaner) ⭐ 7 \| 🐛 14 \| 🌐 Python \| 📅 2026-10-15                         | 📥 23          | 📦 5k           | ⭐ 7   | 🟢 september     |
-| 🔗 [pynormalizenumexp](https://github.com/tkscode/pynormalizenumexp) ⭐ 8 \| 🐛 0 \| 🌐 Python \| 📅 2024-04-28                        | 📥 24          | 📦 15k          | ⭐ 8   | 🔴 april 2024    |
-| 🔗 [Jusho](https://github.com/nagataaaas/Jusho) ⭐ 12 \| 🐛 0 \| 🌐 Python \| 📅 2024-06-04                                            | 📥 730         | 📦 70k          | ⭐ 12  | 🔴 june 2024     |
-| 🔗 [yurenizer](https://github.com/sea-turt1e/yurenizer) ⭐ 6 \| 🐛 0 \| 🌐 Python \| 📅 2025-03-16                                     | 📥 66          | 📦 22k          | ⭐ 6   | 🔴 march 2025    |
-| 🔗 [e2k](https://github.com/Patchethium/e2k) ⭐ 20 \| 🐛 0 \| 🌐 Python \| 📅 2026-07-05                                               | 📥 727         | 📦 42k          | ⭐ 20  | 🟡 march         |
+| 🔗 [jntajis-python](https://github.com/opencollector/jntajis-python) ⭐ 21 \| 🐛 0 \| 🌐 C \| 📅 2026-03-11                            | 📥 868         | 📦 150k         | ⭐ 21  | 🟡 march         |
+| 🔗 [wiredify](https://github.com/eggplants/wiredify) ⚠️ Archived                                                                      | 📥 27          | 📦 7k           | ⭐ 3   | 🟡 december 2025 |
+| 🔗 [mecab-text-cleaner](https://github.com/34j/mecab-text-cleaner) ⭐ 7 \| 🐛 14 \| 🌐 Python \| 📅 2026-10-19                         | 📥 28          | 📦 5k           | ⭐ 7   | 🟢 september     |
+| 🔗 [pynormalizenumexp](https://github.com/tkscode/pynormalizenumexp) ⭐ 8 \| 🐛 0 \| 🌐 Python \| 📅 2024-04-28                        | 📥 53          | 📦 15k          | ⭐ 8   | 🔴 april 2024    |
+| 🔗 [Jusho](https://github.com/nagataaaas/Jusho) ⭐ 12 \| 🐛 0 \| 🌐 Python \| 📅 2024-06-04                                            | 📥 391         | 📦 71k          | ⭐ 12  | 🔴 june 2024     |
+| 🔗 [yurenizer](https://github.com/sea-turt1e/yurenizer) ⭐ 6 \| 🐛 0 \| 🌐 Python \| 📅 2025-03-16                                     | 📥 45          | 📦 22k          | ⭐ 6   | 🔴 march 2025    |
+| 🔗 [e2k](https://github.com/Patchethium/e2k) ⭐ 20 \| 🐛 0 \| 🌐 Python \| 📅 2026-07-05                                               | 📥 773         | 📦 43k          | ⭐ 20  | 🟡 march         |
 | 🔗 [alkana.py](https://github.com/zomysan/alkana.py) ⭐ 35 \| 🐛 0 \| 🌐 Python \| 📅 2021-10-07                                       | -              | -               | ⭐ 35  | 🔴 october 2021  |
 | 🔗 [englishtokanaconverter](https://github.com/actlaboratory/englishtokanaconverter) ⭐ 4 \| 🐛 3 \| 🌐 Python \| 📅 2026-08-20        | -              | -               | ⭐ 4   | 🟢 august        |
-| 🔗 [kanjiconv](https://github.com/sea-turt1e/kanjiconv) ⭐ 20 \| 🐛 0 \| 🌐 Python \| 📅 2026-10-18                                    | 📥 914         | 📦 30k          | ⭐ 20  | 🟢 august        |
-| 🔗 [kanjize](https://github.com/nagataaaas/kanjize) ⭐ 68 \| 🐛 0 \| 🌐 Python \| 📅 2025-06-14                                        | 📥 15k         | 📦 2M           | ⭐ 68  | 🔴 june 2025     |
+| 🔗 [kanjiconv](https://github.com/sea-turt1e/kanjiconv) ⭐ 20 \| 🐛 0 \| 🌐 Python \| 📅 2026-10-18                                    | 📥 1k          | 📦 32k          | ⭐ 20  | 🟢 yesterday     |
+| 🔗 [kanjize](https://github.com/nagataaaas/kanjize) ⭐ 68 \| 🐛 0 \| 🌐 Python \| 📅 2025-06-14                                        | 📥 19k         | 📦 2M           | ⭐ 68  | 🔴 june 2025     |
 
 ### Preprocessor
 
@@ -258,20 +260,20 @@ Libraries that normalize and clean text before analysis
 
 | Name                                                                                                   | downloads/week | total downloads | stars | last commit      |
 | ------------------------------------------------------------------------------------------------------ | -------------- | --------------- | ----- | ---------------- |
-| 🔗 [neologdn](https://github.com/ikegami-yukino/neologdn) ⭐ 290 \| 🐛 0 \| 🌐 Cython \| 📅 2026-05-06  | 📥 9k          | 📦 2M           | ⭐ 290 | 🟡 may           |
-| 🔗 [jaconv](https://github.com/ikegami-yukino/jaconv) ⭐ 351 \| 🐛 5 \| 🌐 Python \| 📅 2026-07-20      | 📥 812k        | 📦 85M          | ⭐ 351 | 🟡 february      |
-| 🔗 [mojimoji](https://github.com/studio-ousia/mojimoji) ⭐ 154 \| 🐛 3 \| 🌐 Cython \| 📅 2024-01-12    | 📥 49k         | 📦 13M          | ⭐ 154 | 🔴 january 2024  |
+| 🔗 [neologdn](https://github.com/ikegami-yukino/neologdn) ⭐ 290 \| 🐛 0 \| 🌐 Cython \| 📅 2026-05-06  | 📥 16k         | 📦 2M           | ⭐ 290 | 🟡 may           |
+| 🔗 [jaconv](https://github.com/ikegami-yukino/jaconv) ⭐ 351 \| 🐛 5 \| 🌐 Python \| 📅 2026-07-20      | 📥 933k        | 📦 86M          | ⭐ 351 | 🟡 february      |
+| 🔗 [mojimoji](https://github.com/studio-ousia/mojimoji) ⭐ 154 \| 🐛 3 \| 🌐 Cython \| 📅 2024-01-12    | 📥 53k         | 📦 14M          | ⭐ 154 | 🔴 january 2024  |
 | 🔗 [text-cleaning](https://github.com/ku-nlp/text-cleaning) ⭐ 12 \| 🐛 2 \| 🌐 Python \| 📅 2024-01-20 | -              | -               | ⭐ 12  | 🔴 november 2022 |
 | 🔗 [HojiChar](https://github.com/HojiChar/HojiChar) ⭐ 127 \| 🐛 8 \| 🌐 Python \| 📅 2026-09-16        | 📥 1k          | 📦 1M           | ⭐ 127 | 🟢 september     |
-| 🔗 [utsuho](https://github.com/juno-rmks/utsuho) ⭐ 5 \| 🐛 1 \| 🌐 Python \| 📅 2026-03-29             | 📥 151         | 📦 26k          | ⭐ 5   | 🟡 march         |
-| 🔗 [python-habachen](https://github.com/Hizuru3/python-habachen) ⭐ 6 \| 🐛 0 \| 🌐 C \| 📅 2025-10-26  | 📥 5k          | 📦 3M           | ⭐ 6   | 🟡 october 2025  |
-| 🔗 [kairyou](https://github.com/bikatr7/kairyou) ⭐ 6 \| 🐛 0 \| 🌐 Python \| 📅 2025-06-24             | 📥 163         | 📦 35k          | ⭐ 6   | 🔴 june 2025     |
+| 🔗 [utsuho](https://github.com/juno-rmks/utsuho) ⭐ 5 \| 🐛 1 \| 🌐 Python \| 📅 2026-03-29             | 📥 106         | 📦 26k          | ⭐ 5   | 🟡 march         |
+| 🔗 [python-habachen](https://github.com/Hizuru3/python-habachen) ⭐ 6 \| 🐛 0 \| 🌐 C \| 📅 2025-10-26  | 📥 19k         | 📦 3M           | ⭐ 6   | 🔴 october 2025  |
+| 🔗 [kairyou](https://github.com/bikatr7/kairyou) ⭐ 6 \| 🐛 0 \| 🌐 Python \| 📅 2025-06-24             | 📥 116         | 📦 35k          | ⭐ 6   | 🔴 june 2025     |
 
 ### Sentence splitter
 
 Libraries that automatically detect sentence boundaries and split text
 
-* [budoux](https://github.com/google/budoux) ⭐ 1,806 | 🐛 4 | 🌐 Python | 📅 2026-10-18 - Standalone. Small. Language-neutral. BudouX is the successor to Budou, the machine learning powered line break organizer tool.
+* [budoux](https://github.com/google/budoux) ⭐ 1,807 | 🐛 5 | 🌐 Python | 📅 2026-10-19 - Standalone. Small. Language-neutral. BudouX is the successor to Budou, the machine learning powered line break organizer tool.
 * [Bunkai](https://github.com/megagonlabs/bunkai) ⭐ 200 | 🐛 18 | 🌐 Python | 📅 2024-03-26 - Sentence boundary disambiguation tool for Japanese texts (日本語文境界判定器)
 * [fast-bunkai](https://github.com/hotchpotch/fast-bunkai) ⭐ 77 | 🐛 0 | 🌐 Rust | 📅 2025-10-14 - Japanese sentence splitting(日本語文境界判定器), 40–250× faster via a Rust-accelerated Python library with near-perfect API compatibility with megagonlabs/bunkai.
 * [ja\_sentence\_segmenter](https://github.com/wwwcojp/ja_sentence_segmenter) ⭐ 76 | 🐛 1 | 🌐 Python | 📅 2026-10-10 - japanese sentence segmentation library for python
@@ -283,15 +285,15 @@ Libraries that automatically detect sentence boundaries and split text
 
 | Name                                                                                                                          | downloads/week | total downloads | stars  | last commit      |
 | ----------------------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | ------ | ---------------- |
-| 🔗 [bunkai](https://github.com/megagonlabs/bunkai) ⭐ 200 \| 🐛 18 \| 🌐 Python \| 📅 2024-03-26                               | 📥 261         | 📦 124k         | ⭐ 200  | 🔴 august 2023   |
-| 🔗 [japanese-sentence-breaker](https://github.com/hppRC/japanese-sentence-breaker) ⭐ 14 \| 🐛 1 \| 🌐 Python \| 📅 2021-06-06 | 📥 7           | 📦 7k           | ⭐ 14   | 🔴 february 2021 |
-| 🔗 [sengiri](https://github.com/ikegami-yukino/sengiri) ⭐ 24 \| 🐛 2 \| 🌐 Python \| 📅 2025-11-27                            | 📥 214         | 📦 139k         | ⭐ 24   | 🟡 november 2025 |
-| 🔗 [budoux](https://github.com/google/budoux) ⭐ 1,806 \| 🐛 4 \| 🌐 Python \| 📅 2026-10-18                                   | 📥 22k         | 📦 846k         | ⭐ 1.8k | 🟢 last saturday |
-| 🔗 [ja\_sentence\_segmenter](https://github.com/wwwcojp/ja_sentence_segmenter) ⭐ 76 \| 🐛 1 \| 🌐 Python \| 📅 2026-10-10     | 📥 3k          | 📦 285k         | ⭐ 76   | 🟢 july          |
-| 🔗 [hasami](https://github.com/mkartawijaya/hasami) ⭐ 6 \| 🐛 0 \| 🌐 Python \| 📅 2021-02-21                                 | 📥 112         | 📦 47k          | ⭐ 6    | 🔴 february 2021 |
-| 🔗 [kuzukiri](https://github.com/alinear-corp/kuzukiri) ⭐ 6 \| 🐛 1 \| 🌐 Jupyter Notebook \| 📅 2025-06-28                   | 📥 91          | 📦 31k          | ⭐ 6    | 🔴 june 2025     |
+| 🔗 [bunkai](https://github.com/megagonlabs/bunkai) ⭐ 200 \| 🐛 18 \| 🌐 Python \| 📅 2024-03-26                               | 📥 219         | 📦 124k         | ⭐ 200  | 🔴 august 2023   |
+| 🔗 [japanese-sentence-breaker](https://github.com/hppRC/japanese-sentence-breaker) ⭐ 14 \| 🐛 1 \| 🌐 Python \| 📅 2021-06-06 | 📥 16          | 📦 7k           | ⭐ 14   | 🔴 february 2021 |
+| 🔗 [sengiri](https://github.com/ikegami-yukino/sengiri) ⭐ 24 \| 🐛 2 \| 🌐 Python \| 📅 2025-11-27                            | 📥 304         | 📦 140k         | ⭐ 24   | 🟡 november 2025 |
+| 🔗 [budoux](https://github.com/google/budoux) ⭐ 1,807 \| 🐛 5 \| 🌐 Python \| 📅 2026-10-19                                   | 📥 27k         | 📦 876k         | ⭐ 1.8k | 🟢 today         |
+| 🔗 [ja\_sentence\_segmenter](https://github.com/wwwcojp/ja_sentence_segmenter) ⭐ 76 \| 🐛 1 \| 🌐 Python \| 📅 2026-10-10     | 📥 3k          | 📦 288k         | ⭐ 76   | 🟡 july          |
+| 🔗 [hasami](https://github.com/mkartawijaya/hasami) ⭐ 6 \| 🐛 0 \| 🌐 Python \| 📅 2021-02-21                                 | 📥 312         | 📦 47k          | ⭐ 6    | 🔴 february 2021 |
+| 🔗 [kuzukiri](https://github.com/alinear-corp/kuzukiri) ⭐ 6 \| 🐛 1 \| 🌐 Jupyter Notebook \| 📅 2025-06-28                   | 📥 89          | 📦 31k          | ⭐ 6    | 🔴 june 2025     |
 | 🔗 [ja-senter-benchmark](https://github.com/hkiyomaru/ja-senter-benchmark) ⭐ 10 \| 🐛 0 \| 🌐 Python \| 📅 2023-02-27         | -              | -               | ⭐ 10   | 🔴 february 2023 |
-| 🔗 [fast-bunkai](https://github.com/hotchpotch/fast-bunkai) ⭐ 77 \| 🐛 0 \| 🌐 Rust \| 📅 2025-10-14                          | 📥 79          | 📦 10k          | ⭐ 77   | 🟡 october 2025  |
+| 🔗 [fast-bunkai](https://github.com/hotchpotch/fast-bunkai) ⭐ 77 \| 🐛 0 \| 🌐 Rust \| 📅 2025-10-14                          | 📥 93          | 📦 10k          | ⭐ 77   | 🔴 october 2025  |
 
 ### Sentiment analysis
 
@@ -305,10 +307,10 @@ Libraries that detect emotions or polarity in text
 
 | Name                                                                                                | downloads/week | total downloads | stars | last commit     |
 | --------------------------------------------------------------------------------------------------- | -------------- | --------------- | ----- | --------------- |
-| 🔗 [oseti](https://github.com/ikegami-yukino/oseti) ⭐ 99 \| 🐛 1 \| 🌐 Python \| 📅 2025-08-02      | 📥 305         | 📦 176k         | ⭐ 99  | 🔴 august 2025  |
+| 🔗 [oseti](https://github.com/ikegami-yukino/oseti) ⭐ 99 \| 🐛 1 \| 🌐 Python \| 📅 2025-08-02      | 📥 400         | 📦 176k         | ⭐ 99  | 🔴 august 2025  |
 | 🔗 [negapoji](https://github.com/liaoziyang/negapoji) ⭐ 152 \| 🐛 0 \| 🌐 Python \| 📅 2017-08-20   | -              | -               | ⭐ 152 | 🔴 august 2017  |
-| 🔗 [pymlask](https://github.com/ikegami-yukino/pymlask) ⭐ 119 \| 🐛 1 \| 🌐 Python \| 📅 2024-07-25 | 📥 25          | 📦 68k          | ⭐ 119 | 🔴 july 2024    |
-| 🔗 [asari](https://github.com/Hironsan/asari) ⭐ 153 \| 🐛 3 \| 🌐 Python \| 📅 2024-02-15           | 📥 69          | 📦 83k          | ⭐ 153 | 🔴 october 2022 |
+| 🔗 [pymlask](https://github.com/ikegami-yukino/pymlask) ⭐ 119 \| 🐛 1 \| 🌐 Python \| 📅 2024-07-25 | 📥 65          | 📦 68k          | ⭐ 119 | 🔴 july 2024    |
+| 🔗 [asari](https://github.com/Hironsan/asari) ⭐ 153 \| 🐛 3 \| 🌐 Python \| 📅 2024-02-15           | 📥 147         | 📦 83k          | ⭐ 153 | 🔴 october 2022 |
 | 🔗 [kotobacore](https://github.com/ekiyo55/kotobacore) ⭐ 1 \| 🐛 0 \| 🌐 Python \| 📅 2026-09-29    | -              | -               | ⭐ 1   | 🟢 september    |
 
 ### Machine translation
@@ -327,7 +329,7 @@ Libraries that automatically translate text between languages
 | 🔗 [JASS](https://github.com/Mao-KU/JASS) ⭐ 16 \| 🐛 0 \| 📅 2022-01-25                                                     | -              | -               | ⭐ 16  | 🔴 january 2022  |
 | 🔗 [PheMT](https://github.com/cl-tohoku/PheMT) ⭐ 20 \| 🐛 0 \| 🌐 Python \| 📅 2021-02-18                                   | -              | -               | ⭐ 20  | 🔴 february 2021 |
 | 🔗 [VISA](https://github.com/ku-nlp/VISA) ⭐ 14 \| 🐛 0 \| 📅 2022-10-17                                                     | -              | -               | ⭐ 14  | 🔴 october 2022  |
-| 🔗 [plamo-translate-cli](https://github.com/pfnet/plamo-translate-cli) ⭐ 352 \| 🐛 1 \| 🌐 Python \| 📅 2026-10-10          | -              | -               | ⭐ 352 | 🟢 last saturday |
+| 🔗 [plamo-translate-cli](https://github.com/pfnet/plamo-translate-cli) ⭐ 352 \| 🐛 1 \| 🌐 Python \| 📅 2026-10-10          | -              | -               | ⭐ 352 | 🟢 october       |
 
 ### Named entity recognition
 
@@ -347,10 +349,10 @@ Libraries that extract names of people, places, and organizations from text
 | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------- | --------------- | ----- | ----------------- |
 | 🔗 [namaco](https://github.com/chakki-works/namaco) ⭐ 40 \| 🐛 5 \| 🌐 Python \| 📅 2018-04-03                                                   | -              | -               | ⭐ 40  | 🔴 february 2018  |
 | 🔗 [entitypedia](https://github.com/chakki-works/entitypedia) ⭐ 13 \| 🐛 11 \| 🌐 Jupyter Notebook \| 📅 2022-12-07                              | -              | -               | ⭐ 13  | 🔴 december 2018  |
-| 🔗 [noyaki](https://github.com/ken11/noyaki) ⭐ 5 \| 🐛 0 \| 🌐 Python \| 📅 2022-08-25                                                           | 📥 127         | 📦 25k          | ⭐ 5   | 🔴 august 2022    |
+| 🔗 [noyaki](https://github.com/ken11/noyaki) ⭐ 5 \| 🐛 0 \| 🌐 Python \| 📅 2022-08-25                                                           | 📥 199         | 📦 25k          | ⭐ 5   | 🔴 august 2022    |
 | 🔗 [bert-japanese-ner-finetuning](https://github.com/ken11/bert-japanese-ner-finetuning) ⭐ 11 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2022-06-19    | -              | -               | ⭐ 11  | 🔴 june 2022      |
 | 🔗 [joint-information-extraction-hs](https://github.com/aih-uth/joint-information-extraction-hs) ⭐ 2 \| 🐛 0 \| 🌐 Python \| 📅 2021-11-17       | -              | -               | ⭐ 2   | 🔴 november 2021  |
-| 🔗 [pygeonlp](https://github.com/geonlp-platform/pygeonlp) ⭐ 22 \| 🐛 4 \| 🌐 Python \| 📅 2026-03-24                                            | 📥 294         | 📦 30k          | ⭐ 22  | 🟡 march          |
+| 🔗 [pygeonlp](https://github.com/geonlp-platform/pygeonlp) ⭐ 22 \| 🐛 4 \| 🌐 Python \| 📅 2026-03-24                                            | 📥 363         | 📦 31k          | ⭐ 22  | 🟡 march          |
 | 🔗 [bert-ner-japanese](https://github.com/jurabiinc/bert-ner-japanese) ⭐ 5 \| 🐛 1 \| 🌐 Python \| 📅 2022-09-26                                 | -              | -               | ⭐ 5   | 🔴 september 2022 |
 | 🔗 [huggingface-finetune-japanese](https://github.com/tsmatz/huggingface-finetune-japanese) ⭐ 16 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2023-10-06 | -              | -               | ⭐ 16  | 🔴 october 2023   |
 | 🔗 [novelanalysisbyner](https://github.com/lychee1223/novelanalysisbyner) ⭐ 2 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2024-06-28                    | -              | -               | ⭐ 2   | 🔴 june 2024      |
@@ -359,20 +361,20 @@ Libraries that extract names of people, places, and organizations from text
 
 Libraries that recognize and extract text from images
 
-* [donut](https://github.com/clovaai/donut) ⭐ 6,928 | 🐛 211 | 🌐 Python | 📅 2024-07-11 - Official Implementation of OCR-free Document Understanding Transformer (Donut) and Synthetic Document Generator (SynthDoG), ECCV 2022
-* [Manga OCR](https://github.com/kha-white/manga-ocr) ⭐ 2,809 | 🐛 42 | 🌐 Python | 📅 2026-07-19 - About Optical character recognition for Japanese text, with the main focus being Japanese manga
-* [mokuro](https://github.com/kha-white/mokuro) ⭐ 1,753 | 🐛 36 | 🌐 HTML | 📅 2026-07-20 - Read Japanese manga inside browser with selectable text.
-* [yomitoku](https://github.com/kotaro-kinoshita/yomitoku) ⭐ 1,638 | 🐛 9 | 🌐 Python | 📅 2026-10-15 - Yomitoku is an AI-powered document image analysis package designed specifically for the Japanese language.
+* [donut](https://github.com/clovaai/donut) ⭐ 6,926 | 🐛 211 | 🌐 Python | 📅 2024-07-11 - Official Implementation of OCR-free Document Understanding Transformer (Donut) and Synthetic Document Generator (SynthDoG), ECCV 2022
+* [Manga OCR](https://github.com/kha-white/manga-ocr) ⭐ 2,809 | 🐛 43 | 🌐 Python | 📅 2026-07-19 - About Optical character recognition for Japanese text, with the main focus being Japanese manga
+* [mokuro](https://github.com/kha-white/mokuro) ⭐ 1,755 | 🐛 36 | 🌐 HTML | 📅 2026-07-20 - Read Japanese manga inside browser with selectable text.
+* [yomitoku](https://github.com/kotaro-kinoshita/yomitoku) ⭐ 1,648 | 🐛 11 | 🌐 Python | 📅 2026-10-19 - Yomitoku is an AI-powered document image analysis package designed specifically for the Japanese language.
 * [ndlocr\_cli](https://github.com/ndl-lab/ndlocr_cli) ⭐ 683 | 🐛 2 | 🌐 Python | 📅 2026-01-05 - NDLOCRのアプリケーション
-* [meikipop](https://github.com/rtr46/meikipop) ⭐ 683 | 🐛 13 | 🌐 Python | 📅 2026-10-12 - universal japanese ocr popup dictionary for windows, linux and macos
-* [Poricom](https://github.com/blueaxis/Poricom) ⭐ 443 | 🐛 32 | 🌐 Python | 📅 2023-11-23 - Optical character recognition in manga images. Manga OCR desktop application
+* [meikipop](https://github.com/rtr46/meikipop) ⭐ 683 | 🐛 14 | 🌐 Python | 📅 2026-10-19 - universal japanese ocr popup dictionary for windows, linux and macos
+* [Poricom](https://github.com/blueaxis/Poricom) ⭐ 444 | 🐛 32 | 🌐 Python | 📅 2023-11-23 - Optical character recognition in manga images. Manga OCR desktop application
 * [owocr](https://github.com/aurorawright/owocr) ⭐ 307 | 🐛 22 | 🌐 Python | 📅 2026-06-03 - Optical character recognition for Japanese text
 * [OCR\_Japanease](https://github.com/tanreinama/OCR_Japanease) ⭐ 251 | 🐛 2 | 🌐 Python | 📅 2021-08-07 - 日本語OCR
 * [Kindai-OCR](https://github.com/ducanh841988/Kindai-OCR) ⭐ 153 | 🐛 4 | 🌐 Python | 📅 2026-07-14 - OCR system for recognizing modern Japanese magazines
 * [meikiocr](https://github.com/rtr46/meikiocr) ⭐ 100 | 🐛 1 | 🌐 Python | 📅 2026-09-25 - high-speed, high-accuracy, local ocr for japanese video games
 * [JMTrans](https://github.com/ttop32/JMTrans) ⭐ 87 | 🐛 5 | 🌐 Python | 📅 2021-01-16 - manga translator - get japanese manga from url to translate manga image
 * [findtextcenternet](https://github.com/lithium0003/findtextcenternet) ⭐ 66 | 🐛 2 | 🌐 Python | 📅 2025-08-02 - Japanese OCR with CenterNet
-* [MangaOCR](https://github.com/gnurt2041/MangaOCR) ⭐ 39 | 🐛 1 | 🌐 Python | 📅 2024-05-12 - A lightweight OCR model for Japanese text, especially in Manga
+* [MangaOCR](https://github.com/gnurt2041/MangaOCR) ⭐ 40 | 🐛 1 | 🌐 Python | 📅 2024-05-12 - A lightweight OCR model for Japanese text, especially in Manga
 * [handwritten-japanese-ocr](https://github.com/yas-sim/handwritten-japanese-ocr) ⭐ 37 | 🐛 0 | 🌐 Python | 📅 2022-04-05 - Handwritten Japanese OCR demo using touch panel to draw the input text using Intel OpenVINO toolkit
 * [paddleocr-vl-sft-for-japanese-manga-on-rtx-3060](https://github.com/openvino-book/paddleocr-vl-sft-for-japanese-manga-on-rtx-3060) ⭐ 16 | 🐛 1 | 🌐 Python | 📅 2025-12-07 - Fine-tune PaddleOCR-VL on the Manga109s dataset for Japanese manga text recognition. The base model struggles with vertical Japanese text reading order in manga. After fine-tuning, the model correctly handles manga-specific text layouts.
 * [text\_recognition](https://github.com/ndl-lab/text_recognition) ⭐ 8 | 🐛 0 | 🌐 Python | 📅 2023-07-10 - NDLOCR用テキスト認識モジュール
@@ -381,25 +383,25 @@ Libraries that recognize and extract text from images
 
 | Name                                                                                                                                                                              | downloads/week | total downloads | stars  | last commit       |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | ------ | ----------------- |
-| 🔗 [manga-ocr](https://github.com/kha-white/manga-ocr) ⭐ 2,809 \| 🐛 42 \| 🌐 Python \| 📅 2026-07-19                                                                             | 📥 3k          | 📦 402k         | ⭐ 2.8k | 🟢 july           |
-| 🔗 [mokuro](https://github.com/kha-white/mokuro) ⭐ 1,753 \| 🐛 36 \| 🌐 HTML \| 📅 2026-07-20                                                                                     | 📥 607         | 📦 115k         | ⭐ 1.8k | 🟢 july           |
+| 🔗 [manga-ocr](https://github.com/kha-white/manga-ocr) ⭐ 2,809 \| 🐛 43 \| 🌐 Python \| 📅 2026-07-19                                                                             | 📥 4k          | 📦 406k         | ⭐ 2.8k | 🟡 july           |
+| 🔗 [mokuro](https://github.com/kha-white/mokuro) ⭐ 1,755 \| 🐛 36 \| 🌐 HTML \| 📅 2026-07-20                                                                                     | 📥 743         | 📦 116k         | ⭐ 1.8k | 🟡 july           |
 | 🔗 [handwritten-japanese-ocr](https://github.com/yas-sim/handwritten-japanese-ocr) ⭐ 37 \| 🐛 0 \| 🌐 Python \| 📅 2022-04-05                                                     | -              | -               | ⭐ 37   | 🔴 april 2022     |
 | 🔗 [OCR\_Japanease](https://github.com/tanreinama/OCR_Japanease) ⭐ 251 \| 🐛 2 \| 🌐 Python \| 📅 2021-08-07                                                                      | -              | -               | ⭐ 251  | 🔴 april 2021     |
 | 🔗 [ndlocr\_cli](https://github.com/ndl-lab/ndlocr_cli) ⭐ 683 \| 🐛 2 \| 🌐 Python \| 📅 2026-01-05                                                                               | -              | -               | ⭐ 683  | 🔴 september 2025 |
-| 🔗 [donut](https://github.com/clovaai/donut) ⭐ 6,928 \| 🐛 211 \| 🌐 Python \| 📅 2024-07-11                                                                                      | 📥 89          | 📦 205k         | ⭐ 6.9k | 🔴 july 2023      |
+| 🔗 [donut](https://github.com/clovaai/donut) ⭐ 6,926 \| 🐛 211 \| 🌐 Python \| 📅 2024-07-11                                                                                      | 📥 78          | 📦 205k         | ⭐ 6.9k | 🔴 july 2023      |
 | 🔗 [JMTrans](https://github.com/ttop32/JMTrans) ⭐ 87 \| 🐛 5 \| 🌐 Python \| 📅 2021-01-16                                                                                        | -              | -               | ⭐ 87   | 🔴 january 2021   |
-| 🔗 [Kindai-OCR](https://github.com/ducanh841988/Kindai-OCR) ⭐ 153 \| 🐛 4 \| 🌐 Python \| 📅 2026-07-14                                                                           | -              | -               | ⭐ 153  | 🟢 july           |
+| 🔗 [Kindai-OCR](https://github.com/ducanh841988/Kindai-OCR) ⭐ 153 \| 🐛 4 \| 🌐 Python \| 📅 2026-07-14                                                                           | -              | -               | ⭐ 153  | 🟡 july           |
 | 🔗 [text\_recognition](https://github.com/ndl-lab/text_recognition) ⭐ 8 \| 🐛 0 \| 🌐 Python \| 📅 2023-07-10                                                                     | -              | -               | ⭐ 8    | 🔴 july 2023      |
-| 🔗 [Poricom](https://github.com/blueaxis/Poricom) ⭐ 443 \| 🐛 32 \| 🌐 Python \| 📅 2023-11-23                                                                                    | -              | -               | ⭐ 442  | 🔴 june 2023      |
-| 🔗 [owocr](https://github.com/aurorawright/owocr) ⭐ 307 \| 🐛 22 \| 🌐 Python \| 📅 2026-06-03                                                                                    | -              | -               | ⭐ 304  | 🟡 march          |
-| 🔗 [yomitoku](https://github.com/kotaro-kinoshita/yomitoku) ⭐ 1,638 \| 🐛 9 \| 🌐 Python \| 📅 2026-10-15                                                                         | 📥 929         | 📦 134k         | ⭐ 1.6k | 🟢 october        |
+| 🔗 [Poricom](https://github.com/blueaxis/Poricom) ⭐ 444 \| 🐛 32 \| 🌐 Python \| 📅 2023-11-23                                                                                    | -              | -               | ⭐ 444  | 🔴 june 2023      |
+| 🔗 [owocr](https://github.com/aurorawright/owocr) ⭐ 307 \| 🐛 22 \| 🌐 Python \| 📅 2026-06-03                                                                                    | -              | -               | ⭐ 307  | 🟡 march          |
+| 🔗 [yomitoku](https://github.com/kotaro-kinoshita/yomitoku) ⭐ 1,648 \| 🐛 11 \| 🌐 Python \| 📅 2026-10-19                                                                        | 📥 1k          | 📦 135k         | ⭐ 1.6k | 🟢 today          |
 | 🔗 [findtextcenternet](https://github.com/lithium0003/findtextcenternet) ⭐ 66 \| 🐛 2 \| 🌐 Python \| 📅 2025-08-02                                                               | -              | -               | ⭐ 66   | 🔴 august 2025    |
 | 🔗 [simple-ocr-for-manga](https://github.com/yisusdev2005/simple-ocr-for-manga) ⭐ 7 \| 🐛 0 \| 🌐 Python \| 📅 2025-03-10                                                         | -              | -               | ⭐ 7    | 🔴 march 2025     |
 | 🔗 [jp-ocr-evaluation](https://github.com/yoshino/jp-ocr-evaluation) ⭐ 1 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2024-03-09                                                          | -              | -               | ⭐ 1    | 🔴 march 2024     |
-| 🔗 [paddleocr-vl-sft-for-japanese-manga-on-rtx-3060](https://github.com/openvino-book/paddleocr-vl-sft-for-japanese-manga-on-rtx-3060) ⭐ 16 \| 🐛 1 \| 🌐 Python \| 📅 2025-12-07 | -              | -               | ⭐ 15   | 🟡 december 2025  |
-| 🔗 [MangaOCR](https://github.com/gnurt2041/MangaOCR) ⭐ 39 \| 🐛 1 \| 🌐 Python \| 📅 2024-05-12                                                                                   | -              | -               | ⭐ 40   | 🔴 may 2024       |
-| 🔗 [meikiocr](https://github.com/rtr46/meikiocr) ⭐ 100 \| 🐛 1 \| 🌐 Python \| 📅 2026-09-25                                                                                      | 📥 631         | 📦 55k          | ⭐ 100  | 🟢 september      |
-| 🔗 [meikipop](https://github.com/rtr46/meikipop) ⭐ 683 \| 🐛 13 \| 🌐 Python \| 📅 2026-10-12                                                                                     | -              | -               | ⭐ 683  | 🟢 yesterday      |
+| 🔗 [paddleocr-vl-sft-for-japanese-manga-on-rtx-3060](https://github.com/openvino-book/paddleocr-vl-sft-for-japanese-manga-on-rtx-3060) ⭐ 16 \| 🐛 1 \| 🌐 Python \| 📅 2025-12-07 | -              | -               | ⭐ 16   | 🟡 december 2025  |
+| 🔗 [MangaOCR](https://github.com/gnurt2041/MangaOCR) ⭐ 40 \| 🐛 1 \| 🌐 Python \| 📅 2024-05-12                                                                                   | -              | -               | ⭐ 40   | 🔴 may 2024       |
+| 🔗 [meikiocr](https://github.com/rtr46/meikiocr) ⭐ 100 \| 🐛 1 \| 🌐 Python \| 📅 2026-09-25                                                                                      | 📥 948         | 📦 56k          | ⭐ 100  | 🟢 september      |
+| 🔗 [meikipop](https://github.com/rtr46/meikipop) ⭐ 683 \| 🐛 14 \| 🌐 Python \| 📅 2026-10-19                                                                                     | -              | -               | ⭐ 683  | 🟢 october        |
 
 ### Tool for pretrained models
 
@@ -440,20 +442,20 @@ Libraries that utilize pretrained models to improve accuracy and efficiency
 | Name                                                                                                                                                      | downloads/week | total downloads | stars | last commit       |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | ----- | ----------------- |
 | 🔗 [JGLUE](https://github.com/yahoojapan/JGLUE) ⭐ 350 \| 🐛 4 \| 🌐 Python \| 📅 2025-03-31                                                               | -              | -               | ⭐ 350 | 🔴 march 2025     |
-| 🔗 [ginza-transformers](https://github.com/megagonlabs/ginza-transformers) ⭐ 16 \| 🐛 2 \| 🌐 Python \| 📅 2026-09-30                                     | 📥 432         | 📦 280k         | ⭐ 16  | 🟢 september      |
+| 🔗 [ginza-transformers](https://github.com/megagonlabs/ginza-transformers) ⭐ 16 \| 🐛 2 \| 🌐 Python \| 📅 2026-09-30                                     | 📥 418         | 📦 280k         | ⭐ 16  | 🟢 september      |
 | 🔗 [t5\_japanese\_dialogue\_generation](https://github.com/Jinyamyzk/t5_japanese_dialogue_generation) ⭐ 3 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2021-11-28 | -              | -               | ⭐ 3   | 🔴 november 2021  |
 | 🔗 [japanese\_text\_classification](https://github.com/Masao-Taketani/japanese_text_classification) ⭐ 9 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2020-01-15   | -              | -               | ⭐ 9   | 🔴 january 2020   |
 | 🔗 [Japanese-BERT-Sentiment-Analyzer](https://github.com/izuna385/Japanese-BERT-Sentiment-Analyzer) ⭐ 2 \| 🐛 0 \| 🌐 Python \| 📅 2021-04-19             | -              | -               | ⭐ 2   | 🔴 april 2021     |
 | 🔗 [jmlm\_scoring](https://github.com/minhpqn/jmlm_scoring) ⭐ 5 \| 🐛 0 \| 🌐 Python \| 📅 2024-01-30                                                     | -              | -               | ⭐ 5   | 🔴 february 2022  |
-| 🔗 [allennlp-shiba-model](https://github.com/shunk031/allennlp-shiba-model) ⭐ 12 \| 🐛 0 \| 🌐 Python \| 📅 2021-06-26                                    | 📥 54          | 📦 23k          | ⭐ 12  | 🔴 june 2021      |
+| 🔗 [allennlp-shiba-model](https://github.com/shunk031/allennlp-shiba-model) ⭐ 12 \| 🐛 0 \| 🌐 Python \| 📅 2021-06-26                                    | 📥 28          | 📦 24k          | ⭐ 12  | 🔴 june 2021      |
 | 🔗 [evaluate\_japanese\_w2v](https://github.com/shihono/evaluate_japanese_w2v) ⭐ 12 \| 🐛 0 \| 🌐 Python \| 📅 2024-11-04                                 | -              | -               | ⭐ 12  | 🔴 november 2024  |
 | 🔗 [gector-ja](https://github.com/jonnyli1125/gector-ja) ⭐ 20 \| 🐛 1 \| 🌐 Python \| 📅 2023-08-04                                                       | -              | -               | ⭐ 20  | 🔴 june 2021      |
 | 🔗 [Japanese-BPEEncoder](https://github.com/tanreinama/Japanese-BPEEncoder) ⭐ 42 \| 🐛 1 \| 🌐 Python \| 📅 2021-09-12                                    | -              | -               | ⭐ 42  | 🔴 september 2021 |
 | 🔗 [Japanese-BPEEncoder\_V2](https://github.com/tanreinama/Japanese-BPEEncoder_V2) ⭐ 41 \| 🐛 1 \| 🌐 Python \| 📅 2023-01-15                             | -              | -               | ⭐ 41  | 🔴 january 2023   |
 | 🔗 [transformer-copy](https://github.com/youichiro/transformer-copy) ⭐ 29 \| 🐛 4 \| 🌐 Python \| 📅 2022-06-22                                           | -              | -               | ⭐ 29  | 🔴 september 2020 |
-| 🔗 [nagisa\_bert](https://github.com/taishi-i/nagisa_bert) ⭐ 5 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2026-02-25                                            | 📥 26          | 📦 63k          | ⭐ 5   | 🟡 february       |
-| 🔗 [JGLUE-benchmark](https://github.com/nobu-g/JGLUE-benchmark) ⭐ 18 \| 🐛 1 \| 🌐 Python \| 📅 2026-10-10                                                | -              | -               | ⭐ 18  | 🟢 last tuesday   |
-| 🔗 [jptranstokenizer](https://github.com/retarfi/jptranstokenizer) ⭐ 5 \| 🐛 2 \| 🌐 Python \| 📅 2024-02-02                                              | 📥 77          | 📦 31k          | ⭐ 5   | 🔴 february 2024  |
+| 🔗 [nagisa\_bert](https://github.com/taishi-i/nagisa_bert) ⭐ 5 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2026-02-25                                            | 📥 81          | 📦 63k          | ⭐ 5   | 🟡 february       |
+| 🔗 [JGLUE-benchmark](https://github.com/nobu-g/JGLUE-benchmark) ⭐ 18 \| 🐛 1 \| 🌐 Python \| 📅 2026-10-10                                                | -              | -               | ⭐ 18  | 🟢 october        |
+| 🔗 [jptranstokenizer](https://github.com/retarfi/jptranstokenizer) ⭐ 5 \| 🐛 2 \| 🌐 Python \| 📅 2024-02-02                                              | 📥 92          | 📦 32k          | ⭐ 5   | 🔴 february 2024  |
 | 🔗 [jp-stable](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable) ⭐ 155 \| 🐛 10 \| 🌐 Python \| 📅 2024-09-13                         | -              | -               | ⭐ 155 | 🔴 november 2023  |
 | 🔗 [compare-ja-tokenizer](https://github.com/hitachi-nlp/compare-ja-tokenizer) ⭐ 6 \| 🐛 0 \| 🌐 Python \| 📅 2023-06-16                                  | -              | -               | ⭐ 6   | 🔴 june 2023      |
 | 🔗 [lm-evaluation-harness-jp-stable](https://github.com/tdc-yamada-ya/lm-evaluation-harness-jp-stable) ⭐ 1 \| 🐛 0 \| 🌐 Python \| 📅 2023-06-20          | -              | -               | ⭐ 1   | 🔴 june 2023      |
@@ -476,13 +478,14 @@ Libraries that utilize pretrained models to improve accuracy and efficiency
 General-purpose tools supporting Japanese language processing
 
 <details markdown="1">
-<summary>Show 212 items</summary>
+<summary>Show 215 items</summary>
 
-* [mozc-devices](https://github.com/google/mozc-devices) ⭐ 2,984 | 🐛 1 | 🌐 C++ | 📅 2026-10-01 - Automatically exported from code.google.com/p/mozc-morse
-* [yomiyasu](https://github.com/nanaism/yomiyasu) ⭐ 2,221 | 🐛 0 | 🌐 Python | 📅 2026-10-17 - AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese
-* [voicevox\_engine](https://github.com/VOICEVOX/voicevox_engine) ⭐ 1,769 | 🐛 87 | 🌐 Python | 📅 2026-10-02 - 無料で使える中品質なテキスト読み上げソフトウェア、VOICEVOXの音声合成エンジン
+* [mozc-devices](https://github.com/google/mozc-devices) ⭐ 2,985 | 🐛 1 | 🌐 C++ | 📅 2026-10-01 - Automatically exported from code.google.com/p/mozc-morse
+* [yomiyasu](https://github.com/nanaism/yomiyasu) ⭐ 2,262 | 🐛 0 | 🌐 Python | 📅 2026-10-19 - AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese
+* [natural-japanese](https://github.com/coji/natural-japanese) ⭐ 1,940 | 🐛 0 | 🌐 Python | 📅 2026-10-16 - 仕事の日本語を、読みやすくわかりやすく書く・直すための Agent Skill です。
+* [voicevox\_engine](https://github.com/VOICEVOX/voicevox_engine) ⭐ 1,770 | 🐛 88 | 🌐 Python | 📅 2026-10-19 - 無料で使える中品質なテキスト読み上げソフトウェア、VOICEVOXの音声合成エンジン
 * [N46Whisper](https://github.com/Ayanaminn/N46Whisper) ⭐ 1,707 | 🐛 44 | 🌐 Jupyter Notebook | 📅 2025-02-23 - Whisper based Japanese subtitle generator
-* [Irodori-TTS](https://github.com/Aratako/Irodori-TTS) ⭐ 1,452 | 🐛 19 | 🌐 Python | 📅 2026-09-12 - A Flow Matching-based Text-to-Speech Model with Emoji-driven Style Control
+* [Irodori-TTS](https://github.com/Aratako/Irodori-TTS) ⭐ 1,454 | 🐛 19 | 🌐 Python | 📅 2026-09-12 - A Flow Matching-based Text-to-Speech Model with Emoji-driven Style Control
 * [OneCompression](https://github.com/FujitsuResearch/OneCompression) ⭐ 436 | 🐛 8 | 🌐 Python | 📅 2026-10-15 -  富士通研究所による LLM 向け後学習量子化 (PTQ) パイプライン。QEP (NeurIPS 2025)、ILP 混合精度、回転前処理、vLLM プラグインを統合。論文: [arXiv:2603.28845](https://arxiv.org/abs/2603.28845)。
 * [pdf-translator](https://github.com/discus0434/pdf-translator) ⭐ 347 | 🐛 6 | 🌐 Python | 📅 2024-05-07 - pdf-translator translates English PDF files into Japanese, preserving the original layout.
 * [accel-brain-code](https://github.com/accel-brain/accel-brain-code) ⭐ 329 | 🐛 1 | 🌐 Python | 📅 2023-12-26 - The purpose of this repository is to make prototypes as case study in the context of proof of concept(PoC) and research and development(R\&D) that I have written in my website. The main research topics are Auto-Encoders in relation to the representation learning, the statistical machine learning for energy-based models, adversarial generation net…
@@ -493,7 +496,7 @@ General-purpose tools supporting Japanese language processing
 * [pyopenjtalk](https://github.com/r9y9/pyopenjtalk) ⭐ 261 | 🐛 30 | 🌐 Cython | 📅 2025-04-08 - Python wrapper for OpenJTalk
 * [namedivider-python](https://github.com/rskmoi/namedivider-python) ⭐ 252 | 🐛 1 | 🌐 Python | 📅 2026-10-12 - A tool for dividing the Japanese full name into a family name and a given name.
 * [nlplot](https://github.com/takapy0210/nlplot) ⭐ 238 | 🐛 6 | 🌐 Python | 📅 2022-09-21 - Visualization Module for Natural Language Processing
-* [piper-plus](https://github.com/ayutaz/piper-plus) ⭐ 237 | 🐛 8 | 🌐 Python | 📅 2026-10-18 - Enhanced Piper TTS with Japanese support, WebAssembly, multi-GPU training, and quality improvements.
+* [piper-plus](https://github.com/ayutaz/piper-plus) ⭐ 237 | 🐛 9 | 🌐 Python | 📅 2026-10-19 - Enhanced Piper TTS with Japanese support, WebAssembly, multi-GPU training, and quality improvements.
 * [posuto](https://github.com/polm/posuto) ⭐ 236 | 🐛 3 | 🌐 Python | 📅 2026-10-03 -  Japanese postal code data.
 * [easynovelassistant](https://github.com/zuntan03/easynovelassistant) ⭐ 236 | 🐛 15 | 🌐 Python | 📅 2024-07-05 - 軽量で規制も検閲もない日本語ローカル LLM『LightChatAssistant-TypeB』による、簡単なノベル生成アシスタントです。ローカル特権の永続生成 Generate forever で、当たりガチャを積み上げます。読み上げにも対応。
 * [JapaneseEmbeddingEval](https://github.com/oshizo/JapaneseEmbeddingEval) ⭐ 184 | 🐛 0 | 🌐 Jupyter Notebook | 📅 2024-10-09 - JapaneseEmbeddingEval
@@ -686,53 +689,53 @@ General-purpose tools supporting Japanese language processing
 * [asagi-vlm-colaboratory-sample](https://github.com/kazuhito00/asagi-vlm-colaboratory-sample) ⭐ 1 | 🐛 0 | 🌐 Jupyter Notebook | 📅 2025-03-01 - Colaboratory上でAsagi(合成データセットを活用した大規模日本語VLM)をお試しするサンプル
 * [open-zeimu-mcp](https://github.com/zeimu-ai/open-zeimu-mcp) ⭐ 1 | 🐛 6 | 🌐 TypeScript | 📅 2026-06-22 - OSS MCP server for Japanese tax primary sources (法令・通達・タックスアンサー・質疑応答事例・文書回答事例・裁決事例)
 * [fuseji](https://github.com/sserada/fuseji) ⭐ 1 | 🐛 1 | 🌐 Python | 📅 2026-07-19 - 日本語特化のPII検出・マスキングミドルウェア（LLMオブザーバビリティ向け）
-* [TextToVoicevox](https://github.com/rakuyou211-blip/TextToVoicevox) ⭐ 1 | 🐛 1 | 🌐 Python | 📅 2026-10-18 - A free offline desktop app (Windows/macOS) that extracts Japanese text from PDFs, images, EPUB and Aozora Bunko and reads it aloud with VOICEVOX, with per-line speakers and SRT subtitle export.
+* [natural-japanese-writing](https://github.com/kojikojikojikoji/natural-japanese-writing) ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2026-10-15 - An agent skill for Claude Code, Codex and Cursor that rewrites AI-sounding Japanese into natural Japanese without changing the facts. 59-item checklist across six layers, plus an automated checker.
+* [TextToVoicevox](https://github.com/rakuyou211-blip/TextToVoicevox) ⭐ 1 | 🐛 1 | 🌐 Python | 📅 2026-10-18 - Free offline desktop app (Windows/macOS) that reads Japanese PDFs, images, EPUB and Aozora Bunko aloud with VOICEVOX voices (Zundamon etc.), with SRT subtitles. ／ PDF・画像・青空文庫の日本語を VOICEVOX（ずんだもん等）で朗読・音声化する無料デスクトップアプリ。オフラインOCR・行ごとの話者切替・字幕出力。
 * [diafill-toolkit](https://github.com/sbintuitions/diafill-toolkit) ⭐ 0 | 🐛 2 | 🌐 Python | 📅 2026-01-27 - A toolkit for synthesizing filler-rich, short-utterance Japanese dialogue scripts for speech-based interaction using Large Language Models (LLMs) This project is designed to generate data in two phases: Seed Generation (metadata creation) and Dialogue Generation (script creation).
 * [Novel2DialCorpus](https://github.com/ganbon/Novel2DialCorpus) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2026-02-10 - 小説テキストから雑談対話コーパスを構築する手法
 * [shirabe-address-api](https://github.com/techwell-inc-jp/shirabe-address-api) ⭐ 0 | 🐛 0 | 🌐 TypeScript | 📅 2026-07-17 - Shirabe Address API — Japanese address normalization for AI agents (Cloudflare Workers + Fly.io NRT, abr-geocoder backed)
 * [shirabe-sdk-python](https://github.com/techwell-inc-jp/shirabe-sdk-python) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2026-07-17 - Official Python SDK for the Shirabe Japan data APIs — ready-made LangChain / OpenAI Agents SDK tools for Japanese name reading (JMnedict-backed candidates), name splitting, address normalization, corporate number lookup, and calendar (rokuyo). Zero-dependency core.
-* [natural-japanese-writing](https://github.com/kojikojikojikoji/natural-japanese-writing) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2026-10-15 - An agent skill for Claude Code, Codex and Cursor that rewrites AI-sounding Japanese into natural Japanese without changing the facts.
 
 | Name                                                                                                                                                                                         | downloads/week | total downloads | stars            | last commit       |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | ---------------- | ----------------- |
-| 🔗 [namedivider-python](https://github.com/rskmoi/namedivider-python) ⭐ 252 \| 🐛 1 \| 🌐 Python \| 📅 2026-10-12                                                                            | 📥 1k          | 📦 112k         | ⭐ 252            | 🟢 today          |
-| 🔗 [asa-python](https://github.com/ikegami-yukino/asa-python) ⭐ 11 \| 🐛 0 \| 🌐 Python \| 📅 2019-02-16                                                                                     | 📥 25          | 📦 32k          | ⭐ 11             | 🔴 february 2019  |
+| 🔗 [namedivider-python](https://github.com/rskmoi/namedivider-python) ⭐ 252 \| 🐛 1 \| 🌐 Python \| 📅 2026-10-12                                                                            | 📥 2k          | 📦 114k         | ⭐ 252            | 🟢 october        |
+| 🔗 [asa-python](https://github.com/ikegami-yukino/asa-python) ⭐ 11 \| 🐛 0 \| 🌐 Python \| 📅 2019-02-16                                                                                     | 📥 26          | 📦 32k          | ⭐ 11             | 🔴 february 2019  |
 | 🔗 [python\_asa](https://github.com/Takeuchi-Lab-LM/python_asa) ⭐ 22 \| 🐛 3 \| 🌐 Python \| 📅 2022-11-11                                                                                   | -              | -               | ⭐ 22             | 🔴 january 2020   |
-| 🔗 [toiro](https://github.com/taishi-i/toiro) ⭐ 122 \| 🐛 1 \| 🌐 Python \| 📅 2025-11-09                                                                                                    | 📥 13          | 📦 28k          | ⭐ 122            | 🟡 november 2025  |
-| 🔗 [ja-timex](https://github.com/yagays/ja-timex) ⭐ 140 \| 🐛 2 \| 🌐 Python \| 📅 2025-02-27                                                                                                | 📥 698         | 📦 144k         | ⭐ 140            | 🔴 november 2023  |
+| 🔗 [toiro](https://github.com/taishi-i/toiro) ⭐ 122 \| 🐛 1 \| 🌐 Python \| 📅 2025-11-09                                                                                                    | 📥 49          | 📦 28k          | ⭐ 122            | 🟡 november 2025  |
+| 🔗 [ja-timex](https://github.com/yagays/ja-timex) ⭐ 140 \| 🐛 2 \| 🌐 Python \| 📅 2025-02-27                                                                                                | 📥 758         | 📦 144k         | ⭐ 140            | 🔴 november 2023  |
 | 🔗 [JapaneseTokenizers](https://github.com/Kensuke-Mitsuzawa/JapaneseTokenizers) ⭐ 138 \| 🐛 8 \| 🌐 Python \| 📅 2019-03-25                                                                 | -              | -               | ⭐ 138            | 🔴 march 2019     |
-| 🔗 [daaja](https://github.com/kajyuuen/daaja) ⭐ 64 \| 🐛 11 \| 🌐 Python \| 📅 2023-02-16                                                                                                    | 📥 42          | 📦 27k          | ⭐ 64             | 🔴 february 2023  |
-| 🔗 [accel-brain-code](https://github.com/accel-brain/accel-brain-code) ⭐ 329 \| 🐛 1 \| 🌐 Python \| 📅 2023-12-26                                                                           | 📥 115         | 📦 157k         | ⭐ 329            | 🔴 december 2023  |
-| 🔗 [kyoto-reader](https://github.com/ku-nlp/kyoto-reader) ⚠️ Archived                                                                                                                        | 📥 894         | 📦 70k          | ⭐ 10             | 🔴 june 2024      |
-| 🔗 [nlplot](https://github.com/takapy0210/nlplot) ⭐ 238 \| 🐛 6 \| 🌐 Python \| 📅 2022-09-21                                                                                                | 📥 79          | 📦 117k         | ⭐ 238            | 🔴 september 2022 |
+| 🔗 [daaja](https://github.com/kajyuuen/daaja) ⭐ 64 \| 🐛 11 \| 🌐 Python \| 📅 2023-02-16                                                                                                    | 📥 82          | 📦 27k          | ⭐ 64             | 🔴 february 2023  |
+| 🔗 [accel-brain-code](https://github.com/accel-brain/accel-brain-code) ⭐ 329 \| 🐛 1 \| 🌐 Python \| 📅 2023-12-26                                                                           | 📥 260         | 📦 157k         | ⭐ 329            | 🔴 december 2023  |
+| 🔗 [kyoto-reader](https://github.com/ku-nlp/kyoto-reader) ⚠️ Archived                                                                                                                        | 📥 1k          | 📦 71k          | ⭐ 10             | 🔴 june 2024      |
+| 🔗 [nlplot](https://github.com/takapy0210/nlplot) ⭐ 238 \| 🐛 6 \| 🌐 Python \| 📅 2022-09-21                                                                                                | 📥 129         | 📦 118k         | ⭐ 238            | 🔴 september 2022 |
 | 🔗 [rake-ja](https://github.com/kanjirz50/rake-ja) ⭐ 21 \| 🐛 0 \| 🌐 Python \| 📅 2018-10-11                                                                                                | -              | -               | ⭐ 21             | 🔴 october 2018   |
-| 🔗 [jel](https://github.com/izuna385/jel) ⭐ 12 \| 🐛 3 \| 🌐 Python \| 📅 2021-07-25                                                                                                         | 📥 10          | 📦 8k           | ⭐ 12             | 🔴 july 2021      |
+| 🔗 [jel](https://github.com/izuna385/jel) ⭐ 12 \| 🐛 3 \| 🌐 Python \| 📅 2021-07-25                                                                                                         | 📥 15          | 📦 8k           | ⭐ 12             | 🔴 july 2021      |
 | 🔗 [MedNER-J](https://github.com/sociocom/MedNER-J) ⭐ 18 \| 🐛 2 \| 🌐 Python \| 📅 2022-05-17                                                                                               | -              | -               | ⭐ 18             | 🔴 may 2022       |
-| 🔗 [zunda-python](https://github.com/ikegami-yukino/zunda-python) ⭐ 10 \| 🐛 1 \| 🌐 Python \| 📅 2019-11-30                                                                                 | 📥 8           | 📦 6k           | ⭐ 10             | 🔴 november 2019  |
+| 🔗 [zunda-python](https://github.com/ikegami-yukino/zunda-python) ⭐ 10 \| 🐛 1 \| 🌐 Python \| 📅 2019-11-30                                                                                 | 📥 5           | 📦 6k           | ⭐ 10             | 🔴 november 2019  |
 | 🔗 [AIO2\_DPR\_baseline](https://github.com/cl-tohoku/AIO2_DPR_baseline) ⭐ 16 \| 🐛 1 \| 🌐 Python \| 📅 2022-08-04                                                                          | -              | -               | ⭐ 16             | 🔴 january 2022   |
 | 🔗 [showcase](https://github.com/cl-tohoku/showcase) ⭐ 6 \| 🐛 0 \| 🌐 Python \| 📅 2018-06-26                                                                                               | 📥 10          | 📦 8k           | ⭐ 6              | 🔴 june 2018      |
 | 🔗 [darts-clone-python](https://github.com/rixwew/darts-clone-python) ⭐ 20 \| 🐛 3 \| 🌐 Cython \| 📅 2022-04-23                                                                             | 📥 2k          | 📦 9M           | ⭐ 20             | 🔴 april 2022     |
 | 🔗 [jrte-corpus\_example](https://github.com/megagonlabs/jrte-corpus_example) ⚠️ Archived                                                                                                    | -              | -               | ⭐ 3              | 🔴 november 2021  |
-| 🔗 [desuwa](https://github.com/megagonlabs/desuwa) ⚠️ Archived                                                                                                                               | 📥 19          | 📦 11k          | ⭐ 6              | 🔴 may 2022       |
+| 🔗 [desuwa](https://github.com/megagonlabs/desuwa) ⚠️ Archived                                                                                                                               | 📥 29          | 📦 11k          | ⭐ 6              | 🔴 may 2022       |
 | 🔗 [HotPepperGourmetDialogue](https://github.com/Hironsan/HotPepperGourmetDialogue) ⭐ 274 \| 🐛 4 \| 🌐 Python \| 📅 2017-10-01                                                              | -              | -               | ⭐ 274            | 🔴 may 2016       |
 | 🔗 [nlp-recipes-ja](https://github.com/upura/nlp-recipes-ja) ⭐ 66 \| 🐛 2 \| 🌐 Python \| 📅 2023-08-24                                                                                      | -              | -               | ⭐ 66             | 🔴 april 2021     |
 | 🔗 [Japanese\_nlp\_scripts](https://github.com/olsgaard/Japanese_nlp_scripts) ⭐ 27 \| 🐛 0 \| 🌐 Python \| 📅 2019-06-30                                                                     | -              | -               | ⭐ 27             | 🔴 june 2019      |
 | 🔗 [DNorm-J](https://github.com/sociocom/DNorm-J) ⭐ 9 \| 🐛 1 \| 🌐 Python \| 📅 2022-06-30                                                                                                  | -              | -               | ⭐ 9              | 🔴 june 2022      |
-| 🔗 [pyknp-eventgraph](https://github.com/ku-nlp/pyknp-eventgraph) ⭐ 8 \| 🐛 2 \| 🌐 Python \| 📅 2022-12-08                                                                                  | 📥 37          | 📦 69k          | ⭐ 9              | 🔴 september 2022 |
-| 🔗 [ishi](https://github.com/ku-nlp/ishi) ⭐ 2 \| 🐛 0 \| 🌐 Python \| 📅 2020-05-15                                                                                                          | 📥 8           | 📦 7k           | ⭐ 2              | 🔴 may 2020       |
+| 🔗 [pyknp-eventgraph](https://github.com/ku-nlp/pyknp-eventgraph) ⭐ 8 \| 🐛 2 \| 🌐 Python \| 📅 2022-12-08                                                                                  | 📥 116         | 📦 69k          | ⭐ 8              | 🔴 september 2022 |
+| 🔗 [ishi](https://github.com/ku-nlp/ishi) ⭐ 2 \| 🐛 0 \| 🌐 Python \| 📅 2020-05-15                                                                                                          | 📥 15          | 📦 7k           | ⭐ 2              | 🔴 may 2020       |
 | 🔗 [python-npylm](https://github.com/musyoku/python-npylm) ⭐ 34 \| 🐛 4 \| 🌐 C++ \| 📅 2023-10-16                                                                                           | -              | -               | ⭐ 34             | 🔴 january 2019   |
 | 🔗 [python-npycrf](https://github.com/musyoku/python-npycrf) ⭐ 11 \| 🐛 0 \| 🌐 C++ \| 📅 2018-03-22                                                                                         | -              | -               | ⭐ 11             | 🔴 march 2018     |
 | 🔗 [unsupervised-pos-tagging](https://github.com/musyoku/unsupervised-pos-tagging) ⭐ 16 \| 🐛 3 \| 🌐 C++ \| 📅 2018-03-22                                                                   | -              | -               | ⭐ 16             | 🔴 october 2017   |
-| 🔗 [negima](https://github.com/cocodrips/negima) ⭐ 14 \| 🐛 0 \| 🌐 Python \| 📅 2018-08-20                                                                                                  | 📥 15          | 📦 17k          | ⭐ 14             | 🔴 august 2018    |
+| 🔗 [negima](https://github.com/cocodrips/negima) ⭐ 14 \| 🐛 0 \| 🌐 Python \| 📅 2018-08-20                                                                                                  | 📥 28          | 📦 17k          | ⭐ 14             | 🔴 august 2018    |
 | 🔗 [YouyakuMan](https://github.com/neilctwu/YouyakuMan) ⭐ 52 \| 🐛 2 \| 🌐 Python \| 📅 2020-09-02                                                                                           | -              | -               | ⭐ 52             | 🔴 september 2020 |
 | 🔗 [japanese-numbers-python](https://github.com/takumakanari/japanese-numbers-python) ⭐ 21 \| 🐛 2 \| 🌐 Python \| 📅 2020-04-04                                                             | 📥 1k          | 📦 2M           | ⭐ 21             | 🔴 april 2020     |
 | 🔗 [kantan](https://github.com/itayperl/kantan) ⭐ 8 \| 🐛 0 \| 🌐 Python \| 📅 2024-10-08                                                                                                    | -              | -               | ⭐ 8              | 🔴 october 2024   |
 | 🔗 [make-meidai-dialogue](https://github.com/knok/make-meidai-dialogue) ⭐ 40 \| 🐛 0 \| 🌐 Python \| 📅 2017-09-28                                                                           | -              | -               | ⭐ 40             | 🔴 september 2017 |
 | 🔗 [japanese\_summarizer](https://github.com/ryuryukke/japanese_summarizer) ⭐ 10 \| 🐛 0 \| 🌐 Python \| 📅 2022-08-01                                                                       | -              | -               | ⭐ 10             | 🔴 august 2022    |
-| 🔗 [chirptext](https://github.com/letuananh/chirptext) ⭐ 7 \| 🐛 6 \| 🌐 Python \| 📅 2022-11-09                                                                                             | 📥 9k          | 📦 410k         | ⭐ 7              | 🔴 october 2022   |
-| 🔗 [yubin](https://github.com/alvations/yubin) ⭐ 3 \| 🐛 0 \| 🌐 Python \| 📅 2019-10-27                                                                                                     | 📥 14          | 📦 3k           | ⭐ 3              | 🔴 october 2019   |
-| 🔗 [jawiki-cleaner](https://github.com/hppRC/jawiki-cleaner) ⭐ 6 \| 🐛 1 \| 🌐 Python \| 📅 2021-06-06                                                                                       | 📥 26          | 📦 26k          | ⭐ 6              | 🔴 february 2021  |
-| 🔗 [japanese2phoneme](https://github.com/iory/japanese2phoneme) ⭐ 1 \| 🐛 0 \| 🌐 Python \| 📅 2022-02-24                                                                                    | 📥 13          | 📦 5k           | ⭐ 1              | 🔴 february 2022  |
+| 🔗 [chirptext](https://github.com/letuananh/chirptext) ⭐ 7 \| 🐛 6 \| 🌐 Python \| 📅 2022-11-09                                                                                             | 📥 9k          | 📦 421k         | ⭐ 7              | 🔴 october 2022   |
+| 🔗 [yubin](https://github.com/alvations/yubin) ⭐ 3 \| 🐛 0 \| 🌐 Python \| 📅 2019-10-27                                                                                                     | 📥 16          | 📦 3k           | ⭐ 3              | 🔴 october 2019   |
+| 🔗 [jawiki-cleaner](https://github.com/hppRC/jawiki-cleaner) ⭐ 6 \| 🐛 1 \| 🌐 Python \| 📅 2021-06-06                                                                                       | 📥 39          | 📦 26k          | ⭐ 6              | 🔴 february 2021  |
+| 🔗 [japanese2phoneme](https://github.com/iory/japanese2phoneme) ⭐ 1 \| 🐛 0 \| 🌐 Python \| 📅 2022-02-24                                                                                    | 📥 15          | 📦 5k           | ⭐ 1              | 🔴 february 2022  |
 | 🔗 [anlp\_nlp2021\_d3-1](https://github.com/arusl/anlp_nlp2021_d3-1) ⭐ 1 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2022-03-08                                                                     | -              | -               | ⭐ 1              | 🔴 march 2022     |
 | 🔗 [aozora\_classification](https://github.com/shibuiwilliam/aozora_classification) ⭐ 11 \| 🐛 1 \| 🌐 Jupyter Notebook \| 📅 2017-09-03                                                     | -              | -               | ⭐ 11             | 🔴 september 2017 |
 | 🔗 [aozora-corpus-generator](https://github.com/borh/aozora-corpus-generator) ⭐ 9 \| 🐛 0 \| 🌐 Python \| 📅 2025-06-12                                                                      | -              | -               | ⭐ 9              | 🔴 june 2025      |
@@ -745,7 +748,7 @@ General-purpose tools supporting Japanese language processing
 | 🔗 [mbart-finetuning](https://github.com/ken11/mbart-finetuning) ⭐ 3 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2021-10-13                                                                         | -              | -               | ⭐ 3              | 🔴 october 2021   |
 | 🔗 [xvector\_jtubespeech](https://github.com/sarulab-speech/xvector_jtubespeech) ⭐ 47 \| 🐛 0 \| 🌐 Python \| 📅 2023-11-05                                                                  | -              | -               | ⭐ 47             | 🔴 november 2023  |
 | 🔗 [TinySegmenterMaker](https://github.com/shogo82148/TinySegmenterMaker) ⭐ 74 \| 🐛 0 \| 🌐 Python \| 📅 2022-09-30                                                                         | -              | -               | ⭐ 74             | 🔴 september 2022 |
-| 🔗 [Grongish](https://github.com/shogo82148/Grongish) ⭐ 26 \| 🐛 0 \| 🌐 Python \| 📅 2026-10-14                                                                                             | -              | -               | ⭐ 26             | 🟢 september      |
+| 🔗 [Grongish](https://github.com/shogo82148/Grongish) ⭐ 26 \| 🐛 0 \| 🌐 Python \| 📅 2026-10-14                                                                                             | -              | -               | ⭐ 26             | 🟢 last wednesday |
 | 🔗 [WordCloud-Japanese](https://github.com/aocattleya/WordCloud-Japanese) ⭐ 10 \| 🐛 0 \| 🌐 Python \| 📅 2020-01-01                                                                         | -              | -               | ⭐ 10             | 🔴 january 2020   |
 | 🔗 [snark](https://github.com/hiraokusky/snark) ⭐ 11 \| 🐛 0 \| 🌐 Python \| 📅 2020-03-11                                                                                                   | -              | -               | ⭐ 11             | 🔴 march 2020     |
 | 🔗 [toEmoji](https://github.com/mkan0141/toEmoji) ⭐ 4 \| 🐛 0 \| 🌐 Python \| 📅 2018-04-15                                                                                                  | -              | -               | ⭐ 4              | 🔴 april 2018     |
@@ -756,12 +759,12 @@ General-purpose tools supporting Japanese language processing
 | 🔗 [Ngram-language-model](https://github.com/KentoW/Ngram-language-model) ⭐ 5 \| 🐛 0 \| 🌐 Python \| 📅 2017-12-05                                                                          | -              | -               | ⭐ 5              | 🔴 december 2017  |
 | 🔗 [ASRDeepSpeech](https://github.com/JeanMaximilienCadic/ASRDeepSpeech) ⭐ 71 \| 🐛 0 \| 🌐 Python \| 📅 2026-10-09                                                                          | -              | -               | ⭐ 71             | 🟢 october        |
 | 🔗 [neural\_ime](https://github.com/yohokuno/neural_ime) ⭐ 67 \| 🐛 0 \| 🌐 Python \| 📅 2016-12-27                                                                                          | -              | -               | ⭐ 67             | 🔴 december 2016  |
-| 🔗 [neural\_japanese\_transliterator](https://github.com/Kyubyong/neural_japanese_transliterator) ⭐ 179 \| 🐛 2 \| 🌐 Python \| 📅 2017-09-17                                                | -              | -               | ⭐ 178            | 🔴 september 2017 |
-| 🔗 [tinysegmenter](https://github.com/SamuraiT/tinysegmenter) ⭐ 53 \| 🐛 2 \| 🌐 Python \| 📅 2021-04-20                                                                                     | 📥 93k         | 📦 181k         | ⭐ repo not found | 🔴 november 2015  |
+| 🔗 [neural\_japanese\_transliterator](https://github.com/Kyubyong/neural_japanese_transliterator) ⭐ 179 \| 🐛 2 \| 🌐 Python \| 📅 2017-09-17                                                | -              | -               | ⭐ 179            | 🔴 september 2017 |
+| 🔗 [tinysegmenter](https://github.com/SamuraiT/tinysegmenter) ⭐ 53 \| 🐛 2 \| 🌐 Python \| 📅 2021-04-20                                                                                     | 📥 105k        | 📦 181k         | ⭐ repo not found | 🔴 november 2015  |
 | 🔗 [AugLy-jp](https://github.com/chck/AugLy-jp) ⭐ 7 \| 🐛 4 \| 🌐 Python \| 📅 2026-09-14                                                                                                    | 📥 48          | 📦 33k          | ⭐ 7              | 🟢 september      |
-| 🔗 [furigana4epub](https://github.com/Mumumu4/furigana4epub) ⭐ 34 \| 🐛 0 \| 🌐 Python \| 📅 2021-09-11                                                                                      | 📥 22          | 📦 13k          | ⭐ 34             | 🔴 september 2021 |
-| 🔗 [PyKatsuyou](https://github.com/SmashinFries/PyKatsuyou) ⭐ 13 \| 🐛 0 \| 🌐 Python \| 📅 2025-03-10                                                                                       | 📥 38          | 📦 24k          | ⭐ 13             | 🔴 march 2025     |
-| 🔗 [jageocoder](https://github.com/t-sagara/jageocoder) ⭐ 108 \| 🐛 2 \| 🌐 Python \| 📅 2026-04-21                                                                                          | 📥 4k          | 📦 486k         | ⭐ 107            | 🟡 march          |
+| 🔗 [furigana4epub](https://github.com/Mumumu4/furigana4epub) ⭐ 34 \| 🐛 0 \| 🌐 Python \| 📅 2021-09-11                                                                                      | 📥 23          | 📦 13k          | ⭐ 34             | 🔴 september 2021 |
+| 🔗 [PyKatsuyou](https://github.com/SmashinFries/PyKatsuyou) ⭐ 13 \| 🐛 0 \| 🌐 Python \| 📅 2025-03-10                                                                                       | 📥 45          | 📦 24k          | ⭐ 13             | 🔴 march 2025     |
+| 🔗 [jageocoder](https://github.com/t-sagara/jageocoder) ⭐ 108 \| 🐛 2 \| 🌐 Python \| 📅 2026-04-21                                                                                          | 📥 4k          | 📦 491k         | ⭐ 108            | 🟡 march          |
 | 🔗 [nksnd](https://github.com/yoriyuki/nksnd) ⭐ 26 \| 🐛 0 \| 🌐 Python \| 📅 2018-05-16                                                                                                     | -              | -               | ⭐ 26             | 🔴 may 2018       |
 | 🔗 [JaMIE](https://github.com/racerandom/JaMIE) ⭐ 9 \| 🐛 1 \| 🌐 Python \| 📅 2026-03-08                                                                                                    | -              | -               | ⭐ 9              | 🟡 march          |
 | 🔗 [fasttext-vs-word2vec-on-twitter-data](https://github.com/GINK03/fasttext-vs-word2vec-on-twitter-data) ⭐ 48 \| 🐛 15 \| 🌐 Python \| 📅 2022-11-22                                        | -              | -               | ⭐ 48             | 🔴 august 2017    |
@@ -769,55 +772,55 @@ General-purpose tools supporting Japanese language processing
 | 🔗 [5ch-analysis](https://github.com/GINK03/5ch-analysis) ⭐ 75 \| 🐛 2 \| 🌐 Python \| 📅 2018-11-11                                                                                         | -              | -               | ⭐ 75             | 🔴 november 2018  |
 | 🔗 [tweet\_extructor](https://github.com/tatHi/tweet_extructor) ⭐ 3 \| 🐛 0 \| 🌐 Python \| 📅 2022-08-28                                                                                    | -              | -               | ⭐ 3              | 🔴 august 2022    |
 | 🔗 [japanese-word-aggregation](https://github.com/hkiyomaru/japanese-word-aggregation) ⭐ 2 \| 🐛 0 \| 🌐 Python \| 📅 2018-08-19                                                             | -              | -               | ⭐ 2              | 🔴 august 2018    |
-| 🔗 [jinf](https://github.com/hkiyomaru/jinf) ⭐ 4 \| 🐛 1 \| 🌐 Python \| 📅 2026-08-31                                                                                                       | 📥 308         | 📦 69k          | ⭐ 4              | 🟢 august         |
-| 🔗 [kwja](https://github.com/ku-nlp/kwja) ⭐ 148 \| 🐛 4 \| 🌐 Python \| 📅 2026-10-13                                                                                                        | 📥 301         | 📦 66k          | ⭐ 147            | 🟢 september      |
+| 🔗 [jinf](https://github.com/hkiyomaru/jinf) ⭐ 4 \| 🐛 1 \| 🌐 Python \| 📅 2026-08-31                                                                                                       | 📥 479         | 📦 70k          | ⭐ 4              | 🟢 august         |
+| 🔗 [kwja](https://github.com/ku-nlp/kwja) ⭐ 148 \| 🐛 4 \| 🌐 Python \| 📅 2026-10-13                                                                                                        | 📥 477         | 📦 66k          | ⭐ 148            | 🟢 september      |
 | 🔗 [mlm-scoring-transformers](https://github.com/Ryutaro-A/mlm-scoring-transformers) ⭐ 6 \| 🐛 1 \| 🌐 Python \| 📅 2023-07-09                                                               | -              | -               | ⭐ 6              | 🔴 december 2022  |
 | 🔗 [ClipCap-for-Japanese](https://github.com/Japanese-Image-Captioning/ClipCap-for-Japanese) ⭐ 13 \| 🐛 1 \| 🌐 Python \| 📅 2022-10-04                                                      | -              | -               | ⭐ 13             | 🔴 october 2022   |
 | 🔗 [SAT-for-Japanese](https://github.com/Japanese-Image-Captioning/SAT-for-Japanese) ⭐ 2 \| 🐛 0 \| 🌐 Python \| 📅 2022-10-04                                                               | -              | -               | ⭐ 2              | 🔴 october 2022   |
-| 🔗 [cihai](https://github.com/cihai/cihai) ⭐ 93 \| 🐛 14 \| 🌐 Python \| 📅 2026-10-17                                                                                                       | 📥 506         | 📦 229k         | ⭐ 93             | 🟢 october        |
-| 🔗 [marine](https://github.com/6gsn/marine) ⭐ 38 \| 🐛 5 \| 🌐 Python \| 📅 2022-09-20                                                                                                       | 📥 99          | 📦 18k          | ⭐ 38             | 🔴 september 2022 |
+| 🔗 [cihai](https://github.com/cihai/cihai) ⭐ 93 \| 🐛 14 \| 🌐 Python \| 📅 2026-10-17                                                                                                       | 📥 617         | 📦 230k         | ⭐ 93             | 🟢 last saturday  |
+| 🔗 [marine](https://github.com/6gsn/marine) ⭐ 38 \| 🐛 5 \| 🌐 Python \| 📅 2022-09-20                                                                                                       | 📥 126         | 📦 18k          | ⭐ 38             | 🔴 september 2022 |
 | 🔗 [whisper-asr-finetune](https://github.com/sarulab-speech/whisper-asr-finetune) ⭐ 32 \| 🐛 5 \| 🌐 Python \| 📅 2022-12-04                                                                 | -              | -               | ⭐ 32             | 🔴 december 2022  |
 | 🔗 [radicalchar](https://github.com/yamamaya/radicalchar) ⭐ 10 \| 🐛 0 \| 🌐 C# \| 📅 2022-12-29                                                                                             | -              | -               | ⭐ 10             | 🔴 december 2022  |
 | 🔗 [akaza](https://github.com/tokuhirom/akaza) ⭐ 265 \| 🐛 24 \| 🌐 Rust \| 📅 2026-06-08                                                                                                    | -              | -               | ⭐ 265            | 🟡 june           |
-| 🔗 [posuto](https://github.com/polm/posuto) ⭐ 236 \| 🐛 3 \| 🌐 Python \| 📅 2026-10-03                                                                                                      | 📥 8k          | 📦 935k         | ⭐ 236            | 🟢 october        |
+| 🔗 [posuto](https://github.com/polm/posuto) ⭐ 236 \| 🐛 3 \| 🌐 Python \| 📅 2026-10-03                                                                                                      | 📥 8k          | 📦 944k         | ⭐ 236            | 🟢 october        |
 | 🔗 [tacotron2-japanese](https://github.com/CjangCjengh/tacotron2-japanese) ⭐ 266 \| 🐛 9 \| 🌐 Jupyter Notebook \| 📅 2022-09-04                                                             | -              | -               | ⭐ 266            | 🔴 september 2022 |
 | 🔗 [ibus-hiragana](https://github.com/esrille/ibus-hiragana) ⭐ 81 \| 🐛 4 \| 🌐 Python \| 📅 2026-03-22                                                                                      | -              | -               | ⭐ 81             | 🟡 march          |
 | 🔗 [furiganapad](https://github.com/esrille/furiganapad) ⭐ 20 \| 🐛 3 \| 🌐 Python \| 📅 2025-04-14                                                                                          | -              | -               | ⭐ 20             | 🔴 april 2025     |
-| 🔗 [chikkarpy](https://github.com/WorksApplications/chikkarpy) ⭐ 55 \| 🐛 2 \| 🌐 Python \| 📅 2022-02-07                                                                                    | 📥 221         | 📦 70k          | ⭐ 55             | 🔴 february 2022  |
+| 🔗 [chikkarpy](https://github.com/WorksApplications/chikkarpy) ⭐ 55 \| 🐛 2 \| 🌐 Python \| 📅 2022-02-07                                                                                    | 📥 311         | 📦 70k          | ⭐ 55             | 🔴 february 2022  |
 | 🔗 [ja-tokenizer-docker-py](https://github.com/p-geon/ja-tokenizer-docker-py) ⭐ 36 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2022-05-10                                                           | -              | -               | ⭐ 36             | 🔴 may 2022       |
-| 🔗 [JapaneseEmbeddingEval](https://github.com/oshizo/JapaneseEmbeddingEval) ⭐ 184 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2024-10-09                                                            | -              | -               | ⭐ invalid        | 🔴 october 2024   |
+| 🔗 [JapaneseEmbeddingEval](https://github.com/oshizo/JapaneseEmbeddingEval) ⭐ 184 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2024-10-09                                                            | -              | -               | ⭐ 184            | 🔴 october 2024   |
 | 🔗 [shuwa](https://github.com/google/shuwa) ⚠️ Archived                                                                                                                                      | -              | -               | ⭐ 145            | 🔴 december 2022  |
 | 🔗 [japanese-nli-model](https://github.com/CyberAgentAILab/japanese-nli-model) ⚠️ Archived                                                                                                   | -              | -               | ⭐ 6              | 🔴 october 2022   |
 | 🔗 [tra-fugu](https://github.com/tos-kamiya/tra-fugu) ⚠️ Archived                                                                                                                            | -              | -               | ⭐ 5              | 🔴 march 2023     |
 | 🔗 [fugumt](https://github.com/s-taka/fugumt) ⭐ 65 \| 🐛 2 \| 🌐 Python \| 📅 2021-02-28                                                                                                     | -              | -               | ⭐ 65             | 🔴 february 2021  |
-| 🔗 [JaSPICE](https://github.com/keio-smilab23/JaSPICE) ⭐ 9 \| 🐛 0 \| 🌐 Python \| 📅 2026-06-12                                                                                             | 📥 5           | 📦 2k           | ⭐ 9              | 🟡 june           |
+| 🔗 [JaSPICE](https://github.com/keio-smilab23/JaSPICE) ⭐ 9 \| 🐛 0 \| 🌐 Python \| 📅 2026-06-12                                                                                             | 📥 10          | 📦 2k           | ⭐ 9              | 🟡 june           |
 | 🔗 [Retrieval-based-Voice-Conversion-WebUI-JP-localization](https://github.com/yantaisa11/Retrieval-based-Voice-Conversion-WebUI-JP-localization) ⭐ 47 \| 🐛 0 \| 🌐 Python \| 📅 2023-04-11 | -              | -               | ⭐ 47             | 🔴 april 2023     |
-| 🔗 [pyopenjtalk](https://github.com/r9y9/pyopenjtalk) ⭐ 261 \| 🐛 30 \| 🌐 Cython \| 📅 2025-04-08                                                                                           | 📥 20k         | 📦 2M           | ⭐ 261            | 🔴 april 2025     |
-| 🔗 [yomigana-ebook](https://github.com/rabbit19981023/yomigana-ebook) ⭐ 28 \| 🐛 0 \| 🌐 Python \| 📅 2024-02-20                                                                             | 📥 15          | 📦 9k           | ⭐ 27             | 🔴 february 2024  |
+| 🔗 [pyopenjtalk](https://github.com/r9y9/pyopenjtalk) ⭐ 261 \| 🐛 30 \| 🌐 Cython \| 📅 2025-04-08                                                                                           | 📥 26k         | 📦 2M           | ⭐ 261            | 🔴 april 2025     |
+| 🔗 [yomigana-ebook](https://github.com/rabbit19981023/yomigana-ebook) ⭐ 28 \| 🐛 0 \| 🌐 Python \| 📅 2024-02-20                                                                             | 📥 17          | 📦 9k           | ⭐ 28             | 🔴 february 2024  |
 | 🔗 [N46Whisper](https://github.com/Ayanaminn/N46Whisper) ⭐ 1,707 \| 🐛 44 \| 🌐 Jupyter Notebook \| 📅 2025-02-23                                                                            | -              | -               | ⭐ 1.7k           | 🔴 february 2025  |
 | 🔗 [japanese\_llm\_simple\_webui](https://github.com/noir55/japanese_llm_simple_webui) ⭐ 17 \| 🐛 0 \| 🌐 Python \| 📅 2024-05-12                                                            | -              | -               | ⭐ 17             | 🔴 may 2024       |
-| 🔗 [pdf-translator](https://github.com/discus0434/pdf-translator) ⭐ 347 \| 🐛 6 \| 🌐 Python \| 📅 2024-05-07                                                                                | -              | -               | ⭐ 346            | 🔴 may 2024       |
+| 🔗 [pdf-translator](https://github.com/discus0434/pdf-translator) ⭐ 347 \| 🐛 6 \| 🌐 Python \| 📅 2024-05-07                                                                                | -              | -               | ⭐ 347            | 🔴 may 2024       |
 | 🔗 [japanese\_qa\_demo\_with\_haystack\_and\_es](https://github.com/Shingo-Kamata/japanese_qa_demo_with_haystack_and_es) ⭐ 1 \| 🐛 0 \| 🌐 Python \| 📅 2022-12-18                           | -              | -               | ⭐ 1              | 🔴 december 2022  |
-| 🔗 [mozc-devices](https://github.com/google/mozc-devices) ⭐ 2,984 \| 🐛 1 \| 🌐 C++ \| 📅 2026-10-01                                                                                         | -              | -               | ⭐ 3k             | 🟢 october        |
+| 🔗 [mozc-devices](https://github.com/google/mozc-devices) ⭐ 2,985 \| 🐛 1 \| 🌐 C++ \| 📅 2026-10-01                                                                                         | -              | -               | ⭐ 3k             | 🟢 october        |
 | 🔗 [vits-japros-webui](https://github.com/litagin02/vits-japros-webui) ⚠️ Archived                                                                                                           | -              | -               | ⭐ 42             | 🔴 january 2024   |
 | 🔗 [ja-law-parser](https://github.com/takuyaa/ja-law-parser) ⭐ 25 \| 🐛 2 \| 🌐 Python \| 📅 2024-01-25                                                                                      | -              | -               | ⭐ 25             | 🔴 january 2024   |
 | 🔗 [dictation-kit](https://github.com/julius-speech/dictation-kit) ⭐ 166 \| 🐛 5 \| 🌐 Python \| 📅 2019-04-18                                                                               | -              | -               | ⭐ 166            | 🔴 april 2019     |
 | 🔗 [julius4seg](https://github.com/Hiroshiba/julius4seg) ⭐ 7 \| 🐛 0 \| 🌐 Python \| 📅 2021-08-22                                                                                           | -              | -               | ⭐ 7              | 🔴 august 2021    |
-| 🔗 [voicevox\_engine](https://github.com/VOICEVOX/voicevox_engine) ⭐ 1,769 \| 🐛 87 \| 🌐 Python \| 📅 2026-10-02                                                                            | -              | -               | ⭐ 1.8k           | 🟢 october        |
+| 🔗 [voicevox\_engine](https://github.com/VOICEVOX/voicevox_engine) ⭐ 1,770 \| 🐛 88 \| 🌐 Python \| 📅 2026-10-19                                                                            | -              | -               | ⭐ 1.8k           | 🟢 october        |
 | 🔗 [LLaVA-JP](https://github.com/tosiyuki/LLaVA-JP) ⭐ 64 \| 🐛 3 \| 🌐 Python \| 📅 2024-07-03                                                                                               | -              | -               | ⭐ 64             | 🔴 june 2024      |
 | 🔗 [RAG-Japanese](https://github.com/AkimParis/RAG-Japanese) ⭐ 10 \| 🐛 1 \| 🌐 Jupyter Notebook \| 📅 2025-05-12                                                                            | -              | -               | ⭐ 10             | 🔴 may 2025       |
 | 🔗 [bertjsc](https://github.com/er-ri/bertjsc) ⭐ 14 \| 🐛 1 \| 🌐 Python \| 📅 2024-08-03                                                                                                    | -              | -               | ⭐ 14             | 🔴 august 2024    |
 | 🔗 [llm-leaderboard](https://github.com/wandb/llm-leaderboard) ⭐ 95 \| 🐛 4 \| 🌐 Python \| 📅 2026-07-26                                                                                    | -              | -               | ⭐ 95             | 🟡 may            |
-| 🔗 [jglue-evaluation-scripts](https://github.com/nobu-g/jglue-evaluation-scripts) ⭐ 18 \| 🐛 1 \| 🌐 Python \| 📅 2026-10-10                                                                 | -              | -               | ⭐ 18             | 🟢 last tuesday   |
+| 🔗 [jglue-evaluation-scripts](https://github.com/nobu-g/jglue-evaluation-scripts) ⭐ 18 \| 🐛 1 \| 🌐 Python \| 📅 2026-10-10                                                                 | -              | -               | ⭐ 18             | 🟢 october        |
 | 🔗 [BLIP2-Japanese](https://github.com/ZhaoPeiduo/BLIP2-Japanese) ⭐ 14 \| 🐛 0 \| 🌐 Python \| 📅 2025-09-12                                                                                 | -              | -               | ⭐ 14             | 🔴 september 2025 |
 | 🔗 [wikipedia-passages-jawiki-embeddings-utils](https://github.com/hotchpotch/wikipedia-passages-jawiki-embeddings-utils) ⭐ 12 \| 🐛 0 \| 🌐 Python \| 📅 2024-03-28                         | -              | -               | ⭐ 12             | 🔴 march 2024     |
 | 🔗 [simple-simcse-ja](https://github.com/hpprc/simple-simcse-ja) ⭐ 69 \| 🐛 0 \| 🌐 Python \| 📅 2023-10-31                                                                                  | -              | -               | ⭐ 69             | 🔴 october 2023   |
 | 🔗 [gpt4-autoeval](https://github.com/northern-system-service/gpt4-autoeval) ⭐ 17 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2024-06-06                                                            | -              | -               | ⭐ 17             | 🔴 june 2024      |
 | 🔗 [t5-japanese](https://github.com/sonoisa/t5-japanese) ⭐ 117 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2025-09-15                                                                               | -              | -               | ⭐ 117            | 🔴 september 2025 |
 | 🔗 [japanese\_llm\_eval](https://github.com/lightblue-tech/japanese_llm_eval) ⭐ 5 \| 🐛 1 \| 🌐 HTML \| 📅 2024-04-22                                                                        | -              | -               | ⭐ 5              | 🔴 april 2024     |
-| 🔗 [jmteb](https://github.com/sbintuitions/jmteb) ⭐ 95 \| 🐛 8 \| 🌐 Python \| 📅 2026-10-09                                                                                                 | -              | -               | ⭐ 94             | 🟢 last friday    |
+| 🔗 [jmteb](https://github.com/sbintuitions/jmteb) ⭐ 95 \| 🐛 8 \| 🌐 Python \| 📅 2026-10-09                                                                                                 | -              | -               | ⭐ 95             | 🟢 october        |
 | 🔗 [pydomino](https://github.com/dwangomediavillage/pydomino) ⭐ 43 \| 🐛 1 \| 🌐 C++ \| 📅 2025-08-19                                                                                        | -              | -               | ⭐ 43             | 🔴 august 2025    |
-| 🔗 [easynovelassistant](https://github.com/zuntan03/easynovelassistant) ⭐ 236 \| 🐛 15 \| 🌐 Python \| 📅 2024-07-05                                                                         | -              | -               | ⭐ 235            | 🔴 july 2024      |
+| 🔗 [easynovelassistant](https://github.com/zuntan03/easynovelassistant) ⭐ 236 \| 🐛 15 \| 🌐 Python \| 📅 2024-07-05                                                                         | -              | -               | ⭐ 236            | 🔴 july 2024      |
 | 🔗 [clip-japanese](https://github.com/sonoisa/clip-japanese) ⭐ 13 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2025-09-15                                                                            | -              | -               | ⭐ 13             | 🔴 september 2025 |
 | 🔗 [rime-jaroomaji](https://github.com/lazyfoxchan/rime-jaroomaji) ⭐ 57 \| 🐛 2 \| 🌐 Python \| 📅 2026-10-15                                                                                | -              | -               | ⭐ 57             | 🟢 last thursday  |
 | 🔗 [deep-question-generation](https://github.com/sonoisa/deep-question-generation) ⭐ 12 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2023-03-12                                                      | -              | -               | ⭐ 12             | 🔴 march 2023     |
@@ -836,10 +839,10 @@ General-purpose tools supporting Japanese language processing
 | 🔗 [mecab-web-api](https://github.com/bungoume/mecab-web-api) ⭐ 40 \| 🐛 94 \| 🌐 Python \| 📅 2026-02-12                                                                                    | -              | -               | ⭐ 40             | 🔴 july 2022      |
 | 🔗 [mecab\_controller](https://github.com/ajatt-tools/mecab_controller) ⭐ 21 \| 🐛 1 \| 🌐 Python \| 📅 2026-10-02                                                                           | -              | -               | ⭐ 21             | 🟢 october        |
 | 🔗 [vits](https://github.com/zassou65535/vits) ⭐ 93 \| 🐛 0 \| 🌐 Python \| 📅 2023-02-02                                                                                                    | -              | -               | ⭐ 93             | 🔴 february 2023  |
-| 🔗 [akari\_chatgpt\_bot](https://github.com/akarigroup/akari_chatgpt_bot) ⭐ 48 \| 🐛 0 \| 🌐 Python \| 📅 2025-10-16                                                                         | -              | -               | ⭐ 48             | 🟡 october 2025   |
+| 🔗 [akari\_chatgpt\_bot](https://github.com/akarigroup/akari_chatgpt_bot) ⭐ 48 \| 🐛 0 \| 🌐 Python \| 📅 2025-10-16                                                                         | -              | -               | ⭐ 48             | 🔴 october 2025   |
 | 🔗 [kudasai](https://github.com/bikatr7/kudasai) ⭐ 26 \| 🐛 2 \| 🌐 Python \| 📅 2025-06-24                                                                                                  | -              | -               | ⭐ 26             | 🔴 june 2025      |
 | 🔗 [mecab-visualizer](https://github.com/sophiefy/mecab-visualizer) ⭐ 2 \| 🐛 0 \| 🌐 Python \| 📅 2023-09-23                                                                                | -              | -               | ⭐ 2              | 🔴 september 2023 |
-| 🔗 [add-dictionary](https://github.com/massao000/add-dictionary) ⭐ 3 \| 🐛 0 \| 🌐 Python \| 📅 2025-10-08                                                                                   | -              | -               | ⭐ 3              | 🟡 october 2025   |
+| 🔗 [add-dictionary](https://github.com/massao000/add-dictionary) ⭐ 3 \| 🐛 0 \| 🌐 Python \| 📅 2025-10-08                                                                                   | -              | -               | ⭐ 3              | 🔴 october 2025   |
 | 🔗 [j-moshi](https://github.com/nu-dialogue/j-moshi) ⭐ 324 \| 🐛 1 \| 🌐 JavaScript \| 📅 2026-09-13                                                                                         | -              | -               | ⭐ 324            | 🟢 september      |
 | 🔗 [jatts](https://github.com/unilight/jatts) ⭐ 44 \| 🐛 1 \| 🌐 Python \| 📅 2026-03-13                                                                                                     | -              | -               | ⭐ 44             | 🟡 march          |
 | 🔗 [tsukasa-speech](https://github.com/respaired/tsukasa-speech) ⭐ 65 \| 🐛 2 \| 🌐 Jupyter Notebook \| 📅 2025-05-15                                                                        | -              | -               | ⭐ 65             | 🔴 may 2025       |
@@ -847,66 +850,69 @@ General-purpose tools supporting Japanese language processing
 | 🔗 [llm-jp-judge](https://github.com/llm-jp/llm-jp-judge) ⭐ 64 \| 🐛 4 \| 🌐 Python \| 📅 2026-09-29                                                                                         | -              | -               | ⭐ 64             | 🟢 september      |
 | 🔗 [asagi-vlm-colaboratory-sample](https://github.com/kazuhito00/asagi-vlm-colaboratory-sample) ⭐ 1 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2025-03-01                                          | -              | -               | ⭐ 1              | 🔴 march 2025     |
 | 🔗 [llm-jp-eval-mm](https://github.com/llm-jp/llm-jp-eval-mm) ⭐ 44 \| 🐛 2 \| 🌐 Python \| 📅 2026-04-20                                                                                     | -              | -               | ⭐ 44             | 🟡 april          |
-| 🔗 [manga109api](https://github.com/manga109/manga109api) ⭐ 132 \| 🐛 0 \| 🌐 Python \| 📅 2022-03-04                                                                                        | 📥 116         | 📦 49k          | ⭐ 132            | 🔴 march 2022     |
+| 🔗 [manga109api](https://github.com/manga109/manga109api) ⭐ 132 \| 🐛 0 \| 🌐 Python \| 📅 2022-03-04                                                                                        | 📥 84          | 📦 49k          | ⭐ 132            | 🔴 march 2022     |
 | 🔗 [fastrtc-jp](https://github.com/route250/fastrtc-jp) ⭐ 6 \| 🐛 1 \| 🌐 Python \| 📅 2025-06-10                                                                                            | -              | -               | ⭐ 6              | 🔴 may 2025       |
 | 🔗 [whisper-transcription](https://github.com/fumifumi0831/whisper-transcription) ⭐ 21 \| 🐛 1 \| 🌐 Python \| 📅 2026-01-02                                                                 | -              | -               | ⭐ 21             | 🟡 january        |
 | 🔗 [pocket-researcher](https://github.com/u-masao/pocket-researcher) ⭐ 10 \| 🐛 4 \| 🌐 Python \| 📅 2025-04-07                                                                              | -              | -               | ⭐ 10             | 🔴 april 2025     |
-| 🔗 [jtransbench](https://github.com/webbigdata-jp/jtransbench) ⭐ 13 \| 🐛 0 \| 🌐 Python \| 📅 2025-10-11                                                                                    | -              | -               | ⭐ 13             | 🟡 october 2025   |
+| 🔗 [jtransbench](https://github.com/webbigdata-jp/jtransbench) ⭐ 13 \| 🐛 0 \| 🌐 Python \| 📅 2025-10-11                                                                                    | -              | -               | ⭐ 13             | 🔴 october 2025   |
 | 🔗 [easyllasa](https://github.com/zuntan03/easyllasa) ⭐ 26 \| 🐛 0 \| 🌐 Python \| 📅 2025-09-29                                                                                             | -              | -               | ⭐ 26             | 🔴 september 2025 |
-| 🔗 [kanjikana-model](https://github.com/digital-go-jp/kanjikana-model) ⭐ 121 \| 🐛 1 \| 🌐 Jupyter Notebook \| 📅 2026-04-28                                                                 | -              | -               | ⭐ 120            | 🟡 april          |
+| 🔗 [kanjikana-model](https://github.com/digital-go-jp/kanjikana-model) ⭐ 121 \| 🐛 1 \| 🌐 Jupyter Notebook \| 📅 2026-04-28                                                                 | -              | -               | ⭐ 121            | 🟡 april          |
 | 🔗 [deep-openreview-research-ja](https://github.com/tb-yasu/deep-openreview-research-ja) ⭐ 13 \| 🐛 0 \| 🌐 Python \| 📅 2025-11-29                                                          | -              | -               | ⭐ 13             | 🟡 november 2025  |
 | 🔗 [pitchbench](https://github.com/shewiiii/pitchbench) ⭐ 2 \| 🐛 0 \| 🌐 Python \| 📅 2026-02-21                                                                                            | -              | -               | ⭐ 2              | 🟡 february       |
 | 🔗 [mini-transformer-from-scratch](https://github.com/zuofanf/mini-transformer-from-scratch) ⭐ 2 \| 🐛 0 \| 🌐 Python \| 📅 2025-11-30                                                       | -              | -               | ⭐ 2              | 🟡 november 2025  |
 | 🔗 [vv\_core\_inference](https://github.com/hiroshiba/vv_core_inference) ⭐ 31 \| 🐛 5 \| 🌐 Python \| 📅 2025-12-03                                                                          | -              | -               | ⭐ 31             | 🟡 december 2025  |
-| 🔗 [pyopenjtalk-plus](https://github.com/tsukumijima/pyopenjtalk-plus) ⭐ 66 \| 🐛 0 \| 🌐 Python \| 📅 2026-10-17                                                                            | 📥 16k         | 📦 738k         | ⭐ 66             | 🟢 last saturday  |
+| 🔗 [pyopenjtalk-plus](https://github.com/tsukumijima/pyopenjtalk-plus) ⭐ 66 \| 🐛 0 \| 🌐 Python \| 📅 2026-10-17                                                                            | 📥 28k         | 📦 770k         | ⭐ 66             | 🟢 last saturday  |
 | 🔗 [japanese\_spelling\_correction](https://github.com/phkhanhtrinh23/japanese_spelling_correction) ⭐ 16 \| 🐛 0 \| 🌐 Python \| 📅 2023-09-19                                               | -              | -               | ⭐ 16             | 🔴 september 2023 |
-| 🔗 [py-kaomoji](https://github.com/shibuiwilliam/py-kaomoji) ⭐ 6 \| 🐛 0 \| 🌐 Python \| 📅 2018-12-09                                                                                       | 📥 8           | 📦 39k          | ⭐ 6              | 🔴 december 2018  |
+| 🔗 [py-kaomoji](https://github.com/shibuiwilliam/py-kaomoji) ⭐ 6 \| 🐛 0 \| 🌐 Python \| 📅 2018-12-09                                                                                       | 📥 38          | 📦 39k          | ⭐ 6              | 🔴 december 2018  |
 | 🔗 [llm-jp-vila](https://github.com/llm-jp/llm-jp-vila) ⭐ 10 \| 🐛 1 \| 🌐 Python \| 📅 2025-08-26                                                                                           | -              | -               | ⭐ 10             | 🔴 august 2025    |
 | 🔗 [kanjivg-radical](https://github.com/yagays/kanjivg-radical) ⭐ 107 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2018-08-07                                                                        | -              | -               | ⭐ 107            | 🔴 august 2018    |
 | 🔗 [japanese-wordnet-visualization](https://github.com/HemingwayLee/japanese-wordnet-visualization) ⭐ 3 \| 🐛 1 \| 🌐 Python \| 📅 2024-02-07                                                | -              | -               | ⭐ 3              | 🔴 november 2022  |
-| 🔗 [piper-plus](https://github.com/ayutaz/piper-plus) ⭐ 237 \| 🐛 8 \| 🌐 Python \| 📅 2026-10-18                                                                                            | -              | -               | ⭐ 235            | 🟢 last saturday  |
-| 🔗 [Japanera](https://github.com/nagataaaas/Japanera) ⭐ 35 \| 🐛 0 \| 🌐 Python \| 📅 2025-06-23                                                                                             | 📥 6k          | 📦 479k         | ⭐ 35             | 🔴 june 2025      |
+| 🔗 [piper-plus](https://github.com/ayutaz/piper-plus) ⭐ 237 \| 🐛 9 \| 🌐 Python \| 📅 2026-10-19                                                                                            | -              | -               | ⭐ 237            | 🟢 last saturday  |
+| 🔗 [Japanera](https://github.com/nagataaaas/Japanera) ⭐ 35 \| 🐛 0 \| 🌐 Python \| 📅 2025-06-23                                                                                             | 📥 9k          | 📦 489k         | ⭐ 35             | 🔴 june 2025      |
 | 🔗 [bert-abstractive-text-summarization](https://github.com/iwasakiyuuki/bert-abstractive-text-summarization) ⭐ 49 \| 🐛 0 \| 🌐 Python \| 📅 2023-05-09                                     | -              | -               | ⭐ 49             | 🔴 december 2019  |
-| 🔗 [kyujipy](https://github.com/drturnon/kyujipy) ⭐ 22 \| 🐛 1 \| 🌐 Python \| 📅 2026-02-11                                                                                                 | 📥 70          | 📦 24k          | ⭐ 22             | 🟡 january        |
+| 🔗 [kyujipy](https://github.com/drturnon/kyujipy) ⭐ 22 \| 🐛 1 \| 🌐 Python \| 📅 2026-02-11                                                                                                 | 📥 77          | 📦 24k          | ⭐ 22             | 🟡 january        |
 | 🔗 [jitenbot](https://github.com/konstantindjairo/jitenbot) ⭐ 4 \| 🐛 0 \| 🌐 Python \| 📅 2024-12-05                                                                                        | -              | -               | ⭐ 4              | 🔴 december 2024  |
 | 🔗 [ja-icd10](https://github.com/yagays/ja-icd10) ⭐ 5 \| 🐛 1 \| 🌐 Python \| 📅 2021-07-09                                                                                                  | -              | -               | ⭐ 5              | 🔴 july 2021      |
 | 🔗 [pl-bert-vits2](https://github.com/tonnetonne814/pl-bert-vits2) ⭐ 14 \| 🐛 1 \| 🌐 Python \| 📅 2023-12-17                                                                                | -              | -               | ⭐ 14             | 🔴 december 2023  |
 | 🔗 [ndc\_predictor](https://github.com/ndl-lab/ndc_predictor) ⭐ 14 \| 🐛 0 \| 📅 2021-08-04                                                                                                  | -              | -               | ⭐ 14             | 🔴 august 2021    |
 | 🔗 [pfmt-bench-fin-ja](https://github.com/pfnet-research/pfmt-bench-fin-ja) ⭐ 9 \| 🐛 0 \| 🌐 Python \| 📅 2025-03-19                                                                        | -              | -               | ⭐ 9              | 🔴 march 2025     |
-| 🔗 [marine-plus](https://github.com/tsukumijima/marine-plus) ⭐ 9 \| 🐛 0 \| 🌐 Python \| 📅 2026-03-22                                                                                       | 📥 83          | 📦 14k          | ⭐ 9              | 🟡 march          |
+| 🔗 [marine-plus](https://github.com/tsukumijima/marine-plus) ⭐ 9 \| 🐛 0 \| 🌐 Python \| 📅 2026-03-22                                                                                       | 📥 146         | 📦 15k          | ⭐ 9              | 🟡 march          |
 | 🔗 [ja-tokenizer-benchmark](https://github.com/polm/ja-tokenizer-benchmark) ⭐ 7 \| 🐛 0 \| 🌐 Python \| 📅 2022-02-24                                                                        | -              | -               | ⭐ 7              | 🔴 february 2022  |
 | 🔗 [yat](https://github.com/yagays/yat) ⭐ 7 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2018-06-19                                                                                                  | -              | -               | ⭐ 7              | 🔴 june 2018      |
 | 🔗 [igakuqa119](https://github.com/docto-rin/igakuqa119) ⭐ 10 \| 🐛 0 \| 🌐 Python \| 📅 2026-09-22                                                                                          | -              | -               | ⭐ 10             | 🟢 september      |
 | 🔗 [japanese-luw-tokenizer](https://github.com/koichiyasuoka/japanese-luw-tokenizer) ⭐ 6 \| 🐛 0 \| 🌐 Python \| 📅 2021-12-21                                                               | -              | -               | ⭐ 6              | 🔴 december 2021  |
 | 🔗 [ibus-jig](https://github.com/y-koj/ibus-jig) ⭐ 4 \| 🐛 1 \| 🌐 Python \| 📅 2023-12-10                                                                                                   | -              | -               | ⭐ 4              | 🔴 december 2023  |
-| 🔗 [jp-stopword-filter](https://github.com/BrambleXu/jp-stopword-filter) ⭐ 4 \| 🐛 0 \| 🌐 Python \| 📅 2026-08-31                                                                           | 📥 0           | 📦 7k           | ⭐ 4              | 🟢 august         |
+| 🔗 [jp-stopword-filter](https://github.com/BrambleXu/jp-stopword-filter) ⭐ 4 \| 🐛 0 \| 🌐 Python \| 📅 2026-08-31                                                                           | 📥 5           | 📦 7k           | ⭐ 4              | 🟢 august         |
 | 🔗 [yasumail](https://github.com/terallite/yasumail) ⭐ 3 \| 🐛 0 \| 🌐 Python \| 📅 2026-01-24                                                                                               | -              | -               | ⭐ 3              | 🟡 january        |
-| 🔗 [himotoki](https://github.com/msr2903/himotoki) ⭐ 8 \| 🐛 0 \| 🌐 HTML \| 📅 2026-10-08                                                                                                   | 📥 63          | 📦 7k           | ⭐ 8              | 🟢 last thursday  |
+| 🔗 [himotoki](https://github.com/msr2903/himotoki) ⭐ 8 \| 🐛 0 \| 🌐 HTML \| 📅 2026-10-08                                                                                                   | 📥 153         | 📦 7k           | ⭐ 8              | 🟢 october        |
 | 🔗 [diafill-toolkit](https://github.com/sbintuitions/diafill-toolkit) ⭐ 0 \| 🐛 2 \| 🌐 Python \| 📅 2026-01-27                                                                              | -              | -               | ⭐ 0              | 🟡 january        |
 | 🔗 [eval\_vertical\_ja](https://github.com/llm-jp/eval_vertical_ja) ⭐ 3 \| 🐛 1 \| 🌐 Python \| 📅 2026-05-24                                                                                | -              | -               | ⭐ 3              | 🟡 may            |
 | 🔗 [jp-llm-corpus-pii-filter](https://github.com/matsuolab/jp-llm-corpus-pii-filter) ⭐ 7 \| 🐛 0 \| 🌐 Python \| 📅 2025-03-25                                                               | -              | -               | ⭐ 7              | 🔴 march 2025     |
 | 🔗 [Novel2DialCorpus](https://github.com/ganbon/Novel2DialCorpus) ⭐ 0 \| 🐛 0 \| 🌐 Python \| 📅 2026-02-10                                                                                  | -              | -               | ⭐ 0              | 🟡 february       |
-| 🔗 [OneCompression](https://github.com/FujitsuResearch/OneCompression) ⭐ 436 \| 🐛 8 \| 🌐 Python \| 📅 2026-10-15                                                                           | -              | -               | ⭐ 434            | 🟢 october        |
+| 🔗 [OneCompression](https://github.com/FujitsuResearch/OneCompression) ⭐ 436 \| 🐛 8 \| 🌐 Python \| 📅 2026-10-15                                                                           | -              | -               | ⭐ 436            | 🟢 last wednesday |
 | 🔗 [manga-translator](https://github.com/georgescutelnicu/manga-translator) ⭐ 27 \| 🐛 0 \| 🌐 Python \| 📅 2026-08-24                                                                       | -              | -               | ⭐ 27             | 🟢 august         |
-| 🔗 [shirabe-address-api](https://github.com/techwell-inc-jp/shirabe-address-api) ⭐ 0 \| 🐛 0 \| 🌐 TypeScript \| 📅 2026-07-17                                                               | -              | -               | ⭐ 0              | 🟢 july           |
+| 🔗 [shirabe-address-api](https://github.com/techwell-inc-jp/shirabe-address-api) ⭐ 0 \| 🐛 0 \| 🌐 TypeScript \| 📅 2026-07-17                                                               | -              | -               | ⭐ 0              | 🟡 july           |
 | 🔗 [medical-paper-summarizer-public](https://github.com/yush02084/medical-paper-summarizer-public) ⭐ 20 \| 🐛 0 \| 🌐 Python \| 📅 2026-04-18                                                | -              | -               | ⭐ 20             | 🟡 april          |
-| 🔗 [Irodori-TTS](https://github.com/Aratako/Irodori-TTS) ⭐ 1,452 \| 🐛 19 \| 🌐 Python \| 📅 2026-09-12                                                                                      | -              | -               | ⭐ 1.4k           | 🟢 september      |
+| 🔗 [Irodori-TTS](https://github.com/Aratako/Irodori-TTS) ⭐ 1,454 \| 🐛 19 \| 🌐 Python \| 📅 2026-09-12                                                                                      | -              | -               | ⭐ 1.5k           | 🟢 september      |
 | 🔗 [sarashina2.2-tts](https://github.com/sbintuitions/sarashina2.2-tts) ⭐ 89 \| 🐛 6 \| 🌐 Python \| 📅 2026-06-29                                                                           | -              | -               | ⭐ 89             | 🟡 june           |
 | 🔗 [manga-translator](https://github.com/Detopall/manga-translator) ⭐ 19 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2026-06-18                                                                     | -              | -               | ⭐ 19             | 🟡 june           |
 | 🔗 [jp-tl-bench](https://github.com/shisa-ai/jp-tl-bench) ⭐ 6 \| 🐛 0 \| 🌐 Python \| 📅 2026-04-23                                                                                          | -              | -               | ⭐ 6              | 🟡 february       |
-| 🔗 [novel2hermes\_jp](https://github.com/kgmkm/novel2hermes_jp) ⭐ 107 \| 🐛 0 \| 🌐 Python \| 📅 2026-09-25                                                                                  | -              | -               | ⭐ 105            | 🟢 september      |
-| 🔗 [moshi-finetune](https://github.com/nu-dialogue/moshi-finetune) ⭐ 106 \| 🐛 5 \| 🌐 Python \| 📅 2026-01-05                                                                               | -              | -               | ⭐ 106            | 🟡 january        |
+| 🔗 [novel2hermes\_jp](https://github.com/kgmkm/novel2hermes_jp) ⭐ 107 \| 🐛 0 \| 🌐 Python \| 📅 2026-09-25                                                                                  | -              | -               | ⭐ 107            | 🟢 september      |
+| 🔗 [moshi-finetune](https://github.com/nu-dialogue/moshi-finetune) ⭐ 106 \| 🐛 5 \| 🌐 Python \| 📅 2026-01-05                                                                               | -              | -               | ⭐ 106            | 🔴 invalid        |
 | 🔗 [simple-evals-mm](https://github.com/llm-jp/simple-evals-mm) ⭐ 5 \| 🐛 1 \| 🌐 Python \| 📅 2026-08-20                                                                                    | -              | -               | ⭐ 5              | 🟢 august         |
 | 🔗 [medvoice-jp-asr](https://github.com/nikotora/medvoice-jp-asr) ⭐ 5 \| 🐛 0 \| 🌐 Python \| 📅 2026-06-27                                                                                  | -              | -               | ⭐ 5              | 🟡 june           |
 | 🔗 [open-zeimu-mcp](https://github.com/zeimu-ai/open-zeimu-mcp) ⭐ 1 \| 🐛 6 \| 🌐 TypeScript \| 📅 2026-06-22                                                                                | -              | -               | ⭐ 1              | 🟡 june           |
 | 🔗 [llm-jp-moshi](https://github.com/llm-jp/llm-jp-moshi) ⭐ 25 \| 🐛 0 \| 🌐 HTML \| 📅 2026-03-17                                                                                           | -              | -               | ⭐ 25             | 🟡 march          |
-| 🔗 [shirabe-sdk-python](https://github.com/techwell-inc-jp/shirabe-sdk-python) ⭐ 0 \| 🐛 0 \| 🌐 Python \| 📅 2026-07-17                                                                     | -              | -               | ⭐ 0              | 🟢 july           |
+| 🔗 [shirabe-sdk-python](https://github.com/techwell-inc-jp/shirabe-sdk-python) ⭐ 0 \| 🐛 0 \| 🌐 Python \| 📅 2026-07-17                                                                     | -              | -               | ⭐ 0              | 🟡 july           |
 | 🔗 [fuseji](https://github.com/sserada/fuseji) ⭐ 1 \| 🐛 1 \| 🌐 Python \| 📅 2026-07-19                                                                                                     | -              | -               | ⭐ 1              | 🟡 june           |
 | 🔗 [moine](https://github.com/tagucci/moine) ⭐ 10 \| 🐛 0 \| 🌐 Rust \| 📅 2026-09-16                                                                                                        | -              | -               | ⭐ 10             | 🟢 september      |
 | 🔗 [bpe2regex](https://github.com/t3tra-dev/bpe2regex) ⭐ 9 \| 🐛 0 \| 🌐 Python \| 📅 2026-08-31                                                                                             | -              | -               | ⭐ 9              | 🟢 august         |
-| 🔗 [sanoTTS-jp](https://github.com/ayutaz/sanoTTS-jp) ⭐ 70 \| 🐛 1 \| 🌐 Python \| 📅 2026-10-01                                                                                             | -              | -               | ⭐ 68             | 🟢 october        |
+| 🔗 [sanoTTS-jp](https://github.com/ayutaz/sanoTTS-jp) ⭐ 70 \| 🐛 1 \| 🌐 Python \| 📅 2026-10-01                                                                                             | -              | -               | ⭐ 70             | 🟢 october        |
 | 🔗 [jev-auto-ime](https://github.com/kzkhykw/jev-auto-ime) ⭐ 11 \| 🐛 0 \| 🌐 Python \| 📅 2026-09-22                                                                                        | -              | -               | ⭐ 11             | 🟢 september      |
-| 🔗 [yomiyasu](https://github.com/nanaism/yomiyasu) ⭐ 2,221 \| 🐛 0 \| 🌐 Python \| 📅 2026-10-17                                                                                             | -              | -               | ⭐ 1.9k           | 🟢 yesterday      |
+| 🔗 [yomiyasu](https://github.com/nanaism/yomiyasu) ⭐ 2,262 \| 🐛 0 \| 🌐 Python \| 📅 2026-10-19                                                                                             | -              | -               | ⭐ 2.3k           | 🟢 today          |
+| 🔗 [natural-japanese-writing](https://github.com/kojikojikojikoji/natural-japanese-writing) ⭐ 1 \| 🐛 0 \| 🌐 Python \| 📅 2026-10-15                                                        | -              | -               | ⭐ 1              | 🟢 october        |
+| 🔗 [TextToVoicevox](https://github.com/rakuyou211-blip/TextToVoicevox) ⭐ 1 \| 🐛 1 \| 🌐 Python \| 📅 2026-10-18                                                                             | -              | -               | ⭐ 1              | 🟢 yesterday      |
+| 🔗 [natural-japanese](https://github.com/coji/natural-japanese) ⭐ 1,940 \| 🐛 0 \| 🌐 Python \| 📅 2026-10-16                                                                                | -              | -               | ⭐ 1.9k           | 🟢 last friday    |
 
 </details>
 
@@ -924,7 +930,7 @@ High-performance libraries for Japanese morphological analysis
 | Name                                                                                      | downloads/week | total downloads | stars  | last commit      |
 | ----------------------------------------------------------------------------------------- | -------------- | --------------- | ------ | ---------------- |
 | 🔗 [mecab](https://github.com/taku910/mecab) ⭐ 1,111 \| 🐛 53 \| 🌐 C++ \| 📅 2025-02-22  | -              | -               | ⭐ 1.1k | 🔴 february 2025 |
-| 🔗 [jumanpp](https://github.com/ku-nlp/jumanpp) ⭐ 413 \| 🐛 30 \| 🌐 C++ \| 📅 2026-10-13 | -              | -               | ⭐ 413  | 🟡 april         |
+| 🔗 [jumanpp](https://github.com/ku-nlp/jumanpp) ⭐ 413 \| 🐛 30 \| 🌐 C++ \| 📅 2026-10-13 | -              | -               | ⭐ 413  | 🟢 last tuesday  |
 | 🔗 [kytea](https://github.com/neubig/kytea) ⭐ 217 \| 🐛 8 \| 🌐 C++ \| 📅 2020-04-03      | -              | -               | ⭐ 217  | 🔴 april 2020    |
 | 🔗 [juman](https://github.com/ku-nlp/juman) ⭐ 12 \| 🐛 0 \| 🌐 C \| 📅 2021-12-09         | -              | -               | ⭐ 12   | 🔴 december 2021 |
 
@@ -947,8 +953,8 @@ Other Japanese NLP and text processing libraries
 <details markdown="1">
 <summary>Show 7 items</summary>
 
-* [mozc](https://github.com/google/mozc) ⭐ 3,016 | 🐛 31 | 🌐 C++ | 📅 2026-10-16 - Mozc - a Japanese Input Method Editor designed for multi-platform
-* [mozuku](https://github.com/t3tra-dev/mozuku) ⭐ 420 | 🐛 4 | 🌐 C++ | 📅 2026-04-03 - 日本語文章の解析・校正を行う LSP サーバー。
+* [mozc](https://github.com/google/mozc) ⭐ 3,017 | 🐛 31 | 🌐 C++ | 📅 2026-10-16 - Mozc - a Japanese Input Method Editor designed for multi-platform
+* [mozuku](https://github.com/t3tra-dev/mozuku) ⭐ 421 | 🐛 4 | 🌐 C++ | 📅 2026-04-03 - 日本語文章の解析・校正を行う LSP サーバー。
 * [corvusskk](https://github.com/nathancorvussolis/corvusskk) ⭐ 378 | 🐛 1 | 🌐 C | 📅 2026-08-27 - ▽▼ SKK-like Japanese Input Method Editor for Windows
 * [aquaskk](https://github.com/codefirst/aquaskk) ⭐ 373 | 🐛 31 | 🌐 C++ | 📅 2026-09-28 - An input method without morphological analysis.
 * [resembla](https://github.com/tuem/resembla) ⭐ 74 | 🐛 4 | 🌐 C++ | 📅 2025-08-03 - Resembla: Word-based Japanese similar sentence search library
@@ -959,11 +965,11 @@ Other Japanese NLP and text processing libraries
 | ----------------------------------------------------------------------------------------------------- | -------------- | --------------- | ----- | ---------------- |
 | 🔗 [jsc](https://github.com/yohokuno/jsc) ⭐ 15 \| 🐛 0 \| 🌐 C++ \| 📅 2012-12-19                     | -              | -               | ⭐ 15  | 🔴 december 2012 |
 | 🔗 [aquaskk](https://github.com/codefirst/aquaskk) ⭐ 373 \| 🐛 31 \| 🌐 C++ \| 📅 2026-09-28          | -              | -               | ⭐ 373 | 🟢 september     |
-| 🔗 [mozc](https://github.com/google/mozc) ⭐ 3,016 \| 🐛 31 \| 🌐 C++ \| 📅 2026-10-16                 | -              | -               | ⭐ 3k  | 🟢 last friday   |
+| 🔗 [mozc](https://github.com/google/mozc) ⭐ 3,017 \| 🐛 31 \| 🌐 C++ \| 📅 2026-10-16                 | -              | -               | ⭐ 3k  | 🟢 last friday   |
 | 🔗 [trimatch](https://github.com/tuem/trimatch) ⭐ 2 \| 🐛 0 \| 🌐 C++ \| 📅 2026-02-06                | -              | -               | ⭐ 2   | 🟡 february      |
 | 🔗 [resembla](https://github.com/tuem/resembla) ⭐ 74 \| 🐛 4 \| 🌐 C++ \| 📅 2025-08-03               | -              | -               | ⭐ 74  | 🔴 august 2025   |
-| 🔗 [corvusskk](https://github.com/nathancorvussolis/corvusskk) ⭐ 378 \| 🐛 1 \| 🌐 C \| 📅 2026-08-27 | -              | -               | ⭐ 376 | 🟢 august        |
-| 🔗 [mozuku](https://github.com/t3tra-dev/mozuku) ⭐ 420 \| 🐛 4 \| 🌐 C++ \| 📅 2026-04-03             | -              | -               | ⭐ 419 | 🟡 april         |
+| 🔗 [corvusskk](https://github.com/nathancorvussolis/corvusskk) ⭐ 378 \| 🐛 1 \| 🌐 C \| 📅 2026-08-27 | -              | -               | ⭐ 378 | 🟢 august        |
+| 🔗 [mozuku](https://github.com/t3tra-dev/mozuku) ⭐ 421 \| 🐛 4 \| 🌐 C++ \| 📅 2026-04-03             | -              | -               | ⭐ 421 | 🟡 april         |
 
 </details>
 
@@ -973,8 +979,8 @@ Other Japanese NLP and text processing libraries
 
 Fast Japanese morphological analysis crates written in Rust
 
-* [lindera](https://github.com/lindera-morphology/lindera) ⭐ 694 | 🐛 12 | 🌐 Rust | 📅 2026-10-17 - A morphological analysis library.
-* [vibrato](https://github.com/daac-tools/vibrato) ⭐ 427 | 🐛 8 | 🌐 Rust | 📅 2026-10-18 - vibrato: Viterbi-based accelerated tokenizer
+* [lindera](https://github.com/lindera-morphology/lindera) ⭐ 695 | 🐛 14 | 🌐 Rust | 📅 2026-10-19 - A morphological analysis library.
+* [vibrato](https://github.com/daac-tools/vibrato) ⭐ 428 | 🐛 8 | 🌐 Rust | 📅 2026-10-18 - vibrato: Viterbi-based accelerated tokenizer
 * [vaporetto](https://github.com/daac-tools/vaporetto) ⭐ 299 | 🐛 3 | 🌐 Rust | 📅 2026-10-16 - Vaporetto: Very Accelerated POintwise pREdicTion based TOkenizer
 * [kanpyo](https://github.com/togatoga/kanpyo) ⭐ 109 | 🐛 7 | 🌐 Rust | 📅 2026-10-09 - Japanese Morphological Analyzer written in Rust
 * [goya](https://github.com/Leko/goya) ⭐ 84 | 🐛 3 | 🌐 Rust | 📅 2021-12-30 - Japanese Morphological Analysis written in Rust
@@ -985,12 +991,12 @@ Fast Japanese morphological analysis crates written in Rust
 
 | Name                                                                                                   | downloads/week | total downloads | stars | last commit       |
 | ------------------------------------------------------------------------------------------------------ | -------------- | --------------- | ----- | ----------------- |
-| 🔗 [lindera](https://github.com/lindera-morphology/lindera) ⭐ 694 \| 🐛 12 \| 🌐 Rust \| 📅 2026-10-17 | -              | 📦 2.6M         | ⭐ 692 | 🟢 today          |
-| 🔗 [vaporetto](https://github.com/daac-tools/vaporetto) ⭐ 299 \| 🐛 3 \| 🌐 Rust \| 📅 2026-10-16      | -              | 📦 332k         | ⭐ 299 | 🟢 july           |
+| 🔗 [lindera](https://github.com/lindera-morphology/lindera) ⭐ 695 \| 🐛 14 \| 🌐 Rust \| 📅 2026-10-19 | -              | 📦 2.8M         | ⭐ 695 | 🟢 last saturday  |
+| 🔗 [vaporetto](https://github.com/daac-tools/vaporetto) ⭐ 299 \| 🐛 3 \| 🌐 Rust \| 📅 2026-10-16      | -              | 📦 341k         | ⭐ 299 | 🟢 last friday    |
 | 🔗 [goya](https://github.com/Leko/goya) ⭐ 84 \| 🐛 3 \| 🌐 Rust \| 📅 2021-12-30                       | -              | 📦 12k          | ⭐ 84  | 🔴 december 2021  |
-| 🔗 [vibrato](https://github.com/daac-tools/vibrato) ⭐ 427 \| 🐛 8 \| 🌐 Rust \| 📅 2026-10-18          | -              | 📦 98k          | ⭐ 425 | 🟢 october        |
+| 🔗 [vibrato](https://github.com/daac-tools/vibrato) ⭐ 428 \| 🐛 8 \| 🌐 Rust \| 📅 2026-10-18          | -              | 📦 100k         | ⭐ 428 | 🟢 yesterday      |
 | 🔗 [yoin](https://github.com/agatan/yoin) ⭐ 26 \| 🐛 2 \| 🌐 Rust \| 📅 2019-10-25                     | -              | 📦 3.1k         | ⭐ 26  | 🔴 october 2017   |
-| 🔗 [mecab-rs](https://github.com/tsurai/mecab-rs) ⭐ 72 \| 🐛 2 \| 🌐 Rust \| 📅 2023-09-03             | -              | 📦 41k          | ⭐ 72  | 🔴 september 2023 |
+| 🔗 [mecab-rs](https://github.com/tsurai/mecab-rs) ⭐ 72 \| 🐛 2 \| 🌐 Rust \| 📅 2023-09-03             | -              | 📦 42k          | ⭐ 72  | 🔴 september 2023 |
 | 🔗 [awabi](https://github.com/nakagami/awabi) ⭐ 11 \| 🐛 0 \| 🌐 Rust \| 📅 2025-11-16                 | -              | 📦 27k          | ⭐ 11  | 🟡 november 2025  |
 | 🔗 [kanpyo](https://github.com/togatoga/kanpyo) ⭐ 109 \| 🐛 7 \| 🌐 Rust \| 📅 2026-10-09              | -              | 📦 2.5k         | ⭐ 109 | 🟡 february       |
 | 🔗 [mecrab](https://github.com/cool-japan/mecrab) ⭐ 8 \| 🐛 1 \| 🌐 Rust \| 📅 2026-10-05              | -              | -               | ⭐ 8   | 🟡 january        |
@@ -1002,26 +1008,26 @@ Crates for script and character conversion in Japanese text
 * [wana\_kana\_rust](https://github.com/PSeitz/wana_kana_rust) ⭐ 91 | 🐛 6 | 🌐 Rust | 📅 2026-05-08 - Utility library for checking and converting between Japanese characters - Hiragana, Katakana - and Romaji
 * [yosina](https://github.com/yosina-lib/yosina) ⭐ 27 | 🐛 0 | 🌐 Rust | 📅 2026-04-18 - Yosina is a transliteration library deals with the letters and symbols used in Japanese writing.
 * [kanaria](https://github.com/samunohito/kanaria) ⭐ 21 | 🐛 2 | 🌐 Rust | 📅 2026-02-14 - このライブラリは、ひらがな・カタカナ、半角・全角の相互変換や判別を始めとした機能を提供します。
-* [ja-furigana](https://github.com/RyuuNeko1107/ja-furigana) ⭐ 21 | 🐛 11 | 🌐 Rust | 📅 2026-10-18 - 日本語フリガナ (ルビ) を扱う Rust 製ライブラリ + ローカル HTTP サーバー。ルールはすべてデータ駆動 (TOML)。
+* [ja-furigana](https://github.com/RyuuNeko1107/ja-furigana) ⭐ 21 | 🐛 9 | 🌐 Rust | 📅 2026-10-19 - 日本語フリガナ (ルビ) を扱う Rust 製ライブラリ + ローカル HTTP サーバー。ルールはすべてデータ駆動 (TOML)。
 * [unicode-jp-rs](https://github.com/gemmarx/unicode-jp-rs) ⭐ 19 | 🐛 2 | 🌐 Rust | 📅 2024-03-11 - A Rust library to convert Japanese Half-width-kana\[半角ｶﾅ] and Wide-alphanumeric\[全角英数] into normal ones
 * [japanese-address-parser](https://github.com/yuukitoriyama/japanese-address-parser) ⭐ 14 | 🐛 49 | 🌐 Rust | 📅 2026-07-14 - 日本の住所を都道府県/市区町村/町名/その他に分割するライブラリです
-* [kana](https://github.com/gbrlsnchs/kana) ⭐ 12 | 🐛 1 | 🌐 Zig | 📅 2023-02-10 - \[Mirror] CLI program for transliterating romaji text to either hiragana or katakana
+* [kana](https://github.com/gbrlsnchs/kana) ⭐ 12 | 🐛 1 | 🌐 Zig | 📅 2026-10-19 - \[Mirror] CLI program for transliterating romaji text to either hiragana or katakana
 * [haqumei](https://github.com/o24s/haqumei) ⭐ 11 | 🐛 1 | 🌐 Rust | 📅 2026-10-11 - A Japanese Grapheme-to-Phoneme (G2P) library.
 * [mojimoji-rs](https://github.com/europeanplaice/mojimoji-rs) ⭐ 4 | 🐛 0 | 🌐 Rust | 📅 2022-11-14 - Rust implementation of a fast converter between Japanese hankaku and zenkaku characters, mojimoji.
 * [jpnorm](https://github.com/yoshitakaoyama/jpnorm) ⭐ 1 | 🐛 5 | 🌐 Rust | 📅 2026-10-11 - 日本語テキスト正規化ライブラリ (Rust core + Python)。neologdn 互換・用途別プリセット・URL 保護・カスタム辞書 / Fast, configurable Japanese text normalization
 
 | Name                                                                                                                             | downloads/week | total downloads | stars | last commit      |
 | -------------------------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | ----- | ---------------- |
-| 🔗 [wana\_kana\_rust](https://github.com/PSeitz/wana_kana_rust) ⭐ 91 \| 🐛 6 \| 🌐 Rust \| 📅 2026-05-08                         | -              | 📦 655k         | ⭐ 91  | 🟡 may           |
+| 🔗 [wana\_kana\_rust](https://github.com/PSeitz/wana_kana_rust) ⭐ 91 \| 🐛 6 \| 🌐 Rust \| 📅 2026-05-08                         | -              | 📦 667k         | ⭐ 91  | 🟡 may           |
 | 🔗 [unicode-jp-rs](https://github.com/gemmarx/unicode-jp-rs) ⭐ 19 \| 🐛 2 \| 🌐 Rust \| 📅 2024-03-11                            | -              | 📦 70k          | ⭐ 19  | 🔴 april 2020    |
-| 🔗 [kana](https://github.com/gbrlsnchs/kana) ⭐ 12 \| 🐛 1 \| 🌐 Zig \| 📅 2023-02-10                                             | -              | -               | ⭐ 12  | 🔴 january 2023  |
+| 🔗 [kana](https://github.com/gbrlsnchs/kana) ⭐ 12 \| 🐛 1 \| 🌐 Zig \| 📅 2026-10-19                                             | -              | -               | ⭐ 12  | 🔴 january 2023  |
 | 🔗 [kanaria](https://github.com/samunohito/kanaria) ⭐ 21 \| 🐛 2 \| 🌐 Rust \| 📅 2026-02-14                                     | -              | -               | ⭐ 21  | 🟡 february      |
 | 🔗 [japanese-address-parser](https://github.com/yuukitoriyama/japanese-address-parser) ⭐ 14 \| 🐛 49 \| 🌐 Rust \| 📅 2026-07-14 | -              | -               | ⭐ 14  | 🟡 june          |
 | 🔗 [yosina](https://github.com/yosina-lib/yosina) ⭐ 27 \| 🐛 0 \| 🌐 Rust \| 📅 2026-04-18                                       | -              | -               | ⭐ 27  | 🟡 april         |
 | 🔗 [mojimoji-rs](https://github.com/europeanplaice/mojimoji-rs) ⭐ 4 \| 🐛 0 \| 🌐 Rust \| 📅 2022-11-14                          | -              | -               | ⭐ 4   | 🔴 november 2022 |
-| 🔗 [haqumei](https://github.com/o24s/haqumei) ⭐ 11 \| 🐛 1 \| 🌐 Rust \| 📅 2026-10-11                                           | -              | -               | ⭐ 10  | 🟢 yesterday     |
-| 🔗 [ja-furigana](https://github.com/RyuuNeko1107/ja-furigana) ⭐ 21 \| 🐛 11 \| 🌐 Rust \| 📅 2026-10-18                          | -              | -               | ⭐ 21  | 🟢 today         |
-| 🔗 [jpnorm](https://github.com/yoshitakaoyama/jpnorm) ⭐ 1 \| 🐛 5 \| 🌐 Rust \| 📅 2026-10-11                                    | -              | -               | ⭐ 1   | 🟢 yesterday     |
+| 🔗 [haqumei](https://github.com/o24s/haqumei) ⭐ 11 \| 🐛 1 \| 🌐 Rust \| 📅 2026-10-11                                           | -              | -               | ⭐ 11  | 🟢 october       |
+| 🔗 [ja-furigana](https://github.com/RyuuNeko1107/ja-furigana) ⭐ 21 \| 🐛 9 \| 🌐 Rust \| 📅 2026-10-19                           | -              | -               | ⭐ 21  | 🟢 today         |
+| 🔗 [jpnorm](https://github.com/yoshitakaoyama/jpnorm) ⭐ 1 \| 🐛 5 \| 🌐 Rust \| 📅 2026-10-11                                    | -              | -               | ⭐ 1   | 🟢 october       |
 
 ### Search engine library
 
@@ -1035,7 +1041,7 @@ Libraries for Japanese full-text search and indexing
 
 | Name                                                                                                                 | downloads/week | total downloads | stars | last commit |
 | -------------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | ----- | ----------- |
-| 🔗 [lindera-tantivy](https://github.com/lindera-morphology/lindera-tantivy) ⭐ 70 \| 🐛 2 \| 🌐 Rust \| 📅 2026-08-07 | -              | 📦 234k         | ⭐ 70  | 🟢 august   |
+| 🔗 [lindera-tantivy](https://github.com/lindera-morphology/lindera-tantivy) ⭐ 70 \| 🐛 2 \| 🌐 Rust \| 📅 2026-08-07 | -              | 📦 237k         | ⭐ 70  | 🟢 august   |
 | 🔗 [tantivy-vibrato](https://github.com/akr4/tantivy-vibrato) ⭐ 3 \| 🐛 0 \| 🌐 Rust \| 📅 2026-04-29                | -              | 📦 1.6k         | ⭐ 3   | 🟡 april    |
 | 🔗 [sqlite-vaporetto](https://github.com/hotchpotch/sqlite-vaporetto) ⭐ 21 \| 🐛 0 \| 🌐 Rust \| 📅 2026-04-30       | -              | -               | ⭐ 21  | 🟡 april    |
 | 🔗 [duckdb-vaporetto](https://github.com/hotchpotch/duckdb-vaporetto) ⭐ 12 \| 🐛 0 \| 🌐 Rust \| 📅 2026-04-30       | -              | -               | ⭐ 12  | 🟡 april    |
@@ -1048,15 +1054,15 @@ Supplementary crates for Japanese text and IME processing
 <details markdown="1">
 <summary>Show 26 items</summary>
 
-* [koharu](https://github.com/mayocream/koharu) ⭐ 6,390 | 🐛 142 | 🌐 Rust | 📅 2026-10-16 - Automated manga translation tool with LLM, written in Rust.
-* [voicevox\_core](https://github.com/VOICEVOX/voicevox_core) ⭐ 1,140 | 🐛 162 | 🌐 Rust | 📅 2026-10-18 - 無料で使える中品質なテキスト読み上げソフトウェア、VOICEVOXのコア
+* [koharu](https://github.com/mayocream/koharu) ⭐ 6,412 | 🐛 142 | 🌐 Rust | 📅 2026-10-19 - Automated manga translation tool with LLM, written in Rust.
+* [voicevox\_core](https://github.com/VOICEVOX/voicevox_core) ⭐ 1,142 | 🐛 160 | 🌐 Rust | 📅 2026-10-19 - 無料で使える中品質なテキスト読み上げソフトウェア、VOICEVOXのコア
 * [daachorse](https://github.com/daac-tools/daachorse) ⭐ 285 | 🐛 0 | 🌐 Rust | 📅 2026-10-18 - A fast implementation of the Aho-Corasick algorithm using the compact double-array data structure in Rust.
 * [akaza](https://github.com/akaza-im/akaza) ⭐ 265 | 🐛 24 | 🌐 Rust | 📅 2026-06-08 - Yet another Japanese IME for IBus/Linux
 * [vime](https://github.com/algon-320/vime) ⭐ 228 | 🐛 2 | 🌐 Rust | 📅 2022-12-03 - Using Vim as an input method for X11 apps
 * [Jotoba](https://github.com/WeDontPanic/Jotoba) ⭐ 210 | 🐛 6 | 🌐 Rust | 📅 2024-01-22 - A free online, self-hostable, multilang Japanese dictionary.
-* [suiko](https://github.com/nwiizo/suiko) ⭐ 114 | 🐛 5 | 🌐 Rust | 📅 2026-10-17 - 日本語文書の自然さと読みやすさを再現可能に診断するRust CLI / Deterministic diagnostics for natural and readable Japanese writing
+* [suiko](https://github.com/nwiizo/suiko) ⭐ 114 | 🐛 6 | 🌐 Rust | 📅 2026-10-17 - 日本語文書の自然さと読みやすさを再現可能に診断するRust CLI / Deterministic diagnostics for natural and readable Japanese writing
 * [cskk](https://github.com/naokiri/cskk) ⭐ 85 | 🐛 21 | 🌐 Rust | 📅 2026-10-11 - SKK (Simple Kana Kanji henkan) library
-* [hujiang\_dictionary](https://github.com/asutorufa/hujiang_dictionary) ⭐ 72 | 🐛 3 | 🌐 Rust | 📅 2026-10-16 - 日本語辞書 by Rust, support Telegram bot, AWS Lambda and Cloudflare Workers. Support LLM and search RAG.
+* [hujiang\_dictionary](https://github.com/asutorufa/hujiang_dictionary) ⭐ 73 | 🐛 3 | 🌐 Rust | 📅 2026-10-16 - 日本語辞書 by Rust, support Telegram bot, AWS Lambda and Cloudflare Workers. Support LLM and search RAG.
 * [yomine](https://github.com/mcgrizzz/yomine) ⭐ 66 | 🐛 7 | 🌐 Rust | 📅 2026-10-15 - A Japanese vocabulary mining tool designed to help language learners mine new words and expressions.
 * [find-simdoc](https://github.com/legalforce-research/find-simdoc) ⭐ 62 | 🐛 1 | 🌐 Rust | 📅 2025-03-13 - Finding all pairs of similar documents time- and memory-efficiently
 * [jpreprocess](https://github.com/jpreprocess/jpreprocess) ⭐ 60 | 🐛 26 | 🌐 Rust | 📅 2026-10-18 - Japanese text preprocessor for Text-to-Speech applications (OpenJTalk rewrite in rust language)
@@ -1077,31 +1083,31 @@ Supplementary crates for Japanese text and IME processing
 
 | Name                                                                                                                             | downloads/week | total downloads | stars  | last commit       |
 | -------------------------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | ------ | ----------------- |
-| 🔗 [daachorse](https://github.com/daac-tools/daachorse) ⭐ 285 \| 🐛 0 \| 🌐 Rust \| 📅 2026-10-18                                | -              | 📦 7.8M         | ⭐ 284  | 🟢 august         |
+| 🔗 [daachorse](https://github.com/daac-tools/daachorse) ⭐ 285 \| 🐛 0 \| 🌐 Rust \| 📅 2026-10-18                                | -              | 📦 8.6M         | ⭐ 285  | 🟢 yesterday      |
 | 🔗 [find-simdoc](https://github.com/legalforce-research/find-simdoc) ⭐ 62 \| 🐛 1 \| 🌐 Rust \| 📅 2025-03-13                    | -              | 📦 29k          | ⭐ 62   | 🔴 march 2025     |
-| 🔗 [crawdad](https://github.com/daac-tools/crawdad) ⭐ 39 \| 🐛 0 \| 🌐 Rust \| 📅 2026-08-12                                     | -              | 📦 194k         | ⭐ 39   | 🟢 august         |
+| 🔗 [crawdad](https://github.com/daac-tools/crawdad) ⭐ 39 \| 🐛 0 \| 🌐 Rust \| 📅 2026-08-12                                     | -              | 📦 234k         | ⭐ 39   | 🟢 august         |
 | 🔗 [tokenizer-speed-bench](https://github.com/legalforce-research/tokenizer-speed-bench) ⭐ 4 \| 🐛 0 \| 🌐 Rust \| 📅 2023-03-07 | -              | -               | ⭐ 4    | 🔴 march 2023     |
 | 🔗 [stringmatch-bench](https://github.com/legalforce-research/stringmatch-bench) ⭐ 3 \| 🐛 0 \| 🌐 Rust \| 📅 2022-09-30         | -              | -               | ⭐ 3    | 🔴 september 2022 |
 | 🔗 [vime](https://github.com/algon-320/vime) ⭐ 228 \| 🐛 2 \| 🌐 Rust \| 📅 2022-12-03                                           | -              | -               | ⭐ 228  | 🔴 november 2022  |
-| 🔗 [voicevox\_core](https://github.com/VOICEVOX/voicevox_core) ⭐ 1,140 \| 🐛 162 \| 🌐 Rust \| 📅 2026-10-18                     | -              | -               | ⭐ 1.1k | 🟢 yesterday      |
+| 🔗 [voicevox\_core](https://github.com/VOICEVOX/voicevox_core) ⭐ 1,142 \| 🐛 160 \| 🌐 Rust \| 📅 2026-10-19                     | -              | -               | ⭐ 1.1k | 🟢 yesterday      |
 | 🔗 [akaza](https://github.com/akaza-im/akaza) ⭐ 265 \| 🐛 24 \| 🌐 Rust \| 📅 2026-06-08                                         | -              | -               | ⭐ 265  | 🟡 june           |
 | 🔗 [Jotoba](https://github.com/WeDontPanic/Jotoba) ⭐ 210 \| 🐛 6 \| 🌐 Rust \| 📅 2024-01-22                                     | -              | -               | ⭐ 210  | 🔴 january 2024   |
 | 🔗 [dvorakjp-romantable](https://github.com/shinespark/dvorakjp-romantable) ⭐ 58 \| 🐛 0 \| 🌐 Rust \| 📅 2026-10-01             | -              | -               | ⭐ 58   | 🟢 october        |
 | 🔗 [niinii](https://github.com/Netdex/niinii) ⭐ 16 \| 🐛 0 \| 🌐 Rust \| 📅 2026-10-03                                           | -              | -               | ⭐ 16   | 🟢 october        |
-| 🔗 [cskk](https://github.com/naokiri/cskk) ⭐ 85 \| 🐛 21 \| 🌐 Rust \| 📅 2026-10-11                                             | -              | -               | ⭐ 85   | 🟢 yesterday      |
+| 🔗 [cskk](https://github.com/naokiri/cskk) ⭐ 85 \| 🐛 21 \| 🌐 Rust \| 📅 2026-10-11                                             | -              | -               | ⭐ 85   | 🟢 october        |
 | 🔗 [japanki](https://github.com/tysonwu/japanki) ⭐ 4 \| 🐛 0 \| 🌐 Rust \| 📅 2023-10-16                                         | -              | -               | ⭐ 4    | 🔴 october 2023   |
 | 🔗 [jpreprocess](https://github.com/jpreprocess/jpreprocess) ⭐ 60 \| 🐛 26 \| 🌐 Rust \| 📅 2026-10-18                           | -              | -               | ⭐ 60   | 🟡 june           |
-| 🔗 [listup\_precedent](https://github.com/japanese-law-analysis/listup_precedent) ⭐ 7 \| 🐛 0 \| 🌐 Rust \| 📅 2026-07-01        | -              | -               | ⭐ 7    | 🟢 july           |
+| 🔗 [listup\_precedent](https://github.com/japanese-law-analysis/listup_precedent) ⭐ 7 \| 🐛 0 \| 🌐 Rust \| 📅 2026-07-01        | -              | -               | ⭐ 7    | 🟡 july           |
 | 🔗 [jisho](https://github.com/eagleflo/jisho) ⭐ 18 \| 🐛 5 \| 🌐 Rust \| 📅 2026-04-02                                           | -              | -               | ⭐ 18   | 🟡 april          |
 | 🔗 [kanalizer](https://github.com/voicevox/kanalizer) ⭐ 31 \| 🐛 15 \| 🌐 Rust \| 📅 2026-05-04                                  | -              | -               | ⭐ 31   | 🟡 may            |
-| 🔗 [koharu](https://github.com/mayocream/koharu) ⭐ 6,390 \| 🐛 142 \| 🌐 Rust \| 📅 2026-10-16                                   | -              | -               | ⭐ 6k   | 🟢 last thursday  |
-| 🔗 [yomine](https://github.com/mcgrizzz/yomine) ⭐ 66 \| 🐛 7 \| 🌐 Rust \| 📅 2026-10-15                                         | -              | -               | ⭐ 64   | 🟢 october        |
+| 🔗 [koharu](https://github.com/mayocream/koharu) ⭐ 6,412 \| 🐛 142 \| 🌐 Rust \| 📅 2026-10-19                                   | -              | -               | ⭐ 6.4k | 🟢 today          |
+| 🔗 [yomine](https://github.com/mcgrizzz/yomine) ⭐ 66 \| 🐛 7 \| 🌐 Rust \| 📅 2026-10-15                                         | -              | -               | ⭐ 66   | 🟢 last thursday  |
 | 🔗 [matsuba](https://github.com/mrpicklepinosaur/matsuba) ⭐ 19 \| 🐛 24 \| 🌐 Rust \| 📅 2023-03-23                              | -              | -               | ⭐ 19   | 🔴 march 2023     |
-| 🔗 [hujiang\_dictionary](https://github.com/asutorufa/hujiang_dictionary) ⭐ 72 \| 🐛 3 \| 🌐 Rust \| 📅 2026-10-16               | -              | -               | ⭐ 72   | 🟢 october        |
+| 🔗 [hujiang\_dictionary](https://github.com/asutorufa/hujiang_dictionary) ⭐ 73 \| 🐛 3 \| 🌐 Rust \| 📅 2026-10-16               | -              | -               | ⭐ 73   | 🟢 october        |
 | 🔗 [mecab-dic-converter](https://github.com/tomokane/mecab-dic-converter) ⭐ 1 \| 🐛 2 \| 🌐 Rust \| 📅 2026-05-29                | -              | -               | ⭐ 1    | 🟡 may            |
-| 🔗 [jp-deinflector](https://github.com/btrkeks/jp-deinflector) ⭐ 8 \| 🐛 2 \| 🌐 Rust \| 📅 2026-07-29                           | -              | -               | ⭐ 7    | 🟢 july           |
+| 🔗 [jp-deinflector](https://github.com/btrkeks/jp-deinflector) ⭐ 8 \| 🐛 2 \| 🌐 Rust \| 📅 2026-07-29                           | -              | -               | ⭐ 8    | 🟡 july           |
 | 🔗 [mikke](https://github.com/kimushun1101/mikke) ⭐ 49 \| 🐛 2 \| 🌐 Rust \| 📅 2026-09-04                                       | -              | -               | ⭐ 49   | 🟢 august         |
-| 🔗 [suiko](https://github.com/nwiizo/suiko) ⭐ 114 \| 🐛 5 \| 🌐 Rust \| 📅 2026-10-17                                            | -              | -               | ⭐ 114  | 🟢 last wednesday |
+| 🔗 [suiko](https://github.com/nwiizo/suiko) ⭐ 114 \| 🐛 6 \| 🌐 Rust \| 📅 2026-10-17                                            | -              | -               | ⭐ 114  | 🟢 october        |
 | 🔗 [daac-bpe](https://github.com/vbkaisetsu/daac-bpe) ⭐ 3 \| 🐛 0 \| 🌐 Rust \| 📅 2026-08-31                                    | -              | -               | ⭐ 3    | 🟢 august         |
 
 </details>
@@ -1120,11 +1126,11 @@ Japanese morphological analysis libraries for browser and Node.js
 
 | Name                                                                                                              | downloads/week | total downloads | stars | last commit      |
 | ----------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | ----- | ---------------- |
-| 🔗 [kuromoji.js](https://github.com/takuyaa/kuromoji.js) ⭐ 1,006 \| 🐛 23 \| 🌐 JavaScript \| 📅 2023-11-12       | 📥 354k/week   | 📦 13M          | ⭐ 1k  | 🔴 november 2018 |
-| 🔗 [rakutenma](https://github.com/rakuten-nlp/rakutenma) ⭐ 471 \| 🐛 8 \| 🌐 JavaScript \| 📅 2019-02-02          | 📥 15/week     | 📦 1.3k         | ⭐ 471 | 🔴 january 2015  |
-| 🔗 [node-mecab-ya](https://github.com/golbin/node-mecab-ya) ⭐ 110 \| 🐛 2 \| 🌐 JavaScript \| 📅 2022-10-20       | 📥 161/week    | 📦 8k           | ⭐ 110 | 🔴 june 2021     |
-| 🔗 [juman-bin](https://github.com/thammin/juman-bin) ⭐ 3 \| 🐛 0 \| 🌐 JavaScript \| 📅 2017-05-11                | 📥 0/week      | 📦 487          | ⭐ 3   | 🔴 may 2017      |
-| 🔗 [node-mecab-async](https://github.com/hecomi/node-mecab-async) ⭐ 104 \| 🐛 1 \| 🌐 JavaScript \| 📅 2023-07-24 | 📥 2.1k/week   | 📦 314k         | ⭐ 104 | 🔴 october 2017  |
+| 🔗 [kuromoji.js](https://github.com/takuyaa/kuromoji.js) ⭐ 1,006 \| 🐛 23 \| 🌐 JavaScript \| 📅 2023-11-12       | 📥 177k/week   | 📦 13M          | ⭐ 1k  | 🔴 november 2018 |
+| 🔗 [rakutenma](https://github.com/rakuten-nlp/rakutenma) ⭐ 471 \| 🐛 8 \| 🌐 JavaScript \| 📅 2019-02-02          | 📥 21/week     | 📦 1.3k         | ⭐ 471 | 🔴 january 2015  |
+| 🔗 [node-mecab-ya](https://github.com/golbin/node-mecab-ya) ⭐ 110 \| 🐛 2 \| 🌐 JavaScript \| 📅 2022-10-20       | 📥 54/week     | 📦 7.9k         | ⭐ 110 | 🔴 june 2021     |
+| 🔗 [juman-bin](https://github.com/thammin/juman-bin) ⭐ 3 \| 🐛 0 \| 🌐 JavaScript \| 📅 2017-05-11                | 📥 4/week      | 📦 479          | ⭐ 3   | 🔴 may 2017      |
+| 🔗 [node-mecab-async](https://github.com/hecomi/node-mecab-async) ⭐ 104 \| 🐛 1 \| 🌐 JavaScript \| 📅 2023-07-24 | 📥 854/week    | 📦 307k         | ⭐ 104 | 🔴 october 2017  |
 
 ### Converter
 
@@ -1149,21 +1155,21 @@ Libraries for converting Japanese scripts and readings
 
 | Name                                                                                                                                         | downloads/week | total downloads | stars | last commit      |
 | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | ----- | ---------------- |
-| 🔗 [kuroshiro](https://github.com/hexenq/kuroshiro) ⭐ 1,000 \| 🐛 18 \| 🌐 JavaScript \| 📅 2026-10-17                                       | 📥 27k/week    | 📦 934k         | ⭐ 996 | 🟢 last thursday |
-| 🔗 [kuroshiro-analyzer-kuromoji](https://github.com/hexenq/kuroshiro-analyzer-kuromoji) ⭐ 72 \| 🐛 2 \| 🌐 JavaScript \| 📅 2026-10-17       | 📥 26k/week    | 📦 916k         | ⭐ 72  | 🟢 september     |
-| 🔗 [hepburn](https://github.com/lovell/hepburn) ⭐ 132 \| 🐛 4 \| 🌐 JavaScript \| 📅 2026-10-09                                              | 📥 60k/week    | 📦 6.7M         | ⭐ 132 | 🟢 last friday   |
-| 🔗 [japanese-numerals-to-number](https://github.com/twada/japanese-numerals-to-number) ⭐ 59 \| 🐛 1 \| 🌐 JavaScript \| 📅 2023-07-19        | 📥 131k/week   | 📦 3.7M         | ⭐ 59  | 🔴 february 2023 |
-| 🔗 [jslingua](https://github.com/kariminf/jslingua) ⭐ 53 \| 🐛 11 \| 🌐 JavaScript \| 📅 2023-10-19                                          | 📥 182/week    | 📦 9.7k         | ⭐ 53  | 🔴 october 2023  |
-| 🔗 [WanaKana](https://github.com/WaniKani/WanaKana) ⭐ 944 \| 🐛 29 \| 🌐 JavaScript \| 📅 2026-06-29                                         | 📥 85k/week    | 📦 3.6M         | ⭐ 943 | 🟡 june          |
-| 🔗 [node-romaji-name](https://github.com/jeresig/node-romaji-name) ⭐ 39 \| 🐛 0 \| 🌐 JavaScript \| 📅 2023-12-27                            | 📥 150/week    | 📦 22k          | ⭐ 39  | 🔴 december 2023 |
-| 🔗 [kyujitai.js](https://github.com/hakatashi/kyujitai.js) ⭐ 24 \| 🐛 0 \| 🌐 JavaScript \| 📅 2020-08-30                                    | 📥 76/week     | 📦 3.4k         | ⭐ 24  | 🔴 august 2020   |
+| 🔗 [kuroshiro](https://github.com/hexenq/kuroshiro) ⭐ 1,000 \| 🐛 18 \| 🌐 JavaScript \| 📅 2026-10-17                                       | 📥 14k/week    | 📦 945k         | ⭐ 1k  | 🟢 last saturday |
+| 🔗 [kuroshiro-analyzer-kuromoji](https://github.com/hexenq/kuroshiro-analyzer-kuromoji) ⭐ 72 \| 🐛 2 \| 🌐 JavaScript \| 📅 2026-10-17       | 📥 14k/week    | 📦 926k         | ⭐ 72  | 🟢 last saturday |
+| 🔗 [hepburn](https://github.com/lovell/hepburn) ⭐ 132 \| 🐛 4 \| 🌐 JavaScript \| 📅 2026-10-09                                              | 📥 31k/week    | 📦 6.7M         | ⭐ 132 | 🟢 october       |
+| 🔗 [japanese-numerals-to-number](https://github.com/twada/japanese-numerals-to-number) ⭐ 59 \| 🐛 1 \| 🌐 JavaScript \| 📅 2023-07-19        | 📥 63k/week    | 📦 3.7M         | ⭐ 59  | 🔴 invalid       |
+| 🔗 [jslingua](https://github.com/kariminf/jslingua) ⭐ 53 \| 🐛 11 \| 🌐 JavaScript \| 📅 2023-10-19                                          | 📥 53/week     | 📦 9.5k         | ⭐ 53  | 🔴 october 2023  |
+| 🔗 [WanaKana](https://github.com/WaniKani/WanaKana) ⭐ 944 \| 🐛 29 \| 🌐 JavaScript \| 📅 2026-06-29                                         | 📥 65k/week    | 📦 3.6M         | ⭐ 944 | 🟡 june          |
+| 🔗 [node-romaji-name](https://github.com/jeresig/node-romaji-name) ⭐ 39 \| 🐛 0 \| 🌐 JavaScript \| 📅 2023-12-27                            | 📥 24/week     | 📦 22k          | ⭐ 39  | 🔴 december 2023 |
+| 🔗 [kyujitai.js](https://github.com/hakatashi/kyujitai.js) ⭐ 24 \| 🐛 0 \| 🌐 JavaScript \| 📅 2020-08-30                                    | 📥 77/week     | 📦 3.5k         | ⭐ 24  | 🔴 august 2020   |
 | 🔗 [normalize-japanese-addresses](https://github.com/geolonia/normalize-japanese-addresses) ⭐ 963 \| 🐛 37 \| 🌐 TypeScript \| 📅 2026-09-18 | -              | -               | ⭐ 963 | 🟢 september     |
 | 🔗 [jaconv](https://github.com/kazuhikoarase/jaconv) ⭐ 87 \| 🐛 5 \| 🌐 Java \| 📅 2025-06-28                                                | -              | -               | ⭐ 87  | 🔴 june 2025     |
 | 🔗 [romaji-conv](https://github.com/koozaki/romaji-conv) ⭐ 25 \| 🐛 6 \| 🌐 JavaScript \| 📅 2026-03-21                                      | -              | -               | ⭐ 25  | 🟡 february      |
 | 🔗 [japanese-addresses-v2](https://github.com/geolonia/japanese-addresses-v2) ⭐ 84 \| 🐛 20 \| 🌐 TypeScript \| 📅 2026-09-17                | -              | -               | ⭐ 84  | 🟢 september     |
 | 🔗 [jptext-to-emoji](https://github.com/elzup/jptext-to-emoji) ⭐ 1 \| 🐛 5 \| 🌐 TypeScript \| 📅 2026-09-22                                 | -              | -               | ⭐ 1   | 🟡 june          |
 | 🔗 [japanese.js](https://github.com/hakatashi/japanese.js) ⭐ 167 \| 🐛 21 \| 🌐 JavaScript \| 📅 2020-08-27                                  | -              | -               | ⭐ 167 | 🔴 august 2020   |
-| 🔗 [genshijin](https://github.com/interfacex-co-jp/genshijin) ⭐ 333 \| 🐛 13 \| 🌐 JavaScript \| 📅 2026-10-11                               | -              | -               | ⭐ 330 | 🟢 august        |
+| 🔗 [genshijin](https://github.com/interfacex-co-jp/genshijin) ⭐ 333 \| 🐛 13 \| 🌐 JavaScript \| 📅 2026-10-11                               | -              | -               | ⭐ 333 | 🟢 august        |
 
 ### Others
 
@@ -1172,11 +1178,11 @@ Other libraries for Japanese NLP in JavaScript
 <details markdown="1">
 <summary>Show 26 items</summary>
 
-* [voicevox](https://github.com/VOICEVOX/voicevox) ⭐ 3,270 | 🐛 345 | 🌐 TypeScript | 📅 2026-10-18 - 無料で使える中品質なテキスト読み上げソフトウェア、VOICEVOXのエディター
+* [voicevox](https://github.com/VOICEVOX/voicevox) ⭐ 3,270 | 🐛 343 | 🌐 TypeScript | 📅 2026-10-19 - 無料で使える中品質なテキスト読み上げソフトウェア、VOICEVOXのエディター
 * [yomichan](https://github.com/FooSoft/yomichan) ⚠️ Archived - Japanese pop-up dictionary extension for Chrome and Firefox.
 * [japanese-analyzer](https://github.com/cokice/japanese-analyzer) ⭐ 801 | 🐛 1 | 🌐 TypeScript | 📅 2026-10-07 - Japanese Sentence Analyzer (日本語文章解析器)
-* [bangumi-data](https://github.com/bangumi-data/bangumi-data) ⭐ 654 | 🐛 7 | 🌐 JavaScript | 📅 2026-10-12 - Raw data for Japanese Anime
-* [jev-semgrep](https://github.com/uehaj/jev-semgrep) ⭐ 150 | 🐛 27 | 🌐 JavaScript | 📅 2026-10-18 - grep by meaning, across languages. TypeSafe Jev scores every line against a meaning; combine meanings with AND/OR/NOT. 意味で探す grep。日本語で英語を、英語で日本語を検索できる
+* [bangumi-data](https://github.com/bangumi-data/bangumi-data) ⭐ 656 | 🐛 7 | 🌐 JavaScript | 📅 2026-10-12 - Raw data for Japanese Anime
+* [jev-semgrep](https://github.com/uehaj/jev-semgrep) ⭐ 150 | 🐛 29 | 🌐 JavaScript | 📅 2026-10-19 - grep by meaning, across languages. TypeSafe Jev scores every line against a meaning; combine meanings with AND/OR/NOT. 意味で探す grep。日本語で英語を、英語で日本語を検索できる
 * [proofreading-tool](https://github.com/gecko655/proofreading-tool) ⚠️ Archived - GUIで動作する文書校正ツール GUI tool for textlinting.
 * [japanese-toolkit](https://github.com/echamudi/japanese-toolkit) ⭐ 63 | 🐛 57 | 🌐 JavaScript | 📅 2023-03-05 - Monorepo for Kanji, Furigana, Japanese DB, and others
 * [kanjigrid](https://github.com/minosvasilias/kanjigrid) ⭐ 45 | 🐛 0 | 🌐 JavaScript | 📅 2018-11-19 - A web-app displaying the 2200 kanji characters taught in James Heisig's "Remembering the Kanji", 6th edition.
@@ -1187,7 +1193,7 @@ Other libraries for Japanese NLP in JavaScript
 * [analyze-desumasu-dearu](https://github.com/textlint-ja/analyze-desumasu-dearu) ⭐ 18 | 🐛 0 | 🌐 TypeScript | 📅 2026-04-07 - 文の敬体(ですます調)、常体(である調)を解析するJavaScriptライブラリ
 * [sudachi-synonyms-dictionary](https://github.com/azu/sudachi-synonyms-dictionary) ⭐ 15 | 🐛 0 | 🌐 JavaScript | 📅 2026-10-18 - Sudachi's synonyms dictionary
 * [sentiment\_ja\_js](https://github.com/otodn/sentiment_ja_js) ⭐ 10 | 🐛 0 | 🌐 JavaScript | 📅 2022-04-01 - Sentiment Analysis in Japanese. sentiment\_ja with JavaScript
-* [tsukeru-furigana-converter](https://github.com/ln2058/tsukeru-furigana-converter) ⭐ 10 | 🐛 0 | 🌐 JavaScript | 📅 2026-10-08 - Browser extension (Chrome/Edge/Firefox) that injects furigana into Japanese webpages on-demand; includes dictionary tooltips, JLPT filtering, and vocab/Anki export.
+* [tsukeru-furigana-converter](https://github.com/ln2058/tsukeru-furigana-converter) ⭐ 10 | 🐛 0 | 🌐 JavaScript | 📅 2026-10-19 - Browser extension (Chrome/Edge/Firefox) that injects furigana into Japanese webpages on-demand; includes dictionary tooltips, JLPT filtering, and vocab/Anki export.
 * [mecab-ipadic-seed](https://github.com/takuyaa/mecab-ipadic-seed) ⭐ 8 | 🐛 0 | 🌐 JavaScript | 📅 2016-07-30 - mecab-ipadic seed dictionary reader
 * [japanese-furigana-normalize](https://github.com/marvnc/japanese-furigana-normalize) ⭐ 8 | 🐛 0 | 🌐 TypeScript | 📅 2024-07-07 - Normalize Japanese Furigana
 * [yama](https://github.com/sapjax/yama) ⭐ 8 | 🐛 0 | 🌐 TypeScript | 📅 2026-02-11 - acquire Japanese vocabulary on any website
@@ -1201,32 +1207,32 @@ Other libraries for Japanese NLP in JavaScript
 
 | Name                                                                                                                                  | downloads/week | total downloads | stars  | last commit       |
 | ------------------------------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | ------ | ----------------- |
-| 🔗 [bangumi-data](https://github.com/bangumi-data/bangumi-data) ⭐ 654 \| 🐛 7 \| 🌐 JavaScript \| 📅 2026-10-12                       | 📥 2k/week     | 📦 64k          | ⭐ 651  | 🟢 today          |
+| 🔗 [bangumi-data](https://github.com/bangumi-data/bangumi-data) ⭐ 656 \| 🐛 7 \| 🌐 JavaScript \| 📅 2026-10-12                       | 📥 597/week    | 📦 64k          | ⭐ 656  | 🟢 october        |
 | 🔗 [yomichan](https://github.com/FooSoft/yomichan) ⚠️ Archived                                                                        | -              | -               | ⭐ 1.1k | 🔴 february 2023  |
-| 🔗 [proofreading-tool](https://github.com/gecko655/proofreading-tool) ⚠️ Archived                                                     | -              | -               | ⭐ 87   | 🟡 october 2025   |
+| 🔗 [proofreading-tool](https://github.com/gecko655/proofreading-tool) ⚠️ Archived                                                     | -              | -               | ⭐ 87   | 🔴 october 2025   |
 | 🔗 [kanjigrid](https://github.com/minosvasilias/kanjigrid) ⭐ 45 \| 🐛 0 \| 🌐 JavaScript \| 📅 2018-11-19                             | -              | -               | ⭐ 45   | 🔴 november 2018  |
-| 🔗 [japanese-toolkit](https://github.com/echamudi/japanese-toolkit) ⭐ 63 \| 🐛 57 \| 🌐 JavaScript \| 📅 2023-03-05                   | -              | -               | ⭐ 64   | 🔴 january 2023   |
-| 🔗 [analyze-desumasu-dearu](https://github.com/textlint-ja/analyze-desumasu-dearu) ⭐ 18 \| 🐛 0 \| 🌐 TypeScript \| 📅 2026-04-07     | 📥 282k/week   | 📦 8.2M         | ⭐ 18   | 🟡 april          |
+| 🔗 [japanese-toolkit](https://github.com/echamudi/japanese-toolkit) ⭐ 63 \| 🐛 57 \| 🌐 JavaScript \| 📅 2023-03-05                   | -              | -               | ⭐ 63   | 🔴 january 2023   |
+| 🔗 [analyze-desumasu-dearu](https://github.com/textlint-ja/analyze-desumasu-dearu) ⭐ 18 \| 🐛 0 \| 🌐 TypeScript \| 📅 2026-04-07     | 📥 132k/week   | 📦 8.2M         | ⭐ 18   | 🟡 april          |
 | 🔗 [hatsuon](https://github.com/DJTB/hatsuon) ⭐ 38 \| 🐛 2 \| 🌐 JavaScript \| 📅 2023-03-07                                          | 📥 62/week     | 📦 2.4k         | ⭐ 38   | 🔴 march 2022     |
 | 🔗 [sentiment\_ja\_js](https://github.com/otodn/sentiment_ja_js) ⭐ 10 \| 🐛 0 \| 🌐 JavaScript \| 📅 2022-04-01                       | -              | -               | ⭐ 10   | 🔴 december 2021  |
-| 🔗 [mecab-ipadic-seed](https://github.com/takuyaa/mecab-ipadic-seed) ⭐ 8 \| 🐛 0 \| 🌐 JavaScript \| 📅 2016-07-30                    | 📥 341/week    | 📦 10k          | ⭐ 8    | 🔴 july 2016      |
+| 🔗 [mecab-ipadic-seed](https://github.com/takuyaa/mecab-ipadic-seed) ⭐ 8 \| 🐛 0 \| 🌐 JavaScript \| 📅 2016-07-30                    | 📥 350/week    | 📦 11k          | ⭐ 8    | 🔴 july 2016      |
 | 🔗 [oskim](https://github.com/esrille/oskim) ⭐ 2 \| 🐛 0 \| 🌐 JavaScript \| 📅 2023-02-24                                            | -              | -               | ⭐ 2    | 🔴 february 2023  |
 | 🔗 [tweetMapping](https://github.com/wtnv-lab/tweetMapping) ⭐ 27 \| 🐛 0 \| 🌐 JavaScript \| 📅 2026-06-15                            | -              | -               | ⭐ 27   | 🟡 march          |
 | 🔗 [pitch-accent](https://github.com/shirakaba/pitch-accent) ⭐ 2 \| 🐛 0 \| 🌐 TypeScript \| 📅 2023-09-07                            | 📥 2/week      | 📦 202          | ⭐ 2    | 🔴 september 2023 |
 | 🔗 [kana2ipa](https://github.com/amanoese/kana2ipa) ⭐ 19 \| 🐛 12 \| 🌐 JavaScript \| 📅 2023-01-05                                   | -              | -               | ⭐ 19   | 🔴 october 2020   |
-| 🔗 [voicevox](https://github.com/VOICEVOX/voicevox) ⭐ 3,270 \| 🐛 345 \| 🌐 TypeScript \| 📅 2026-10-18                               | -              | -               | ⭐ 3.3k | 🟢 yesterday      |
+| 🔗 [voicevox](https://github.com/VOICEVOX/voicevox) ⭐ 3,270 \| 🐛 343 \| 🌐 TypeScript \| 📅 2026-10-19                               | -              | -               | ⭐ 3.3k | 🟢 today          |
 | 🔗 [kamiya-codec](https://github.com/fasiha/kamiya-codec) ⭐ 30 \| 🐛 7 \| 🌐 JavaScript \| 📅 2026-03-29                              | -              | -               | ⭐ 30   | 🔴 may 2025       |
 | 🔗 [closewords](https://github.com/otoneko1102/closewords) ⭐ 5 \| 🐛 7 \| 🌐 TypeScript \| 📅 2026-08-20                              | -              | -               | ⭐ 5    | 🟡 may            |
-| 🔗 [japanese-analyzer](https://github.com/cokice/japanese-analyzer) ⭐ 801 \| 🐛 1 \| 🌐 TypeScript \| 📅 2026-10-07                   | -              | -               | ⭐ 802  | 🟢 october        |
+| 🔗 [japanese-analyzer](https://github.com/cokice/japanese-analyzer) ⭐ 801 \| 🐛 1 \| 🌐 TypeScript \| 📅 2026-10-07                   | -              | -               | ⭐ 801  | 🟢 october        |
 | 🔗 [japanese-furigana-normalize](https://github.com/marvnc/japanese-furigana-normalize) ⭐ 8 \| 🐛 0 \| 🌐 TypeScript \| 📅 2024-07-07 | -              | -               | ⭐ 8    | 🔴 july 2024      |
 | 🔗 [yama](https://github.com/sapjax/yama) ⭐ 8 \| 🐛 0 \| 🌐 TypeScript \| 📅 2026-02-11                                               | -              | -               | ⭐ 8    | 🟡 february       |
-| 🔗 [kaitai](https://github.com/compile10/kaitai) ⭐ 1 \| 🐛 5 \| 🌐 TypeScript \| 📅 2026-10-18                                        | -              | -               | ⭐ 1    | 🟢 last wednesday |
-| 🔗 [tsukeru-furigana-converter](https://github.com/ln2058/tsukeru-furigana-converter) ⭐ 10 \| 🐛 0 \| 🌐 JavaScript \| 📅 2026-10-08  | -              | -               | ⭐ 10   | 🟢 last thursday  |
-| 🔗 [sudachi-synonyms-dictionary](https://github.com/azu/sudachi-synonyms-dictionary) ⭐ 15 \| 🐛 0 \| 🌐 JavaScript \| 📅 2026-10-18   | -              | -               | ⭐ 15   | 🟢 july           |
+| 🔗 [kaitai](https://github.com/compile10/kaitai) ⭐ 1 \| 🐛 5 \| 🌐 TypeScript \| 📅 2026-10-18                                        | -              | -               | ⭐ 1    | 🟢 yesterday      |
+| 🔗 [tsukeru-furigana-converter](https://github.com/ln2058/tsukeru-furigana-converter) ⭐ 10 \| 🐛 0 \| 🌐 JavaScript \| 📅 2026-10-19  | -              | -               | ⭐ 10   | 🟢 today          |
+| 🔗 [sudachi-synonyms-dictionary](https://github.com/azu/sudachi-synonyms-dictionary) ⭐ 15 \| 🐛 0 \| 🌐 JavaScript \| 📅 2026-10-18   | -              | -               | ⭐ 15   | 🟢 yesterday      |
 | 🔗 [qmd-ja](https://github.com/joycodetech/qmd-ja) ⭐ 2 \| 🐛 9 \| 🌐 TypeScript \| 📅 2026-09-25                                      | -              | -               | ⭐ 2    | 🟢 september      |
-| 🔗 [shirabe-sdk](https://github.com/techwell-inc-jp/shirabe-sdk) ⭐ 0 \| 🐛 0 \| 🌐 TypeScript \| 📅 2026-07-17                        | -              | -               | ⭐ 0    | 🟢 july           |
-| 🔗 [pii-ja-ner-onnx-demo](https://github.com/shirokane-suri/pii-ja-ner-onnx-demo) ⭐ 0 \| 🐛 0 \| 🌐 TypeScript \| 📅 2026-07-21       | -              | -               | ⭐ 0    | 🟢 july           |
-| 🔗 [jev-semgrep](https://github.com/uehaj/jev-semgrep) ⭐ 150 \| 🐛 27 \| 🌐 JavaScript \| 📅 2026-10-18                               | -              | -               | ⭐ 149  | 🟢 today          |
+| 🔗 [shirabe-sdk](https://github.com/techwell-inc-jp/shirabe-sdk) ⭐ 0 \| 🐛 0 \| 🌐 TypeScript \| 📅 2026-07-17                        | -              | -               | ⭐ 0    | 🟡 july           |
+| 🔗 [pii-ja-ner-onnx-demo](https://github.com/shirokane-suri/pii-ja-ner-onnx-demo) ⭐ 0 \| 🐛 0 \| 🌐 TypeScript \| 📅 2026-07-21       | -              | -               | ⭐ 0    | 🟡 july           |
+| 🔗 [jev-semgrep](https://github.com/uehaj/jev-semgrep) ⭐ 150 \| 🐛 29 \| 🌐 JavaScript \| 📅 2026-10-19                               | -              | -               | ⭐ 150  | 🟢 today          |
 
 </details>
 
@@ -1238,9 +1244,9 @@ Lightweight Japanese morphological analysis libraries in Go
 
 * [kagome](https://github.com/ikawaha/kagome) ⭐ 985 | 🐛 1 | 🌐 Go | 📅 2026-10-15 - Self-contained Japanese Morphological Analyzer written in pure Go
 
-| Name                                                                                   | downloads/week | total downloads | stars | last commit  |
-| -------------------------------------------------------------------------------------- | -------------- | --------------- | ----- | ------------ |
-| 🔗 [kagome](https://github.com/ikawaha/kagome) ⭐ 985 \| 🐛 1 \| 🌐 Go \| 📅 2026-10-15 | -              | -               | ⭐ 984 | 🟢 september |
+| Name                                                                                   | downloads/week | total downloads | stars | last commit      |
+| -------------------------------------------------------------------------------------- | -------------- | --------------- | ----- | ---------------- |
+| 🔗 [kagome](https://github.com/ikawaha/kagome) ⭐ 985 \| 🐛 1 \| 🌐 Go \| 📅 2026-10-15 | -              | -               | ⭐ 985 | 🟢 last thursday |
 
 ### Others
 
@@ -1250,7 +1256,7 @@ Additional Go-based Japanese text processing libraries
 <summary>Show 9 items</summary>
 
 * [ojichat](https://github.com/greymd/ojichat) ⭐ 1,277 | 🐛 3 | 🌐 Go | 📅 2024-10-14 - おじさんがLINEやメールで送ってきそうな文を生成する
-* [ojosama](https://github.com/jiro4989/ojosama) ⭐ 387 | 🐛 13 | 🌐 Go | 📅 2026-09-23 - テキストを壱百満天原サロメお嬢様風の口調に変換します
+* [ojosama](https://github.com/jiro4989/ojosama) ⭐ 387 | 🐛 14 | 🌐 Go | 📅 2026-10-19 - テキストを壱百満天原サロメお嬢様風の口調に変換します
 * [yomichan-import](https://github.com/FooSoft/yomichan-import) ⚠️ Archived - External dictionary importer for Yomichan.
 * [nihongo](https://github.com/gojp/nihongo) ⭐ 83 | 🐛 7 | 🌐 Go | 📅 2026-07-01 - Japanese Dictionary
 * [imas-ime-dic](https://github.com/maruamyu/imas-ime-dic) ⭐ 32 | 🐛 2 | 🌐 Go | 📅 2026-01-01 - THE IDOLM\@STER words dictionary for Japanese IME (by imas-db.jp)
@@ -1261,15 +1267,15 @@ Additional Go-based Japanese text processing libraries
 
 | Name                                                                                                   | downloads/week | total downloads | stars  | last commit      |
 | ------------------------------------------------------------------------------------------------------ | -------------- | --------------- | ------ | ---------------- |
-| 🔗 [ojosama](https://github.com/jiro4989/ojosama) ⭐ 387 \| 🐛 13 \| 🌐 Go \| 📅 2026-09-23             | -              | -               | ⭐ 387  | 🟢 september     |
+| 🔗 [ojosama](https://github.com/jiro4989/ojosama) ⭐ 387 \| 🐛 14 \| 🌐 Go \| 📅 2026-10-19             | -              | -               | ⭐ 387  | 🟢 today         |
 | 🔗 [nihongo](https://github.com/gojp/nihongo) ⭐ 83 \| 🐛 7 \| 🌐 Go \| 📅 2026-07-01                   | -              | -               | ⭐ 83   | 🟡 june          |
 | 🔗 [yomichan-import](https://github.com/FooSoft/yomichan-import) ⚠️ Archived                           | -              | -               | ⭐ 88   | 🔴 february 2023 |
 | 🔗 [imas-ime-dic](https://github.com/maruamyu/imas-ime-dic) ⭐ 32 \| 🐛 2 \| 🌐 Go \| 📅 2026-01-01     | -              | -               | ⭐ 32   | 🟡 january       |
-| 🔗 [go-kakasi](https://github.com/sarumaj/go-kakasi) ⭐ 6 \| 🐛 1 \| 🌐 Go \| 📅 2026-10-14             | -              | -               | ⭐ 6    | 🟢 today         |
+| 🔗 [go-kakasi](https://github.com/sarumaj/go-kakasi) ⭐ 6 \| 🐛 1 \| 🌐 Go \| 📅 2026-10-14             | -              | -               | ⭐ 6    | 🟢 october       |
 | 🔗 [go-moji](https://github.com/ktnyt/go-moji) ⭐ 21 \| 🐛 0 \| 🌐 Go \| 📅 2019-04-17                  | -              | -               | ⭐ 21   | 🔴 april 2019    |
 | 🔗 [ojichat](https://github.com/greymd/ojichat) ⭐ 1,277 \| 🐛 3 \| 🌐 Go \| 📅 2024-10-14              | -              | -               | ⭐ 1.3k | 🔴 october 2024  |
 | 🔗 [name](https://github.com/kuniwak/name) ⭐ 11 \| 🐛 0 \| 🌐 Go \| 📅 2025-01-26                      | -              | -               | ⭐ 11   | 🔴 january 2025  |
-| 🔗 [jp-pii-detector](https://github.com/baneido/jp-pii-detector) ⭐ 4 \| 🐛 1 \| 🌐 Go \| 📅 2026-10-09 | -              | -               | ⭐ 4    | 🟢 last friday   |
+| 🔗 [jp-pii-detector](https://github.com/baneido/jp-pii-detector) ⭐ 4 \| 🐛 1 \| 🌐 Go \| 📅 2026-10-09 | -              | -               | ⭐ 4    | 🟢 october       |
 
 </details>
 
@@ -1288,7 +1294,7 @@ Japanese morphological analysis and dictionary management libraries
 | --------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | ------ | ----------------- |
 | 🔗 [kuromoji](https://github.com/atilika/kuromoji) ⭐ 1,064 \| 🐛 31 \| 🌐 Java \| 📅 2023-01-23                 | -              | -               | ⭐ 1.1k | 🔴 september 2019 |
 | 🔗 [Sudachi](https://github.com/WorksApplications/Sudachi) ⭐ 1,025 \| 🐛 17 \| 🌐 Java \| 📅 2026-09-18         | -              | -               | ⭐ 1k   | 🟢 september      |
-| 🔗 [SudachiDict](https://github.com/WorksApplications/SudachiDict) ⭐ 314 \| 🐛 23 \| 🌐 Python \| 📅 2026-10-15 | -              | -               | ⭐ 312  | 🟢 september      |
+| 🔗 [SudachiDict](https://github.com/WorksApplications/SudachiDict) ⭐ 314 \| 🐛 23 \| 🌐 Python \| 📅 2026-10-15 | -              | -               | ⭐ 314  | 🟢 last thursday  |
 | 🔗 [meval](https://github.com/teru-oka-1933/meval) ⭐ 7 \| 🐛 0 \| 🌐 Java \| 📅 2019-08-13                      | -              | -               | ⭐ 7    | 🔴 august 2019    |
 
 ### Others
@@ -1331,7 +1337,7 @@ Models that convert words into numeric vectors to capture semantic similarity
 * [chiVe](https://github.com/WorksApplications/chiVe) ⭐ 178 | 🐛 0 | 🌐 Python | 📅 2024-03-01 - Japanese word embedding with Sudachi and NWJC
 * [japanese-words-to-vectors](https://github.com/philipperemy/japanese-words-to-vectors) ⭐ 87 | 🐛 0 | 🌐 Python | 📅 2022-01-25 - Word2vec (word to vectors) approach for Japanese language using Gensim and Mecab.
 * [embedrank](https://github.com/yagays/embedrank) ⭐ 48 | 🐛 1 | 🌐 Python | 📅 2019-03-19 - Python Implementation of EmbedRank
-* [jawiki\_word\_vector\_updater](https://github.com/kamigaito/jawiki_word_vector_updater) ⭐ 11 | 🐛 0 | 🌐 Shell | 📅 2020-05-06 - 最新の日本語Wikipediaのダンプデータから，MeCabを用いてIPA辞書と最新のNeologd辞書の両方で形態素解析を実施し，その結果に基づいた word2vec，fastText，GloVeの単語分散表現を学習するためのスクリプト
+* [jawiki\_word\_vector\_updater](https://github.com/kamigaito/jawiki_word_vector_updater) ⭐ 12 | 🐛 0 | 🌐 Shell | 📅 2020-05-06 - 最新の日本語Wikipediaのダンプデータから，MeCabを用いてIPA辞書と最新のNeologd辞書の両方で形態素解析を実施し，その結果に基づいた word2vec，fastText，GloVeの単語分散表現を学習するためのスクリプト
 * [dependency-based-japanese-word-embeddings](https://github.com/lapras-inc/dependency-based-japanese-word-embeddings) ⭐ 8 | 🐛 0 | 📅 2019-08-14 - This is a repository for the AI LAB article "係り受けに基づく日本語単語埋込 (Dependency-based Japanese Word Embeddings)" ( Article URL <https://ai-lab.lapras.com/nlp/japanese-word-embedding/>)
 * [elmo-japanese](https://github.com/cl-tohoku/elmo-japanese) ⭐ 4 | 🐛 0 | 🌐 Python | 📅 2019-10-07 - elmo-japanese
 * [aovec](https://github.com/eggplants/aovec) ⚠️ Archived - Easy aozorabunko Word2Vec Builder - 青空文庫全書籍のWord2Vecビルダー+構築済みモデル
@@ -1340,13 +1346,13 @@ Models that convert words into numeric vectors to capture semantic similarity
 | Name                                                                                                                                                 | downloads/week | total downloads | stars | last commit      |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | ----- | ---------------- |
 | 🔗 [japanese-words-to-vectors](https://github.com/philipperemy/japanese-words-to-vectors) ⭐ 87 \| 🐛 0 \| 🌐 Python \| 📅 2022-01-25                 | -              | -               | ⭐ 87  | 🔴 august 2020   |
-| 🔗 [chiVe](https://github.com/WorksApplications/chiVe) ⭐ 178 \| 🐛 0 \| 🌐 Python \| 📅 2024-03-01                                                   | -              | -               | ⭐ 177 | 🔴 march 2024    |
+| 🔗 [chiVe](https://github.com/WorksApplications/chiVe) ⭐ 178 \| 🐛 0 \| 🌐 Python \| 📅 2024-03-01                                                   | -              | -               | ⭐ 178 | 🔴 march 2024    |
 | 🔗 [elmo-japanese](https://github.com/cl-tohoku/elmo-japanese) ⭐ 4 \| 🐛 0 \| 🌐 Python \| 📅 2019-10-07                                             | -              | -               | ⭐ 4   | 🔴 october 2019  |
 | 🔗 [embedrank](https://github.com/yagays/embedrank) ⭐ 48 \| 🐛 1 \| 🌐 Python \| 📅 2019-03-19                                                       | -              | -               | ⭐ 48  | 🔴 march 2019    |
-| 🔗 [aovec](https://github.com/eggplants/aovec) ⚠️ Archived                                                                                           | 📥 150         | 📦 88k          | ⭐ 3   | 🔴 january 2023  |
+| 🔗 [aovec](https://github.com/eggplants/aovec) ⚠️ Archived                                                                                           | 📥 82          | 📦 88k          | ⭐ 3   | 🔴 january 2023  |
 | 🔗 [dependency-based-japanese-word-embeddings](https://github.com/lapras-inc/dependency-based-japanese-word-embeddings) ⭐ 8 \| 🐛 0 \| 📅 2019-08-14 | -              | -               | ⭐ 8   | 🔴 august 2019   |
 | 🔗 [jawikivec](https://github.com/wikiwikification/jawikivec) ⭐ 2 \| 🐛 0 \| 📅 2018-11-24                                                           | -              | -               | ⭐ 2   | 🔴 november 2018 |
-| 🔗 [jawiki\_word\_vector\_updater](https://github.com/kamigaito/jawiki_word_vector_updater) ⭐ 11 \| 🐛 0 \| 🌐 Shell \| 📅 2020-05-06                | -              | -               | ⭐ 11  | 🔴 may 2020      |
+| 🔗 [jawiki\_word\_vector\_updater](https://github.com/kamigaito/jawiki_word_vector_updater) ⭐ 12 \| 🐛 0 \| 🌐 Shell \| 📅 2020-05-06                | -              | -               | ⭐ 12  | 🔴 may 2020      |
 
 ### Transformer based models
 
@@ -1389,11 +1395,11 @@ Models that use self-attention to understand context and perform advanced langua
 
 | Name                                                                                                                                         | downloads/week | total downloads | stars | last commit       |
 | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | ----- | ----------------- |
-| 🔗 [bert-japanese](https://github.com/cl-tohoku/bert-japanese) ⭐ 552 \| 🐛 15 \| 🌐 Python \| 📅 2024-03-23                                  | -              | -               | ⭐ 551 | 🔴 march 2024     |
+| 🔗 [bert-japanese](https://github.com/cl-tohoku/bert-japanese) ⭐ 552 \| 🐛 15 \| 🌐 Python \| 📅 2024-03-23                                  | -              | -               | ⭐ 552 | 🔴 march 2024     |
 | 🔗 [bert-japanese](https://github.com/yoheikikuta/bert-japanese) ⭐ 496 \| 🐛 1 \| 🌐 Jupyter Notebook \| 📅 2021-02-15                       | -              | -               | ⭐ 496 | 🔴 february 2021  |
-| 🔗 [SudachiTra](https://github.com/WorksApplications/SudachiTra) ⭐ 81 \| 🐛 9 \| 🌐 Python \| 📅 2023-12-15                                  | 📥 379         | 📦 210k         | ⭐ 81  | 🔴 december 2023  |
+| 🔗 [SudachiTra](https://github.com/WorksApplications/SudachiTra) ⭐ 81 \| 🐛 9 \| 🌐 Python \| 📅 2023-12-15                                  | 📥 382         | 📦 211k         | ⭐ 81  | 🔴 december 2023  |
 | 🔗 [japanese-dialog-transformers](https://github.com/nttcslab/japanese-dialog-transformers) ⭐ 247 \| 🐛 2 \| 🌐 Python \| 📅 2023-06-21      | -              | -               | ⭐ 247 | 🔴 june 2023      |
-| 🔗 [shiba](https://github.com/octanove/shiba) ⭐ 89 \| 🐛 1 \| 🌐 Python \| 📅 2023-11-03                                                     | 📥 17          | 📦 9k           | ⭐ 89  | 🔴 november 2023  |
+| 🔗 [shiba](https://github.com/octanove/shiba) ⭐ 89 \| 🐛 1 \| 🌐 Python \| 📅 2023-11-03                                                     | 📥 21          | 📦 9k           | ⭐ 89  | 🔴 november 2023  |
 | 🔗 [Dialog](https://github.com/reppy4620/Dialog) ⭐ 72 \| 🐛 1 \| 🌐 Python \| 📅 2021-11-18                                                  | -              | -               | ⭐ 72  | 🔴 october 2020   |
 | 🔗 [language-pretraining](https://github.com/retarfi/language-pretraining) ⭐ 50 \| 🐛 1 \| 🌐 Python \| 📅 2023-07-02                        | -              | -               | ⭐ 50  | 🔴 may 2023       |
 | 🔗 [medbertjp](https://github.com/ou-medinfo/medbertjp) ⭐ 13 \| 🐛 1 \| 🌐 Jupyter Notebook \| 📅 2020-11-21                                 | -              | -               | ⭐ 13  | 🔴 november 2020  |
@@ -1428,11 +1434,11 @@ Models that use self-attention to understand context and perform advanced langua
 
 Resources for using ChatGPT and APIs for Japanese dialogue and text generation
 
-* [ChatdollKit](https://github.com/uezo/ChatdollKit) ⭐ 1,235 | 🐛 32 | 🌐 C# | 📅 2026-09-10 - ChatdollKit enables you to make your 3D model into a chatbot
+* [ChatdollKit](https://github.com/uezo/ChatdollKit) ⭐ 1,239 | 🐛 32 | 🌐 C# | 📅 2026-09-10 - ChatdollKit enables you to make your 3D model into a chatbot
 * [chatvrm](https://github.com/pixiv/chatvrm) ⚠️ Archived - ChatVRMはブラウザで簡単に3Dキャラクターと会話ができるデモアプリケーションです。
-* [aiavatarkit](https://github.com/uezo/aiavatarkit) ⭐ 692 | 🐛 7 | 🌐 Python | 📅 2026-10-18 - Building AI-based conversational avatars lightning fast
-* [chatgpt-prompt-sample-japanese](https://github.com/dahatake/chatgpt-prompt-sample-japanese) ⭐ 437 | 🐛 0 | 🌐 HTML | 📅 2026-10-17 - ChatGPT の Prompt のサンプルです。
-* [generativeai-prompt-sample-japanese](https://github.com/dahatake/generativeai-prompt-sample-japanese) ⭐ 437 | 🐛 0 | 🌐 HTML | 📅 2026-10-17 - ChatGPTやCopilotなど各種生成AI用の「日本語]の Prompt のサンプル
+* [aiavatarkit](https://github.com/uezo/aiavatarkit) ⭐ 694 | 🐛 7 | 🌐 Python | 📅 2026-10-19 - Building AI-based conversational avatars lightning fast
+* [chatgpt-prompt-sample-japanese](https://github.com/dahatake/chatgpt-prompt-sample-japanese) ⭐ 438 | 🐛 0 | 🌐 HTML | 📅 2026-10-17 - ChatGPT の Prompt のサンプルです。
+* [generativeai-prompt-sample-japanese](https://github.com/dahatake/generativeai-prompt-sample-japanese) ⭐ 438 | 🐛 0 | 🌐 HTML | 📅 2026-10-17 - ChatGPTやCopilotなど各種生成AI用の「日本語]の Prompt のサンプル
 * [jp-azureopenai-samples](https://github.com/azure-samples/jp-azureopenai-samples) ⚠️ Archived - Azure OpenAIを活用したアプリケーション実装のリファレンスを目的として、アプリのサンプル（リファレンスアーキテクチャ、サンプルコードとデプロイ手順）を無償提供しています。
 * [summarize\_arxv](https://github.com/rkmt/summarize_arxv) ⭐ 172 | 🐛 1 | 🌐 Python | 📅 2023-05-22 - Summarize arXiv paper with figures
 * [wanna](https://github.com/hirokidaichi/wanna) ⭐ 142 | 🐛 1 | 🌐 Python | 📅 2023-04-02 - Shell command launcher with natural language
@@ -1452,52 +1458,52 @@ Resources for using ChatGPT and APIs for Japanese dialogue and text generation
 * [chrome-ext-translate-to-hiragana-with-chatgpt](https://github.com/franzwong/chrome-ext-translate-to-hiragana-with-chatgpt) ⭐ 1 | 🐛 0 | 🌐 JavaScript | 📅 2023-04-01 - This Chrome extension can translate selected Japanese text to Hiragana by using ChatGPT.
 * [japagen](https://github.com/retrieva/japagen) ⭐ 1 | 🐛 0 | 📅 2024-10-31 - 日本語タスクにおけるLLMを用いた疑似学習データ生成の検討
 
-| Name                                                                                                                                                                         | downloads/week | total downloads | stars     | last commit       |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | --------- | ----------------- |
-| 🔗 [VRChatGPT](https://github.com/Yuchi-Games/VRChatGPT) ⚠️ Archived                                                                                                         | -              | -               | ⭐ 15      | 🔴 march 2023     |
-| 🔗 [AITuberDegikkoMirii](https://github.com/M-gen/AITuberDegikkoMirii) ⭐ 5 \| 🐛 0 \| 🌐 C# \| 📅 2023-03-17                                                                 | -              | -               | ⭐ 5       | 🔴 march 2023     |
-| 🔗 [wanna](https://github.com/hirokidaichi/wanna) ⭐ 142 \| 🐛 1 \| 🌐 Python \| 📅 2023-04-02                                                                                | 📥 18          | 📦 22k          | ⭐ 142     | 🔴 april 2023     |
-| 🔗 [ChatdollKit](https://github.com/uezo/ChatdollKit) ⭐ 1,235 \| 🐛 32 \| 🌐 C# \| 📅 2026-09-10                                                                             | -              | -               | ⭐ 1.2k    | 🟡 march          |
-| 🔗 [ChuanhuChatGPTJapanese](https://github.com/gyokuro33/ChuanhuChatGPTJapanese) ⭐ 1 \| 🐛 0 \| 🌐 Python \| 📅 2023-03-07                                                   | -              | -               | ⭐ 1       | 🔴 march 2023     |
-| 🔗 [AISisterAIChan](https://github.com/manju-summoner/AISisterAIChan) ⭐ 29 \| 🐛 0 \| 🌐 C# \| 📅 2023-05-18                                                                 | -              | -               | ⭐ 29      | 🔴 may 2023       |
-| 🔗 [vrchatbot](https://github.com/Geson-anko/vrchatbot) ⭐ 30 \| 🐛 2 \| 🌐 Python \| 📅 2022-12-20                                                                           | -              | -               | ⭐ 30      | 🔴 december 2022  |
-| 🔗 [gptuber-by-langchain](https://github.com/karakuri-ai/gptuber-by-langchain) ⭐ 63 \| 🐛 0 \| 🌐 Python \| 📅 2023-12-15                                                    | -              | -               | ⭐ 63      | 🔴 january 2023   |
-| 🔗 [openai-chatfriend](https://github.com/supershaneski/openai-chatfriend) ⭐ 17 \| 🐛 0 \| 🌐 Vue \| 📅 2023-04-03                                                           | -              | -               | ⭐ invalid | 🔴 april 2023     |
-| 🔗 [chrome-ext-translate-to-hiragana-with-chatgpt](https://github.com/franzwong/chrome-ext-translate-to-hiragana-with-chatgpt) ⭐ 1 \| 🐛 0 \| 🌐 JavaScript \| 📅 2023-04-01 | -              | -               | ⭐ 1       | 🔴 april 2023     |
-| 🔗 [azure-search-openai-demo](https://github.com/nohanaga/azure-search-openai-demo) ⭐ 46 \| 🐛 0 \| 🌐 Python \| 📅 2024-04-18                                               | -              | -               | ⭐ 46      | 🔴 december 2023  |
-| 🔗 [chatvrm](https://github.com/pixiv/chatvrm) ⚠️ Archived                                                                                                                   | -              | -               | ⭐ 845     | 🔴 may 2025       |
-| 🔗 [sftly-replace](https://github.com/kmizu/sftly-replace) ⭐ 4 \| 🐛 0 \| 🌐 JavaScript \| 📅 2023-05-23                                                                     | -              | -               | ⭐ 4       | 🔴 may 2023       |
-| 🔗 [summarize\_arxv](https://github.com/rkmt/summarize_arxv) ⭐ 172 \| 🐛 1 \| 🌐 Python \| 📅 2023-05-22                                                                     | -              | -               | ⭐ 172     | 🔴 may 2023       |
-| 🔗 [aiavatarkit](https://github.com/uezo/aiavatarkit) ⭐ 692 \| 🐛 7 \| 🌐 Python \| 📅 2026-10-18                                                                            | -              | -               | ⭐ 689     | 🟢 last wednesday |
-| 🔗 [jp-azureopenai-samples](https://github.com/azure-samples/jp-azureopenai-samples) ⚠️ Archived                                                                             | -              | -               | ⭐ 278     | 🟡 march          |
-| 🔗 [character\_chat](https://github.com/mutaguchi/character_chat) ⭐ 17 \| 🐛 0 \| 🌐 Python \| 📅 2023-06-03                                                                 | -              | -               | ⭐ 17      | 🔴 june 2023      |
-| 🔗 [chatgpt-slackbot](https://github.com/sifue/chatgpt-slackbot) ⭐ 63 \| 🐛 0 \| 🌐 Python \| 📅 2024-07-22                                                                  | -              | -               | ⭐ 63      | 🔴 july 2024      |
-| 🔗 [chatgpt-prompt-sample-japanese](https://github.com/dahatake/chatgpt-prompt-sample-japanese) ⭐ 437 \| 🐛 0 \| 🌐 HTML \| 📅 2026-10-17                                    | -              | -               | ⭐ 437     | 🟢 last tuesday   |
-| 🔗 [kanji-flashcard-app-gpt4](https://github.com/adilmoujahid/kanji-flashcard-app-gpt4) ⭐ 5 \| 🐛 0 \| 🌐 JavaScript \| 📅 2023-10-17                                        | -              | -               | ⭐ 5       | 🔴 october 2023   |
-| 🔗 [IgakuQA](https://github.com/jungokasai/IgakuQA) ⭐ 52 \| 🐛 1 \| 🌐 Python \| 📅 2023-03-31                                                                               | -              | -               | ⭐ 52      | 🔴 march 2023     |
-| 🔗 [japagen](https://github.com/retrieva/japagen) ⭐ 1 \| 🐛 0 \| 📅 2024-10-31                                                                                               | -              | -               | ⭐ 1       | 🔴 october 2024   |
-| 🔗 [generativeai-prompt-sample-japanese](https://github.com/dahatake/generativeai-prompt-sample-japanese) ⭐ 437 \| 🐛 0 \| 🌐 HTML \| 📅 2026-10-17                          | -              | -               | ⭐ 437     | 🟢 last tuesday   |
+| Name                                                                                                                                                                         | downloads/week | total downloads | stars  | last commit      |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | ------ | ---------------- |
+| 🔗 [VRChatGPT](https://github.com/Yuchi-Games/VRChatGPT) ⚠️ Archived                                                                                                         | -              | -               | ⭐ 15   | 🔴 march 2023    |
+| 🔗 [AITuberDegikkoMirii](https://github.com/M-gen/AITuberDegikkoMirii) ⭐ 5 \| 🐛 0 \| 🌐 C# \| 📅 2023-03-17                                                                 | -              | -               | ⭐ 5    | 🔴 march 2023    |
+| 🔗 [wanna](https://github.com/hirokidaichi/wanna) ⭐ 142 \| 🐛 1 \| 🌐 Python \| 📅 2023-04-02                                                                                | 📥 54          | 📦 22k          | ⭐ 142  | 🔴 april 2023    |
+| 🔗 [ChatdollKit](https://github.com/uezo/ChatdollKit) ⭐ 1,239 \| 🐛 32 \| 🌐 C# \| 📅 2026-09-10                                                                             | -              | -               | ⭐ 1.2k | 🟡 march         |
+| 🔗 [ChuanhuChatGPTJapanese](https://github.com/gyokuro33/ChuanhuChatGPTJapanese) ⭐ 1 \| 🐛 0 \| 🌐 Python \| 📅 2023-03-07                                                   | -              | -               | ⭐ 1    | 🔴 march 2023    |
+| 🔗 [AISisterAIChan](https://github.com/manju-summoner/AISisterAIChan) ⭐ 29 \| 🐛 0 \| 🌐 C# \| 📅 2023-05-18                                                                 | -              | -               | ⭐ 29   | 🔴 may 2023      |
+| 🔗 [vrchatbot](https://github.com/Geson-anko/vrchatbot) ⭐ 30 \| 🐛 2 \| 🌐 Python \| 📅 2022-12-20                                                                           | -              | -               | ⭐ 30   | 🔴 december 2022 |
+| 🔗 [gptuber-by-langchain](https://github.com/karakuri-ai/gptuber-by-langchain) ⭐ 63 \| 🐛 0 \| 🌐 Python \| 📅 2023-12-15                                                    | -              | -               | ⭐ 63   | 🔴 january 2023  |
+| 🔗 [openai-chatfriend](https://github.com/supershaneski/openai-chatfriend) ⭐ 17 \| 🐛 0 \| 🌐 Vue \| 📅 2023-04-03                                                           | -              | -               | ⭐ 17   | 🔴 april 2023    |
+| 🔗 [chrome-ext-translate-to-hiragana-with-chatgpt](https://github.com/franzwong/chrome-ext-translate-to-hiragana-with-chatgpt) ⭐ 1 \| 🐛 0 \| 🌐 JavaScript \| 📅 2023-04-01 | -              | -               | ⭐ 1    | 🔴 april 2023    |
+| 🔗 [azure-search-openai-demo](https://github.com/nohanaga/azure-search-openai-demo) ⭐ 46 \| 🐛 0 \| 🌐 Python \| 📅 2024-04-18                                               | -              | -               | ⭐ 46   | 🔴 december 2023 |
+| 🔗 [chatvrm](https://github.com/pixiv/chatvrm) ⚠️ Archived                                                                                                                   | -              | -               | ⭐ 846  | 🔴 may 2025      |
+| 🔗 [sftly-replace](https://github.com/kmizu/sftly-replace) ⭐ 4 \| 🐛 0 \| 🌐 JavaScript \| 📅 2023-05-23                                                                     | -              | -               | ⭐ 4    | 🔴 may 2023      |
+| 🔗 [summarize\_arxv](https://github.com/rkmt/summarize_arxv) ⭐ 172 \| 🐛 1 \| 🌐 Python \| 📅 2023-05-22                                                                     | -              | -               | ⭐ 172  | 🔴 may 2023      |
+| 🔗 [aiavatarkit](https://github.com/uezo/aiavatarkit) ⭐ 694 \| 🐛 7 \| 🌐 Python \| 📅 2026-10-19                                                                            | -              | -               | ⭐ 695  | 🟢 today         |
+| 🔗 [jp-azureopenai-samples](https://github.com/azure-samples/jp-azureopenai-samples) ⚠️ Archived                                                                             | -              | -               | ⭐ 278  | 🟡 march         |
+| 🔗 [character\_chat](https://github.com/mutaguchi/character_chat) ⭐ 17 \| 🐛 0 \| 🌐 Python \| 📅 2023-06-03                                                                 | -              | -               | ⭐ 17   | 🔴 june 2023     |
+| 🔗 [chatgpt-slackbot](https://github.com/sifue/chatgpt-slackbot) ⭐ 63 \| 🐛 0 \| 🌐 Python \| 📅 2024-07-22                                                                  | -              | -               | ⭐ 63   | 🔴 july 2024     |
+| 🔗 [chatgpt-prompt-sample-japanese](https://github.com/dahatake/chatgpt-prompt-sample-japanese) ⭐ 438 \| 🐛 0 \| 🌐 HTML \| 📅 2026-10-17                                    | -              | -               | ⭐ 438  | 🟢 last saturday |
+| 🔗 [kanji-flashcard-app-gpt4](https://github.com/adilmoujahid/kanji-flashcard-app-gpt4) ⭐ 5 \| 🐛 0 \| 🌐 JavaScript \| 📅 2023-10-17                                        | -              | -               | ⭐ 5    | 🔴 october 2023  |
+| 🔗 [IgakuQA](https://github.com/jungokasai/IgakuQA) ⭐ 52 \| 🐛 1 \| 🌐 Python \| 📅 2023-03-31                                                                               | -              | -               | ⭐ 52   | 🔴 march 2023    |
+| 🔗 [japagen](https://github.com/retrieva/japagen) ⭐ 1 \| 🐛 0 \| 📅 2024-10-31                                                                                               | -              | -               | ⭐ 1    | 🔴 october 2024  |
+| 🔗 [generativeai-prompt-sample-japanese](https://github.com/dahatake/generativeai-prompt-sample-japanese) ⭐ 438 \| 🐛 0 \| 🌐 HTML \| 📅 2026-10-17                          | -              | -               | ⭐ 438  | 🟢 last saturday |
 
 ## Dictionary and IME
 
 Resources for Japanese dictionaries and input method editors (IME)
 
 * [mecab-ipadic-neologd](https://github.com/neologd/mecab-ipadic-neologd) ⭐ 2,798 | 🐛 21 | 🌐 Shell | 📅 2023-12-27 - Neologism dictionary based on the language resources on the Web for mecab-ipadic
-* [Meltype](https://github.com/yksr-melt/Meltype) ⭐ 1,133 | 🐛 176 | 🌐 C# | 📅 2026-10-18 - 半角/全角 キーを押さなくても、日本語と英語を打ち分けられるようにする Windows 常駐ツールです。
-* [azooKey-Desktop](https://github.com/azooKey/azooKey-Desktop) ⭐ 1,078 | 🐛 31 | 🌐 Swift | 📅 2026-10-18 - azooKey-Desktop is an open-source Japanese input method for macOS, written in Swift and powered by the Zenzai neural kana-kanji converter. It provides live conversion, optional LLM-based “Magic Conversions”, and Tuner-backed personalization for a smooth, desktop typing experience.
-* [yomitan-dictionaries](https://github.com/marvnc/yomitan-dictionaries) ⭐ 937 | 🐛 13 | 🌐 JavaScript | 📅 2026-03-18 - Japanese and Chinese dictionaries for Yomitan.
-* [azooKey](https://github.com/azooKey/azooKey) ⭐ 785 | 🐛 29 | 🌐 Swift | 📅 2026-10-18 - azooKey is an open-source Japanese keyboard for iPhone and iPad, written in Swift and powered by its own kana-kanji conversion engine. It provides live conversion, flexible key layouts, and a clean SwiftUI interface for a smooth typing experience.
-* [karukan](https://github.com/togatoga/karukan) ⭐ 738 | 🐛 29 | 🌐 Rust | 📅 2026-10-17 - Japanese Input Method System for Linux, Neural Kana-Kanji Conversion Engine + fcitx5 IME
-* [Jitendex](https://github.com/stephenmk/Jitendex) ⭐ 545 | 🐛 25 | 🌐 C# | 📅 2026-08-21 - A free and openly licensed Japanese-to-English dictionary compatible with multiple dictionary clients
-* [jitendex](https://github.com/jitendex/jitendex) ⭐ 545 | 🐛 25 | 🌐 C# | 📅 2026-08-21 - A free, offline, and openly licensed Japanese-to-English dictionary. Updates monthly!
+* [Meltype](https://github.com/yksr-melt/Meltype) ⭐ 1,166 | 🐛 179 | 🌐 C# | 📅 2026-10-19 - 半角/全角 キーを押さなくても、日本語と英語を打ち分けられるようにする Windows 常駐ツールです。
+* [azooKey-Desktop](https://github.com/azooKey/azooKey-Desktop) ⭐ 1,086 | 🐛 31 | 🌐 Swift | 📅 2026-10-19 - azooKey-Desktop is an open-source Japanese input method for macOS, written in Swift and powered by the Zenzai neural kana-kanji converter. It provides live conversion, optional LLM-based “Magic Conversions”, and Tuner-backed personalization for a smooth, desktop typing experience.
+* [yomitan-dictionaries](https://github.com/marvnc/yomitan-dictionaries) ⭐ 938 | 🐛 13 | 🌐 JavaScript | 📅 2026-03-18 - Japanese and Chinese dictionaries for Yomitan.
+* [azooKey](https://github.com/azooKey/azooKey) ⭐ 787 | 🐛 29 | 🌐 Swift | 📅 2026-10-19 - azooKey is an open-source Japanese keyboard for iPhone and iPad, written in Swift and powered by its own kana-kanji conversion engine. It provides live conversion, flexible key layouts, and a clean SwiftUI interface for a smooth typing experience.
+* [karukan](https://github.com/togatoga/karukan) ⭐ 739 | 🐛 29 | 🌐 Rust | 📅 2026-10-19 - Japanese Input Method System for Linux, Neural Kana-Kanji Conversion Engine + fcitx5 IME
+* [Jitendex](https://github.com/stephenmk/Jitendex) ⭐ 546 | 🐛 25 | 🌐 C# | 📅 2026-08-21 - A free and openly licensed Japanese-to-English dictionary compatible with multiple dictionary clients
+* [jitendex](https://github.com/jitendex/jitendex) ⭐ 546 | 🐛 25 | 🌐 C# | 📅 2026-08-21 - A free, offline, and openly licensed Japanese-to-English dictionary. Updates monthly!
 * [ichiran](https://github.com/tshatrov/ichiran) ⭐ 412 | 🐛 13 | 🌐 Common Lisp | 📅 2026-10-17 - Linguistic tools for texts in Japanese language
-* [jmdict-simplified](https://github.com/scriptin/jmdict-simplified) ⭐ 395 | 🐛 1 | 🌐 Kotlin | 📅 2026-10-12 - JMdict and JMnedict in JSON format
+* [jmdict-simplified](https://github.com/scriptin/jmdict-simplified) ⭐ 395 | 🐛 1 | 🌐 Kotlin | 📅 2026-10-19 - JMdict and JMnedict in JSON format
 * [emoji-ime-dictionary](https://github.com/peaceiris/emoji-ime-dictionary) ⭐ 378 | 🐛 12 | 🌐 Python | 📅 2026-09-18 - 日本語で絵文字入力をするための IME 追加辞書 orange\_book Google 日本語入力などで日本語から絵文字への変換を可能にする IME 拡張辞書
-* [japanesekeyboard](https://github.com/kazumaproject/japanesekeyboard) ⭐ 361 | 🐛 47 | 🌐 Kotlin | 📅 2026-10-18 - スミレ - 完全オフラインの日本語キーボードアプリ
-* [jmdict-yomitan](https://github.com/themoeway/jmdict-yomitan) ⭐ 321 | 🐛 0 | 🌐 Shell | 📅 2026-10-18 - JMdict, JMnedict, KANJIDIC for Yomitan/Yomichan.
+* [japanesekeyboard](https://github.com/kazumaproject/japanesekeyboard) ⭐ 362 | 🐛 48 | 🌐 Kotlin | 📅 2026-10-19 - スミレ - 完全オフラインの日本語キーボードアプリ
+* [jmdict-yomitan](https://github.com/themoeway/jmdict-yomitan) ⭐ 321 | 🐛 0 | 🌐 Shell | 📅 2026-10-19 - JMdict, JMnedict, KANJIDIC for Yomitan/Yomichan.
 * [macskk](https://github.com/mtgto/macskk) ⭐ 320 | 🐛 19 | 🌐 Swift | 📅 2026-10-18 - Yet Another macOS SKK Input Method
 * [EJDict](https://github.com/kujirahand/EJDict) ⭐ 274 | 🐛 2 | 🌐 Python | 📅 2026-09-27 - English-Japanese Dictionary data (Public Domain) EJDict-hand
-* [fcitx5-hazkey](https://github.com/7ka-hiira/fcitx5-hazkey) ⭐ 241 | 🐛 21 | 🌐 Swift | 📅 2026-03-07 - Japanese input method for fcitx5, powered by azooKey engine
+* [fcitx5-hazkey](https://github.com/7ka-hiira/fcitx5-hazkey) ⭐ 242 | 🐛 21 | 🌐 Swift | 📅 2026-03-07 - Japanese input method for fcitx5, powered by azooKey engine
 * [jamdict](https://github.com/neocl/jamdict) ⭐ 172 | 🐛 8 | 🌐 Python | 📅 2021-06-06 - Python 3 library for manipulating Jim Breen's JMdict, KanjiDic2, JMnedict and kanji-radical mappings
 * [AzooKeyKanaKanjiConverter](https://github.com/azooKey/AzooKeyKanaKanjiConverter) ⭐ 164 | 🐛 14 | 🌐 Swift | 📅 2026-10-18 - Kana-Kanji Conversion Module written in Swift, supporting Neural Kana-Kanji Conversion and other cool features.
 * [skk-emoji-jisyo](https://github.com/uasi/skk-emoji-jisyo) ⭐ 145 | 🐛 2 | 🌐 Ruby | 📅 2025-01-02 - SKK 絵文字辞書
@@ -1513,12 +1519,12 @@ Resources for Japanese dictionaries and input method editors (IME)
 * [libskk](https://github.com/ueno/libskk) ⭐ 102 | 🐛 9 | 🌐 Vala | 📅 2026-10-07 - Japanese SKK input method library
 * [Japanese-Company-Lexicon](https://github.com/chakki-works/Japanese-Company-Lexicon) ⭐ 99 | 🐛 0 | 🌐 Python | 📅 2026-09-06 - Japanese Company Lexicon (JCLdic)
 * [mecab-unidic-neologd](https://github.com/neologd/mecab-unidic-neologd) ⭐ 88 | 🐛 4 | 🌐 Shell | 📅 2020-09-14 - Neologism dictionary based on the language resources on the Web for mecab-unidic
-* [pixiv-yomitan](https://github.com/MarvNC/pixiv-yomitan) ⭐ 74 | 🐛 0 | 🌐 TypeScript | 📅 2026-10-18 - Pixiv Encyclopedia Dictionary for Yomitan
+* [pixiv-yomitan](https://github.com/MarvNC/pixiv-yomitan) ⭐ 74 | 🐛 0 | 🌐 TypeScript | 📅 2026-10-19 - Pixiv Encyclopedia Dictionary for Yomitan
 * [mouse\_over\_dictionary](https://github.com/kengo700/mouse_over_dictionary) ⭐ 72 | 🐛 9 | 🌐 C++ | 📅 2020-01-23 - マウスオーバーした単語を自動で読み取る汎用辞書ツール
 * [mozcdict-ext](https://github.com/reasonset/mozcdict-ext) ⭐ 71 | 🐛 0 | 🌐 Ruby | 📅 2026-05-09 - Convert external words into Mozc system dictionary
 * [jisho-open](https://github.com/hlorenzi/jisho-open) ⭐ 69 | 🐛 5 | 🌐 TypeScript | 📅 2026-07-23 - Web frontend for the JMdict Japanese-English dictionary project, with study list support!
-* [sumibi](https://github.com/kiyoka/sumibi) ⭐ 67 | 🐛 6 | 🌐 Emacs Lisp | 📅 2026-10-08 - Japanese input method powered by ChatGPT API
-* [Sumibi](https://github.com/kiyoka/Sumibi) ⭐ 67 | 🐛 6 | 🌐 Emacs Lisp | 📅 2026-10-08 - Japanese/Chinese input method powered by ChatGPT API
+* [sumibi](https://github.com/kiyoka/sumibi) ⭐ 67 | 🐛 7 | 🌐 Emacs Lisp | 📅 2026-10-08 - Japanese input method powered by ChatGPT API
+* [Sumibi](https://github.com/kiyoka/Sumibi) ⭐ 67 | 🐛 7 | 🌐 Emacs Lisp | 📅 2026-10-08 - Japanese/Chinese input method powered by ChatGPT API
 * [jawiki-kana-kanji-dict](https://github.com/tokuhirom/jawiki-kana-kanji-dict) ⭐ 65 | 🐛 2 | 🌐 Python | 📅 2026-10-10 - Generate SKK/MeCab dictionary from Wikipedia(Japanese edition)
 * [google-ime-user-dictionary-ja-en](https://github.com/KEINOS/google-ime-user-dictionary-ja-en) ⭐ 65 | 🐛 0 | 📅 2018-12-22 - GoogleIME用カタカナ語辞書プロジェクトのアーカイブです。Project archive of Google IME user dictionary from Katakana word ( Japanese loanword ) to English.
 * [dvorakjp-roman-table](https://github.com/shinespark/dvorakjp-roman-table) ⭐ 58 | 🐛 0 | 🌐 Rust | 📅 2026-10-01 - azooKey, Google 日本語入力用 DvorakJP ローマ字テーブル / DvorakJP Roman Table for azooKey, Google Japanese Input
@@ -1557,9 +1563,9 @@ Resources for Japanese dictionaries and input method editors (IME)
 * [jmdict-fst](https://github.com/theGlenn/jmdict-fst) ⭐ 7 | 🐛 3 | 🌐 Rust | 📅 2026-05-25 - Fast JMdict lookup engine with FST-based exact/prefix/fuzzy/gloss search, deinflection, Rust core, and Swift/Kotlin/Flutter bindings.
 * [anthy](https://github.com/xorgy/anthy) ⭐ 6 | 🐛 0 | 🌐 C | 📅 2022-04-27 - Anthy maintenance
 * [kanji-dict](https://github.com/marmooo/kanji-dict) ⭐ 6 | 🐛 0 | 🌐 HTML | 📅 2026-09-28 - 漢字の書き順(筆順)・読み方・画数・部首・用例・成り立ちを調べるための漢字辞書です。Unicode 15.1 のすべての漢字 98,682字を収録しています。
-* [kotlin-kana-kanji-converter](https://github.com/KazumaProject/kotlin-kana-kanji-converter) ⭐ 6 | 🐛 2 | 🌐 Kotlin | 📅 2026-10-17 - Kotlin かな漢字変換プログラム
+* [kotlin-kana-kanji-converter](https://github.com/KazumaProject/kotlin-kana-kanji-converter) ⭐ 6 | 🐛 14 | 🌐 Kotlin | 📅 2026-10-19 - Kotlin かな漢字変換プログラム
 * [o-dic](https://github.com/makotoga/o-dic) ⭐ 6 | 🐛 1 | 🌐 Perl | 📅 2026-02-24 - 沖縄辞書
-* [JMdictSQLite](https://github.com/seanmcbroom/JMdictSQLite) ⭐ 5 | 🐛 8 | 🌐 TypeScript | 📅 2026-10-14 - SQLite database for JMdict and Kanjidic, a Japanese-English dictionary. Automatic daily updates.
+* [JMdictSQLite](https://github.com/seanmcbroom/JMdictSQLite) ⭐ 5 | 🐛 5 | 🌐 TypeScript | 📅 2026-10-19 - SQLite database for JMdict and Kanjidic, a Japanese-English dictionary. Automatic daily updates.
 * [JumanDIC](https://github.com/ku-nlp/JumanDIC) ⭐ 4 | 🐛 2 | 🌐 Perl | 📅 2026-04-21 - This repository contains source dictionary files to build dictionaries for JUMAN and Juman++.
 * [uchinaaguchi\_dict](https://github.com/nanjakkun/uchinaaguchi_dict) ⭐ 4 | 🐛 28 | 🌐 Ruby | 📅 2026-10-08 - うちなーぐち辞典（沖縄語辞典）
 * [denonbu-ime-dic](https://github.com/albno273/denonbu-ime-dic) ⭐ 2 | 🐛 0 | 🌐 Makefile | 📅 2022-11-13 - 電音IME: Microsoft IMEなどで利用することを想定した「電音部」関連用語の辞書
@@ -1574,39 +1580,39 @@ Resources for Japanese dictionaries and input method editors (IME)
 | ------------------------------------------------------------------------------------------------------------------------------------------ | -------------- | --------------- | ------ | ----------------- |
 | 🔗 [mecab-ipadic-neologd](https://github.com/neologd/mecab-ipadic-neologd) ⭐ 2,798 \| 🐛 21 \| 🌐 Shell \| 📅 2023-12-27                   | -              | -               | ⭐ 2.8k | 🔴 september 2020 |
 | 🔗 [tdmelodic](https://github.com/PKSHATechnology-Research/tdmelodic) ⭐ 125 \| 🐛 3 \| 🌐 Python \| 📅 2024-03-21                          | -              | -               | ⭐ 125  | 🔴 march 2024     |
-| 🔗 [jamdict](https://github.com/neocl/jamdict) ⭐ 172 \| 🐛 8 \| 🌐 Python \| 📅 2021-06-06                                                 | 📥 1k          | 📦 92k          | ⭐ 172  | 🔴 june 2021      |
-| 🔗 [unidic-py](https://github.com/polm/unidic-py) ⭐ 114 \| 🐛 4 \| 🌐 Python \| 📅 2025-02-26                                              | 📥 72k         | 📦 12M          | ⭐ 114  | 🔴 february 2025  |
+| 🔗 [jamdict](https://github.com/neocl/jamdict) ⭐ 172 \| 🐛 8 \| 🌐 Python \| 📅 2021-06-06                                                 | 📥 1k          | 📦 93k          | ⭐ 172  | 🔴 june 2021      |
+| 🔗 [unidic-py](https://github.com/polm/unidic-py) ⭐ 114 \| 🐛 4 \| 🌐 Python \| 📅 2025-02-26                                              | 📥 82k         | 📦 13M          | ⭐ 114  | 🔴 february 2025  |
 | 🔗 [Japanese-Company-Lexicon](https://github.com/chakki-works/Japanese-Company-Lexicon) ⭐ 99 \| 🐛 0 \| 🌐 Python \| 📅 2026-09-06         | -              | -               | ⭐ 99   | 🔴 january 2023   |
 | 🔗 [manbyo-sudachi](https://github.com/yagays/manbyo-sudachi) ⭐ 7 \| 🐛 0 \| 🌐 Python \| 📅 2021-04-06                                    | -              | -               | ⭐ 7    | 🔴 april 2021     |
-| 🔗 [jawiki-kana-kanji-dict](https://github.com/tokuhirom/jawiki-kana-kanji-dict) ⭐ 65 \| 🐛 2 \| 🌐 Python \| 📅 2026-10-10                | -              | -               | ⭐ 65   | 🟢 last saturday  |
+| 🔗 [jawiki-kana-kanji-dict](https://github.com/tokuhirom/jawiki-kana-kanji-dict) ⭐ 65 \| 🐛 2 \| 🌐 Python \| 📅 2026-10-10                | -              | -               | ⭐ 65   | 🟢 october        |
 | 🔗 [JIWC-Dictionary](https://github.com/sociocom/JIWC-Dictionary) ⭐ 40 \| 🐛 0 \| 📅 2021-01-27                                            | -              | -               | ⭐ 40   | 🔴 january 2021   |
 | 🔗 [JumanDIC](https://github.com/ku-nlp/JumanDIC) ⭐ 4 \| 🐛 2 \| 🌐 Perl \| 📅 2026-04-21                                                  | -              | -               | ⭐ 4    | 🔴 august 2022    |
-| 🔗 [ipadic-py](https://github.com/polm/ipadic-py) ⭐ 24 \| 🐛 0 \| 🌐 Python \| 📅 2021-10-31                                               | 📥 39k         | 📦 8M           | ⭐ 24   | 🔴 october 2021   |
-| 🔗 [unidic-lite](https://github.com/polm/unidic-lite) ⭐ 52 \| 🐛 0 \| 🌐 Python \| 📅 2020-09-01                                           | 📥 138k        | 📦 13M          | ⭐ 52   | 🔴 september 2020 |
-| 🔗 [emoji-ime-dictionary](https://github.com/peaceiris/emoji-ime-dictionary) ⭐ 378 \| 🐛 12 \| 🌐 Python \| 📅 2026-09-18                  | -              | -               | ⭐ 377  | 🟡 may            |
+| 🔗 [ipadic-py](https://github.com/polm/ipadic-py) ⭐ 24 \| 🐛 0 \| 🌐 Python \| 📅 2021-10-31                                               | 📥 38k         | 📦 8M           | ⭐ 24   | 🔴 october 2021   |
+| 🔗 [unidic-lite](https://github.com/polm/unidic-lite) ⭐ 52 \| 🐛 0 \| 🌐 Python \| 📅 2020-09-01                                           | 📥 169k        | 📦 13M          | ⭐ 52   | 🔴 september 2020 |
+| 🔗 [emoji-ime-dictionary](https://github.com/peaceiris/emoji-ime-dictionary) ⭐ 378 \| 🐛 12 \| 🌐 Python \| 📅 2026-09-18                  | -              | -               | ⭐ 378  | 🟡 may            |
 | 🔗 [google-ime-dictionary](https://github.com/peaceiris/google-ime-dictionary) ⭐ 110 \| 🐛 7 \| 🌐 Shell \| 📅 2026-09-18                  | -              | -               | ⭐ 110  | 🟡 may            |
 | 🔗 [dic-nico-intersection-pixiv](https://github.com/ncaq/dic-nico-intersection-pixiv) ⭐ 103 \| 🐛 2 \| 🌐 Haskell \| 📅 2024-09-03         | -              | -               | ⭐ 103  | 🔴 september 2024 |
 | 🔗 [google-ime-user-dictionary-ja-en](https://github.com/KEINOS/google-ime-user-dictionary-ja-en) ⭐ 65 \| 🐛 0 \| 📅 2018-12-22            | -              | -               | ⭐ 65   | 🔴 december 2016  |
 | 🔗 [emoticon](https://github.com/tiwanari/emoticon) ⭐ 46 \| 🐛 2 \| 🌐 Python \| 📅 2020-05-07                                             | -              | -               | ⭐ 46   | 🔴 may 2020       |
 | 🔗 [mecab-mozcdic](https://github.com/akirakubo/mecab-mozcdic) ⭐ 10 \| 🐛 0 \| 📅 2018-01-12                                               | -              | -               | ⭐ 10   | 🔴 january 2018   |
 | 🔗 [denonbu-ime-dic](https://github.com/albno273/denonbu-ime-dic) ⭐ 2 \| 🐛 0 \| 🌐 Makefile \| 📅 2022-11-13                              | -              | -               | ⭐ 2    | 🔴 november 2022  |
-| 🔗 [nijisanji-ime-dic](https://github.com/Umichang/nijisanji-ime-dic) ⭐ 43 \| 🐛 0 \| 🌐 Makefile \| 📅 2026-08-27                         | -              | -               | ⭐ 42   | 🟢 august         |
+| 🔗 [nijisanji-ime-dic](https://github.com/Umichang/nijisanji-ime-dic) ⭐ 43 \| 🐛 0 \| 🌐 Makefile \| 📅 2026-08-27                         | -              | -               | ⭐ 43   | 🟢 august         |
 | 🔗 [pokemon-ime-dic](https://github.com/Umichang/pokemon-ime-dic) ⭐ 1 \| 🐛 0 \| 🌐 Makefile \| 📅 2020-01-10                              | -              | -               | ⭐ 1    | 🔴 january 2020   |
 | 🔗 [EJDict](https://github.com/kujirahand/EJDict) ⭐ 274 \| 🐛 2 \| 🌐 Python \| 📅 2026-09-27                                              | -              | -               | ⭐ 274  | 🟢 september      |
 | 🔗 [Ayashiy-Nipongo-Dic](https://github.com/Rinrin0413/Ayashiy-Nipongo-Dic) ⭐ 24 \| 🐛 0 \| 📅 2024-05-05                                  | -              | -               | ⭐ 24   | 🔴 may 2024       |
 | 🔗 [genshin-dict](https://github.com/kotofurumiya/genshin-dict) ⭐ 129 \| 🐛 3 \| 🌐 TypeScript \| 📅 2026-09-05                            | -              | -               | ⭐ 129  | 🟢 september      |
-| 🔗 [jmdict-simplified](https://github.com/scriptin/jmdict-simplified) ⭐ 395 \| 🐛 1 \| 🌐 Kotlin \| 📅 2026-10-12                          | -              | -               | ⭐ 396  | 🟢 october        |
+| 🔗 [jmdict-simplified](https://github.com/scriptin/jmdict-simplified) ⭐ 395 \| 🐛 1 \| 🌐 Kotlin \| 📅 2026-10-19                          | -              | -               | ⭐ 395  | 🟢 october        |
 | 🔗 [mozcdict-ext](https://github.com/reasonset/mozcdict-ext) ⭐ 71 \| 🐛 0 \| 🌐 Ruby \| 📅 2026-05-09                                      | -              | -               | ⭐ 71   | 🟡 may            |
 | 🔗 [mh-dict-jp](https://github.com/utubo/mh-dict-jp) ⭐ 7 \| 🐛 8 \| 🌐 JavaScript \| 📅 2025-04-04                                         | -              | -               | ⭐ 7    | 🔴 april 2025     |
 | 🔗 [mecab-unidic-neologd](https://github.com/neologd/mecab-unidic-neologd) ⭐ 88 \| 🐛 4 \| 🌐 Shell \| 📅 2020-09-14                       | -              | -               | ⭐ 88   | 🔴 september 2020 |
-| 🔗 [hololive-dictionary](https://github.com/heppokofrontend/hololive-dictionary) ⭐ 25 \| 🐛 2 \| 🌐 TypeScript \| 📅 2024-12-04            | -              | -               | ⭐ 24   | 🔴 december 2024  |
-| 🔗 [jmdict-yomitan](https://github.com/themoeway/jmdict-yomitan) ⭐ 321 \| 🐛 0 \| 🌐 Shell \| 📅 2026-10-18                                | -              | -               | ⭐ 321  | 🟡 may            |
-| 🔗 [yomichan-jlpt-vocab](https://github.com/stephenmk/yomichan-jlpt-vocab) ⭐ 141 \| 🐛 0 \| 📅 2025-08-26                                  | -              | -               | ⭐ 142  | 🔴 august 2025    |
-| 🔗 [Jitendex](https://github.com/stephenmk/Jitendex) ⭐ 545 \| 🐛 25 \| 🌐 C# \| 📅 2026-08-21                                              | -              | -               | ⭐ 544  | 🟢 august         |
+| 🔗 [hololive-dictionary](https://github.com/heppokofrontend/hololive-dictionary) ⭐ 25 \| 🐛 2 \| 🌐 TypeScript \| 📅 2024-12-04            | -              | -               | ⭐ 25   | 🔴 december 2024  |
+| 🔗 [jmdict-yomitan](https://github.com/themoeway/jmdict-yomitan) ⭐ 321 \| 🐛 0 \| 🌐 Shell \| 📅 2026-10-19                                | -              | -               | ⭐ 321  | 🟡 may            |
+| 🔗 [yomichan-jlpt-vocab](https://github.com/stephenmk/yomichan-jlpt-vocab) ⭐ 141 \| 🐛 0 \| 📅 2025-08-26                                  | -              | -               | ⭐ 141  | 🔴 august 2025    |
+| 🔗 [Jitendex](https://github.com/stephenmk/Jitendex) ⭐ 546 \| 🐛 25 \| 🌐 C# \| 📅 2026-08-21                                              | -              | -               | ⭐ 546  | 🟢 august         |
 | 🔗 [jiten](https://github.com/obfusk/jiten) ⭐ 132 \| 🐛 54 \| 🌐 Python \| 📅 2024-08-31                                                   | -              | -               | ⭐ 132  | 🔴 december 2023  |
-| 🔗 [pixiv-yomitan](https://github.com/MarvNC/pixiv-yomitan) ⭐ 74 \| 🐛 0 \| 🌐 TypeScript \| 📅 2026-10-18                                 | -              | -               | ⭐ 73   | 🟢 september      |
-| 🔗 [uchinaaguchi\_dict](https://github.com/nanjakkun/uchinaaguchi_dict) ⭐ 4 \| 🐛 28 \| 🌐 Ruby \| 📅 2026-10-08                           | -              | -               | ⭐ 4    | 🟢 july           |
-| 🔗 [yomitan-dictionaries](https://github.com/marvnc/yomitan-dictionaries) ⭐ 937 \| 🐛 13 \| 🌐 JavaScript \| 📅 2026-03-18                 | -              | -               | ⭐ 932  | 🟡 march          |
+| 🔗 [pixiv-yomitan](https://github.com/MarvNC/pixiv-yomitan) ⭐ 74 \| 🐛 0 \| 🌐 TypeScript \| 📅 2026-10-19                                 | -              | -               | ⭐ 74   | 🟢 september      |
+| 🔗 [uchinaaguchi\_dict](https://github.com/nanjakkun/uchinaaguchi_dict) ⭐ 4 \| 🐛 28 \| 🌐 Ruby \| 📅 2026-10-08                           | -              | -               | ⭐ 4    | 🟡 july           |
+| 🔗 [yomitan-dictionaries](https://github.com/marvnc/yomitan-dictionaries) ⭐ 938 \| 🐛 13 \| 🌐 JavaScript \| 📅 2026-03-18                 | -              | -               | ⭐ 938  | 🟡 march          |
 | 🔗 [mouse\_over\_dictionary](https://github.com/kengo700/mouse_over_dictionary) ⭐ 72 \| 🐛 9 \| 🌐 C++ \| 📅 2020-01-23                    | -              | -               | ⭐ 72   | 🔴 january 2020   |
 | 🔗 [jisyo](https://github.com/skk-dict/jisyo) ⭐ 28 \| 🐛 0 \| 🌐 TypeScript \| 📅 2023-09-22                                               | -              | -               | ⭐ 28   | 🔴 september 2023 |
 | 🔗 [skk-jisyo.emoji-ja](https://github.com/ymrl/skk-jisyo.emoji-ja) ⭐ 30 \| 🐛 2 \| 🌐 Ruby \| 📅 2023-07-01                               | -              | -               | ⭐ 30   | 🔴 march 2018     |
@@ -1614,50 +1620,50 @@ Resources for Japanese dictionaries and input method editors (IME)
 | 🔗 [cl-skkserv](https://github.com/tani/cl-skkserv) ⭐ 31 \| 🐛 4 \| 🌐 Common Lisp \| 📅 2024-10-31                                        | -              | -               | ⭐ 31   | 🔴 october 2024   |
 | 🔗 [anthy](https://github.com/xorgy/anthy) ⭐ 6 \| 🐛 0 \| 🌐 C \| 📅 2022-04-27                                                            | -              | -               | ⭐ 6    | 🔴 july 2013      |
 | 🔗 [anthy-unicode](https://github.com/fujiwarat/anthy-unicode) ⭐ 48 \| 🐛 8 \| 🌐 Raku \| 📅 2026-09-22                                    | -              | -               | ⭐ 48   | 🟢 september      |
-| 🔗 [azooKey](https://github.com/azooKey/azooKey) ⭐ 785 \| 🐛 29 \| 🌐 Swift \| 📅 2026-10-18                                               | -              | -               | ⭐ 781  | 🟢 september      |
-| 🔗 [azooKey-Desktop](https://github.com/azooKey/azooKey-Desktop) ⭐ 1,078 \| 🐛 31 \| 🌐 Swift \| 📅 2026-10-18                             | -              | -               | ⭐ 1k   | 🟢 september      |
-| 🔗 [fcitx5-hazkey](https://github.com/7ka-hiira/fcitx5-hazkey) ⭐ 241 \| 🐛 21 \| 🌐 Swift \| 📅 2026-03-07                                 | -              | -               | ⭐ 238  | 🟡 february       |
+| 🔗 [azooKey](https://github.com/azooKey/azooKey) ⭐ 787 \| 🐛 29 \| 🌐 Swift \| 📅 2026-10-19                                               | -              | -               | ⭐ 786  | 🟢 today          |
+| 🔗 [azooKey-Desktop](https://github.com/azooKey/azooKey-Desktop) ⭐ 1,086 \| 🐛 31 \| 🌐 Swift \| 📅 2026-10-19                             | -              | -               | ⭐ 1.1k | 🟢 yesterday      |
+| 🔗 [fcitx5-hazkey](https://github.com/7ka-hiira/fcitx5-hazkey) ⭐ 242 \| 🐛 21 \| 🌐 Swift \| 📅 2026-03-07                                 | -              | -               | ⭐ 242  | 🟡 february       |
 | 🔗 [mozcdic-ut-place-names](https://github.com/utuhiro78/mozcdic-ut-place-names) ⭐ 25 \| 🐛 0 \| 📅 2026-10-02                             | -              | -               | ⭐ 25   | 🟢 october        |
-| 🔗 [AzooKeyKanaKanjiConverter](https://github.com/azooKey/AzooKeyKanaKanjiConverter) ⭐ 164 \| 🐛 14 \| 🌐 Swift \| 📅 2026-10-18           | -              | -               | ⭐ 161  | 🟢 september      |
+| 🔗 [AzooKeyKanaKanjiConverter](https://github.com/azooKey/AzooKeyKanaKanjiConverter) ⭐ 164 \| 🐛 14 \| 🌐 Swift \| 📅 2026-10-18           | -              | -               | ⭐ 164  | 🟢 yesterday      |
 | 🔗 [libkkc](https://github.com/ueno/libkkc) ⭐ 115 \| 🐛 18 \| 🌐 Vala \| 📅 2024-09-02                                                     | -              | -               | ⭐ 115  | 🔴 august 2024    |
 | 🔗 [libskk](https://github.com/ueno/libskk) ⭐ 102 \| 🐛 9 \| 🌐 Vala \| 📅 2026-10-07                                                      | -              | -               | ⭐ 102  | 🟢 october        |
-| 🔗 [cjkvi-dict](https://github.com/cjkvi/cjkvi-dict) ⭐ 113 \| 🐛 5 \| 🌐 XSLT \| 📅 2022-11-28                                             | -              | -               | ⭐ 112  | 🔴 september 2017 |
+| 🔗 [cjkvi-dict](https://github.com/cjkvi/cjkvi-dict) ⭐ 113 \| 🐛 5 \| 🌐 XSLT \| 📅 2022-11-28                                             | -              | -               | ⭐ 113  | 🔴 september 2017 |
 | 🔗 [wlsp-classical](https://github.com/yocjyet/wlsp-classical) ⭐ 2 \| 🐛 0 \| 📅 2025-11-20                                                | -              | -               | ⭐ 2    | 🟡 november 2025  |
 | 🔗 [kanji-dict](https://github.com/marmooo/kanji-dict) ⭐ 6 \| 🐛 0 \| 🌐 HTML \| 📅 2026-09-28                                             | -              | -               | ⭐ 6    | 🟢 september      |
-| 🔗 [Kaomoji\_proj](https://github.com/mtripg6666tdr/Kaomoji_proj) ⭐ 12 \| 🐛 1 \| 📅 2025-10-21                                            | -              | -               | ⭐ 12   | 🟡 october 2025   |
-| 🔗 [kotlin-kana-kanji-converter](https://github.com/KazumaProject/kotlin-kana-kanji-converter) ⭐ 6 \| 🐛 2 \| 🌐 Kotlin \| 📅 2026-10-17   | -              | -               | ⭐ 6    | 🟢 today          |
+| 🔗 [Kaomoji\_proj](https://github.com/mtripg6666tdr/Kaomoji_proj) ⭐ 12 \| 🐛 1 \| 📅 2025-10-21                                            | -              | -               | ⭐ 12   | 🔴 october 2025   |
+| 🔗 [kotlin-kana-kanji-converter](https://github.com/KazumaProject/kotlin-kana-kanji-converter) ⭐ 6 \| 🐛 14 \| 🌐 Kotlin \| 📅 2026-10-19  | -              | -               | ⭐ 6    | 🟢 last saturday  |
 | 🔗 [alfred-japanese-dictionary](https://github.com/chrisgrieser/alfred-japanese-dictionary) ⭐ 7 \| 🐛 0 \| 🌐 JavaScript \| 📅 2026-10-01  | -              | -               | ⭐ 7    | 🟢 october        |
-| 🔗 [ichiran](https://github.com/tshatrov/ichiran) ⭐ 412 \| 🐛 13 \| 🌐 Common Lisp \| 📅 2026-10-17                                        | -              | -               | ⭐ 410  | 🟢 yesterday      |
+| 🔗 [ichiran](https://github.com/tshatrov/ichiran) ⭐ 412 \| 🐛 13 \| 🌐 Common Lisp \| 📅 2026-10-17                                        | -              | -               | ⭐ 412  | 🟢 last saturday  |
 | 🔗 [mikan](https://github.com/mojyack/mikan) ⭐ 24 \| 🐛 0 \| 🌐 C++ \| 📅 2026-08-28                                                       | -              | -               | ⭐ 24   | 🟢 august         |
 | 🔗 [colloquial-kansai-dictionary](https://github.com/sethclydesdale/colloquial-kansai-dictionary) ⭐ 10 \| 🐛 0 \| 🌐 HTML \| 📅 2026-08-24 | -              | -               | ⭐ 10   | 🟢 august         |
-| 🔗 [jisho-open](https://github.com/hlorenzi/jisho-open) ⭐ 69 \| 🐛 5 \| 🌐 TypeScript \| 📅 2026-07-23                                     | -              | -               | ⭐ 70   | 🟢 july           |
-| 🔗 [macskk](https://github.com/mtgto/macskk) ⭐ 320 \| 🐛 19 \| 🌐 Swift \| 📅 2026-10-18                                                   | -              | -               | ⭐ 319  | 🟢 today          |
+| 🔗 [jisho-open](https://github.com/hlorenzi/jisho-open) ⭐ 69 \| 🐛 5 \| 🌐 TypeScript \| 📅 2026-07-23                                     | -              | -               | ⭐ 69   | 🟡 july           |
+| 🔗 [macskk](https://github.com/mtgto/macskk) ⭐ 320 \| 🐛 19 \| 🌐 Swift \| 📅 2026-10-18                                                   | -              | -               | ⭐ 320  | 🟢 last saturday  |
 | 🔗 [nandoku](https://github.com/marmooo/nandoku) ⭐ 1 \| 🐛 0 \| 🌐 HTML \| 📅 2026-05-06                                                   | -              | -               | ⭐ 1    | 🟡 may            |
 | 🔗 [japanese\_android\_ime](https://github.com/nelsonapenn/japanese_android_ime) ⚠️ Archived                                               | -              | -               | ⭐ 2    | 🔴 september 2025 |
 | 🔗 [anthywl](https://github.com/tadeokondrak/anthywl) ⭐ 34 \| 🐛 5 \| 🌐 C \| 📅 2025-04-07                                                | -              | -               | ⭐ 34   | 🔴 april 2025     |
 | 🔗 [sekka](https://github.com/kiyoka/sekka) ⭐ 25 \| 🐛 0 \| 🌐 JavaScript \| 📅 2026-05-16                                                 | -              | -               | ⭐ 25   | 🟡 may            |
-| 🔗 [sumibi](https://github.com/kiyoka/sumibi) ⭐ 67 \| 🐛 6 \| 🌐 Emacs Lisp \| 📅 2026-10-08                                               | -              | -               | ⭐ 67   | 🟢 last thursday  |
+| 🔗 [sumibi](https://github.com/kiyoka/sumibi) ⭐ 67 \| 🐛 7 \| 🌐 Emacs Lisp \| 📅 2026-10-08                                               | -              | -               | ⭐ 67   | 🟢 october        |
 | 🔗 [jinmei-dict](https://github.com/s1r-j/jinmei-dict) ⭐ 9 \| 🐛 0 \| 🌐 HTML \| 📅 2020-04-01                                             | -              | -               | ⭐ 9    | 🔴 april 2020     |
 | 🔗 [japanesearabic](https://github.com/a-hamdi/japanesearabic) ⭐ 19 \| 🐛 1 \| 🌐 Python \| 📅 2025-05-20                                  | -              | -               | ⭐ 19   | 🔴 may 2025       |
 | 🔗 [o-dic](https://github.com/makotoga/o-dic) ⭐ 6 \| 🐛 1 \| 🌐 Perl \| 📅 2026-02-24                                                      | -              | -               | ⭐ 6    | 🟡 february       |
 | 🔗 [skk-emoji-jisyo](https://github.com/uasi/skk-emoji-jisyo) ⭐ 145 \| 🐛 2 \| 🌐 Ruby \| 📅 2025-01-02                                    | -              | -               | ⭐ 145  | 🔴 january 2025   |
 | 🔗 [mozcdic-ut-personal-names](https://github.com/utuhiro78/mozcdic-ut-personal-names) ⭐ 28 \| 🐛 0 \| 📅 2026-10-02                       | -              | -               | ⭐ 28   | 🟢 october        |
-| 🔗 [mozcdic-ut-sudachidict](https://github.com/utuhiro78/mozcdic-ut-sudachidict) ⭐ 24 \| 🐛 0 \| 📅 2026-10-16                             | -              | -               | ⭐ 24   | 🟢 july           |
+| 🔗 [mozcdic-ut-sudachidict](https://github.com/utuhiro78/mozcdic-ut-sudachidict) ⭐ 24 \| 🐛 0 \| 📅 2026-10-16                             | -              | -               | ⭐ 24   | 🟢 last friday    |
 | 🔗 [nihongo](https://github.com/sph-mn/nihongo) ⭐ 30 \| 🐛 0 \| 🌐 HTML \| 📅 2025-01-08                                                   | -              | -               | ⭐ 30   | 🔴 january 2025   |
-| 🔗 [kagome-dict](https://github.com/ikawaha/kagome-dict) ⭐ 15 \| 🐛 0 \| 🌐 Go \| 📅 2026-10-13                                            | -              | -               | ⭐ 15   | 🟢 september      |
+| 🔗 [kagome-dict](https://github.com/ikawaha/kagome-dict) ⭐ 15 \| 🐛 0 \| 🌐 Go \| 📅 2026-10-13                                            | -              | -               | ⭐ 15   | 🟢 last tuesday   |
 | 🔗 [canna](https://github.com/canna-input/canna) ⭐ 15 \| 🐛 11 \| 🌐 Perl \| 📅 2026-09-27                                                 | -              | -               | ⭐ 15   | 🟢 september      |
 | 🔗 [kansai-accent-dictionary](https://github.com/nullponull/kansai-accent-dictionary) ⭐ 2 \| 🐛 0 \| 🌐 Python \| 📅 2026-06-10            | -              | -               | ⭐ 2    | 🟡 june           |
-| 🔗 [jitendex](https://github.com/jitendex/jitendex) ⭐ 545 \| 🐛 25 \| 🌐 C# \| 📅 2026-08-21                                               | -              | -               | ⭐ 544  | 🟢 august         |
-| 🔗 [karukan](https://github.com/togatoga/karukan) ⭐ 738 \| 🐛 29 \| 🌐 Rust \| 📅 2026-10-17                                               | -              | -               | ⭐ 737  | 🟢 last saturday  |
+| 🔗 [jitendex](https://github.com/jitendex/jitendex) ⭐ 546 \| 🐛 25 \| 🌐 C# \| 📅 2026-08-21                                               | -              | -               | ⭐ 546  | 🟢 august         |
+| 🔗 [karukan](https://github.com/togatoga/karukan) ⭐ 739 \| 🐛 29 \| 🌐 Rust \| 📅 2026-10-19                                               | -              | -               | ⭐ 739  | 🟢 october        |
 | 🔗 [shitto-mania-dic](https://github.com/junikematsu/shitto-mania-dic) ⭐ 0 \| 🐛 0 \| 📅 2026-08-28                                        | -              | -               | ⭐ 0    | 🟢 august         |
 | 🔗 [dvorakjp-roman-table](https://github.com/shinespark/dvorakjp-roman-table) ⭐ 58 \| 🐛 0 \| 🌐 Rust \| 📅 2026-10-01                     | -              | -               | ⭐ 58   | 🟢 october        |
-| 🔗 [jmdict-fst](https://github.com/theGlenn/jmdict-fst) ⭐ 7 \| 🐛 3 \| 🌐 Rust \| 📅 2026-05-25                                            | -              | -               | ⭐ 6    | 🟡 may            |
+| 🔗 [jmdict-fst](https://github.com/theGlenn/jmdict-fst) ⭐ 7 \| 🐛 3 \| 🌐 Rust \| 📅 2026-05-25                                            | -              | -               | ⭐ 7    | 🟡 may            |
 | 🔗 [mzimeja](https://github.com/katahiromz/mzimeja) ⭐ 19 \| 🐛 2 \| 🌐 C++ \| 📅 2026-10-01                                                | -              | -               | ⭐ 19   | 🟢 october        |
-| 🔗 [japanesekeyboard](https://github.com/kazumaproject/japanesekeyboard) ⭐ 361 \| 🐛 47 \| 🌐 Kotlin \| 📅 2026-10-18                      | -              | -               | ⭐ 355  | 🟢 last saturday  |
-| 🔗 [Sumibi](https://github.com/kiyoka/Sumibi) ⭐ 67 \| 🐛 6 \| 🌐 Emacs Lisp \| 📅 2026-10-08                                               | -              | -               | ⭐ 67   | 🟢 last thursday  |
-| 🔗 [rakukan](https://github.com/fukuyori/rakukan) ⭐ 40 \| 🐛 30 \| 🌐 Rust \| 📅 2026-10-11                                                | -              | -               | ⭐ 39   | 🟢 yesterday      |
-| 🔗 [JMdictSQLite](https://github.com/seanmcbroom/JMdictSQLite) ⭐ 5 \| 🐛 8 \| 🌐 TypeScript \| 📅 2026-10-14                               | -              | -               | ⭐ 5    | 🟢 october        |
-| 🔗 [Meltype](https://github.com/yksr-melt/Meltype) ⭐ 1,133 \| 🐛 176 \| 🌐 C# \| 📅 2026-10-18                                             | -              | -               | ⭐ 941  | 🟢 today          |
+| 🔗 [japanesekeyboard](https://github.com/kazumaproject/japanesekeyboard) ⭐ 362 \| 🐛 48 \| 🌐 Kotlin \| 📅 2026-10-19                      | -              | -               | ⭐ 362  | 🟢 yesterday      |
+| 🔗 [Sumibi](https://github.com/kiyoka/Sumibi) ⭐ 67 \| 🐛 7 \| 🌐 Emacs Lisp \| 📅 2026-10-08                                               | -              | -               | ⭐ 67   | 🟢 october        |
+| 🔗 [rakukan](https://github.com/fukuyori/rakukan) ⭐ 40 \| 🐛 30 \| 🌐 Rust \| 📅 2026-10-11                                                | -              | -               | ⭐ 40   | 🟢 october        |
+| 🔗 [JMdictSQLite](https://github.com/seanmcbroom/JMdictSQLite) ⭐ 5 \| 🐛 5 \| 🌐 TypeScript \| 📅 2026-10-19                               | -              | -               | ⭐ 5    | 🟢 last tuesday   |
+| 🔗 [Meltype](https://github.com/yksr-melt/Meltype) ⭐ 1,166 \| 🐛 179 \| 🌐 C# \| 📅 2026-10-19                                             | -              | -               | ⭐ 1.2k | 🟢 today          |
 
 ## Corpus
 
@@ -1692,7 +1698,7 @@ Corpora annotated with part-of-speech tags and named entities
 
 Bilingual corpora containing aligned sentences for translation tasks
 
-* [cjk-compsci-terms](https://github.com/dahlia/cjk-compsci-terms) ⭐ 158 | 🐛 5 | 🌐 TypeScript | 📅 2026-09-22 - CJK computer science terms comparison / 中日韓電腦科學術語對照 / 日中韓のコンピュータ科学の用語対照 / 한·중·일 전산학 용어 대조
+* [cjk-compsci-terms](https://github.com/dahlia/cjk-compsci-terms) ⭐ 158 | 🐛 3 | 🌐 TypeScript | 📅 2026-10-19 - CJK computer science terms comparison / 中日韓電腦科學術語對照 / 日中韓のコンピュータ科学の用語対照 / 한·중·일 전산학 용어 대조
 * [small\_parallel\_enja](https://github.com/odashi/small_parallel_enja) ⭐ 97 | 🐛 0 | 🌐 Roff | 📅 2019-09-11 - 50k English-Japanese Parallel Corpus for Machine Translation Benchmark.
 * [JESC](https://github.com/rpryzant/JESC) ⭐ 91 | 🐛 0 | 🌐 Python | 📅 2017-11-01 - A large parallel corpus of English and Japanese
 * [Laboro-ParaCorpus](https://github.com/laboroai/Laboro-ParaCorpus) ⭐ 19 | 🐛 0 | 🌐 Python | 📅 2021-11-09 - Scripts for creating a Japanese-English parallel corpus and training NMT models
@@ -1716,7 +1722,7 @@ Bilingual corpora containing aligned sentences for translation tasks
 | 🔗 [giant\_ja-en\_parallel\_corpus](https://github.com/DayuanJiang/giant_ja-en_parallel_corpus) ⭐ 5 \| 🐛 0 \| 🌐 Python \| 📅 2019-08-04                  | -              | -               | ⭐ 5   | 🔴 august 2019    |
 | 🔗 [jesc\_small](https://github.com/yusugomori/jesc_small) ⭐ 3 \| 🐛 1 \| 📅 2019-07-06                                                                    | -              | -               | ⭐ 3   | 🔴 july 2019      |
 | 🔗 [graded-enja-corpus](https://github.com/marmooo/graded-enja-corpus) ⭐ 6 \| 🐛 0 \| 🌐 JavaScript \| 📅 2025-08-25                                       | -              | -               | ⭐ 6   | 🔴 august 2025    |
-| 🔗 [cjk-compsci-terms](https://github.com/dahlia/cjk-compsci-terms) ⭐ 158 \| 🐛 5 \| 🌐 TypeScript \| 📅 2026-09-22                                        | -              | -               | ⭐ 158 | 🟢 september      |
+| 🔗 [cjk-compsci-terms](https://github.com/dahlia/cjk-compsci-terms) ⭐ 158 \| 🐛 3 \| 🌐 TypeScript \| 📅 2026-10-19                                        | -              | -               | ⭐ 158 | 🟢 today          |
 | 🔗 [Laboro-ParaCorpus](https://github.com/laboroai/Laboro-ParaCorpus) ⭐ 19 \| 🐛 0 \| 🌐 Python \| 📅 2021-11-09                                           | -              | -               | ⭐ 19  | 🔴 november 2021  |
 | 🔗 [google-vs-deepl-je](https://github.com/Tzawa/google-vs-deepl-je) ⭐ 4 \| 🐛 0 \| 🌐 Python \| 📅 2020-03-22                                             | -              | -               | ⭐ 4   | 🔴 march 2020     |
 | 🔗 [matcha](https://github.com/ehimenlp/matcha) ⭐ 7 \| 🐛 0 \| 📅 2026-05-30                                                                               | -              | -               | ⭐ 7   | 🟡 may            |
@@ -1733,26 +1739,26 @@ Collections of conversation data for training dialogue systems
 * [JMRD](https://github.com/ku-nlp/JMRD) ⭐ 30 | 🐛 0 | 📅 2022-07-19 - Japanese Movie Recommendation Dialogue dataset
 * [kokorochat](https://github.com/uec-inabalab/kokorochat) ⭐ 26 | 🐛 1 | 📅 2026-05-03 - ロールプレイで収集した日本語のカウンセリング対話データセット
 * [asdc](https://github.com/megagonlabs/asdc) ⭐ 25 | 🐛 12 | 🌐 Python | 📅 2024-01-19 - Accommodation Search Dialog Corpus (宿泊施設探索対話コーパス)
-* [ETCDataset](https://github.com/UEC-InabaLab/ETCDataset) ⭐ 13 | 🐛 1 | 📅 2026-05-26 - Emotion Transcription in Conversation Dataset は，対話中の各発話に対して話者自身が記述した心情文を含む，約1,000 件の対話からなる日本語対話データセットです．
+* [ETCDataset](https://github.com/UEC-InabaLab/ETCDataset) ⭐ 14 | 🐛 1 | 📅 2026-05-26 - Emotion Transcription in Conversation Dataset は，対話中の各発話に対して話者自身が記述した心情文を含む，約1,000 件の対話からなる日本語対話データセットです．
 * [BPersona-chat](https://github.com/cl-tohoku/BPersona-chat) ⭐ 6 | 🐛 0 | 📅 2023-01-12 - This repository contains the Japanese–English bilingual chat corpus BPersona-chat published in the paper Chat Translation Error Detection for Assisting Cross-lingual Communications at AACL-IJCNLP 2022's Workshop Eval4NLP 2022.
 * [japanese-corpus](https://github.com/MokkeMeguru/japanese-corpus) ⭐ 4 | 🐛 0 | 📅 2018-10-09 - 日本語の対話データ for seq2seq etc
 * [JMultiWOZ-TC](https://github.com/llm-jp/JMultiWOZ-TC) ⭐ 4 | 🐛 3 | 🌐 Python | 📅 2026-10-14 - マルチターン対話でのエージェントのfunction calling評価
 * [HOTATE](https://github.com/EhimeNLP/HOTATE) ⭐ 1 | 🐛 0 | 📅 2026-06-17 - 本音・建前付き日本語対話データセット
 
-| Name                                                                                                                         | downloads/week | total downloads | stars | last commit      |
-| ---------------------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | ----- | ---------------- |
-| 🔗 [JMRD](https://github.com/ku-nlp/JMRD) ⭐ 30 \| 🐛 0 \| 📅 2022-07-19                                                      | -              | -               | ⭐ 30  | 🔴 july 2022     |
-| 🔗 [open2ch-dialogue-corpus](https://github.com/1never/open2ch-dialogue-corpus) ⭐ 102 \| 🐛 0 \| 🌐 Python \| 📅 2021-06-06  | -              | -               | ⭐ 102 | 🔴 june 2021     |
-| 🔗 [BSD](https://github.com/tsuruoka-lab/BSD) ⭐ 77 \| 🐛 0 \| 📅 2021-11-10                                                  | -              | -               | ⭐ 77  | 🔴 november 2021 |
-| 🔗 [asdc](https://github.com/megagonlabs/asdc) ⭐ 25 \| 🐛 12 \| 🌐 Python \| 📅 2024-01-19                                   | -              | -               | ⭐ 25  | 🔴 august 2023   |
-| 🔗 [japanese-corpus](https://github.com/MokkeMeguru/japanese-corpus) ⭐ 4 \| 🐛 0 \| 📅 2018-10-09                            | -              | -               | ⭐ 4   | 🔴 october 2018  |
-| 🔗 [BPersona-chat](https://github.com/cl-tohoku/BPersona-chat) ⭐ 6 \| 🐛 0 \| 📅 2023-01-12                                  | -              | -               | ⭐ 6   | 🔴 january 2023  |
-| 🔗 [japanese-daily-dialogue](https://github.com/jqk09a/japanese-daily-dialogue) ⭐ 61 \| 🐛 1 \| 📅 2023-03-17                | -              | -               | ⭐ 61  | 🔴 march 2023    |
-| 🔗 [llm-japanese-dataset](https://github.com/masanorihirano/llm-japanese-dataset) ⭐ 89 \| 🐛 6 \| 🌐 Python \| 📅 2024-01-23 | -              | -               | ⭐ 88  | 🔴 january 2024  |
-| 🔗 [kokorochat](https://github.com/uec-inabalab/kokorochat) ⭐ 26 \| 🐛 1 \| 📅 2026-05-03                                    | -              | -               | ⭐ 26  | 🟡 may           |
-| 🔗 [JMultiWOZ-TC](https://github.com/llm-jp/JMultiWOZ-TC) ⭐ 4 \| 🐛 3 \| 🌐 Python \| 📅 2026-10-14                          | -              | -               | ⭐ 4   | 🟢 august        |
-| 🔗 [HOTATE](https://github.com/EhimeNLP/HOTATE) ⭐ 1 \| 🐛 0 \| 📅 2026-06-17                                                 | -              | -               | ⭐ 1   | 🟡 june          |
-| 🔗 [ETCDataset](https://github.com/UEC-InabaLab/ETCDataset) ⭐ 13 \| 🐛 1 \| 📅 2026-05-26                                    | -              | -               | ⭐ 13  | 🟡 may           |
+| Name                                                                                                                         | downloads/week | total downloads | stars | last commit       |
+| ---------------------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | ----- | ----------------- |
+| 🔗 [JMRD](https://github.com/ku-nlp/JMRD) ⭐ 30 \| 🐛 0 \| 📅 2022-07-19                                                      | -              | -               | ⭐ 30  | 🔴 july 2022      |
+| 🔗 [open2ch-dialogue-corpus](https://github.com/1never/open2ch-dialogue-corpus) ⭐ 102 \| 🐛 0 \| 🌐 Python \| 📅 2021-06-06  | -              | -               | ⭐ 102 | 🔴 june 2021      |
+| 🔗 [BSD](https://github.com/tsuruoka-lab/BSD) ⭐ 77 \| 🐛 0 \| 📅 2021-11-10                                                  | -              | -               | ⭐ 77  | 🔴 november 2021  |
+| 🔗 [asdc](https://github.com/megagonlabs/asdc) ⭐ 25 \| 🐛 12 \| 🌐 Python \| 📅 2024-01-19                                   | -              | -               | ⭐ 25  | 🔴 august 2023    |
+| 🔗 [japanese-corpus](https://github.com/MokkeMeguru/japanese-corpus) ⭐ 4 \| 🐛 0 \| 📅 2018-10-09                            | -              | -               | ⭐ 4   | 🔴 october 2018   |
+| 🔗 [BPersona-chat](https://github.com/cl-tohoku/BPersona-chat) ⭐ 6 \| 🐛 0 \| 📅 2023-01-12                                  | -              | -               | ⭐ 6   | 🔴 january 2023   |
+| 🔗 [japanese-daily-dialogue](https://github.com/jqk09a/japanese-daily-dialogue) ⭐ 61 \| 🐛 1 \| 📅 2023-03-17                | -              | -               | ⭐ 61  | 🔴 march 2023     |
+| 🔗 [llm-japanese-dataset](https://github.com/masanorihirano/llm-japanese-dataset) ⭐ 89 \| 🐛 6 \| 🌐 Python \| 📅 2024-01-23 | -              | -               | ⭐ 89  | 🔴 january 2024   |
+| 🔗 [kokorochat](https://github.com/uec-inabalab/kokorochat) ⭐ 26 \| 🐛 1 \| 📅 2026-05-03                                    | -              | -               | ⭐ 26  | 🟡 may            |
+| 🔗 [JMultiWOZ-TC](https://github.com/llm-jp/JMultiWOZ-TC) ⭐ 4 \| 🐛 3 \| 🌐 Python \| 📅 2026-10-14                          | -              | -               | ⭐ 4   | 🟢 last wednesday |
+| 🔗 [HOTATE](https://github.com/EhimeNLP/HOTATE) ⭐ 1 \| 🐛 0 \| 📅 2026-06-17                                                 | -              | -               | ⭐ 1   | 🟡 june           |
+| 🔗 [ETCDataset](https://github.com/UEC-InabaLab/ETCDataset) ⭐ 14 \| 🐛 1 \| 📅 2026-05-26                                    | -              | -               | ⭐ 14  | 🟡 may            |
 
 ### Others
 
@@ -1776,9 +1782,9 @@ Corpora for tasks such as question answering or entailment recognition
 * [topokanji](https://github.com/scriptin/topokanji) ⭐ 208 | 🐛 1 | 🌐 JavaScript | 📅 2026-08-22 - Topologically ordered lists of kanji for effective learning
 * [open-mantra-dataset](https://github.com/mantra-inc/open-mantra-dataset) ⭐ 208 | 🐛 0 | 📅 2023-03-18 - Dataset introduced in the paper "Towards Fully Automated Manga Translation" presented in AAAI21
 * [PAX\_SAPIENTICA](https://github.com/AsPJT/PAX_SAPIENTICA) ⭐ 195 | 🐛 1 | 🌐 C++ | 📅 2026-01-31 - GIS & Archaeological Simulator. 2023 in development.
-* [house-of-representatives](https://github.com/smartnews-smri/house-of-representatives) ⭐ 181 | 🐛 1 | 🌐 JavaScript | 📅 2026-10-18 - 国会議案データベース：衆議院
+* [house-of-representatives](https://github.com/smartnews-smri/house-of-representatives) ⭐ 181 | 🐛 1 | 🌐 JavaScript | 📅 2026-10-19 - 国会議案データベース：衆議院
 * [wrime](https://github.com/ids-cv/wrime) ⭐ 180 | 🐛 3 | 📅 2025-09-11 - WRIME: 主観と客観の感情分析データセット
-* [awesome-japan-opendata](https://github.com/japan-opendata/awesome-japan-opendata) ⭐ 170 | 🐛 4 | 📅 2026-08-13 - Awesome Japan Open Data - 日本のオープンデータ情報一覧・まとめ
+* [awesome-japan-opendata](https://github.com/japan-opendata/awesome-japan-opendata) ⭐ 171 | 🐛 4 | 📅 2026-08-13 - Awesome Japan Open Data - 日本のオープンデータ情報一覧・まとめ
 * [kanji-frequency](https://github.com/scriptin/kanji-frequency) ⭐ 167 | 🐛 10 | 🌐 Astro | 📅 2026-06-20 - Kanji usage frequency data collected from various sources
 * [lawhub](https://github.com/lwhb/lawhub) ⭐ 151 | 🐛 76 | 📅 2020-11-17 - Repository to track Japanese Law in text format
 * [chABSA-dataset](https://github.com/chakki-works/chABSA-dataset) ⭐ 143 | 🐛 2 | 🌐 Jupyter Notebook | 📅 2022-02-25 - chakki's Aspect-Based Sentiment Analysis dataset
@@ -1788,7 +1794,7 @@ Corpora for tasks such as question answering or entailment recognition
 * [house-of-councillors](https://github.com/smartnews-smri/house-of-councillors) ⭐ 109 | 🐛 1 | 🌐 Python | 📅 2026-09-01 - 参議院の公式ウェブサイトから会派、議員、議案、質問主意書のデータを整理しました。
 * [NMeCab](https://github.com/komutan/NMeCab) ⭐ 106 | 🐛 9 | 🌐 C# | 📅 2024-03-30 - NMeCab: About Japanese morphological analyzer on .NET
 * [JapaneseWordSimilarityDataset](https://github.com/tmu-nlp/JapaneseWordSimilarityDataset) ⭐ 103 | 🐛 0 | 🌐 Python | 📅 2021-12-07 - Japanese Word Similarity Dataset
-* [aozorabunko\_text](https://github.com/aozorahack/aozorabunko_text) ⭐ 101 | 🐛 0 | 🌐 Ruby | 📅 2023-03-22 - text-only archives of [www.aozora.gr.jp](http://www.aozora.gr.jp)
+* [aozorabunko\_text](https://github.com/aozorahack/aozorabunko_text) ⭐ 102 | 🐛 0 | 🌐 Ruby | 📅 2023-03-22 - text-only archives of [www.aozora.gr.jp](http://www.aozora.gr.jp)
 * [lawtext](https://github.com/yamachig/lawtext) ⭐ 101 | 🐛 0 | 🌐 TypeScript | 📅 2026-10-06 - Plain text format for Japanese law
 * [jlpt-word-list](https://github.com/elzup/jlpt-word-list) ⭐ 98 | 🐛 0 | 🌐 JavaScript | 📅 2023-04-04 - Japanese word list from JLPT vocabulary
 * [CoARiJ](https://github.com/chakki-works/CoARiJ) ⭐ 95 | 🐛 4 | 🌐 Python | 📅 2020-12-19 - Corpus of Annual Reports in Japan
@@ -1874,7 +1880,7 @@ Corpora for tasks such as question answering or entailment recognition
 * [safety-boundary-test](https://github.com/sbintuitions/safety-boundary-test) ⭐ 9 | 🐛 0 | 🌐 Jinja | 📅 2026-04-14 - 日本語言語モデルの安全性の振る舞いを評価するテストセット
 * [ramendb](https://github.com/nuko-yokohama/ramendb) ⭐ 8 | 🐛 2 | 🌐 Python | 📅 2026-04-25 - なんとかデータベース( <https://supleks.jp/> )からのスクレイピングツールと収集データ
 * [jacred](https://github.com/youmima/jacred) ⭐ 8 | 🐛 2 | 📅 2024-03-08 - Repository for Japanese Document-level Relation Extraction Dataset (plan to be released in March).
-* [elaws-history](https://github.com/kissge/elaws-history) ⭐ 8 | 🐛 0 | 📅 2026-10-18 - e-Gov 法令検索で配布されている「全ての法令データ」を定期的にダウンロードし、アーカイブしています
+* [elaws-history](https://github.com/kissge/elaws-history) ⭐ 8 | 🐛 0 | 📅 2026-10-19 - e-Gov 法令検索で配布されている「全ての法令データ」を定期的にダウンロードし、アーカイブしています
 * [swallow-corpus](https://github.com/swallow-llm/swallow-corpus) ⭐ 8 | 🐛 0 | 🌐 Python | 📅 2024-11-23 - This repository provides Python implementation for building Swallow Corpus Version 1, a large Japanese web corpus (Okazaki et al., 2024), from Common Crawl archives.
 * [LookVQA](https://github.com/riken-grp/LookVQA) ⭐ 8 | 🐛 0 | 📅 2024-08-30 - A Gaze-grounded Visual Question Answering Dataset for Clarifying Ambiguous Japanese Questions (LREC-COLING 2024)
 * [jvs\_nonpara\_kana](https://github.com/CyberAgentAILab/jvs_nonpara_kana) ⭐ 8 | 🐛 0 | 🌐 Python | 📅 2026-06-17 - Katakana annotation of JVS nonpara corpus for G2P evaluation
@@ -1952,197 +1958,197 @@ Corpora for tasks such as question answering or entailment recognition
 * [JBE-QA](https://github.com/hancules/JBE-QA) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2025-11-26 - Japanese Bar Exam QA
 * [kaomoji-data](https://github.com/kaomojikan/kaomoji-data) ⭐ 0 | 🐛 0 | 🌐 JavaScript | 📅 2026-06-08 - 約1,700種類の日本語顔文字を全件、かな読み（擬態語・キーワード）・タグ・カテゴリでアノテーションした構造化JSONデータセット。多カテゴリ対応・カテゴリ別ファイル分割、MITライセンス。
 
-| Name                                                                                                                                                                         | downloads/week | total downloads | stars | last commit       |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | ----- | ----------------- |
-| 🔗 [jrte-corpus](https://github.com/megagonlabs/jrte-corpus) ⭐ 78 \| 🐛 0 \| 🌐 Python \| 📅 2023-06-23                                                                      | -              | -               | ⭐ 78  | 🔴 june 2023      |
-| 🔗 [kanji-data](https://github.com/davidluzgouveia/kanji-data) ⭐ 242 \| 🐛 3 \| 🌐 Python \| 📅 2026-02-27                                                                   | -              | -               | ⭐ 240 | 🟡 february       |
-| 🔗 [JapaneseWordSimilarityDataset](https://github.com/tmu-nlp/JapaneseWordSimilarityDataset) ⭐ 103 \| 🐛 0 \| 🌐 Python \| 📅 2021-12-07                                     | -              | -               | ⭐ 103 | 🔴 december 2021  |
-| 🔗 [simple-jppdb](https://github.com/tmu-nlp/simple-jppdb) ⭐ 32 \| 🐛 0 \| 🌐 Python \| 📅 2017-03-12                                                                        | -              | -               | ⭐ 32  | 🔴 march 2017     |
-| 🔗 [chABSA-dataset](https://github.com/chakki-works/chABSA-dataset) ⭐ 143 \| 🐛 2 \| 🌐 Jupyter Notebook \| 📅 2022-02-25                                                    | -              | -               | ⭐ 143 | 🔴 september 2018 |
-| 🔗 [JaQuAD](https://github.com/SkelterLabsInc/JaQuAD) ⭐ 111 \| 🐛 3 \| 🌐 Jupyter Notebook \| 📅 2022-03-02                                                                  | -              | -               | ⭐ 111 | 🔴 january 2022   |
-| 🔗 [JaNLI](https://github.com/verypluming/JaNLI) ⭐ 17 \| 🐛 0 \| 🌐 Python \| 📅 2023-05-31                                                                                  | -              | -               | ⭐ 17  | 🔴 may 2023       |
-| 🔗 [ebe-dataset](https://github.com/megagonlabs/ebe-dataset) ⭐ 18 \| 🐛 0 \| 🌐 PLSQL \| 📅 2020-12-17                                                                       | -              | -               | ⭐ 18  | 🔴 december 2020  |
-| 🔗 [emoji-ja](https://github.com/yagays/emoji-ja) ⭐ 83 \| 🐛 0 \| 🌐 Python \| 📅 2025-03-19                                                                                 | -              | -               | ⭐ 83  | 🔴 march 2025     |
-| 🔗 [nayose-wikipedia-ja](https://github.com/yagays/nayose-wikipedia-ja) ⭐ 35 \| 🐛 0 \| 🌐 Python \| 📅 2020-03-10                                                           | -              | -               | ⭐ 35  | 🔴 march 2020     |
-| 🔗 [ja.text8](https://github.com/Hironsan/ja.text8) ⭐ 113 \| 🐛 0 \| 🌐 Python \| 📅 2017-10-04                                                                              | -              | -               | ⭐ 113 | 🔴 october 2017   |
-| 🔗 [ThreeLineSummaryDataset](https://github.com/KodairaTomonori/ThreeLineSummaryDataset) ⭐ 31 \| 🐛 1 \| 📅 2018-04-04                                                       | -              | -               | ⭐ 31  | 🔴 april 2018     |
-| 🔗 [japanese](https://github.com/hingston/japanese) ⭐ 92 \| 🐛 0 \| 📅 2026-07-27                                                                                            | -              | -               | ⭐ 92  | 🔴 september 2018 |
-| 🔗 [kanji-frequency](https://github.com/scriptin/kanji-frequency) ⭐ 167 \| 🐛 10 \| 🌐 Astro \| 📅 2026-06-20                                                                | -              | -               | ⭐ 167 | 🟡 march          |
-| 🔗 [TEDxJP-10K](https://github.com/laboroai/TEDxJP-10K) ⭐ 28 \| 🐛 1 \| 🌐 Python \| 📅 2021-01-14                                                                           | -              | -               | ⭐ 28  | 🔴 january 2021   |
-| 🔗 [CoARiJ](https://github.com/chakki-works/CoARiJ) ⭐ 95 \| 🐛 4 \| 🌐 Python \| 📅 2020-12-19                                                                               | -              | -               | ⭐ 95  | 🔴 december 2020  |
-| 🔗 [technological-book-corpus-ja](https://github.com/textlint-ja/technological-book-corpus-ja) ⭐ 26 \| 🐛 1 \| 🌐 JavaScript \| 📅 2026-04-08                                | -              | -               | ⭐ 26  | 🟡 april          |
-| 🔗 [ita-corpus-chuwa](https://github.com/shirayu/ita-corpus-chuwa) ⭐ 5 \| 🐛 0 \| 🌐 Python \| 📅 2021-08-25                                                                 | -              | -               | ⭐ 5   | 🔴 august 2021    |
-| 🔗 [wikipedia-utils](https://github.com/singletongue/wikipedia-utils) ⭐ 78 \| 🐛 1 \| 🌐 Python \| 📅 2024-04-09                                                             | -              | -               | ⭐ 78  | 🔴 april 2024     |
-| 🔗 [inappropriate-words-ja](https://github.com/MosasoM/inappropriate-words-ja) ⭐ 213 \| 🐛 0 \| 🌐 Python \| 📅 2021-12-01                                                   | -              | -               | ⭐ 213 | 🔴 december 2021  |
-| 🔗 [house-of-councillors](https://github.com/smartnews-smri/house-of-councillors) ⭐ 109 \| 🐛 1 \| 🌐 Python \| 📅 2026-09-01                                                | -              | -               | ⭐ 109 | 🟢 september      |
-| 🔗 [house-of-representatives](https://github.com/smartnews-smri/house-of-representatives) ⭐ 181 \| 🐛 1 \| 🌐 JavaScript \| 📅 2026-10-18                                    | -              | -               | ⭐ 181 | 🟢 today          |
-| 🔗 [STAIR-captions](https://github.com/STAIR-Lab-CIT/STAIR-captions) ⭐ 90 \| 🐛 1 \| 📅 2018-07-04                                                                           | -              | -               | ⭐ 90  | 🔴 july 2018      |
-| 🔗 [Winograd-Schema-Challenge-Ja](https://github.com/ku-nlp/Winograd-Schema-Challenge-Ja) ⭐ 6 \| 🐛 1 \| 🌐 Python \| 📅 2019-01-25                                          | -              | -               | ⭐ 6   | 🔴 january 2019   |
-| 🔗 [speechBSD](https://github.com/ku-nlp/speechBSD) ⭐ 4 \| 🐛 0 \| 📅 2024-02-07                                                                                             | -              | -               | ⭐ 4   | 🔴 february 2024  |
-| 🔗 [ita-corpus](https://github.com/mmorise/ita-corpus) ⭐ 243 \| 🐛 1 \| 📅 2026-07-03                                                                                        | -              | -               | ⭐ 243 | 🟢 july           |
-| 🔗 [rohan4600](https://github.com/mmorise/rohan4600) ⭐ 73 \| 🐛 1 \| 🌐 HTML \| 📅 2026-03-13                                                                                | -              | -               | ⭐ 73  | 🟡 march          |
-| 🔗 [anlp-jp-history](https://github.com/whym/anlp-jp-history) ⭐ 3 \| 🐛 2 \| 🌐 Jupyter Notebook \| 📅 2024-04-05                                                            | -              | -               | ⭐ 3   | 🔴 april 2024     |
-| 🔗 [keigo\_transfer\_task](https://github.com/cl-tohoku/keigo_transfer_task) ⭐ 21 \| 🐛 0 \| 📅 2022-11-24                                                                   | -              | -               | ⭐ 21  | 🔴 november 2022  |
-| 🔗 [loanwords\_gairaigo](https://github.com/jamesohortle/loanwords_gairaigo) ⭐ 19 \| 🐛 3 \| 🌐 Python \| 📅 2024-10-24                                                      | -              | -               | ⭐ 19  | 🔴 january 2021   |
-| 🔗 [jawikicorpus](https://github.com/wikiwikification/jawikicorpus) ⭐ 4 \| 🐛 0 \| 📅 2018-11-24                                                                             | -              | -               | ⭐ 4   | 🔴 november 2018  |
-| 🔗 [GeneralPolicySpeechOfPrimeMinisterOfJapan](https://github.com/yuukimiyo/GeneralPolicySpeechOfPrimeMinisterOfJapan) ⭐ 6 \| 🐛 0 \| 📅 2020-01-14                          | -              | -               | ⭐ 6   | 🔴 january 2020   |
-| 🔗 [wrime](https://github.com/ids-cv/wrime) ⭐ 180 \| 🐛 3 \| 📅 2025-09-11                                                                                                   | -              | -               | ⭐ 179 | 🔴 september 2025 |
-| 🔗 [jtubespeech](https://github.com/sarulab-speech/jtubespeech) ⭐ 232 \| 🐛 8 \| 🌐 Python \| 📅 2023-11-13                                                                  | -              | -               | ⭐ 232 | 🔴 march 2023     |
-| 🔗 [WikipediaWordFrequencyList](https://github.com/maeda6uiui-backup/WikipediaWordFrequencyList) ⚠️ Archived                                                                 | -              | -               | ⭐ 2   | 🔴 april 2022     |
-| 🔗 [kokkosho\_data](https://github.com/rindybell/kokkosho_data) ⭐ 1 \| 🐛 0 \| 📅 2019-07-09                                                                                 | -              | -               | ⭐ 1   | 🔴 july 2019      |
-| 🔗 [pdmocrdataset-part1](https://github.com/ndl-lab/pdmocrdataset-part1) ⭐ 82 \| 🐛 0 \| 📅 2024-06-26                                                                       | -              | -               | ⭐ 82  | 🔴 june 2024      |
-| 🔗 [huriganacorpus-ndlbib](https://github.com/ndl-lab/huriganacorpus-ndlbib) ⭐ 33 \| 🐛 0 \| 📅 2021-09-21                                                                   | -              | -               | ⭐ 33  | 🔴 september 2021 |
-| 🔗 [jvs\_hiho](https://github.com/Hiroshiba/jvs_hiho) ⭐ 31 \| 🐛 0 \| 🌐 Shell \| 📅 2021-04-11                                                                              | -              | -               | ⭐ 31  | 🔴 february 2021  |
-| 🔗 [hirakanadic](https://github.com/po3rin/hirakanadic) ⭐ 7 \| 🐛 0 \| 🌐 Python \| 📅 2023-07-08                                                                            | 📥 26          | 📦 15k          | ⭐ 7   | 🔴 july 2023      |
-| 🔗 [animedb](https://github.com/anilogia/animedb) ⭐ 333 \| 🐛 9 \| 🌐 Python \| 📅 2023-10-26                                                                                | -              | -               | ⭐ 335 | 🔴 january 2023   |
-| 🔗 [security\_words](https://github.com/SaitoLab/security_words) ⭐ 27 \| 🐛 0 \| 📅 2023-08-18                                                                               | -              | -               | ⭐ 27  | 🔴 august 2023    |
-| 🔗 [Data-on-Japanese-Diet-Members](https://github.com/sugi2000/Data-on-Japanese-Diet-Members) ⭐ 3 \| 🐛 0 \| 📅 2022-09-29                                                   | -              | -               | ⭐ 3   | 🔴 september 2022 |
-| 🔗 [honkoku-data](https://github.com/yuta1984/honkoku-data) ⭐ 23 \| 🐛 1 \| 📅 2026-10-18                                                                                    | -              | -               | ⭐ 23  | 🟢 yesterday      |
-| 🔗 [engineer-vocabulary-list](https://github.com/mercari/engineer-vocabulary-list) ⭐ 1,983 \| 🐛 1 \| 📅 2022-12-03                                                          | -              | -               | ⭐ 2k  | 🔴 november 2020  |
-| 🔗 [JSICK](https://github.com/verypluming/JSICK) ⭐ 46 \| 🐛 0 \| 📅 2023-05-31                                                                                               | -              | -               | ⭐ 46  | 🔴 may 2023       |
-| 🔗 [phishurl-list](https://github.com/JPCERTCC/phishurl-list) ⭐ 214 \| 🐛 0 \| 🌐 HTML \| 📅 2026-10-16                                                                      | -              | -               | ⭐ 212 | 🟡 june           |
-| 🔗 [jcms](https://github.com/shigashiyama/jcms) ⭐ 9 \| 🐛 0 \| 🌐 Mask \| 📅 2026-04-03                                                                                      | -              | -               | ⭐ 9   | 🟡 april          |
-| 🔗 [aozorabunko\_text](https://github.com/aozorahack/aozorabunko_text) ⭐ 101 \| 🐛 0 \| 🌐 Ruby \| 📅 2023-03-22                                                             | -              | -               | ⭐ 100 | 🔴 march 2023     |
-| 🔗 [topokanji](https://github.com/scriptin/topokanji) ⭐ 208 \| 🐛 1 \| 🌐 JavaScript \| 📅 2026-08-22                                                                        | -              | -               | ⭐ 208 | 🟢 august         |
-| 🔗 [isbn4groups](https://github.com/uribo/isbn4groups) ⭐ 1 \| 🐛 0 \| 🌐 R \| 📅 2024-06-25                                                                                  | -              | -               | ⭐ 1   | 🔴 june 2024      |
-| 🔗 [NMeCab](https://github.com/komutan/NMeCab) ⭐ 106 \| 🐛 9 \| 🌐 C# \| 📅 2024-03-30                                                                                       | -              | -               | ⭐ 106 | 🔴 march 2024     |
-| 🔗 [ndlngramdata](https://github.com/ndl-lab/ndlngramdata) ⭐ 18 \| 🐛 0 \| 📅 2023-01-10                                                                                     | -              | -               | ⭐ 18  | 🔴 january 2023   |
-| 🔗 [ndlngramviewer\_v2](https://github.com/ndl-lab/ndlngramviewer_v2) ⭐ 3 \| 🐛 0 \| 🌐 Java \| 📅 2026-05-01                                                                | -              | -               | ⭐ 3   | 🟡 april          |
-| 🔗 [data\_set](https://github.com/japanese-law-analysis/data_set) ⭐ 54 \| 🐛 0 \| 📅 2025-01-08                                                                              | -              | -               | ⭐ 54  | 🔴 january 2025   |
-| 🔗 [huggingface-datasets\_wrime](https://github.com/shunk031/huggingface-datasets_wrime) ⭐ 5 \| 🐛 0 \| 🌐 Python \| 📅 2023-01-15                                           | -              | -               | ⭐ 5   | 🔴 january 2023   |
-| 🔗 [ndl-minhon-ocrdataset](https://github.com/ndl-lab/ndl-minhon-ocrdataset) ⭐ 22 \| 🐛 0 \| 🌐 Python \| 📅 2026-03-13                                                      | -              | -               | ⭐ 22  | 🟡 march          |
-| 🔗 [PAX\_SAPIENTICA](https://github.com/AsPJT/PAX_SAPIENTICA) ⭐ 195 \| 🐛 1 \| 🌐 C++ \| 📅 2026-01-31                                                                       | -              | -               | ⭐ 193 | 🟡 december 2025  |
-| 🔗 [j-liwc2015](https://github.com/tasukuigarashi/j-liwc2015) ⭐ 13 \| 🐛 0 \| 📅 2024-11-06                                                                                  | -              | -               | ⭐ 13  | 🔴 november 2024  |
-| 🔗 [huggingface-datasets\_livedoor-news-corpus](https://github.com/shunk031/huggingface-datasets_livedoor-news-corpus) ⭐ 3 \| 🐛 1 \| 🌐 Python \| 📅 2023-10-28             | -              | -               | ⭐ 3   | 🔴 october 2023   |
-| 🔗 [huggingface-datasets\_JGLUE](https://github.com/shunk031/huggingface-datasets_JGLUE) ⭐ 14 \| 🐛 8 \| 🌐 Python \| 📅 2025-03-31                                          | -              | -               | ⭐ 14  | 🔴 march 2025     |
-| 🔗 [commonsense-moral-ja](https://github.com/Language-Media-Lab/commonsense-moral-ja) ⭐ 15 \| 🐛 0 \| 🌐 Python \| 📅 2025-11-20                                             | -              | -               | ⭐ 15  | 🟡 november 2025  |
-| 🔗 [comet-atomic-ja](https://github.com/nlp-waseda/comet-atomic-ja) ⭐ 31 \| 🐛 0 \| 🌐 Python \| 📅 2024-03-08                                                               | -              | -               | ⭐ 31  | 🔴 march 2024     |
-| 🔗 [dcsg-ja](https://github.com/nlp-waseda/dcsg-ja) ⭐ 6 \| 🐛 0 \| 📅 2023-03-10                                                                                             | -              | -               | ⭐ 6   | 🔴 march 2023     |
-| 🔗 [japanese-toxic-dataset](https://github.com/inspection-ai/japanese-toxic-dataset) ⭐ 22 \| 🐛 2 \| 📅 2023-01-11                                                           | -              | -               | ⭐ 22  | 🔴 january 2023   |
-| 🔗 [camera](https://github.com/CyberAgentAILab/camera) ⚠️ Archived                                                                                                           | -              | -               | ⭐ 26  | 🔴 august 2024    |
-| 🔗 [Japanese-Fakenews-Dataset](https://github.com/tanreinama/Japanese-Fakenews-Dataset) ⭐ 21 \| 🐛 0 \| 📅 2021-05-02                                                        | -              | -               | ⭐ 21  | 🔴 may 2021       |
-| 🔗 [copa-japanese](https://github.com/nlp-titech/copa-japanese) ⭐ 1 \| 🐛 0 \| 📅 2023-02-24                                                                                 | -              | -               | ⭐ 1   | 🔴 february 2023  |
-| 🔗 [WLSP-familiarity](https://github.com/masayu-a/WLSP-familiarity) ⭐ 13 \| 🐛 1 \| 📅 2025-01-02                                                                            | -              | -               | ⭐ 13  | 🔴 january 2025   |
-| 🔗 [ProSub](https://github.com/matbahasa/ProSub) ⭐ 5 \| 🐛 0 \| 🌐 Python \| 📅 2025-04-03                                                                                   | -              | -               | ⭐ 5   | 🔴 april 2025     |
-| 🔗 [ramendb](https://github.com/nuko-yokohama/ramendb) ⭐ 8 \| 🐛 2 \| 🌐 Python \| 📅 2026-04-25                                                                             | -              | -               | ⭐ 8   | 🟡 april          |
-| 🔗 [huggingface-datasets\_CAMERA](https://github.com/shunk031/huggingface-datasets_CAMERA) ⚠️ Archived                                                                       | -              | -               | ⭐ 3   | 🔴 march 2023     |
-| 🔗 [FactCheckSentenceNLI-FCSNLI-](https://github.com/nlp-waseda/FactCheckSentenceNLI-FCSNLI-) ⭐ 0 \| 🐛 0 \| 🌐 Python \| 📅 2021-03-03                                      | -              | -               | ⭐ 0   | 🔴 march 2021     |
-| 🔗 [databricks-dolly-15k-ja](https://github.com/kunishou/databricks-dolly-15k-ja) ⭐ 89 \| 🐛 4 \| 📅 2023-07-25                                                              | -              | -               | ⭐ 89  | 🔴 july 2023      |
-| 🔗 [EaST-MELD](https://github.com/ku-nlp/EaST-MELD) ⭐ 1 \| 🐛 0 \| 📅 2023-06-23                                                                                             | -              | -               | ⭐ 1   | 🔴 june 2023      |
-| 🔗 [meconaudio](https://github.com/elith-co-jp/meconaudio) ⭐ 10 \| 🐛 0 \| 📅 2023-10-25                                                                                     | -              | -               | ⭐ 10  | 🔴 october 2023   |
-| 🔗 [japanese-addresses](https://github.com/geolonia/japanese-addresses) ⭐ 771 \| 🐛 26 \| 🌐 JavaScript \| 📅 2026-08-05                                                     | -              | -               | ⭐ 771 | 🟢 august         |
-| 🔗 [aozorasearch](https://github.com/myokoym/aozorasearch) ⭐ 21 \| 🐛 9 \| 🌐 Ruby \| 📅 2026-06-09                                                                          | -              | -               | ⭐ 21  | 🟡 march          |
-| 🔗 [llm-jp-corpus](https://github.com/llm-jp/llm-jp-corpus) ⭐ 49 \| 🐛 4 \| 🌐 Python \| 📅 2024-02-02                                                                       | -              | -               | ⭐ 49  | 🔴 october 2023   |
-| 🔗 [alpaca\_ja](https://github.com/shi3z/alpaca_ja) ⭐ 86 \| 🐛 3 \| 📅 2023-06-03                                                                                            | -              | -               | ⭐ 86  | 🔴 may 2023       |
-| 🔗 [instruction\_ja](https://github.com/megagonlabs/instruction_ja) ⭐ 24 \| 🐛 0 \| 🌐 Python \| 📅 2023-07-13                                                               | -              | -               | ⭐ 24  | 🔴 july 2023      |
-| 🔗 [japanese-family-names](https://github.com/siikamiika/japanese-family-names) ⭐ 17 \| 🐛 1 \| 🌐 Python \| 📅 2017-09-27                                                   | -              | -               | ⭐ 17  | 🔴 june 2017      |
-| 🔗 [kanji-data-media](https://github.com/kanjialive/kanji-data-media) ⭐ 435 \| 🐛 0 \| 📅 2026-09-04                                                                         | -              | -               | ⭐ 435 | 🟢 september      |
-| 🔗 [reazonspeech](https://github.com/reazon-research/reazonspeech) ⭐ 405 \| 🐛 13 \| 🌐 Python \| 📅 2026-06-10                                                              | -              | -               | ⭐ 404 | 🟡 june           |
-| 🔗 [huriganacorpus-aozora](https://github.com/ndl-lab/huriganacorpus-aozora) ⭐ 24 \| 🐛 0 \| 📅 2024-01-17                                                                   | -              | -               | ⭐ 24  | 🔴 january 2024   |
-| 🔗 [koniwa](https://github.com/koniwa/koniwa) ⚠️ Archived                                                                                                                    | -              | -               | ⭐ 62  | 🔴 april 2025     |
-| 🔗 [JMMLU](https://github.com/nlp-waseda/JMMLU) ⭐ 44 \| 🐛 0 \| 📅 2025-10-07                                                                                                | -              | -               | ⭐ 44  | 🟡 october 2025   |
-| 🔗 [hurigana-speech-corpus-aozora](https://github.com/ndl-lab/hurigana-speech-corpus-aozora) ⭐ 51 \| 🐛 1 \| 📅 2025-03-07                                                   | -              | -               | ⭐ 51  | 🔴 march 2025     |
-| 🔗 [jqara](https://github.com/hotchpotch/jqara) ⭐ 45 \| 🐛 0 \| 🌐 Python \| 📅 2025-09-09                                                                                   | -              | -               | ⭐ 45  | 🔴 september 2025 |
-| 🔗 [jemhopqa](https://github.com/aiishii/jemhopqa) ⭐ 30 \| 🐛 0 \| 🌐 Python \| 📅 2025-04-10                                                                                | -              | -               | ⭐ 30  | 🔴 april 2025     |
-| 🔗 [jacred](https://github.com/youmima/jacred) ⭐ 8 \| 🐛 2 \| 📅 2024-03-08                                                                                                  | -              | -               | ⭐ 8   | 🔴 march 2024     |
-| 🔗 [jades](https://github.com/naist-nlp/jades) ⭐ 0 \| 🐛 0 \| 📅 2022-12-13                                                                                                  | -              | -               | ⭐ 0   | 🔴 december 2022  |
-| 🔗 [do-not-answer-ja](https://github.com/kunishou/do-not-answer-ja) ⭐ 24 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2023-12-15                                                     | -              | -               | ⭐ 24  | 🔴 december 2023  |
-| 🔗 [oasst1-89k-ja](https://github.com/kunishou/oasst1-89k-ja) ⭐ 16 \| 🐛 2 \| 🌐 Python \| 📅 2023-11-19                                                                     | -              | -               | ⭐ 16  | 🔴 november 2023  |
-| 🔗 [jacwir](https://github.com/hotchpotch/jacwir) ⭐ 9 \| 🐛 0 \| 🌐 Python \| 📅 2025-09-09                                                                                  | -              | -               | ⭐ 9   | 🔴 september 2025 |
-| 🔗 [japanese-technical-dict](https://github.com/laoshubaby/japanese-technical-dict) ⭐ 3 \| 🐛 0 \| 🌐 Python \| 📅 2024-11-21                                                | -              | -               | ⭐ 3   | 🔴 november 2024  |
-| 🔗 [j-unimorph](https://github.com/cl-tohoku/j-unimorph) ⭐ 9 \| 🐛 0 \| 🌐 JavaScript \| 📅 2026-05-22                                                                       | -              | -               | ⭐ 9   | 🟡 may            |
-| 🔗 [GazeVQA](https://github.com/riken-grp/GazeVQA) ⭐ 0 \| 🐛 0 \| 📅 2024-09-20                                                                                              | -              | -               | ⭐ 0   | 🔴 september 2024 |
-| 🔗 [J-CRe3](https://github.com/riken-grp/J-CRe3) ⭐ 11 \| 🐛 0 \| 📅 2026-09-11                                                                                               | -              | -               | ⭐ 11  | 🟢 september      |
-| 🔗 [jmed-llm](https://github.com/sociocom/jmed-llm) ⭐ 59 \| 🐛 0 \| 🌐 Python \| 📅 2024-09-22                                                                               | -              | -               | ⭐ 59  | 🔴 september 2024 |
-| 🔗 [lawtext](https://github.com/yamachig/lawtext) ⭐ 101 \| 🐛 0 \| 🌐 TypeScript \| 📅 2026-10-06                                                                            | -              | -               | ⭐ 100 | 🟢 last tuesday   |
-| 🔗 [pdmocrdataset-part2](https://github.com/ndl-lab/pdmocrdataset-part2) ⭐ 15 \| 🐛 0 \| 📅 2024-06-26                                                                       | -              | -               | ⭐ 15  | 🔴 june 2024      |
-| 🔗 [japanesetopicwsd](https://github.com/nut-jnlp/japanesetopicwsd) ⭐ 3 \| 🐛 0 \| 📅 2018-09-27                                                                             | -              | -               | ⭐ 3   | 🔴 september 2018 |
-| 🔗 [temporalNLI\_dataset](https://github.com/tomo-vv/temporalNLI_dataset) ⭐ 1 \| 🐛 0 \| 📅 2023-07-22                                                                       | -              | -               | ⭐ 1   | 🔴 july 2023      |
-| 🔗 [JSeM](https://github.com/DaisukeBekki/JSeM) ⭐ 13 \| 🐛 4 \| 🌐 HTML \| 📅 2026-04-21                                                                                     | -              | -               | ⭐ 13  | 🔴 november 2024  |
-| 🔗 [niilc-qa](https://github.com/mynlp/niilc-qa) ⭐ 18 \| 🐛 0 \| 📅 2015-11-20                                                                                               | -              | -               | ⭐ 18  | 🔴 november 2015  |
-| 🔗 [chain-of-thought-ja-dataset](https://github.com/nlp-waseda/chain-of-thought-ja-dataset) ⭐ 5 \| 🐛 0 \| 📅 2023-09-14                                                     | -              | -               | ⭐ 5   | 🔴 september 2023 |
-| 🔗 [WikipediaAnnotatedCorpus](https://github.com/ku-nlp/WikipediaAnnotatedCorpus) ⭐ 30 \| 🐛 0 \| 🌐 Python \| 📅 2026-08-01                                                 | -              | -               | ⭐ 30  | 🟢 august         |
-| 🔗 [elaws-history](https://github.com/kissge/elaws-history) ⭐ 8 \| 🐛 0 \| 📅 2026-10-18                                                                                     | -              | -               | ⭐ 8   | 🟢 yesterday      |
-| 🔗 [Japanese-RP-Bench](https://github.com/Aratako/Japanese-RP-Bench) ⭐ 24 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2024-09-29                                                    | -              | -               | ⭐ 24  | 🔴 september 2024 |
-| 🔗 [hdic](https://github.com/shikeda/hdic) ⭐ 45 \| 🐛 3 \| 📅 2026-10-16                                                                                                     | -              | -               | ⭐ 45  | 🟢 last thursday  |
-| 🔗 [awesome-japan-opendata](https://github.com/japan-opendata/awesome-japan-opendata) ⭐ 170 \| 🐛 4 \| 📅 2026-08-13                                                         | -              | -               | ⭐ 168 | 🟢 august         |
-| 🔗 [kanji-data](https://github.com/mimneko/kanji-data) ⭐ 33 \| 🐛 1 \| 📅 2026-06-26                                                                                         | -              | -               | ⭐ 33  | 🟡 june           |
-| 🔗 [openchj-genji](https://github.com/togiso/openchj-genji) ⭐ 2 \| 🐛 0 \| 📅 2025-03-07                                                                                     | -              | -               | ⭐ 2   | 🔴 march 2025     |
-| 🔗 [AdParaphrase](https://github.com/CyberAgentAILab/AdParaphrase) ⭐ 1 \| 🐛 0 \| 📅 2025-05-28                                                                              | -              | -               | ⭐ 1   | 🔴 may 2025       |
-| 🔗 [Jamp\_sp](https://github.com/ynklab/Jamp_sp) ⭐ 0 \| 🐛 0 \| 📅 2024-06-15                                                                                                | -              | -               | ⭐ 0   | 🔴 june 2024      |
-| 🔗 [jnli-neg](https://github.com/asahi-y/jnli-neg) ⭐ 0 \| 🐛 0 \| 🌐 Python \| 📅 2025-12-21                                                                                 | -              | -               | ⭐ 0   | 🟡 december 2025  |
-| 🔗 [swallow-corpus](https://github.com/swallow-llm/swallow-corpus) ⭐ 8 \| 🐛 0 \| 🌐 Python \| 📅 2024-11-23                                                                 | -              | -               | ⭐ 8   | 🔴 november 2024  |
-| 🔗 [jalecon](https://github.com/naist-nlp/jalecon) ⭐ 6 \| 🐛 0 \| 📅 2023-07-04                                                                                              | -              | -               | ⭐ 6   | 🔴 july 2023      |
-| 🔗 [multils-japanese](https://github.com/naist-nlp/multils-japanese) ⭐ 0 \| 🐛 0 \| 📅 2026-08-19                                                                            | -              | -               | ⭐ 0   | 🟢 august         |
-| 🔗 [nwjc](https://github.com/masayu-a/nwjc) ⭐ 10 \| 🐛 0 \| 📅 2026-05-13                                                                                                    | -              | -               | ⭐ 10  | 🔴 april 2022     |
-| 🔗 [open-mantra-dataset](https://github.com/mantra-inc/open-mantra-dataset) ⭐ 208 \| 🐛 0 \| 📅 2023-03-18                                                                   | -              | -               | ⭐ 207 | 🔴 march 2023     |
-| 🔗 [gimei](https://github.com/willnet/gimei) ⭐ 425 \| 🐛 6 \| 🌐 Ruby \| 📅 2026-10-14                                                                                       | -              | -               | ⭐ 425 | 🟢 september      |
-| 🔗 [safety-boundary-test](https://github.com/sbintuitions/safety-boundary-test) ⭐ 9 \| 🐛 0 \| 🌐 Jinja \| 📅 2026-04-14                                                     | -              | -               | ⭐ 9   | 🟡 april          |
-| 🔗 [j-ono-data](https://github.com/ObakeConstructs/j-ono-data) ⭐ 11 \| 🐛 5 \| 📅 2026-07-31                                                                                 | -              | -               | ⭐ 11  | 🟢 july           |
-| 🔗 [kanji](https://github.com/sylhare/kanji) ⭐ 30 \| 🐛 18 \| 🌐 Python \| 📅 2026-10-10                                                                                     | -              | -               | ⭐ 30  | 🟢 last saturday  |
-| 🔗 [jethics](https://github.com/language-media-lab/jethics) ⭐ 2 \| 🐛 0 \| 📅 2025-06-23                                                                                     | -              | -               | ⭐ 2   | 🔴 june 2025      |
-| 🔗 [waon](https://github.com/llm-jp/waon) ⭐ 7 \| 🐛 0 \| 🌐 Python \| 📅 2025-11-02                                                                                          | -              | -               | ⭐ 7   | 🟡 november 2025  |
-| 🔗 [kuci](https://github.com/ku-nlp/kuci) ⭐ 5 \| 🐛 0 \| 📅 2024-02-16                                                                                                       | -              | -               | ⭐ 5   | 🔴 february 2024  |
-| 🔗 [japanese-address-testdata](https://github.com/t-sagara/japanese-address-testdata) ⭐ 14 \| 🐛 0 \| 📅 2023-09-25                                                          | -              | -               | ⭐ 14  | 🔴 september 2023 |
-| 🔗 [jlpt-word-list](https://github.com/elzup/jlpt-word-list) ⭐ 98 \| 🐛 0 \| 🌐 JavaScript \| 📅 2023-04-04                                                                  | -              | -               | ⭐ 98  | 🔴 february 2022  |
-| 🔗 [hiragana\_mojigazo](https://github.com/ndl-lab/hiragana_mojigazo) ⭐ 18 \| 🐛 0 \| 📅 2020-04-06                                                                          | -              | -               | ⭐ 18  | 🔴 april 2020     |
-| 🔗 [lawqa\_jp](https://github.com/digital-go-jp/lawqa_jp) ⭐ 278 \| 🐛 0 \| 📅 2026-02-13                                                                                     | -              | -               | ⭐ 278 | 🟡 february       |
-| 🔗 [yjcaptions](https://github.com/yahoojapan/yjcaptions) ⭐ 60 \| 🐛 0 \| 📅 2016-11-29                                                                                      | -              | -               | ⭐ 60  | 🔴 november 2016  |
-| 🔗 [ja-vg-vqa](https://github.com/yahoojapan/ja-vg-vqa) ⭐ 30 \| 🐛 1 \| 📅 2018-11-15                                                                                        | -              | -               | ⭐ 30  | 🔴 november 2018  |
-| 🔗 [lawhub](https://github.com/lwhb/lawhub) ⭐ 151 \| 🐛 76 \| 📅 2020-11-17                                                                                                  | -              | -               | ⭐ 151 | 🔴 november 2020  |
-| 🔗 [jconj](https://github.com/yamagoya/jconj) ⭐ 35 \| 🐛 1 \| 🌐 Python \| 📅 2020-05-26                                                                                     | -              | -               | ⭐ 35  | 🔴 may 2020       |
-| 🔗 [extract\_jawp\_names](https://github.com/hiroshi-manabe/extract_jawp_names) ⭐ 21 \| 🐛 0 \| 🌐 Perl \| 📅 2022-12-06                                                     | -              | -               | ⭐ 21  | 🔴 december 2022  |
-| 🔗 [cejc\_yomichan\_freq\_dict](https://github.com/forsakeninfinity/cejc_yomichan_freq_dict) ⭐ 15 \| 🐛 0 \| 🌐 Python \| 📅 2023-06-23                                      | -              | -               | ⭐ 15  | 🔴 june 2023      |
-| 🔗 [wikidict-ja](https://github.com/open-dict-data/wikidict-ja) ⭐ 6 \| 🐛 0 \| 📅 2016-06-17                                                                                 | -              | -               | ⭐ 6   | 🔴 june 2016      |
-| 🔗 [ajimee-bench](https://github.com/azookey/ajimee-bench) ⭐ 27 \| 🐛 2 \| 🌐 Python \| 📅 2025-01-13                                                                        | -              | -               | ⭐ 27  | 🔴 january 2025   |
-| 🔗 [j-spaw](https://github.com/takamichi-lab/j-spaw) ⭐ 6 \| 🐛 0 \| 🌐 Python \| 📅 2026-09-18                                                                               | -              | -               | ⭐ 6   | 🟢 september      |
-| 🔗 [camera3](https://github.com/cyberagentailab/camera3) ⚠️ Archived                                                                                                         | -              | -               | ⭐ 4   | 🔴 may 2024       |
-| 🔗 [jgpqa](https://github.com/llm-jp/jgpqa) ⭐ 2 \| 🐛 0 \| 📅 2025-09-01                                                                                                     | -              | -               | ⭐ 2   | 🔴 september 2025 |
-| 🔗 [tanaka-corpus-plus](https://github.com/marmooo/tanaka-corpus-plus) ⭐ 3 \| 🐛 0 \| 📅 2021-06-05                                                                          | -              | -               | ⭐ 3   | 🔴 june 2021      |
-| 🔗 [emotioncorpusjapanesetokushimaa2lab](https://github.com/kmatsu-tokudai/emotioncorpusjapanesetokushimaa2lab) ⭐ 2 \| 🐛 0 \| 📅 2024-09-02                                 | -              | -               | ⭐ 2   | 🔴 september 2024 |
-| 🔗 [osworld-jp](https://github.com/karakuri-ai/osworld-jp) ⭐ 2 \| 🐛 6 \| 🌐 Python \| 📅 2026-05-14                                                                         | -              | -               | ⭐ 2   | 🟡 may            |
-| 🔗 [quasi\_japanese\_reviews](https://github.com/megagonlabs/quasi_japanese_reviews) ⭐ 1 \| 🐛 0 \| 🌐 Python \| 📅 2023-07-21                                               | -              | -               | ⭐ 1   | 🔴 july 2023      |
-| 🔗 [psychiatry-clinical-notes](https://github.com/sociocom/psychiatry-clinical-notes) ⭐ 1 \| 🐛 0 \| 📅 2025-10-08                                                           | -              | -               | ⭐ 1   | 🟡 october 2025   |
-| 🔗 [merged-town-names](https://github.com/yuukitoriyama/merged-town-names) ⭐ 1 \| 🐛 2 \| 🌐 TypeScript \| 📅 2022-05-05                                                     | -              | -               | ⭐ 1   | 🔴 may 2022       |
-| 🔗 [japanesetextemoticondata](https://github.com/kuroshiba-ginji/japanesetextemoticondata) ⭐ 1 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2021-03-06                               | -              | -               | ⭐ 1   | 🔴 march 2021     |
-| 🔗 [mishearing-corpus](https://github.com/kishiyamat/mishearing-corpus) ⭐ 1 \| 🐛 4 \| 🌐 HTML \| 📅 2026-09-01                                                              | -              | -               | ⭐ 1   | 🟢 september      |
-| 🔗 [kotowaza](https://github.com/septn/kotowaza) ⭐ 3 \| 🐛 1 \| 🌐 JavaScript \| 📅 2026-02-15                                                                               | -              | -               | ⭐ 3   | 🟡 february       |
-| 🔗 [selective-rag-kasensabo](https://github.com/tk-yasuno/selective-rag-kasensabo) ⭐ 1 \| 🐛 0 \| 🌐 Python \| 📅 2025-11-11                                                 | -              | -               | ⭐ 1   | 🟡 november 2025  |
-| 🔗 [jmle2026-bench](https://github.com/naoto-iwase/jmle2026-bench) ⭐ 11 \| 🐛 0 \| 🌐 Python \| 📅 2026-09-26                                                                | -              | -               | ⭐ 11  | 🟡 march          |
-| 🔗 [JSTS-Neg](https://github.com/reiko-y/JSTS-Neg) ⭐ 2 \| 🐛 0 \| 🌐 Python \| 📅 2026-09-15                                                                                 | -              | -               | ⭐ 2   | 🟢 september      |
-| 🔗 [business-slide-questions](https://github.com/stockmarkteam/business-slide-questions) ⭐ 2 \| 🐛 0 \| 🌐 Python \| 📅 2025-05-23                                           | -              | -               | ⭐ 2   | 🔴 may 2025       |
-| 🔗 [WLSP-antonym](https://github.com/masayu-a/WLSP-antonym) ⭐ 2 \| 🐛 0 \| 📅 2021-03-18                                                                                     | -              | -               | ⭐ 2   | 🔴 march 2021     |
-| 🔗 [YouCook2-JP](https://github.com/nlab-mpg/YouCook2-JP) ⭐ 0 \| 🐛 0 \| 📅 2025-08-27                                                                                       | -              | -               | ⭐ 0   | 🔴 august 2025    |
-| 🔗 [E2U](https://github.com/sociocom/E2U) ⭐ 0 \| 🐛 0 \| 📅 2026-03-04                                                                                                       | -              | -               | ⭐ 0   | 🟡 march          |
-| 🔗 [annotation-2025](https://github.com/Tiny-Colony/annotation-2025) ⭐ 0 \| 🐛 0 \| 📅 2026-01-23                                                                            | -              | -               | ⭐ 0   | 🟡 january        |
-| 🔗 [jhpt](https://github.com/nict-astrec-att/jhpt) ⭐ 3 \| 🐛 0 \| 🌐 Python \| 📅 2026-03-07                                                                                 | -              | -               | ⭐ 3   | 🟡 march          |
-| 🔗 [JBE-QA](https://github.com/hancules/JBE-QA) ⭐ 0 \| 🐛 0 \| 🌐 Python \| 📅 2025-11-26                                                                                    | -              | -               | ⭐ 0   | 🟡 november 2025  |
-| 🔗 [JMedWiC](https://github.com/EhimeNLP/JMedWiC) ⭐ 4 \| 🐛 0 \| 📅 2026-05-07                                                                                               | -              | -               | ⭐ 4   | 🟡 may            |
-| 🔗 [Doppelganger-JC](https://github.com/0017-alt/Doppelganger-JC) ⭐ 2 \| 🐛 0 \| 🌐 Python \| 📅 2026-01-20                                                                  | -              | -               | ⭐ 2   | 🟡 january        |
-| 🔗 [modelvista-3lang](https://github.com/kuramitsulab/modelvista-3lang) ⭐ 2 \| 🐛 1 \| 📅 2026-03-16                                                                         | -              | -               | ⭐ 2   | 🟡 march          |
-| 🔗 [japanese-hr-niah](https://github.com/kufu/japanese-hr-niah) ⭐ 1 \| 🐛 0 \| 📅 2026-01-06                                                                                 | -              | -               | ⭐ 1   | 🟡 january        |
-| 🔗 [nijl-manyoshutei](https://github.com/kokubunken/nijl-manyoshutei) ⭐ 2 \| 🐛 0 \| 📅 2026-03-27                                                                           | -              | -               | ⭐ 2   | 🟡 march          |
-| 🔗 [kamuskita](https://github.com/matbahasa/kamuskita) ⭐ 2 \| 🐛 0 \| 🌐 HTML \| 📅 2026-10-18                                                                               | -              | -               | ⭐ 2   | 🟢 september      |
-| 🔗 [japanese-llm-benchmark](https://github.com/shi3z/japanese-llm-benchmark) ⭐ 51 \| 🐛 0 \| 🌐 Python \| 📅 2026-07-25                                                      | -              | -               | ⭐ 51  | 🟢 july           |
-| 🔗 [EDINET-Bench](https://github.com/SakanaAI/EDINET-Bench) ⭐ 37 \| 🐛 1 \| 🌐 Python \| 📅 2026-03-06                                                                       | -              | -               | ⭐ 37  | 🟡 march          |
-| 🔗 [LCTG-Bench](https://github.com/CyberAgentAILab/LCTG-Bench) ⚠️ Archived                                                                                                   | -              | -               | ⭐ 5   | 🔴 july 2024      |
-| 🔗 [Kokoro-Speech-Dataset](https://github.com/kaiidams/Kokoro-Speech-Dataset) ⭐ 74 \| 🐛 0 \| 🌐 Python \| 📅 2026-04-14                                                     | -              | -               | ⭐ 73  | 🟡 april          |
-| 🔗 [LookVQA](https://github.com/riken-grp/LookVQA) ⭐ 8 \| 🐛 0 \| 📅 2024-08-30                                                                                              | -              | -               | ⭐ 8   | 🔴 august 2024    |
-| 🔗 [JTruthfulQA](https://github.com/nlp-waseda/JTruthfulQA) ⭐ 6 \| 🐛 0 \| 🌐 Python \| 📅 2025-02-06                                                                        | -              | -               | ⭐ 6   | 🔴 february 2025  |
-| 🔗 [japanese-dataset-for-automated-fact-checking](https://github.com/FujitsuResearch/japanese-dataset-for-automated-fact-checking) ⭐ 2 \| 🐛 0 \| 🌐 Python \| 📅 2026-06-08 | -              | -               | ⭐ 2   | 🟡 june           |
-| 🔗 [llm-jp-longbench](https://github.com/llm-jp/llm-jp-longbench) ⭐ 2 \| 🐛 1 \| 🌐 Python \| 📅 2026-03-04                                                                  | -              | -               | ⭐ 2   | 🟡 march          |
-| 🔗 [doctrine-corpus](https://github.com/shimo4228/doctrine-corpus) ⭐ 2 \| 🐛 0 \| 🌐 Python \| 📅 2026-10-10                                                                 | -              | -               | ⭐ 2   | 🟢 last saturday  |
-| 🔗 [medLLM\_QA\_benchmark](https://github.com/aistairc/medLLM_QA_benchmark) ⭐ 6 \| 🐛 0 \| 🌐 Python \| 📅 2025-01-22                                                        | -              | -               | ⭐ 6   | 🔴 january 2025   |
-| 🔗 [kaomoji-data](https://github.com/kaomojikan/kaomoji-data) ⭐ 0 \| 🐛 0 \| 🌐 JavaScript \| 📅 2026-06-08                                                                  | -              | -               | ⭐ 0   | 🟡 june           |
-| 🔗 [jvs\_nonpara\_kana](https://github.com/CyberAgentAILab/jvs_nonpara_kana) ⭐ 8 \| 🐛 0 \| 🌐 Python \| 📅 2026-06-17                                                       | -              | -               | ⭐ 8   | 🟡 june           |
-| 🔗 [jlpt-kanji-dictionary](https://github.com/AnchorI/jlpt-kanji-dictionary) ⭐ 40 \| 🐛 0 \| 📅 2025-05-02                                                                   | -              | -               | ⭐ 41  | 🔴 may 2025       |
-| 🔗 [pfgen-bench](https://github.com/pfnet-research/pfgen-bench) ⭐ 110 \| 🐛 0 \| 🌐 Python \| 📅 2026-08-31                                                                  | -              | -               | ⭐ 109 | 🟢 august         |
-| 🔗 [j-tau-bench](https://github.com/sbintuitions/j-tau-bench) ⭐ 15 \| 🐛 1 \| 🌐 Python \| 📅 2026-10-15                                                                     | -              | -               | ⭐ 15  | 🟢 august         |
-| 🔗 [bbh-ja](https://github.com/pfnet-research/bbh-ja) ⭐ 5 \| 🐛 0 \| 📅 2025-07-08                                                                                           | -              | -               | ⭐ 5   | 🔴 july 2025      |
-| 🔗 [jfbench](https://github.com/pfnet-research/jfbench) ⭐ 15 \| 🐛 0 \| 🌐 Python \| 📅 2026-09-30                                                                           | -              | -               | ⭐ 15  | 🟢 september      |
-| 🔗 [aica-corpus](https://github.com/reinehonoka/aica-corpus) ⭐ 23 \| 🐛 0 \| 📅 2026-05-10                                                                                   | -              | -               | ⭐ 22  | 🟡 may            |
-| 🔗 [adlib](https://github.com/holotherapper/adlib) ⭐ 3 \| 🐛 0 \| 🌐 Python \| 📅 2026-04-13                                                                                 | -              | -               | ⭐ 3   | 🟡 april          |
-| 🔗 [jmeeteval](https://github.com/nishika-inc/jmeeteval) ⭐ 1 \| 🐛 0 \| 🌐 Python \| 📅 2026-08-09                                                                           | -              | -               | ⭐ 1   | 🟢 august         |
+| Name                                                                                                                                                                         | downloads/week | total downloads | stars     | last commit       |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | --------------- | --------- | ----------------- |
+| 🔗 [jrte-corpus](https://github.com/megagonlabs/jrte-corpus) ⭐ 78 \| 🐛 0 \| 🌐 Python \| 📅 2023-06-23                                                                      | -              | -               | ⭐ 78      | 🔴 june 2023      |
+| 🔗 [kanji-data](https://github.com/davidluzgouveia/kanji-data) ⭐ 242 \| 🐛 3 \| 🌐 Python \| 📅 2026-02-27                                                                   | -              | -               | ⭐ 242     | 🟡 february       |
+| 🔗 [JapaneseWordSimilarityDataset](https://github.com/tmu-nlp/JapaneseWordSimilarityDataset) ⭐ 103 \| 🐛 0 \| 🌐 Python \| 📅 2021-12-07                                     | -              | -               | ⭐ 103     | 🔴 december 2021  |
+| 🔗 [simple-jppdb](https://github.com/tmu-nlp/simple-jppdb) ⭐ 32 \| 🐛 0 \| 🌐 Python \| 📅 2017-03-12                                                                        | -              | -               | ⭐ 32      | 🔴 march 2017     |
+| 🔗 [chABSA-dataset](https://github.com/chakki-works/chABSA-dataset) ⭐ 143 \| 🐛 2 \| 🌐 Jupyter Notebook \| 📅 2022-02-25                                                    | -              | -               | ⭐ 143     | 🔴 september 2018 |
+| 🔗 [JaQuAD](https://github.com/SkelterLabsInc/JaQuAD) ⭐ 111 \| 🐛 3 \| 🌐 Jupyter Notebook \| 📅 2022-03-02                                                                  | -              | -               | ⭐ 111     | 🔴 january 2022   |
+| 🔗 [JaNLI](https://github.com/verypluming/JaNLI) ⭐ 17 \| 🐛 0 \| 🌐 Python \| 📅 2023-05-31                                                                                  | -              | -               | ⭐ 17      | 🔴 may 2023       |
+| 🔗 [ebe-dataset](https://github.com/megagonlabs/ebe-dataset) ⭐ 18 \| 🐛 0 \| 🌐 PLSQL \| 📅 2020-12-17                                                                       | -              | -               | ⭐ invalid | 🔴 december 2020  |
+| 🔗 [emoji-ja](https://github.com/yagays/emoji-ja) ⭐ 83 \| 🐛 0 \| 🌐 Python \| 📅 2025-03-19                                                                                 | -              | -               | ⭐ 83      | 🔴 march 2025     |
+| 🔗 [nayose-wikipedia-ja](https://github.com/yagays/nayose-wikipedia-ja) ⭐ 35 \| 🐛 0 \| 🌐 Python \| 📅 2020-03-10                                                           | -              | -               | ⭐ 35      | 🔴 march 2020     |
+| 🔗 [ja.text8](https://github.com/Hironsan/ja.text8) ⭐ 113 \| 🐛 0 \| 🌐 Python \| 📅 2017-10-04                                                                              | -              | -               | ⭐ 113     | 🔴 october 2017   |
+| 🔗 [ThreeLineSummaryDataset](https://github.com/KodairaTomonori/ThreeLineSummaryDataset) ⭐ 31 \| 🐛 1 \| 📅 2018-04-04                                                       | -              | -               | ⭐ 31      | 🔴 april 2018     |
+| 🔗 [japanese](https://github.com/hingston/japanese) ⭐ 92 \| 🐛 0 \| 📅 2026-07-27                                                                                            | -              | -               | ⭐ 92      | 🔴 september 2018 |
+| 🔗 [kanji-frequency](https://github.com/scriptin/kanji-frequency) ⭐ 167 \| 🐛 10 \| 🌐 Astro \| 📅 2026-06-20                                                                | -              | -               | ⭐ 167     | 🟡 march          |
+| 🔗 [TEDxJP-10K](https://github.com/laboroai/TEDxJP-10K) ⭐ 28 \| 🐛 1 \| 🌐 Python \| 📅 2021-01-14                                                                           | -              | -               | ⭐ 28      | 🔴 january 2021   |
+| 🔗 [CoARiJ](https://github.com/chakki-works/CoARiJ) ⭐ 95 \| 🐛 4 \| 🌐 Python \| 📅 2020-12-19                                                                               | -              | -               | ⭐ 95      | 🔴 december 2020  |
+| 🔗 [technological-book-corpus-ja](https://github.com/textlint-ja/technological-book-corpus-ja) ⭐ 26 \| 🐛 1 \| 🌐 JavaScript \| 📅 2026-04-08                                | -              | -               | ⭐ 26      | 🟡 april          |
+| 🔗 [ita-corpus-chuwa](https://github.com/shirayu/ita-corpus-chuwa) ⭐ 5 \| 🐛 0 \| 🌐 Python \| 📅 2021-08-25                                                                 | -              | -               | ⭐ 5       | 🔴 august 2021    |
+| 🔗 [wikipedia-utils](https://github.com/singletongue/wikipedia-utils) ⭐ 78 \| 🐛 1 \| 🌐 Python \| 📅 2024-04-09                                                             | -              | -               | ⭐ 78      | 🔴 april 2024     |
+| 🔗 [inappropriate-words-ja](https://github.com/MosasoM/inappropriate-words-ja) ⭐ 213 \| 🐛 0 \| 🌐 Python \| 📅 2021-12-01                                                   | -              | -               | ⭐ 213     | 🔴 december 2021  |
+| 🔗 [house-of-councillors](https://github.com/smartnews-smri/house-of-councillors) ⭐ 109 \| 🐛 1 \| 🌐 Python \| 📅 2026-09-01                                                | -              | -               | ⭐ 109     | 🟢 september      |
+| 🔗 [house-of-representatives](https://github.com/smartnews-smri/house-of-representatives) ⭐ 181 \| 🐛 1 \| 🌐 JavaScript \| 📅 2026-10-19                                    | -              | -               | ⭐ 181     | 🟢 yesterday      |
+| 🔗 [STAIR-captions](https://github.com/STAIR-Lab-CIT/STAIR-captions) ⭐ 90 \| 🐛 1 \| 📅 2018-07-04                                                                           | -              | -               | ⭐ 90      | 🔴 july 2018      |
+| 🔗 [Winograd-Schema-Challenge-Ja](https://github.com/ku-nlp/Winograd-Schema-Challenge-Ja) ⭐ 6 \| 🐛 1 \| 🌐 Python \| 📅 2019-01-25                                          | -              | -               | ⭐ 6       | 🔴 january 2019   |
+| 🔗 [speechBSD](https://github.com/ku-nlp/speechBSD) ⭐ 4 \| 🐛 0 \| 📅 2024-02-07                                                                                             | -              | -               | ⭐ 4       | 🔴 february 2024  |
+| 🔗 [ita-corpus](https://github.com/mmorise/ita-corpus) ⭐ 243 \| 🐛 1 \| 📅 2026-07-03                                                                                        | -              | -               | ⭐ 243     | 🟡 july           |
+| 🔗 [rohan4600](https://github.com/mmorise/rohan4600) ⭐ 73 \| 🐛 1 \| 🌐 HTML \| 📅 2026-03-13                                                                                | -              | -               | ⭐ 73      | 🟡 march          |
+| 🔗 [anlp-jp-history](https://github.com/whym/anlp-jp-history) ⭐ 3 \| 🐛 2 \| 🌐 Jupyter Notebook \| 📅 2024-04-05                                                            | -              | -               | ⭐ 3       | 🔴 april 2024     |
+| 🔗 [keigo\_transfer\_task](https://github.com/cl-tohoku/keigo_transfer_task) ⭐ 21 \| 🐛 0 \| 📅 2022-11-24                                                                   | -              | -               | ⭐ 21      | 🔴 november 2022  |
+| 🔗 [loanwords\_gairaigo](https://github.com/jamesohortle/loanwords_gairaigo) ⭐ 19 \| 🐛 3 \| 🌐 Python \| 📅 2024-10-24                                                      | -              | -               | ⭐ 19      | 🔴 january 2021   |
+| 🔗 [jawikicorpus](https://github.com/wikiwikification/jawikicorpus) ⭐ 4 \| 🐛 0 \| 📅 2018-11-24                                                                             | -              | -               | ⭐ 4       | 🔴 november 2018  |
+| 🔗 [GeneralPolicySpeechOfPrimeMinisterOfJapan](https://github.com/yuukimiyo/GeneralPolicySpeechOfPrimeMinisterOfJapan) ⭐ 6 \| 🐛 0 \| 📅 2020-01-14                          | -              | -               | ⭐ 6       | 🔴 january 2020   |
+| 🔗 [wrime](https://github.com/ids-cv/wrime) ⭐ 180 \| 🐛 3 \| 📅 2025-09-11                                                                                                   | -              | -               | ⭐ 180     | 🔴 september 2025 |
+| 🔗 [jtubespeech](https://github.com/sarulab-speech/jtubespeech) ⭐ 232 \| 🐛 8 \| 🌐 Python \| 📅 2023-11-13                                                                  | -              | -               | ⭐ 232     | 🔴 march 2023     |
+| 🔗 [WikipediaWordFrequencyList](https://github.com/maeda6uiui-backup/WikipediaWordFrequencyList) ⚠️ Archived                                                                 | -              | -               | ⭐ 2       | 🔴 april 2022     |
+| 🔗 [kokkosho\_data](https://github.com/rindybell/kokkosho_data) ⭐ 1 \| 🐛 0 \| 📅 2019-07-09                                                                                 | -              | -               | ⭐ 1       | 🔴 july 2019      |
+| 🔗 [pdmocrdataset-part1](https://github.com/ndl-lab/pdmocrdataset-part1) ⭐ 82 \| 🐛 0 \| 📅 2024-06-26                                                                       | -              | -               | ⭐ 82      | 🔴 june 2024      |
+| 🔗 [huriganacorpus-ndlbib](https://github.com/ndl-lab/huriganacorpus-ndlbib) ⭐ 33 \| 🐛 0 \| 📅 2021-09-21                                                                   | -              | -               | ⭐ 33      | 🔴 september 2021 |
+| 🔗 [jvs\_hiho](https://github.com/Hiroshiba/jvs_hiho) ⭐ 31 \| 🐛 0 \| 🌐 Shell \| 📅 2021-04-11                                                                              | -              | -               | ⭐ 31      | 🔴 february 2021  |
+| 🔗 [hirakanadic](https://github.com/po3rin/hirakanadic) ⭐ 7 \| 🐛 0 \| 🌐 Python \| 📅 2023-07-08                                                                            | 📥 53          | 📦 15k          | ⭐ 7       | 🔴 july 2023      |
+| 🔗 [animedb](https://github.com/anilogia/animedb) ⭐ 333 \| 🐛 9 \| 🌐 Python \| 📅 2023-10-26                                                                                | -              | -               | ⭐ 333     | 🔴 january 2023   |
+| 🔗 [security\_words](https://github.com/SaitoLab/security_words) ⭐ 27 \| 🐛 0 \| 📅 2023-08-18                                                                               | -              | -               | ⭐ 27      | 🔴 august 2023    |
+| 🔗 [Data-on-Japanese-Diet-Members](https://github.com/sugi2000/Data-on-Japanese-Diet-Members) ⭐ 3 \| 🐛 0 \| 📅 2022-09-29                                                   | -              | -               | ⭐ 3       | 🔴 september 2022 |
+| 🔗 [honkoku-data](https://github.com/yuta1984/honkoku-data) ⭐ 23 \| 🐛 1 \| 📅 2026-10-18                                                                                    | -              | -               | ⭐ 23      | 🟢 yesterday      |
+| 🔗 [engineer-vocabulary-list](https://github.com/mercari/engineer-vocabulary-list) ⭐ 1,983 \| 🐛 1 \| 📅 2022-12-03                                                          | -              | -               | ⭐ 2k      | 🔴 november 2020  |
+| 🔗 [JSICK](https://github.com/verypluming/JSICK) ⭐ 46 \| 🐛 0 \| 📅 2023-05-31                                                                                               | -              | -               | ⭐ 46      | 🔴 may 2023       |
+| 🔗 [phishurl-list](https://github.com/JPCERTCC/phishurl-list) ⭐ 214 \| 🐛 0 \| 🌐 HTML \| 📅 2026-10-16                                                                      | -              | -               | ⭐ 214     | 🟢 last friday    |
+| 🔗 [jcms](https://github.com/shigashiyama/jcms) ⭐ 9 \| 🐛 0 \| 🌐 Mask \| 📅 2026-04-03                                                                                      | -              | -               | ⭐ 9       | 🟡 april          |
+| 🔗 [aozorabunko\_text](https://github.com/aozorahack/aozorabunko_text) ⭐ 102 \| 🐛 0 \| 🌐 Ruby \| 📅 2023-03-22                                                             | -              | -               | ⭐ 102     | 🔴 march 2023     |
+| 🔗 [topokanji](https://github.com/scriptin/topokanji) ⭐ 208 \| 🐛 1 \| 🌐 JavaScript \| 📅 2026-08-22                                                                        | -              | -               | ⭐ 208     | 🟢 august         |
+| 🔗 [isbn4groups](https://github.com/uribo/isbn4groups) ⭐ 1 \| 🐛 0 \| 🌐 R \| 📅 2024-06-25                                                                                  | -              | -               | ⭐ 1       | 🔴 june 2024      |
+| 🔗 [NMeCab](https://github.com/komutan/NMeCab) ⭐ 106 \| 🐛 9 \| 🌐 C# \| 📅 2024-03-30                                                                                       | -              | -               | ⭐ 106     | 🔴 march 2024     |
+| 🔗 [ndlngramdata](https://github.com/ndl-lab/ndlngramdata) ⭐ 18 \| 🐛 0 \| 📅 2023-01-10                                                                                     | -              | -               | ⭐ 18      | 🔴 january 2023   |
+| 🔗 [ndlngramviewer\_v2](https://github.com/ndl-lab/ndlngramviewer_v2) ⭐ 3 \| 🐛 0 \| 🌐 Java \| 📅 2026-05-01                                                                | -              | -               | ⭐ 3       | 🟡 april          |
+| 🔗 [data\_set](https://github.com/japanese-law-analysis/data_set) ⭐ 54 \| 🐛 0 \| 📅 2025-01-08                                                                              | -              | -               | ⭐ 54      | 🔴 january 2025   |
+| 🔗 [huggingface-datasets\_wrime](https://github.com/shunk031/huggingface-datasets_wrime) ⭐ 5 \| 🐛 0 \| 🌐 Python \| 📅 2023-01-15                                           | -              | -               | ⭐ 5       | 🔴 january 2023   |
+| 🔗 [ndl-minhon-ocrdataset](https://github.com/ndl-lab/ndl-minhon-ocrdataset) ⭐ 22 \| 🐛 0 \| 🌐 Python \| 📅 2026-03-13                                                      | -              | -               | ⭐ 22      | 🟡 march          |
+| 🔗 [PAX\_SAPIENTICA](https://github.com/AsPJT/PAX_SAPIENTICA) ⭐ 195 \| 🐛 1 \| 🌐 C++ \| 📅 2026-01-31                                                                       | -              | -               | ⭐ 195     | 🟡 december 2025  |
+| 🔗 [j-liwc2015](https://github.com/tasukuigarashi/j-liwc2015) ⭐ 13 \| 🐛 0 \| 📅 2024-11-06                                                                                  | -              | -               | ⭐ 13      | 🔴 november 2024  |
+| 🔗 [huggingface-datasets\_livedoor-news-corpus](https://github.com/shunk031/huggingface-datasets_livedoor-news-corpus) ⭐ 3 \| 🐛 1 \| 🌐 Python \| 📅 2023-10-28             | -              | -               | ⭐ 3       | 🔴 october 2023   |
+| 🔗 [huggingface-datasets\_JGLUE](https://github.com/shunk031/huggingface-datasets_JGLUE) ⭐ 14 \| 🐛 8 \| 🌐 Python \| 📅 2025-03-31                                          | -              | -               | ⭐ 14      | 🔴 march 2025     |
+| 🔗 [commonsense-moral-ja](https://github.com/Language-Media-Lab/commonsense-moral-ja) ⭐ 15 \| 🐛 0 \| 🌐 Python \| 📅 2025-11-20                                             | -              | -               | ⭐ 15      | 🟡 november 2025  |
+| 🔗 [comet-atomic-ja](https://github.com/nlp-waseda/comet-atomic-ja) ⭐ 31 \| 🐛 0 \| 🌐 Python \| 📅 2024-03-08                                                               | -              | -               | ⭐ 31      | 🔴 march 2024     |
+| 🔗 [dcsg-ja](https://github.com/nlp-waseda/dcsg-ja) ⭐ 6 \| 🐛 0 \| 📅 2023-03-10                                                                                             | -              | -               | ⭐ 6       | 🔴 march 2023     |
+| 🔗 [japanese-toxic-dataset](https://github.com/inspection-ai/japanese-toxic-dataset) ⭐ 22 \| 🐛 2 \| 📅 2023-01-11                                                           | -              | -               | ⭐ 22      | 🔴 january 2023   |
+| 🔗 [camera](https://github.com/CyberAgentAILab/camera) ⚠️ Archived                                                                                                           | -              | -               | ⭐ 26      | 🔴 august 2024    |
+| 🔗 [Japanese-Fakenews-Dataset](https://github.com/tanreinama/Japanese-Fakenews-Dataset) ⭐ 21 \| 🐛 0 \| 📅 2021-05-02                                                        | -              | -               | ⭐ 21      | 🔴 may 2021       |
+| 🔗 [copa-japanese](https://github.com/nlp-titech/copa-japanese) ⭐ 1 \| 🐛 0 \| 📅 2023-02-24                                                                                 | -              | -               | ⭐ 1       | 🔴 february 2023  |
+| 🔗 [WLSP-familiarity](https://github.com/masayu-a/WLSP-familiarity) ⭐ 13 \| 🐛 1 \| 📅 2025-01-02                                                                            | -              | -               | ⭐ 13      | 🔴 january 2025   |
+| 🔗 [ProSub](https://github.com/matbahasa/ProSub) ⭐ 5 \| 🐛 0 \| 🌐 Python \| 📅 2025-04-03                                                                                   | -              | -               | ⭐ 5       | 🔴 april 2025     |
+| 🔗 [ramendb](https://github.com/nuko-yokohama/ramendb) ⭐ 8 \| 🐛 2 \| 🌐 Python \| 📅 2026-04-25                                                                             | -              | -               | ⭐ 8       | 🟡 april          |
+| 🔗 [huggingface-datasets\_CAMERA](https://github.com/shunk031/huggingface-datasets_CAMERA) ⚠️ Archived                                                                       | -              | -               | ⭐ 3       | 🔴 march 2023     |
+| 🔗 [FactCheckSentenceNLI-FCSNLI-](https://github.com/nlp-waseda/FactCheckSentenceNLI-FCSNLI-) ⭐ 0 \| 🐛 0 \| 🌐 Python \| 📅 2021-03-03                                      | -              | -               | ⭐ 0       | 🔴 march 2021     |
+| 🔗 [databricks-dolly-15k-ja](https://github.com/kunishou/databricks-dolly-15k-ja) ⭐ 89 \| 🐛 4 \| 📅 2023-07-25                                                              | -              | -               | ⭐ 89      | 🔴 july 2023      |
+| 🔗 [EaST-MELD](https://github.com/ku-nlp/EaST-MELD) ⭐ 1 \| 🐛 0 \| 📅 2023-06-23                                                                                             | -              | -               | ⭐ 1       | 🔴 june 2023      |
+| 🔗 [meconaudio](https://github.com/elith-co-jp/meconaudio) ⭐ 10 \| 🐛 0 \| 📅 2023-10-25                                                                                     | -              | -               | ⭐ 10      | 🔴 october 2023   |
+| 🔗 [japanese-addresses](https://github.com/geolonia/japanese-addresses) ⭐ 771 \| 🐛 26 \| 🌐 JavaScript \| 📅 2026-08-05                                                     | -              | -               | ⭐ 771     | 🟢 august         |
+| 🔗 [aozorasearch](https://github.com/myokoym/aozorasearch) ⭐ 21 \| 🐛 9 \| 🌐 Ruby \| 📅 2026-06-09                                                                          | -              | -               | ⭐ 21      | 🟡 march          |
+| 🔗 [llm-jp-corpus](https://github.com/llm-jp/llm-jp-corpus) ⭐ 49 \| 🐛 4 \| 🌐 Python \| 📅 2024-02-02                                                                       | -              | -               | ⭐ 49      | 🔴 october 2023   |
+| 🔗 [alpaca\_ja](https://github.com/shi3z/alpaca_ja) ⭐ 86 \| 🐛 3 \| 📅 2023-06-03                                                                                            | -              | -               | ⭐ 86      | 🔴 may 2023       |
+| 🔗 [instruction\_ja](https://github.com/megagonlabs/instruction_ja) ⭐ 24 \| 🐛 0 \| 🌐 Python \| 📅 2023-07-13                                                               | -              | -               | ⭐ 24      | 🔴 july 2023      |
+| 🔗 [japanese-family-names](https://github.com/siikamiika/japanese-family-names) ⭐ 17 \| 🐛 1 \| 🌐 Python \| 📅 2017-09-27                                                   | -              | -               | ⭐ 17      | 🔴 june 2017      |
+| 🔗 [kanji-data-media](https://github.com/kanjialive/kanji-data-media) ⭐ 435 \| 🐛 0 \| 📅 2026-09-04                                                                         | -              | -               | ⭐ 435     | 🟢 september      |
+| 🔗 [reazonspeech](https://github.com/reazon-research/reazonspeech) ⭐ 405 \| 🐛 13 \| 🌐 Python \| 📅 2026-06-10                                                              | -              | -               | ⭐ 405     | 🟡 june           |
+| 🔗 [huriganacorpus-aozora](https://github.com/ndl-lab/huriganacorpus-aozora) ⭐ 24 \| 🐛 0 \| 📅 2024-01-17                                                                   | -              | -               | ⭐ 24      | 🔴 january 2024   |
+| 🔗 [koniwa](https://github.com/koniwa/koniwa) ⚠️ Archived                                                                                                                    | -              | -               | ⭐ 62      | 🔴 april 2025     |
+| 🔗 [JMMLU](https://github.com/nlp-waseda/JMMLU) ⭐ 44 \| 🐛 0 \| 📅 2025-10-07                                                                                                | -              | -               | ⭐ 44      | 🔴 october 2025   |
+| 🔗 [hurigana-speech-corpus-aozora](https://github.com/ndl-lab/hurigana-speech-corpus-aozora) ⭐ 51 \| 🐛 1 \| 📅 2025-03-07                                                   | -              | -               | ⭐ 51      | 🔴 march 2025     |
+| 🔗 [jqara](https://github.com/hotchpotch/jqara) ⭐ 45 \| 🐛 0 \| 🌐 Python \| 📅 2025-09-09                                                                                   | -              | -               | ⭐ 45      | 🔴 september 2025 |
+| 🔗 [jemhopqa](https://github.com/aiishii/jemhopqa) ⭐ 30 \| 🐛 0 \| 🌐 Python \| 📅 2025-04-10                                                                                | -              | -               | ⭐ 30      | 🔴 april 2025     |
+| 🔗 [jacred](https://github.com/youmima/jacred) ⭐ 8 \| 🐛 2 \| 📅 2024-03-08                                                                                                  | -              | -               | ⭐ 8       | 🔴 march 2024     |
+| 🔗 [jades](https://github.com/naist-nlp/jades) ⭐ 0 \| 🐛 0 \| 📅 2022-12-13                                                                                                  | -              | -               | ⭐ 0       | 🔴 december 2022  |
+| 🔗 [do-not-answer-ja](https://github.com/kunishou/do-not-answer-ja) ⭐ 24 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2023-12-15                                                     | -              | -               | ⭐ 24      | 🔴 december 2023  |
+| 🔗 [oasst1-89k-ja](https://github.com/kunishou/oasst1-89k-ja) ⭐ 16 \| 🐛 2 \| 🌐 Python \| 📅 2023-11-19                                                                     | -              | -               | ⭐ 16      | 🔴 november 2023  |
+| 🔗 [jacwir](https://github.com/hotchpotch/jacwir) ⭐ 9 \| 🐛 0 \| 🌐 Python \| 📅 2025-09-09                                                                                  | -              | -               | ⭐ 9       | 🔴 september 2025 |
+| 🔗 [japanese-technical-dict](https://github.com/laoshubaby/japanese-technical-dict) ⭐ 3 \| 🐛 0 \| 🌐 Python \| 📅 2024-11-21                                                | -              | -               | ⭐ 3       | 🔴 november 2024  |
+| 🔗 [j-unimorph](https://github.com/cl-tohoku/j-unimorph) ⭐ 9 \| 🐛 0 \| 🌐 JavaScript \| 📅 2026-05-22                                                                       | -              | -               | ⭐ 9       | 🟡 may            |
+| 🔗 [GazeVQA](https://github.com/riken-grp/GazeVQA) ⭐ 0 \| 🐛 0 \| 📅 2024-09-20                                                                                              | -              | -               | ⭐ 0       | 🔴 september 2024 |
+| 🔗 [J-CRe3](https://github.com/riken-grp/J-CRe3) ⭐ 11 \| 🐛 0 \| 📅 2026-09-11                                                                                               | -              | -               | ⭐ 11      | 🟢 september      |
+| 🔗 [jmed-llm](https://github.com/sociocom/jmed-llm) ⭐ 59 \| 🐛 0 \| 🌐 Python \| 📅 2024-09-22                                                                               | -              | -               | ⭐ 59      | 🔴 september 2024 |
+| 🔗 [lawtext](https://github.com/yamachig/lawtext) ⭐ 101 \| 🐛 0 \| 🌐 TypeScript \| 📅 2026-10-06                                                                            | -              | -               | ⭐ 101     | 🟢 october        |
+| 🔗 [pdmocrdataset-part2](https://github.com/ndl-lab/pdmocrdataset-part2) ⭐ 15 \| 🐛 0 \| 📅 2024-06-26                                                                       | -              | -               | ⭐ 15      | 🔴 june 2024      |
+| 🔗 [japanesetopicwsd](https://github.com/nut-jnlp/japanesetopicwsd) ⭐ 3 \| 🐛 0 \| 📅 2018-09-27                                                                             | -              | -               | ⭐ 3       | 🔴 september 2018 |
+| 🔗 [temporalNLI\_dataset](https://github.com/tomo-vv/temporalNLI_dataset) ⭐ 1 \| 🐛 0 \| 📅 2023-07-22                                                                       | -              | -               | ⭐ 1       | 🔴 july 2023      |
+| 🔗 [JSeM](https://github.com/DaisukeBekki/JSeM) ⭐ 13 \| 🐛 4 \| 🌐 HTML \| 📅 2026-04-21                                                                                     | -              | -               | ⭐ 13      | 🔴 november 2024  |
+| 🔗 [niilc-qa](https://github.com/mynlp/niilc-qa) ⭐ 18 \| 🐛 0 \| 📅 2015-11-20                                                                                               | -              | -               | ⭐ 18      | 🔴 november 2015  |
+| 🔗 [chain-of-thought-ja-dataset](https://github.com/nlp-waseda/chain-of-thought-ja-dataset) ⭐ 5 \| 🐛 0 \| 📅 2023-09-14                                                     | -              | -               | ⭐ 5       | 🔴 september 2023 |
+| 🔗 [WikipediaAnnotatedCorpus](https://github.com/ku-nlp/WikipediaAnnotatedCorpus) ⭐ 30 \| 🐛 0 \| 🌐 Python \| 📅 2026-08-01                                                 | -              | -               | ⭐ 30      | 🟢 august         |
+| 🔗 [elaws-history](https://github.com/kissge/elaws-history) ⭐ 8 \| 🐛 0 \| 📅 2026-10-19                                                                                     | -              | -               | ⭐ 8       | 🟢 yesterday      |
+| 🔗 [Japanese-RP-Bench](https://github.com/Aratako/Japanese-RP-Bench) ⭐ 24 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2024-09-29                                                    | -              | -               | ⭐ 24      | 🔴 september 2024 |
+| 🔗 [hdic](https://github.com/shikeda/hdic) ⭐ 45 \| 🐛 3 \| 📅 2026-10-16                                                                                                     | -              | -               | ⭐ 45      | 🟢 last friday    |
+| 🔗 [awesome-japan-opendata](https://github.com/japan-opendata/awesome-japan-opendata) ⭐ 171 \| 🐛 4 \| 📅 2026-08-13                                                         | -              | -               | ⭐ 171     | 🟢 august         |
+| 🔗 [kanji-data](https://github.com/mimneko/kanji-data) ⭐ 33 \| 🐛 1 \| 📅 2026-06-26                                                                                         | -              | -               | ⭐ 33      | 🟡 june           |
+| 🔗 [openchj-genji](https://github.com/togiso/openchj-genji) ⭐ 2 \| 🐛 0 \| 📅 2025-03-07                                                                                     | -              | -               | ⭐ 2       | 🔴 march 2025     |
+| 🔗 [AdParaphrase](https://github.com/CyberAgentAILab/AdParaphrase) ⭐ 1 \| 🐛 0 \| 📅 2025-05-28                                                                              | -              | -               | ⭐ 1       | 🔴 may 2025       |
+| 🔗 [Jamp\_sp](https://github.com/ynklab/Jamp_sp) ⭐ 0 \| 🐛 0 \| 📅 2024-06-15                                                                                                | -              | -               | ⭐ 0       | 🔴 june 2024      |
+| 🔗 [jnli-neg](https://github.com/asahi-y/jnli-neg) ⭐ 0 \| 🐛 0 \| 🌐 Python \| 📅 2025-12-21                                                                                 | -              | -               | ⭐ 0       | 🟡 december 2025  |
+| 🔗 [swallow-corpus](https://github.com/swallow-llm/swallow-corpus) ⭐ 8 \| 🐛 0 \| 🌐 Python \| 📅 2024-11-23                                                                 | -              | -               | ⭐ 8       | 🔴 november 2024  |
+| 🔗 [jalecon](https://github.com/naist-nlp/jalecon) ⭐ 6 \| 🐛 0 \| 📅 2023-07-04                                                                                              | -              | -               | ⭐ 6       | 🔴 july 2023      |
+| 🔗 [multils-japanese](https://github.com/naist-nlp/multils-japanese) ⭐ 0 \| 🐛 0 \| 📅 2026-08-19                                                                            | -              | -               | ⭐ 0       | 🟢 august         |
+| 🔗 [nwjc](https://github.com/masayu-a/nwjc) ⭐ 10 \| 🐛 0 \| 📅 2026-05-13                                                                                                    | -              | -               | ⭐ 10      | 🔴 april 2022     |
+| 🔗 [open-mantra-dataset](https://github.com/mantra-inc/open-mantra-dataset) ⭐ 208 \| 🐛 0 \| 📅 2023-03-18                                                                   | -              | -               | ⭐ 208     | 🔴 march 2023     |
+| 🔗 [gimei](https://github.com/willnet/gimei) ⭐ 425 \| 🐛 6 \| 🌐 Ruby \| 📅 2026-10-14                                                                                       | -              | -               | ⭐ 425     | 🟢 september      |
+| 🔗 [safety-boundary-test](https://github.com/sbintuitions/safety-boundary-test) ⭐ 9 \| 🐛 0 \| 🌐 Jinja \| 📅 2026-04-14                                                     | -              | -               | ⭐ 9       | 🟡 april          |
+| 🔗 [j-ono-data](https://github.com/ObakeConstructs/j-ono-data) ⭐ 11 \| 🐛 5 \| 📅 2026-07-31                                                                                 | -              | -               | ⭐ 11      | 🟡 july           |
+| 🔗 [kanji](https://github.com/sylhare/kanji) ⭐ 30 \| 🐛 18 \| 🌐 Python \| 📅 2026-10-10                                                                                     | -              | -               | ⭐ 30      | 🟢 october        |
+| 🔗 [jethics](https://github.com/language-media-lab/jethics) ⭐ 2 \| 🐛 0 \| 📅 2025-06-23                                                                                     | -              | -               | ⭐ 2       | 🔴 june 2025      |
+| 🔗 [waon](https://github.com/llm-jp/waon) ⭐ 7 \| 🐛 0 \| 🌐 Python \| 📅 2025-11-02                                                                                          | -              | -               | ⭐ 7       | 🟡 november 2025  |
+| 🔗 [kuci](https://github.com/ku-nlp/kuci) ⭐ 5 \| 🐛 0 \| 📅 2024-02-16                                                                                                       | -              | -               | ⭐ 5       | 🔴 february 2024  |
+| 🔗 [japanese-address-testdata](https://github.com/t-sagara/japanese-address-testdata) ⭐ 14 \| 🐛 0 \| 📅 2023-09-25                                                          | -              | -               | ⭐ 14      | 🔴 september 2023 |
+| 🔗 [jlpt-word-list](https://github.com/elzup/jlpt-word-list) ⭐ 98 \| 🐛 0 \| 🌐 JavaScript \| 📅 2023-04-04                                                                  | -              | -               | ⭐ 98      | 🔴 february 2022  |
+| 🔗 [hiragana\_mojigazo](https://github.com/ndl-lab/hiragana_mojigazo) ⭐ 18 \| 🐛 0 \| 📅 2020-04-06                                                                          | -              | -               | ⭐ 18      | 🔴 april 2020     |
+| 🔗 [lawqa\_jp](https://github.com/digital-go-jp/lawqa_jp) ⭐ 278 \| 🐛 0 \| 📅 2026-02-13                                                                                     | -              | -               | ⭐ 278     | 🟡 february       |
+| 🔗 [yjcaptions](https://github.com/yahoojapan/yjcaptions) ⭐ 60 \| 🐛 0 \| 📅 2016-11-29                                                                                      | -              | -               | ⭐ 60      | 🔴 november 2016  |
+| 🔗 [ja-vg-vqa](https://github.com/yahoojapan/ja-vg-vqa) ⭐ 30 \| 🐛 1 \| 📅 2018-11-15                                                                                        | -              | -               | ⭐ 30      | 🔴 november 2018  |
+| 🔗 [lawhub](https://github.com/lwhb/lawhub) ⭐ 151 \| 🐛 76 \| 📅 2020-11-17                                                                                                  | -              | -               | ⭐ 151     | 🔴 november 2020  |
+| 🔗 [jconj](https://github.com/yamagoya/jconj) ⭐ 35 \| 🐛 1 \| 🌐 Python \| 📅 2020-05-26                                                                                     | -              | -               | ⭐ 35      | 🔴 may 2020       |
+| 🔗 [extract\_jawp\_names](https://github.com/hiroshi-manabe/extract_jawp_names) ⭐ 21 \| 🐛 0 \| 🌐 Perl \| 📅 2022-12-06                                                     | -              | -               | ⭐ 21      | 🔴 december 2022  |
+| 🔗 [cejc\_yomichan\_freq\_dict](https://github.com/forsakeninfinity/cejc_yomichan_freq_dict) ⭐ 15 \| 🐛 0 \| 🌐 Python \| 📅 2023-06-23                                      | -              | -               | ⭐ 15      | 🔴 june 2023      |
+| 🔗 [wikidict-ja](https://github.com/open-dict-data/wikidict-ja) ⭐ 6 \| 🐛 0 \| 📅 2016-06-17                                                                                 | -              | -               | ⭐ 6       | 🔴 june 2016      |
+| 🔗 [ajimee-bench](https://github.com/azookey/ajimee-bench) ⭐ 27 \| 🐛 2 \| 🌐 Python \| 📅 2025-01-13                                                                        | -              | -               | ⭐ 27      | 🔴 january 2025   |
+| 🔗 [j-spaw](https://github.com/takamichi-lab/j-spaw) ⭐ 6 \| 🐛 0 \| 🌐 Python \| 📅 2026-09-18                                                                               | -              | -               | ⭐ 6       | 🟢 september      |
+| 🔗 [camera3](https://github.com/cyberagentailab/camera3) ⚠️ Archived                                                                                                         | -              | -               | ⭐ 4       | 🔴 may 2024       |
+| 🔗 [jgpqa](https://github.com/llm-jp/jgpqa) ⭐ 2 \| 🐛 0 \| 📅 2025-09-01                                                                                                     | -              | -               | ⭐ 2       | 🔴 september 2025 |
+| 🔗 [tanaka-corpus-plus](https://github.com/marmooo/tanaka-corpus-plus) ⭐ 3 \| 🐛 0 \| 📅 2021-06-05                                                                          | -              | -               | ⭐ 3       | 🔴 june 2021      |
+| 🔗 [emotioncorpusjapanesetokushimaa2lab](https://github.com/kmatsu-tokudai/emotioncorpusjapanesetokushimaa2lab) ⭐ 2 \| 🐛 0 \| 📅 2024-09-02                                 | -              | -               | ⭐ 2       | 🔴 september 2024 |
+| 🔗 [osworld-jp](https://github.com/karakuri-ai/osworld-jp) ⭐ 2 \| 🐛 6 \| 🌐 Python \| 📅 2026-05-14                                                                         | -              | -               | ⭐ 2       | 🟡 may            |
+| 🔗 [quasi\_japanese\_reviews](https://github.com/megagonlabs/quasi_japanese_reviews) ⭐ 1 \| 🐛 0 \| 🌐 Python \| 📅 2023-07-21                                               | -              | -               | ⭐ 1       | 🔴 july 2023      |
+| 🔗 [psychiatry-clinical-notes](https://github.com/sociocom/psychiatry-clinical-notes) ⭐ 1 \| 🐛 0 \| 📅 2025-10-08                                                           | -              | -               | ⭐ 1       | 🔴 october 2025   |
+| 🔗 [merged-town-names](https://github.com/yuukitoriyama/merged-town-names) ⭐ 1 \| 🐛 2 \| 🌐 TypeScript \| 📅 2022-05-05                                                     | -              | -               | ⭐ 1       | 🔴 may 2022       |
+| 🔗 [japanesetextemoticondata](https://github.com/kuroshiba-ginji/japanesetextemoticondata) ⭐ 1 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2021-03-06                               | -              | -               | ⭐ 1       | 🔴 march 2021     |
+| 🔗 [mishearing-corpus](https://github.com/kishiyamat/mishearing-corpus) ⭐ 1 \| 🐛 4 \| 🌐 HTML \| 📅 2026-09-01                                                              | -              | -               | ⭐ 1       | 🟢 september      |
+| 🔗 [kotowaza](https://github.com/septn/kotowaza) ⭐ 3 \| 🐛 1 \| 🌐 JavaScript \| 📅 2026-02-15                                                                               | -              | -               | ⭐ 3       | 🟡 february       |
+| 🔗 [selective-rag-kasensabo](https://github.com/tk-yasuno/selective-rag-kasensabo) ⭐ 1 \| 🐛 0 \| 🌐 Python \| 📅 2025-11-11                                                 | -              | -               | ⭐ 1       | 🟡 november 2025  |
+| 🔗 [jmle2026-bench](https://github.com/naoto-iwase/jmle2026-bench) ⭐ 11 \| 🐛 0 \| 🌐 Python \| 📅 2026-09-26                                                                | -              | -               | ⭐ 11      | 🟡 march          |
+| 🔗 [JSTS-Neg](https://github.com/reiko-y/JSTS-Neg) ⭐ 2 \| 🐛 0 \| 🌐 Python \| 📅 2026-09-15                                                                                 | -              | -               | ⭐ 2       | 🟢 september      |
+| 🔗 [business-slide-questions](https://github.com/stockmarkteam/business-slide-questions) ⭐ 2 \| 🐛 0 \| 🌐 Python \| 📅 2025-05-23                                           | -              | -               | ⭐ 2       | 🔴 may 2025       |
+| 🔗 [WLSP-antonym](https://github.com/masayu-a/WLSP-antonym) ⭐ 2 \| 🐛 0 \| 📅 2021-03-18                                                                                     | -              | -               | ⭐ 2       | 🔴 march 2021     |
+| 🔗 [YouCook2-JP](https://github.com/nlab-mpg/YouCook2-JP) ⭐ 0 \| 🐛 0 \| 📅 2025-08-27                                                                                       | -              | -               | ⭐ 0       | 🔴 august 2025    |
+| 🔗 [E2U](https://github.com/sociocom/E2U) ⭐ 0 \| 🐛 0 \| 📅 2026-03-04                                                                                                       | -              | -               | ⭐ 0       | 🟡 march          |
+| 🔗 [annotation-2025](https://github.com/Tiny-Colony/annotation-2025) ⭐ 0 \| 🐛 0 \| 📅 2026-01-23                                                                            | -              | -               | ⭐ 0       | 🟡 january        |
+| 🔗 [jhpt](https://github.com/nict-astrec-att/jhpt) ⭐ 3 \| 🐛 0 \| 🌐 Python \| 📅 2026-03-07                                                                                 | -              | -               | ⭐ 3       | 🟡 march          |
+| 🔗 [JBE-QA](https://github.com/hancules/JBE-QA) ⭐ 0 \| 🐛 0 \| 🌐 Python \| 📅 2025-11-26                                                                                    | -              | -               | ⭐ 0       | 🟡 november 2025  |
+| 🔗 [JMedWiC](https://github.com/EhimeNLP/JMedWiC) ⭐ 4 \| 🐛 0 \| 📅 2026-05-07                                                                                               | -              | -               | ⭐ 4       | 🟡 may            |
+| 🔗 [Doppelganger-JC](https://github.com/0017-alt/Doppelganger-JC) ⭐ 2 \| 🐛 0 \| 🌐 Python \| 📅 2026-01-20                                                                  | -              | -               | ⭐ 2       | 🟡 january        |
+| 🔗 [modelvista-3lang](https://github.com/kuramitsulab/modelvista-3lang) ⭐ 2 \| 🐛 1 \| 📅 2026-03-16                                                                         | -              | -               | ⭐ 2       | 🟡 march          |
+| 🔗 [japanese-hr-niah](https://github.com/kufu/japanese-hr-niah) ⭐ 1 \| 🐛 0 \| 📅 2026-01-06                                                                                 | -              | -               | ⭐ 1       | 🟡 january        |
+| 🔗 [nijl-manyoshutei](https://github.com/kokubunken/nijl-manyoshutei) ⭐ 2 \| 🐛 0 \| 📅 2026-03-27                                                                           | -              | -               | ⭐ 2       | 🟡 march          |
+| 🔗 [kamuskita](https://github.com/matbahasa/kamuskita) ⭐ 2 \| 🐛 0 \| 🌐 HTML \| 📅 2026-10-18                                                                               | -              | -               | ⭐ 2       | 🟢 yesterday      |
+| 🔗 [japanese-llm-benchmark](https://github.com/shi3z/japanese-llm-benchmark) ⭐ 51 \| 🐛 0 \| 🌐 Python \| 📅 2026-07-25                                                      | -              | -               | ⭐ 51      | 🟡 july           |
+| 🔗 [EDINET-Bench](https://github.com/SakanaAI/EDINET-Bench) ⭐ 37 \| 🐛 1 \| 🌐 Python \| 📅 2026-03-06                                                                       | -              | -               | ⭐ 37      | 🟡 march          |
+| 🔗 [LCTG-Bench](https://github.com/CyberAgentAILab/LCTG-Bench) ⚠️ Archived                                                                                                   | -              | -               | ⭐ 5       | 🔴 july 2024      |
+| 🔗 [Kokoro-Speech-Dataset](https://github.com/kaiidams/Kokoro-Speech-Dataset) ⭐ 74 \| 🐛 0 \| 🌐 Python \| 📅 2026-04-14                                                     | -              | -               | ⭐ 74      | 🟡 april          |
+| 🔗 [LookVQA](https://github.com/riken-grp/LookVQA) ⭐ 8 \| 🐛 0 \| 📅 2024-08-30                                                                                              | -              | -               | ⭐ 8       | 🔴 august 2024    |
+| 🔗 [JTruthfulQA](https://github.com/nlp-waseda/JTruthfulQA) ⭐ 6 \| 🐛 0 \| 🌐 Python \| 📅 2025-02-06                                                                        | -              | -               | ⭐ 6       | 🔴 february 2025  |
+| 🔗 [japanese-dataset-for-automated-fact-checking](https://github.com/FujitsuResearch/japanese-dataset-for-automated-fact-checking) ⭐ 2 \| 🐛 0 \| 🌐 Python \| 📅 2026-06-08 | -              | -               | ⭐ 2       | 🟡 june           |
+| 🔗 [llm-jp-longbench](https://github.com/llm-jp/llm-jp-longbench) ⭐ 2 \| 🐛 1 \| 🌐 Python \| 📅 2026-03-04                                                                  | -              | -               | ⭐ 2       | 🟡 march          |
+| 🔗 [doctrine-corpus](https://github.com/shimo4228/doctrine-corpus) ⭐ 2 \| 🐛 0 \| 🌐 Python \| 📅 2026-10-10                                                                 | -              | -               | ⭐ 2       | 🟢 october        |
+| 🔗 [medLLM\_QA\_benchmark](https://github.com/aistairc/medLLM_QA_benchmark) ⭐ 6 \| 🐛 0 \| 🌐 Python \| 📅 2025-01-22                                                        | -              | -               | ⭐ 6       | 🔴 january 2025   |
+| 🔗 [kaomoji-data](https://github.com/kaomojikan/kaomoji-data) ⭐ 0 \| 🐛 0 \| 🌐 JavaScript \| 📅 2026-06-08                                                                  | -              | -               | ⭐ 0       | 🟡 june           |
+| 🔗 [jvs\_nonpara\_kana](https://github.com/CyberAgentAILab/jvs_nonpara_kana) ⭐ 8 \| 🐛 0 \| 🌐 Python \| 📅 2026-06-17                                                       | -              | -               | ⭐ 8       | 🟡 june           |
+| 🔗 [jlpt-kanji-dictionary](https://github.com/AnchorI/jlpt-kanji-dictionary) ⭐ 40 \| 🐛 0 \| 📅 2025-05-02                                                                   | -              | -               | ⭐ 40      | 🔴 may 2025       |
+| 🔗 [pfgen-bench](https://github.com/pfnet-research/pfgen-bench) ⭐ 110 \| 🐛 0 \| 🌐 Python \| 📅 2026-08-31                                                                  | -              | -               | ⭐ 110     | 🟢 august         |
+| 🔗 [j-tau-bench](https://github.com/sbintuitions/j-tau-bench) ⭐ 15 \| 🐛 1 \| 🌐 Python \| 📅 2026-10-15                                                                     | -              | -               | ⭐ 15      | 🟢 last thursday  |
+| 🔗 [bbh-ja](https://github.com/pfnet-research/bbh-ja) ⭐ 5 \| 🐛 0 \| 📅 2025-07-08                                                                                           | -              | -               | ⭐ 5       | 🔴 july 2025      |
+| 🔗 [jfbench](https://github.com/pfnet-research/jfbench) ⭐ 15 \| 🐛 0 \| 🌐 Python \| 📅 2026-09-30                                                                           | -              | -               | ⭐ 15      | 🟢 september      |
+| 🔗 [aica-corpus](https://github.com/reinehonoka/aica-corpus) ⭐ 23 \| 🐛 0 \| 📅 2026-05-10                                                                                   | -              | -               | ⭐ 23      | 🟡 may            |
+| 🔗 [adlib](https://github.com/holotherapper/adlib) ⭐ 3 \| 🐛 0 \| 🌐 Python \| 📅 2026-04-13                                                                                 | -              | -               | ⭐ 3       | 🟡 april          |
+| 🔗 [jmeeteval](https://github.com/nishika-inc/jmeeteval) ⭐ 1 \| 🐛 0 \| 🌐 Python \| 📅 2026-08-09                                                                           | -              | -               | ⭐ 1       | 🟢 august         |
 
 </details>
 
@@ -2218,18 +2224,18 @@ Guides and tutorials for learning Japanese NLP tools and techniques
 | 🔗 [slp2025](https://github.com/ryota-komatsu/slp2025) ⭐ 65 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2026-04-18                                                                                                              | -              | -               | ⭐ 65             | 🟡 april          |
 | 🔗 [book\_impress\_it-basic-education-ai](https://github.com/liber-craft-co-ltd/book_impress_it-basic-education-ai) ⭐ 4 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2025-06-18                                                  | -              | -               | ⭐ 4              | 🔴 june 2025      |
 | 🔗 [genai-agent-advanced-book](https://github.com/masamasa59/genai-agent-advanced-book) ⭐ 208 \| 🐛 14 \| 🌐 Python \| 📅 2025-09-09                                                                                     | -              | -               | ⭐ 208            | 🔴 september 2025 |
-| 🔗 [support-genai-book](https://github.com/yoheikikuta/support-genai-book) ⭐ 106 \| 🐛 0 \| 📅 2026-08-16                                                                                                                | -              | -               | ⭐ 105            | 🟢 august         |
+| 🔗 [support-genai-book](https://github.com/yoheikikuta/support-genai-book) ⭐ 106 \| 🐛 0 \| 📅 2026-08-16                                                                                                                | -              | -               | ⭐ 106            | 🟢 august         |
 | 🔗 [ir100](https://github.com/ir100/ir100) ⭐ 93 \| 🐛 3 \| 📅 2025-12-03                                                                                                                                                 | -              | -               | ⭐ 93             | 🟡 december 2025  |
-| 🔗 [kaggle\_llm\_book](https://github.com/sinchir0/kaggle_llm_book) ⭐ 42 \| 🐛 0 \| 📅 2026-07-05                                                                                                                        | -              | -               | ⭐ 42             | 🟢 july           |
-| 🔗 [nlp-lecture-keio](https://github.com/takamichi-lab/nlp-lecture-keio) ⭐ 20 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2026-07-15                                                                                            | -              | -               | ⭐ 19             | 🟢 july           |
-| 🔗 [llm-jp-4-cookbook](https://github.com/llm-jp/llm-jp-4-cookbook) ⭐ 39 \| 🐛 0 \| 🌐 Python \| 📅 2026-10-07                                                                                                           | -              | -               | ⭐ 39             | 🟢 last wednesday |
+| 🔗 [kaggle\_llm\_book](https://github.com/sinchir0/kaggle_llm_book) ⭐ 42 \| 🐛 0 \| 📅 2026-07-05                                                                                                                        | -              | -               | ⭐ 42             | 🟡 july           |
+| 🔗 [nlp-lecture-keio](https://github.com/takamichi-lab/nlp-lecture-keio) ⭐ 20 \| 🐛 0 \| 🌐 Jupyter Notebook \| 📅 2026-07-15                                                                                            | -              | -               | ⭐ 20             | 🟡 july           |
+| 🔗 [llm-jp-4-cookbook](https://github.com/llm-jp/llm-jp-4-cookbook) ⭐ 39 \| 🐛 0 \| 🌐 Python \| 📅 2026-10-07                                                                                                           | -              | -               | ⭐ 39             | 🟢 october        |
 | 🔗 [ttslearn](https://github.com/r9y9/ttslearn) ⭐ 269 \| 🐛 7 \| 🌐 Jupyter Notebook \| 📅 2023-03-07                                                                                                                    | -              | -               | ⭐ 269            | 🔴 march 2023     |
 
 ## Research summary
 
 Summaries of studies and papers in Japanese NLP research
 
-* [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm) ⭐ 1,441 | 🐛 1 | 🌐 TypeScript | 📅 2026-10-14 - オープンソースの日本語LLMまとめ
+* [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm) ⭐ 1,442 | 🐛 0 | 🌐 TypeScript | 📅 2026-10-19 - オープンソースの日本語LLMまとめ
 * [tuning\_playbook\_ja](https://github.com/Valkyrja3607/tuning_playbook_ja) ⭐ 192 | 🐛 0 | 📅 2023-01-22 - ディープラーニングモデルの性能を体系的に最大化するためのプレイブック
 * [awesome-bert-japanese](https://github.com/himkt/awesome-bert-japanese) ⭐ 132 | 🐛 7 | 📅 2023-03-15 - A list of pre-trained BERT models for Japanese with word/subword tokenization + vocabulary construction algorithm information
 * [japanese-pitch-accent-resources](https://github.com/olety/japanese-pitch-accent-resources) ⭐ 129 | 🐛 1 | 📅 2024-02-10 - Trying to consolidate japanese phonetic, and in particular pitch accent resources into one list
@@ -2243,11 +2249,11 @@ Summaries of studies and papers in Japanese NLP research
 | 🔗 [dataset-list](https://github.com/ikegami-yukino/dataset-list) ⭐ 120 \| 🐛 0 \| 📅 2024-07-25                              | -              | -               | ⭐ 120  | 🔴 july 2024     |
 | 🔗 [tuning\_playbook\_ja](https://github.com/Valkyrja3607/tuning_playbook_ja) ⭐ 192 \| 🐛 0 \| 📅 2023-01-22                  | -              | -               | ⭐ 192  | 🔴 january 2023  |
 | 🔗 [japanese-pitch-accent-resources](https://github.com/olety/japanese-pitch-accent-resources) ⭐ 129 \| 🐛 1 \| 📅 2024-02-10 | -              | -               | ⭐ 129  | 🔴 february 2024 |
-| 🔗 [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm) ⭐ 1,441 \| 🐛 1 \| 🌐 TypeScript \| 📅 2026-10-14   | -              | -               | ⭐ 1.4k | 🟢 october       |
+| 🔗 [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm) ⭐ 1,442 \| 🐛 0 \| 🌐 TypeScript \| 📅 2026-10-19   | -              | -               | ⭐ 1.4k | 🟢 today         |
 
 ## Reference
 
-* [Awesome-Rust-MachineLearning-日本語向けのrustクレートや記事等をまとめたもの](https://github.com/vaaaaanquish/Awesome-Rust-MachineLearning/blob/main/README.ja.md) ⭐ 2,267 | 🐛 12 | 🌐 JavaScript | 📅 2023-09-25
+* [Awesome-Rust-MachineLearning-日本語向けのrustクレートや記事等をまとめたもの](https://github.com/vaaaaanquish/Awesome-Rust-MachineLearning/blob/main/README.ja.md) ⭐ 2,266 | 🐛 12 | 🌐 JavaScript | 📅 2023-09-25
 * <https://github.com/himkt/awesome-bert-japanese> ⭐ 132 | 🐛 7 | 📅 2023-03-15
 * [自然言語処理の餅屋](https://www.jnlp.org/nlp/top)
 * [yasuokaの日記： 日本語係り受け解析器「2020年の総ざらえ」](https://srad.jp/~yasuoka/journal/643631/)
@@ -2273,4 +2279,4 @@ Summaries of studies and papers in Japanese NLP research
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-18._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-19._
