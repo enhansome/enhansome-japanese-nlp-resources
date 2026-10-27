@@ -538,7 +538,7 @@
                 "id": 392015335,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-10-26T11:08:57Z",
+                "last_commit": "2026-10-27T10:57:43Z",
                 "open_issues": 0,
                 "owner": "ku-nlp",
                 "repo": "rhoknp",
@@ -685,26 +685,30 @@
             },
             {
               "node_type": "item",
-              "title": "🔗 SudachiPy",
-              "description": "📥 369k 📦 76M ⭐ 443 🔴 october 2022",
+              "title": "🔗 sudachi.rs",
+              "description": "📥 369k 📦 76M ⭐ 489 🟢 october",
               "children": [],
               "repo_info": {
-                "archived": true,
-                "description": "Python version of Sudachi, a Japanese tokenizer.",
+                "archived": false,
+                "description": "Sudachi in Rust 🦀 and new generation of SudachiPy",
                 "homepage": null,
-                "id": 103384678,
-                "language": "Python",
+                "id": 223582157,
+                "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2022-10-07T07:38:45Z",
-                "open_issues": 17,
+                "last_commit": "2026-10-02T08:45:37Z",
+                "open_issues": 32,
                 "owner": "WorksApplications",
-                "repo": "SudachiPy",
-                "stars": 443,
+                "repo": "sudachi.rs",
+                "stars": 489,
                 "topics": [
                   "morphological-analysis",
-                  "nlp-library",
+                  "nlp-libary",
                   "pos-tagging",
-                  "segmentation"
+                  "python",
+                  "rust",
+                  "segmentation",
+                  "sudachi",
+                  "tokenization"
                 ]
               },
               "first_seen": "2026-08-29T00:35:22.918Z"
@@ -1038,7 +1042,7 @@
                 "id": 392015335,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-10-26T11:08:57Z",
+                "last_commit": "2026-10-27T10:57:43Z",
                 "open_issues": 0,
                 "owner": "ku-nlp",
                 "repo": "rhoknp",
@@ -1145,7 +1149,7 @@
                 "open_issues": 6,
                 "owner": "megagonlabs",
                 "repo": "ginza",
-                "stars": 874,
+                "stars": 875,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:35:22.918Z"
@@ -1293,7 +1297,7 @@
                 "language": "Haskell",
                 "license": "BSD-3-Clause",
                 "last_commit": "2026-10-16T14:48:22Z",
-                "open_issues": 90,
+                "open_issues": 92,
                 "owner": "DaisukeBekki",
                 "repo": "lightblue",
                 "stars": 29,
@@ -1447,7 +1451,7 @@
                 "open_issues": 6,
                 "owner": "megagonlabs",
                 "repo": "ginza",
-                "stars": 874,
+                "stars": 875,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:35:22.918Z"
@@ -1683,7 +1687,7 @@
                 "language": "Haskell",
                 "license": "BSD-3-Clause",
                 "last_commit": "2026-10-16T14:48:22Z",
-                "open_issues": 90,
+                "open_issues": 92,
                 "owner": "DaisukeBekki",
                 "repo": "lightblue",
                 "stars": 29,
@@ -4436,7 +4440,7 @@
                 "open_issues": 211,
                 "owner": "clovaai",
                 "repo": "donut",
-                "stars": 6926,
+                "stars": 6925,
                 "topics": [
                   "computer-vision",
                   "document-ai",
@@ -4493,7 +4497,7 @@
                 "open_issues": 36,
                 "owner": "kha-white",
                 "repo": "mokuro",
-                "stars": 1762,
+                "stars": 1763,
                 "topics": [
                   "comics",
                   "comics-reader",
@@ -4521,7 +4525,7 @@
                 "open_issues": 3,
                 "owner": "kotaro-kinoshita",
                 "repo": "yomitoku",
-                "stars": 1657,
+                "stars": 1658,
                 "topics": [
                   "deep-learning",
                   "layout-analysis",
@@ -4548,7 +4552,7 @@
                 "open_issues": 14,
                 "owner": "rtr46",
                 "repo": "meikipop",
-                "stars": 696,
+                "stars": 698,
                 "topics": [
                   "dictionary",
                   "japanese",
@@ -4627,7 +4631,7 @@
                 "open_issues": 22,
                 "owner": "AuroraWright",
                 "repo": "owocr",
-                "stars": 308,
+                "stars": 309,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:35:22.918Z"
@@ -4969,7 +4973,7 @@
                 "open_issues": 36,
                 "owner": "kha-white",
                 "repo": "mokuro",
-                "stars": 1762,
+                "stars": 1763,
                 "topics": [
                   "comics",
                   "comics-reader",
@@ -5075,7 +5079,7 @@
                 "open_issues": 211,
                 "owner": "clovaai",
                 "repo": "donut",
-                "stars": 6926,
+                "stars": 6925,
                 "topics": [
                   "computer-vision",
                   "document-ai",
@@ -5208,7 +5212,7 @@
                 "open_issues": 22,
                 "owner": "AuroraWright",
                 "repo": "owocr",
-                "stars": 308,
+                "stars": 309,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:35:22.918Z"
@@ -5229,7 +5233,7 @@
                 "open_issues": 3,
                 "owner": "kotaro-kinoshita",
                 "repo": "yomitoku",
-                "stars": 1657,
+                "stars": 1658,
                 "topics": [
                   "deep-learning",
                   "layout-analysis",
@@ -5412,7 +5416,7 @@
                 "open_issues": 14,
                 "owner": "rtr46",
                 "repo": "meikipop",
-                "stars": 696,
+                "stars": 698,
                 "topics": [
                   "dictionary",
                   "japanese",
@@ -5578,11 +5582,11 @@
                 "id": 665806822,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-24T08:03:11Z",
-                "open_issues": 2,
+                "last_commit": "2026-10-27T10:48:03Z",
+                "open_issues": 1,
                 "owner": "llm-jp",
                 "repo": "llm-jp-tokenizer",
-                "stars": 53,
+                "stars": 54,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:35:22.918Z"
@@ -6702,11 +6706,11 @@
                 "id": 665806822,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-24T08:03:11Z",
-                "open_issues": 2,
+                "last_commit": "2026-10-27T10:48:03Z",
+                "open_issues": 1,
                 "owner": "llm-jp",
                 "repo": "llm-jp-tokenizer",
-                "stars": 53,
+                "stars": 54,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:35:22.918Z"
@@ -6862,7 +6866,7 @@
                     "open_issues": 1,
                     "owner": "google",
                     "repo": "mozc-devices",
-                    "stars": 2986,
+                    "stars": 2988,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -6880,10 +6884,10 @@
                     "language": "Python",
                     "license": "MIT",
                     "last_commit": "2026-10-26T07:38:06Z",
-                    "open_issues": 1,
+                    "open_issues": 0,
                     "owner": "nanaism",
                     "repo": "yomiyasu",
-                    "stars": 2573,
+                    "stars": 2601,
                     "topics": [
                       "agent-skills",
                       "ai-writing",
@@ -6915,11 +6919,11 @@
                     "id": 1298021489,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2026-10-26T00:23:02Z",
+                    "last_commit": "2026-10-27T14:07:31Z",
                     "open_issues": 0,
                     "owner": "coji",
                     "repo": "natural-japanese",
-                    "stars": 1967,
+                    "stars": 1972,
                     "topics": [
                       "agent-skills",
                       "claude",
@@ -6970,7 +6974,7 @@
                     "open_issues": 44,
                     "owner": "Ayanaminn",
                     "repo": "N46Whisper",
-                    "stars": 1710,
+                    "stars": 1709,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -6988,10 +6992,10 @@
                     "language": "Python",
                     "license": "MIT",
                     "last_commit": "2026-10-25T03:24:09Z",
-                    "open_issues": 16,
+                    "open_issues": 17,
                     "owner": "Aratako",
                     "repo": "Irodori-TTS",
-                    "stars": 1480,
+                    "stars": 1481,
                     "topics": [
                       "diffusion-models",
                       "flow-matching",
@@ -7132,7 +7136,7 @@
                     "open_issues": 4,
                     "owner": "Hironsan",
                     "repo": "HotPepperGourmetDialogue",
-                    "stars": 274,
+                    "stars": 273,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -7212,11 +7216,11 @@
                     "id": 952988376,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2026-10-26T16:34:01Z",
-                    "open_issues": 5,
+                    "last_commit": "2026-10-27T16:44:41Z",
+                    "open_issues": 4,
                     "owner": "ayutaz",
                     "repo": "piper-plus",
-                    "stars": 238,
+                    "stars": 239,
                     "topics": [
                       "cross-platform",
                       "csharp",
@@ -7269,6 +7273,27 @@
                 },
                 {
                   "node_type": "item",
+                  "title": "easynovelassistant",
+                  "description": "軽量で規制も検閲もない日本語ローカル LLM『LightChatAssistant-TypeB』による、簡単なノベル生成アシスタントです。ローカル特権の永続生成 Generate forever で、当たりガチャを積み上げます。読み上げにも対応。",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "軽量で規制も検閲もない日本語ローカル LLM『LightChatAssistant-TypeB』による、簡単なノベル生成アシスタントです。ローカル特権の永続生成 Generate forever で、当たりガチャを積み上げます。読み上げにも対応。",
+                    "homepage": null,
+                    "id": 790044748,
+                    "language": "Python",
+                    "license": "MIT",
+                    "last_commit": "2024-07-05T08:29:37Z",
+                    "open_issues": 15,
+                    "owner": "Zuntan03",
+                    "repo": "EasyNovelAssistant",
+                    "stars": 237,
+                    "topics": []
+                  },
+                  "first_seen": "2026-08-29T00:35:22.918Z"
+                },
+                {
+                  "node_type": "item",
                   "title": "posuto",
                   "description": "Japanese postal code data.",
                   "children": [],
@@ -7290,27 +7315,6 @@
                       "postal-data",
                       "romaji"
                     ]
-                  },
-                  "first_seen": "2026-08-29T00:35:22.918Z"
-                },
-                {
-                  "node_type": "item",
-                  "title": "easynovelassistant",
-                  "description": "軽量で規制も検閲もない日本語ローカル LLM『LightChatAssistant-TypeB』による、簡単なノベル生成アシスタントです。ローカル特権の永続生成 Generate forever で、当たりガチャを積み上げます。読み上げにも対応。",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "description": "軽量で規制も検閲もない日本語ローカル LLM『LightChatAssistant-TypeB』による、簡単なノベル生成アシスタントです。ローカル特権の永続生成 Generate forever で、当たりガチャを積み上げます。読み上げにも対応。",
-                    "homepage": null,
-                    "id": 790044748,
-                    "language": "Python",
-                    "license": "MIT",
-                    "last_commit": "2024-07-05T08:29:37Z",
-                    "open_issues": 15,
-                    "owner": "Zuntan03",
-                    "repo": "EasyNovelAssistant",
-                    "stars": 236,
-                    "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
                 },
@@ -7429,7 +7433,7 @@
                     "id": 496122031,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2026-10-25T09:03:57Z",
+                    "last_commit": "2026-10-27T13:11:37Z",
                     "open_issues": 4,
                     "owner": "ku-nlp",
                     "repo": "kwja",
@@ -7749,7 +7753,7 @@
                     "language": "Python",
                     "license": "CC-BY-SA-4.0",
                     "last_commit": "2026-10-09T03:56:19Z",
-                    "open_issues": 8,
+                    "open_issues": 7,
                     "owner": "sbintuitions",
                     "repo": "JMTEB",
                     "stars": 96,
@@ -8955,8 +8959,8 @@
                     "id": 3414186,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2026-10-26T19:54:22Z",
-                    "open_issues": 1,
+                    "last_commit": "2026-10-27T06:08:39Z",
+                    "open_issues": 0,
                     "owner": "shogo82148",
                     "repo": "Grongish",
                     "stars": 26,
@@ -11857,7 +11861,7 @@
                     "language": "Python",
                     "license": "MIT",
                     "last_commit": "2026-10-26T08:41:21Z",
-                    "open_issues": 2,
+                    "open_issues": 4,
                     "owner": "rakuyou211-blip",
                     "repo": "TextToVoicevox",
                     "stars": 1,
@@ -12486,7 +12490,7 @@
                     "open_issues": 4,
                     "owner": "Hironsan",
                     "repo": "HotPepperGourmetDialogue",
-                    "stars": 274,
+                    "stars": 273,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -13207,8 +13211,8 @@
                     "id": 3414186,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2026-10-26T19:54:22Z",
-                    "open_issues": 1,
+                    "last_commit": "2026-10-27T06:08:39Z",
+                    "open_issues": 0,
                     "owner": "shogo82148",
                     "repo": "Grongish",
                     "stars": 26,
@@ -13476,7 +13480,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 tinysegmenter",
-                  "description": "📥 94k 📦 182k ⭐ repo not found 🔴 november 2015",
+                  "description": "📥 375 📦 182k ⭐ 53 🔴 november 2015",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -13789,7 +13793,7 @@
                     "id": 496122031,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2026-10-25T09:03:57Z",
+                    "last_commit": "2026-10-27T13:11:37Z",
                     "open_issues": 4,
                     "owner": "ku-nlp",
                     "repo": "kwja",
@@ -14326,7 +14330,7 @@
                     "open_issues": 44,
                     "owner": "Ayanaminn",
                     "repo": "N46Whisper",
-                    "stars": 1710,
+                    "stars": 1709,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -14418,7 +14422,7 @@
                     "open_issues": 1,
                     "owner": "google",
                     "repo": "mozc-devices",
-                    "stars": 2986,
+                    "stars": 2988,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -14760,7 +14764,7 @@
                     "language": "Python",
                     "license": "CC-BY-SA-4.0",
                     "last_commit": "2026-10-09T03:56:19Z",
-                    "open_issues": 8,
+                    "open_issues": 7,
                     "owner": "sbintuitions",
                     "repo": "JMTEB",
                     "stars": 96,
@@ -14805,7 +14809,7 @@
                     "open_issues": 15,
                     "owner": "Zuntan03",
                     "repo": "EasyNovelAssistant",
-                    "stars": 236,
+                    "stars": 237,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -15865,11 +15869,11 @@
                     "id": 952988376,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2026-10-26T16:34:01Z",
-                    "open_issues": 5,
+                    "last_commit": "2026-10-27T16:44:41Z",
+                    "open_issues": 4,
                     "owner": "ayutaz",
                     "repo": "piper-plus",
-                    "stars": 238,
+                    "stars": 239,
                     "topics": [
                       "cross-platform",
                       "csharp",
@@ -16483,10 +16487,10 @@
                     "language": "Python",
                     "license": "MIT",
                     "last_commit": "2026-10-25T03:24:09Z",
-                    "open_issues": 16,
+                    "open_issues": 17,
                     "owner": "Aratako",
                     "repo": "Irodori-TTS",
-                    "stars": 1480,
+                    "stars": 1481,
                     "topics": [
                       "diffusion-models",
                       "flow-matching",
@@ -16885,10 +16889,10 @@
                     "language": "Python",
                     "license": "MIT",
                     "last_commit": "2026-10-26T07:38:06Z",
-                    "open_issues": 1,
+                    "open_issues": 0,
                     "owner": "nanaism",
                     "repo": "yomiyasu",
-                    "stars": 2573,
+                    "stars": 2601,
                     "topics": [
                       "agent-skills",
                       "ai-writing",
@@ -16956,7 +16960,7 @@
                     "language": "Python",
                     "license": "MIT",
                     "last_commit": "2026-10-26T08:41:21Z",
-                    "open_issues": 2,
+                    "open_issues": 4,
                     "owner": "rakuyou211-blip",
                     "repo": "TextToVoicevox",
                     "stars": 1,
@@ -16994,11 +16998,11 @@
                     "id": 1298021489,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2026-10-26T00:23:02Z",
+                    "last_commit": "2026-10-27T14:07:31Z",
                     "open_issues": 0,
                     "owner": "coji",
                     "repo": "natural-japanese",
-                    "stars": 1967,
+                    "stars": 1972,
                     "topics": [
                       "agent-skills",
                       "claude",
@@ -17462,11 +17466,11 @@
                     "id": 34376625,
                     "language": "C++",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-10-26T11:55:30Z",
+                    "last_commit": "2026-10-27T18:48:08Z",
                     "open_issues": 34,
                     "owner": "google",
                     "repo": "mozc",
-                    "stars": 3026,
+                    "stars": 3027,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -17665,11 +17669,11 @@
                     "id": 34376625,
                     "language": "C++",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-10-26T11:55:30Z",
+                    "last_commit": "2026-10-27T18:48:08Z",
                     "open_issues": 34,
                     "owner": "google",
                     "repo": "mozc",
-                    "stars": 3026,
+                    "stars": 3027,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -17794,8 +17798,8 @@
                 "id": 235590808,
                 "language": "Rust",
                 "license": "MIT",
-                "last_commit": "2026-10-26T14:11:53Z",
-                "open_issues": 8,
+                "last_commit": "2026-10-27T14:31:39Z",
+                "open_issues": 10,
                 "owner": "lindera",
                 "repo": "lindera",
                 "stars": 698,
@@ -17850,8 +17854,8 @@
                 "id": 397621096,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-26T13:56:01Z",
-                "open_issues": 4,
+                "last_commit": "2026-10-27T12:24:30Z",
+                "open_issues": 5,
                 "owner": "daac-tools",
                 "repo": "vaporetto",
                 "stars": 298,
@@ -18027,8 +18031,8 @@
                 "id": 235590808,
                 "language": "Rust",
                 "license": "MIT",
-                "last_commit": "2026-10-26T14:11:53Z",
-                "open_issues": 8,
+                "last_commit": "2026-10-27T14:31:39Z",
+                "open_issues": 10,
                 "owner": "lindera",
                 "repo": "lindera",
                 "stars": 698,
@@ -18054,8 +18058,8 @@
                 "id": 397621096,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-26T13:56:01Z",
-                "open_issues": 4,
+                "last_commit": "2026-10-27T12:24:30Z",
+                "open_issues": 5,
                 "owner": "daac-tools",
                 "repo": "vaporetto",
                 "stars": 298,
@@ -19063,11 +19067,11 @@
                     "id": 963223041,
                     "language": "Rust",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-10-26T20:51:16Z",
-                    "open_issues": 149,
+                    "last_commit": "2026-10-27T20:41:43Z",
+                    "open_issues": 156,
                     "owner": "koharu-rs",
                     "repo": "koharu",
-                    "stars": 6500,
+                    "stars": 6511,
                     "topics": [
                       "computer-vision",
                       "deep-learning",
@@ -19099,7 +19103,7 @@
                     "open_issues": 160,
                     "owner": "VOICEVOX",
                     "repo": "voicevox_core",
-                    "stars": 1147,
+                    "stars": 1148,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -19281,7 +19285,7 @@
                     "id": 141400388,
                     "language": "Rust",
                     "license": null,
-                    "last_commit": "2026-10-26T16:26:51Z",
+                    "last_commit": "2026-10-27T20:12:04Z",
                     "open_issues": 5,
                     "owner": "Asutorufa",
                     "repo": "hujiang_dictionary",
@@ -19397,8 +19401,8 @@
                     "id": 1306619570,
                     "language": "Rust",
                     "license": "MIT",
-                    "last_commit": "2026-10-24T02:07:05Z",
-                    "open_issues": 1,
+                    "last_commit": "2026-10-27T09:11:40Z",
+                    "open_issues": 4,
                     "owner": "kimushun1101",
                     "repo": "mikke",
                     "stars": 49,
@@ -19886,7 +19890,7 @@
                     "open_issues": 160,
                     "owner": "VOICEVOX",
                     "repo": "voicevox_core",
-                    "stars": 1147,
+                    "stars": 1148,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -20132,11 +20136,11 @@
                     "id": 963223041,
                     "language": "Rust",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-10-26T20:51:16Z",
-                    "open_issues": 149,
+                    "last_commit": "2026-10-27T20:41:43Z",
+                    "open_issues": 156,
                     "owner": "koharu-rs",
                     "repo": "koharu",
-                    "stars": 6500,
+                    "stars": 6511,
                     "topics": [
                       "computer-vision",
                       "deep-learning",
@@ -20220,7 +20224,7 @@
                     "id": 141400388,
                     "language": "Rust",
                     "license": null,
-                    "last_commit": "2026-10-26T16:26:51Z",
+                    "last_commit": "2026-10-27T20:12:04Z",
                     "open_issues": 5,
                     "owner": "Asutorufa",
                     "repo": "hujiang_dictionary",
@@ -20320,8 +20324,8 @@
                     "id": 1306619570,
                     "language": "Rust",
                     "license": "MIT",
-                    "last_commit": "2026-10-24T02:07:05Z",
-                    "open_issues": 1,
+                    "last_commit": "2026-10-27T09:11:40Z",
+                    "open_issues": 4,
                     "owner": "kimushun1101",
                     "repo": "mikke",
                     "stars": 49,
@@ -20660,7 +20664,7 @@
                 "open_issues": 19,
                 "owner": "hexenq",
                 "repo": "kuroshiro",
-                "stars": 999,
+                "stars": 1000,
                 "topics": [
                   "furigana",
                   "hepburn",
@@ -20739,7 +20743,7 @@
                 "open_issues": 13,
                 "owner": "InterfaceX-co-jp",
                 "repo": "genshijin",
-                "stars": 333,
+                "stars": 332,
                 "topics": [
                   "caveman",
                   "claude",
@@ -20846,7 +20850,7 @@
                 "open_issues": 20,
                 "owner": "geolonia",
                 "repo": "japanese-addresses-v2",
-                "stars": 84,
+                "stars": 85,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:35:22.918Z"
@@ -21055,7 +21059,7 @@
                 "open_issues": 19,
                 "owner": "hexenq",
                 "repo": "kuroshiro",
-                "stars": 999,
+                "stars": 1000,
                 "topics": [
                   "furigana",
                   "hepburn",
@@ -21351,7 +21355,7 @@
                 "open_issues": 20,
                 "owner": "geolonia",
                 "repo": "japanese-addresses-v2",
-                "stars": 84,
+                "stars": 85,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:35:22.918Z"
@@ -21422,7 +21426,7 @@
                 "open_issues": 13,
                 "owner": "InterfaceX-co-jp",
                 "repo": "genshijin",
-                "stars": 333,
+                "stars": 332,
                 "topics": [
                   "caveman",
                   "claude",
@@ -21456,10 +21460,10 @@
                     "language": "TypeScript",
                     "license": "NOASSERTION",
                     "last_commit": "2026-10-26T12:48:13Z",
-                    "open_issues": 342,
+                    "open_issues": 346,
                     "owner": "VOICEVOX",
                     "repo": "voicevox",
-                    "stars": 3283,
+                    "stars": 3284,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -21517,7 +21521,7 @@
                     "open_issues": 1,
                     "owner": "cokice",
                     "repo": "japanese-analyzer",
-                    "stars": 800,
+                    "stars": 801,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -21538,7 +21542,7 @@
                     "open_issues": 7,
                     "owner": "bangumi-data",
                     "repo": "bangumi-data",
-                    "stars": 659,
+                    "stars": 660,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -21555,7 +21559,7 @@
                     "id": 1376671563,
                     "language": "JavaScript",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-10-25T15:16:31Z",
+                    "last_commit": "2026-10-27T16:36:29Z",
                     "open_issues": 30,
                     "owner": "uehaj",
                     "repo": "sys1grep",
@@ -22154,7 +22158,7 @@
                     "open_issues": 7,
                     "owner": "bangumi-data",
                     "repo": "bangumi-data",
-                    "stars": 659,
+                    "stars": 660,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -22466,10 +22470,10 @@
                     "language": "TypeScript",
                     "license": "NOASSERTION",
                     "last_commit": "2026-10-26T12:48:13Z",
-                    "open_issues": 342,
+                    "open_issues": 346,
                     "owner": "VOICEVOX",
                     "repo": "voicevox",
-                    "stars": 3283,
+                    "stars": 3284,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -22543,7 +22547,7 @@
                     "open_issues": 1,
                     "owner": "cokice",
                     "repo": "japanese-analyzer",
-                    "stars": 800,
+                    "stars": 801,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -22782,7 +22786,7 @@
                     "id": 1376671563,
                     "language": "JavaScript",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-10-25T15:16:31Z",
+                    "last_commit": "2026-10-27T16:36:29Z",
                     "open_issues": 30,
                     "owner": "uehaj",
                     "repo": "sys1grep",
@@ -22863,7 +22867,7 @@
                 "id": 21228174,
                 "language": "Go",
                 "license": "MIT",
-                "last_commit": "2026-10-15T23:23:03Z",
+                "last_commit": "2026-10-27T00:42:33Z",
                 "open_issues": 1,
                 "owner": "ikawaha",
                 "repo": "kagome",
@@ -22894,7 +22898,7 @@
                 "id": 21228174,
                 "language": "Go",
                 "license": "MIT",
-                "last_commit": "2026-10-15T23:23:03Z",
+                "last_commit": "2026-10-27T00:42:33Z",
                 "open_issues": 1,
                 "owner": "ikawaha",
                 "repo": "kagome",
@@ -23138,7 +23142,7 @@
                     "id": 1266302957,
                     "language": "Go",
                     "license": "MIT",
-                    "last_commit": "2026-10-26T00:11:50Z",
+                    "last_commit": "2026-10-27T03:31:22Z",
                     "open_issues": 1,
                     "owner": "baneido",
                     "repo": "jp-pii-detector",
@@ -23363,7 +23367,7 @@
                     "id": 1266302957,
                     "language": "Go",
                     "license": "MIT",
-                    "last_commit": "2026-10-26T00:11:50Z",
+                    "last_commit": "2026-10-27T03:31:22Z",
                     "open_issues": 1,
                     "owner": "baneido",
                     "repo": "jp-pii-detector",
@@ -24514,7 +24518,7 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2024-03-23T15:08:38Z",
-                "open_issues": 15,
+                "open_issues": 14,
                 "owner": "cl-tohoku",
                 "repo": "bert-japanese",
                 "stars": 552,
@@ -25236,7 +25240,7 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2024-03-23T15:08:38Z",
-                "open_issues": 15,
+                "open_issues": 14,
                 "owner": "cl-tohoku",
                 "repo": "bert-japanese",
                 "stars": 552,
@@ -26046,7 +26050,7 @@
             "open_issues": 7,
             "owner": "uezo",
             "repo": "aiavatarkit",
-            "stars": 700,
+            "stars": 701,
             "topics": [
               "chatgpt",
               "metaverse",
@@ -26119,7 +26123,7 @@
             "open_issues": 1,
             "owner": "rkmt",
             "repo": "summarize_arxv",
-            "stars": 172,
+            "stars": 173,
             "topics": []
           },
           "first_seen": "2026-08-29T00:35:22.918Z"
@@ -26814,7 +26818,7 @@
             "open_issues": 1,
             "owner": "rkmt",
             "repo": "summarize_arxv",
-            "stars": 172,
+            "stars": 173,
             "topics": []
           },
           "first_seen": "2026-08-29T00:35:22.918Z"
@@ -26835,7 +26839,7 @@
             "open_issues": 7,
             "owner": "uezo",
             "repo": "aiavatarkit",
-            "stars": 700,
+            "stars": 701,
             "topics": [
               "chatgpt",
               "metaverse",
@@ -27047,11 +27051,11 @@
             "id": 1395172468,
             "language": "C#",
             "license": "GPL-3.0",
-            "last_commit": "2026-10-26T14:15:16Z",
-            "open_issues": 300,
+            "last_commit": "2026-10-27T18:07:07Z",
+            "open_issues": 311,
             "owner": "yksr-melt",
             "repo": "Meltype",
-            "stars": 1410,
+            "stars": 1423,
             "topics": [
               "japanese",
               "windows"
@@ -27075,7 +27079,7 @@
             "open_issues": 32,
             "owner": "azooKey",
             "repo": "azooKey-Desktop",
-            "stars": 1097,
+            "stars": 1100,
             "topics": [
               "azookey",
               "ime",
@@ -27103,7 +27107,7 @@
             "open_issues": 14,
             "owner": "MarvNC",
             "repo": "yomitan-dictionaries",
-            "stars": 939,
+            "stars": 940,
             "topics": [
               "cantonese",
               "cantonese-dictionary",
@@ -27143,7 +27147,7 @@
             "open_issues": 31,
             "owner": "azooKey",
             "repo": "azooKey",
-            "stars": 796,
+            "stars": 797,
             "topics": [
               "azookey",
               "ime",
@@ -27175,7 +27179,7 @@
             "open_issues": 27,
             "owner": "togatoga",
             "repo": "karukan",
-            "stars": 746,
+            "stars": 747,
             "topics": [
               "fcitx5",
               "ime",
@@ -27327,8 +27331,8 @@
             "id": 696033236,
             "language": "Kotlin",
             "license": "MIT",
-            "last_commit": "2026-10-26T18:16:18Z",
-            "open_issues": 28,
+            "last_commit": "2026-10-27T20:32:29Z",
+            "open_issues": 31,
             "owner": "KazumaProject",
             "repo": "JapaneseKeyboard",
             "stars": 367,
@@ -27351,11 +27355,11 @@
             "id": 696075636,
             "language": "Shell",
             "license": "MIT",
-            "last_commit": "2026-10-26T10:47:47Z",
+            "last_commit": "2026-10-27T10:14:25Z",
             "open_issues": 0,
             "owner": "yomidevs",
             "repo": "jmdict-yomitan",
-            "stars": 324,
+            "stars": 325,
             "topics": [
               "dictionary",
               "japanese",
@@ -27407,8 +27411,8 @@
             "id": 49001729,
             "language": "Python",
             "license": "CC0-1.0",
-            "last_commit": "2026-10-26T15:21:27Z",
-            "open_issues": 3,
+            "last_commit": "2026-10-27T06:59:32Z",
+            "open_issues": 2,
             "owner": "kujirahand",
             "repo": "EJDict",
             "stars": 274,
@@ -27860,7 +27864,7 @@
             "id": 755454455,
             "language": "TypeScript",
             "license": null,
-            "last_commit": "2026-10-26T00:17:03Z",
+            "last_commit": "2026-10-27T00:15:45Z",
             "open_issues": 0,
             "owner": "MarvNC",
             "repo": "pixiv-yomitan",
@@ -27975,7 +27979,7 @@
             "language": "Emacs Lisp",
             "license": "GPL-3.0",
             "last_commit": "2026-10-08T22:48:40Z",
-            "open_issues": 7,
+            "open_issues": 8,
             "owner": "kiyoka",
             "repo": "Sumibi",
             "stars": 67,
@@ -28161,7 +28165,7 @@
             "open_issues": 26,
             "owner": "fukuyori",
             "repo": "rakukan",
-            "stars": 41,
+            "stars": 42,
             "topics": [
               "ime",
               "japanese-ime",
@@ -28886,8 +28890,8 @@
             "id": 793833452,
             "language": "Kotlin",
             "license": "MIT",
-            "last_commit": "2026-10-26T16:29:27Z",
-            "open_issues": 9,
+            "last_commit": "2026-10-27T19:53:25Z",
+            "open_issues": 14,
             "owner": "KazumaProject",
             "repo": "kotlin-kana-kanji-converter",
             "stars": 6,
@@ -28930,7 +28934,7 @@
             "id": 1025229426,
             "language": "TypeScript",
             "license": "GPL-2.0",
-            "last_commit": "2026-10-26T14:44:45Z",
+            "last_commit": "2026-10-27T09:58:14Z",
             "open_issues": 5,
             "owner": "seanmcbroom",
             "repo": "JMdictSQLite",
@@ -29655,8 +29659,8 @@
             "id": 49001729,
             "language": "Python",
             "license": "CC0-1.0",
-            "last_commit": "2026-10-26T15:21:27Z",
-            "open_issues": 3,
+            "last_commit": "2026-10-27T06:59:32Z",
+            "open_issues": 2,
             "owner": "kujirahand",
             "repo": "EJDict",
             "stars": 274,
@@ -29860,11 +29864,11 @@
             "id": 696075636,
             "language": "Shell",
             "license": "MIT",
-            "last_commit": "2026-10-26T10:47:47Z",
+            "last_commit": "2026-10-27T10:14:25Z",
             "open_issues": 0,
             "owner": "yomidevs",
             "repo": "jmdict-yomitan",
-            "stars": 324,
+            "stars": 325,
             "topics": [
               "dictionary",
               "japanese",
@@ -29953,7 +29957,7 @@
             "id": 755454455,
             "language": "TypeScript",
             "license": null,
-            "last_commit": "2026-10-26T00:17:03Z",
+            "last_commit": "2026-10-27T00:15:45Z",
             "open_issues": 0,
             "owner": "MarvNC",
             "repo": "pixiv-yomitan",
@@ -30008,7 +30012,7 @@
             "open_issues": 14,
             "owner": "MarvNC",
             "repo": "yomitan-dictionaries",
-            "stars": 939,
+            "stars": 940,
             "topics": [
               "cantonese",
               "cantonese-dictionary",
@@ -30096,6 +30100,31 @@
             "repo": "SKK-JISYO.emoji-ja",
             "stars": 30,
             "topics": []
+          },
+          "first_seen": "2026-08-29T00:35:22.918Z"
+        },
+        {
+          "node_type": "item",
+          "title": "🔗 anthy",
+          "description": "- - ⭐ 16 🔴 february 2023",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Anthy is a kana-kanji conversion engine for Japanese. It converts roma-ji to kana, and the kana text to a mixed kana and kanji. Merge Debian https://salsa.debian.org/debian/anthy/ and Fedora anthy-unicode https://github.com/fujiwarat/anthy-unicode/",
+            "homepage": null,
+            "id": 216165709,
+            "language": "C",
+            "license": "NOASSERTION",
+            "last_commit": "2023-02-25T12:37:57Z",
+            "open_issues": 4,
+            "owner": "netsphere-labs",
+            "repo": "anthy",
+            "stars": 16,
+            "topics": [
+              "ime",
+              "japanese",
+              "windows"
+            ]
           },
           "first_seen": "2026-08-29T00:35:22.918Z"
         },
@@ -30205,7 +30234,7 @@
             "open_issues": 31,
             "owner": "azooKey",
             "repo": "azooKey",
-            "stars": 796,
+            "stars": 797,
             "topics": [
               "azookey",
               "ime",
@@ -30237,7 +30266,7 @@
             "open_issues": 32,
             "owner": "azooKey",
             "repo": "azooKey-Desktop",
-            "stars": 1097,
+            "stars": 1100,
             "topics": [
               "azookey",
               "ime",
@@ -30479,8 +30508,8 @@
             "id": 793833452,
             "language": "Kotlin",
             "license": "MIT",
-            "last_commit": "2026-10-26T16:29:27Z",
-            "open_issues": 9,
+            "last_commit": "2026-10-27T19:53:25Z",
+            "open_issues": 14,
             "owner": "KazumaProject",
             "repo": "kotlin-kana-kanji-converter",
             "stars": 6,
@@ -31014,7 +31043,7 @@
             "open_issues": 27,
             "owner": "togatoga",
             "repo": "karukan",
-            "stars": 746,
+            "stars": 747,
             "topics": [
               "fcitx5",
               "ime",
@@ -31150,8 +31179,8 @@
             "id": 696033236,
             "language": "Kotlin",
             "license": "MIT",
-            "last_commit": "2026-10-26T18:16:18Z",
-            "open_issues": 28,
+            "last_commit": "2026-10-27T20:32:29Z",
+            "open_issues": 31,
             "owner": "KazumaProject",
             "repo": "JapaneseKeyboard",
             "stars": 367,
@@ -31175,7 +31204,7 @@
             "language": "Emacs Lisp",
             "license": "GPL-3.0",
             "last_commit": "2026-10-08T22:48:40Z",
-            "open_issues": 7,
+            "open_issues": 8,
             "owner": "kiyoka",
             "repo": "Sumibi",
             "stars": 67,
@@ -31199,7 +31228,7 @@
             "open_issues": 26,
             "owner": "fukuyori",
             "repo": "rakukan",
-            "stars": 41,
+            "stars": 42,
             "topics": [
               "ime",
               "japanese-ime",
@@ -31225,7 +31254,7 @@
             "id": 1025229426,
             "language": "TypeScript",
             "license": "GPL-2.0",
-            "last_commit": "2026-10-26T14:44:45Z",
+            "last_commit": "2026-10-27T09:58:14Z",
             "open_issues": 5,
             "owner": "seanmcbroom",
             "repo": "JMdictSQLite",
@@ -31254,11 +31283,11 @@
             "id": 1395172468,
             "language": "C#",
             "license": "GPL-3.0",
-            "last_commit": "2026-10-26T14:15:16Z",
-            "open_issues": 300,
+            "last_commit": "2026-10-27T18:07:07Z",
+            "open_issues": 311,
             "owner": "yksr-melt",
             "repo": "Meltype",
-            "stars": 1410,
+            "stars": 1423,
             "topics": [
               "japanese",
               "windows"
@@ -31646,31 +31675,6 @@
                   "named-entities",
                   "part-of-speech",
                   "predicate-argument-structure"
-                ]
-              },
-              "first_seen": "2026-08-29T00:35:22.918Z"
-            },
-            {
-              "node_type": "item",
-              "title": "🔗 anthy",
-              "description": "- - ⭐ 16 🔴 february 2023",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Anthy is a kana-kanji conversion engine for Japanese. It converts roma-ji to kana, and the kana text to a mixed kana and kanji. Merge Debian https://salsa.debian.org/debian/anthy/ and Fedora anthy-unicode https://github.com/fujiwarat/anthy-unicode/",
-                "homepage": null,
-                "id": 216165709,
-                "language": "C",
-                "license": "NOASSERTION",
-                "last_commit": "2023-02-25T12:37:57Z",
-                "open_issues": 4,
-                "owner": "netsphere-labs",
-                "repo": "anthy",
-                "stars": 16,
-                "topics": [
-                  "ime",
-                  "japanese",
-                  "windows"
                 ]
               },
               "first_seen": "2026-08-29T00:35:22.918Z"
@@ -32404,7 +32408,7 @@
                 "open_issues": 1,
                 "owner": "jqk09a",
                 "repo": "japanese-daily-dialogue",
-                "stars": 61,
+                "stars": 62,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:35:22.918Z"
@@ -32755,7 +32759,7 @@
                 "open_issues": 1,
                 "owner": "jqk09a",
                 "repo": "japanese-daily-dialogue",
-                "stars": 61,
+                "stars": 62,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:35:22.918Z"
@@ -32917,7 +32921,7 @@
                     "open_issues": 26,
                     "owner": "geolonia",
                     "repo": "japanese-addresses",
-                    "stars": 773,
+                    "stars": 774,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -32938,7 +32942,7 @@
                     "open_issues": 0,
                     "owner": "kanjialive",
                     "repo": "kanji-data-media",
-                    "stars": 437,
+                    "stars": 438,
                     "topics": [
                       "japanese",
                       "japanese-font",
@@ -32965,8 +32969,8 @@
                     "id": 6981206,
                     "language": "Ruby",
                     "license": "MIT",
-                    "last_commit": "2026-10-21T10:02:43Z",
-                    "open_issues": 4,
+                    "last_commit": "2026-10-26T22:53:04Z",
+                    "open_issues": 6,
                     "owner": "willnet",
                     "repo": "gimei",
                     "stars": 425,
@@ -33231,7 +33235,7 @@
                     "open_issues": 1,
                     "owner": "AsPJT",
                     "repo": "PAX_SAPIENTICA",
-                    "stars": 195,
+                    "stars": 196,
                     "topics": [
                       "abm",
                       "agent-based-modeling",
@@ -33269,7 +33273,7 @@
                     "id": 482728164,
                     "language": "JavaScript",
                     "license": "MIT",
-                    "last_commit": "2026-10-26T14:59:25Z",
+                    "last_commit": "2026-10-27T14:12:49Z",
                     "open_issues": 1,
                     "owner": "smartnews-smri",
                     "repo": "house-of-representatives",
@@ -33315,7 +33319,7 @@
                     "open_issues": 5,
                     "owner": "japan-opendata",
                     "repo": "awesome-japan-opendata",
-                    "stars": 172,
+                    "stars": 173,
                     "topics": [
                       "japan",
                       "open-data",
@@ -33604,7 +33608,7 @@
                     "open_issues": 0,
                     "owner": "elzup",
                     "repo": "jlpt-word-list",
-                    "stars": 99,
+                    "stars": 101,
                     "topics": [
                       "data",
                       "resources"
@@ -34179,6 +34183,27 @@
                 },
                 {
                   "node_type": "item",
+                  "title": "japanese-toxic-dataset",
+                  "description": "\"Proposal and Evaluation of Japanese Toxicity Schema\" provides a schema and dataset for toxicity in the Japanese language.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": null,
+                    "homepage": null,
+                    "id": 587214022,
+                    "language": null,
+                    "license": "Apache-2.0",
+                    "last_commit": "2023-01-11T04:55:08Z",
+                    "open_issues": 2,
+                    "owner": "inspection-ai",
+                    "repo": "japanese-toxic-dataset",
+                    "stars": 35,
+                    "topics": []
+                  },
+                  "first_seen": "2026-08-29T00:35:22.918Z"
+                },
+                {
+                  "node_type": "item",
                   "title": "jconj",
                   "description": "A table-based Japanese word conjugator",
                   "children": [],
@@ -34706,27 +34731,6 @@
                 },
                 {
                   "node_type": "item",
-                  "title": "japanese-toxic-dataset",
-                  "description": "\"Proposal and Evaluation of Japanese Toxicity Schema\" provides a schema and dataset for toxicity in the Japanese language.",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "description": null,
-                    "homepage": null,
-                    "id": 587214022,
-                    "language": null,
-                    "license": "Apache-2.0",
-                    "last_commit": "2023-01-11T04:55:08Z",
-                    "open_issues": 2,
-                    "owner": "inspection-ai",
-                    "repo": "japanese-toxic-dataset",
-                    "stars": 22,
-                    "topics": []
-                  },
-                  "first_seen": "2026-08-29T00:35:22.918Z"
-                },
-                {
-                  "node_type": "item",
                   "title": "keigo_transfer_task",
                   "description": "敬語変換タスクにおける評価用データセット",
                   "children": [],
@@ -34998,6 +35002,27 @@
                 },
                 {
                   "node_type": "item",
+                  "title": "j-tau-bench",
+                  "description": "J-tau: A Japanese tau-bench for Benchmarking Tool-Agent-User Interaction in Real-World Domains",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "J-tau: A Fully Localized Japanese Benchmark for Tool-Agent-User Interaction",
+                    "homepage": null,
+                    "id": 1217671326,
+                    "language": "Python",
+                    "license": "NOASSERTION",
+                    "last_commit": "2026-10-15T04:31:09Z",
+                    "open_issues": 1,
+                    "owner": "sbintuitions",
+                    "repo": "j-tau-bench",
+                    "stars": 16,
+                    "topics": []
+                  },
+                  "first_seen": "2026-08-29T00:35:22.918Z"
+                },
+                {
+                  "node_type": "item",
                   "title": "commonsense-moral-ja",
                   "description": "JCommonsenseMorality is a dataset created through crowdsourcing that reflects the commonsense morality of Japanese annotators.",
                   "children": [],
@@ -35079,27 +35104,6 @@
                     "open_issues": 0,
                     "owner": "forsakeninfinity",
                     "repo": "CEJC_yomichan_freq_dict",
-                    "stars": 15,
-                    "topics": []
-                  },
-                  "first_seen": "2026-08-29T00:35:22.918Z"
-                },
-                {
-                  "node_type": "item",
-                  "title": "j-tau-bench",
-                  "description": "J-tau: A Japanese tau-bench for Benchmarking Tool-Agent-User Interaction in Real-World Domains",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "description": "J-tau: A Fully Localized Japanese Benchmark for Tool-Agent-User Interaction",
-                    "homepage": null,
-                    "id": 1217671326,
-                    "language": "Python",
-                    "license": "NOASSERTION",
-                    "last_commit": "2026-10-15T04:31:09Z",
-                    "open_issues": 1,
-                    "owner": "sbintuitions",
-                    "repo": "j-tau-bench",
                     "stars": 15,
                     "topics": []
                   },
@@ -35503,7 +35507,7 @@
                     "id": 474831645,
                     "language": null,
                     "license": null,
-                    "last_commit": "2026-10-26T20:09:45Z",
+                    "last_commit": "2026-10-27T19:37:57Z",
                     "open_issues": 0,
                     "owner": "kissge",
                     "repo": "elaws-history",
@@ -37784,7 +37788,7 @@
                     "id": 482728164,
                     "language": "JavaScript",
                     "license": "MIT",
-                    "last_commit": "2026-10-26T14:59:25Z",
+                    "last_commit": "2026-10-27T14:12:49Z",
                     "open_issues": 1,
                     "owner": "smartnews-smri",
                     "repo": "house-of-representatives",
@@ -38589,7 +38593,7 @@
                     "open_issues": 1,
                     "owner": "AsPJT",
                     "repo": "PAX_SAPIENTICA",
-                    "stars": 195,
+                    "stars": 196,
                     "topics": [
                       "abm",
                       "agent-based-modeling",
@@ -38795,7 +38799,7 @@
                     "open_issues": 2,
                     "owner": "inspection-ai",
                     "repo": "japanese-toxic-dataset",
-                    "stars": 22,
+                    "stars": 35,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -39073,7 +39077,7 @@
                     "open_issues": 26,
                     "owner": "geolonia",
                     "repo": "japanese-addresses",
-                    "stars": 773,
+                    "stars": 774,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -39207,7 +39211,7 @@
                     "open_issues": 0,
                     "owner": "kanjialive",
                     "repo": "kanji-data-media",
-                    "stars": 437,
+                    "stars": 438,
                     "topics": [
                       "japanese",
                       "japanese-font",
@@ -39767,7 +39771,7 @@
                     "id": 474831645,
                     "language": null,
                     "license": null,
-                    "last_commit": "2026-10-26T20:09:45Z",
+                    "last_commit": "2026-10-27T19:37:57Z",
                     "open_issues": 0,
                     "owner": "kissge",
                     "repo": "elaws-history",
@@ -39838,7 +39842,7 @@
                     "open_issues": 5,
                     "owner": "japan-opendata",
                     "repo": "awesome-japan-opendata",
-                    "stars": 172,
+                    "stars": 173,
                     "topics": [
                       "japan",
                       "open-data",
@@ -40080,6 +40084,31 @@
                 },
                 {
                   "node_type": "item",
+                  "title": "🔗 public-annotations",
+                  "description": "- - ⭐ 15 🔴 april 2025",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "Various annotations of Manga109 dataset",
+                    "homepage": null,
+                    "id": 510622406,
+                    "language": null,
+                    "license": "CC-BY-4.0",
+                    "last_commit": "2025-04-23T17:41:15Z",
+                    "open_issues": 0,
+                    "owner": "manga109",
+                    "repo": "public-annotations",
+                    "stars": 15,
+                    "topics": [
+                      "annotations",
+                      "comic-onomatopoeia",
+                      "manga109"
+                    ]
+                  },
+                  "first_seen": "2026-08-29T00:35:22.918Z"
+                },
+                {
+                  "node_type": "item",
                   "title": "🔗 gimei",
                   "description": "- - ⭐ 425 🟢 last wednesday",
                   "children": [],
@@ -40090,8 +40119,8 @@
                     "id": 6981206,
                     "language": "Ruby",
                     "license": "MIT",
-                    "last_commit": "2026-10-21T10:02:43Z",
-                    "open_issues": 4,
+                    "last_commit": "2026-10-26T22:53:04Z",
+                    "open_issues": 6,
                     "owner": "willnet",
                     "repo": "gimei",
                     "stars": 425,
@@ -40278,7 +40307,7 @@
                     "open_issues": 0,
                     "owner": "elzup",
                     "repo": "jlpt-word-list",
-                    "stars": 99,
+                    "stars": 101,
                     "topics": [
                       "data",
                       "resources"
@@ -41512,7 +41541,7 @@
                     "open_issues": 1,
                     "owner": "sbintuitions",
                     "repo": "j-tau-bench",
-                    "stars": 15,
+                    "stars": 16,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -42112,8 +42141,8 @@
             "id": 900699377,
             "language": "Jupyter Notebook",
             "license": "MIT",
-            "last_commit": "2026-10-26T17:15:45Z",
-            "open_issues": 53,
+            "last_commit": "2026-10-27T15:49:22Z",
+            "open_issues": 55,
             "owner": "yuiseki",
             "repo": "NLP2025-tutorial-2",
             "stars": 17,
@@ -42864,7 +42893,7 @@
         {
           "node_type": "item",
           "title": "🔗 Gemma2_2b_Japanese_finetuning_colab.ipynb",
-          "description": "- - ⭐ repo not found 🔴 august 2024",
+          "description": "- - ⭐ 12 🔴 august 2024",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -42919,8 +42948,8 @@
             "id": 900699377,
             "language": "Jupyter Notebook",
             "license": "MIT",
-            "last_commit": "2026-10-26T17:15:45Z",
-            "open_issues": 53,
+            "last_commit": "2026-10-27T15:49:22Z",
+            "open_issues": 55,
             "owner": "yuiseki",
             "repo": "NLP2025-tutorial-2",
             "stars": 17,
@@ -42946,31 +42975,6 @@
             "repo": "nlp100v2025",
             "stars": 92,
             "topics": []
-          },
-          "first_seen": "2026-08-29T00:35:22.918Z"
-        },
-        {
-          "node_type": "item",
-          "title": "🔗 public-annotations",
-          "description": "- - ⭐ 15 🔴 april 2025",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "Various annotations of Manga109 dataset",
-            "homepage": null,
-            "id": 510622406,
-            "language": null,
-            "license": "CC-BY-4.0",
-            "last_commit": "2025-04-23T17:41:15Z",
-            "open_issues": 0,
-            "owner": "manga109",
-            "repo": "public-annotations",
-            "stars": 15,
-            "topics": [
-              "annotations",
-              "comic-onomatopoeia",
-              "manga109"
-            ]
           },
           "first_seen": "2026-08-29T00:35:22.918Z"
         },
@@ -43608,7 +43612,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-26T21:04:25.587Z",
+    "last_updated": "2026-10-27T20:46:16.014Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of resources for Japanese natural language processing (NLP): Python libraries, LLMs, dictionaries, corpora, and datasets. Includes Claude Code and Codex skills to search resources.",
@@ -43616,7 +43620,7 @@
       "id": 501192860,
       "language": null,
       "license": "CC0-1.0",
-      "last_commit": "2026-10-26T17:32:33Z",
+      "last_commit": "2026-10-27T15:29:26Z",
       "open_issues": 4,
       "owner": "taishi-i",
       "repo": "awesome-japanese-nlp-resources",
@@ -43634,7 +43638,7 @@
         "nlp-library"
       ]
     },
-    "original_repository_sha": "86d3648cb5738d1ea17eab321b793449aa4ec954",
+    "original_repository_sha": "d609b0d4cbcee24d8db663f80198ffea9774ac0d",
     "enhanced_repository": "enhansome/enhansome-japanese-nlp-resources",
     "enhanced_repository_description": null,
     "title": "awesome-japanese-nlp-resources with stars"
