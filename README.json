@@ -1,49 +1,75 @@
 {
   "items": [
     {
-      "description": "Corpus\nUpdated on Nov 17, 2026",
+      "description": "Corpus\nPython\nUpdated on Nov 23, 2026",
       "items": [
         {
           "node_type": "item",
-          "title": "jcola",
-          "description": "JCoLA: Japanese Corpus of Linguistic Acceptability",
+          "title": "cadel",
+          "description": "CADEL: Corpus of Administrative Web Documents for Japanese Entity Linking (Version 1.0)",
           "children": [],
           "repo_info": {
             "archived": false,
             "description": null,
             "homepage": null,
-            "id": 457662373,
-            "language": null,
-            "license": "CC-BY-SA-4.0",
-            "last_commit": "2026-04-21T14:32:30Z",
+            "id": 917960852,
+            "language": "Python",
+            "license": "NOASSERTION",
+            "last_commit": "2026-04-03T02:39:42Z",
             "open_issues": 0,
-            "owner": "osekilab",
-            "repo": "JCoLA",
-            "stars": 20,
+            "owner": "shigashiyama",
+            "repo": "cadel",
+            "stars": 2,
             "topics": []
           },
-          "first_seen": "2026-11-17T00:17:41.656Z"
+          "first_seen": "2026-11-24T02:56:39.215Z"
         },
         {
           "node_type": "item",
-          "title": "JFinTEB",
-          "description": "Japanese Financial Text Embedding Benchmark",
+          "title": "JaFaithSum",
+          "description": "A Japanese Faithfulness Evaluation Dataset for LLM Summarization",
           "children": [],
           "repo_info": {
             "archived": false,
-            "description": "Japanese Financial Text Embedding Benchmark",
+            "description": null,
             "homepage": null,
-            "id": 1003764485,
+            "id": 1215297796,
             "language": "Python",
-            "license": "CC-BY-SA-4.0",
-            "last_commit": "2026-10-24T06:08:28Z",
+            "license": null,
+            "last_commit": "2026-04-27T23:26:48Z",
             "open_issues": 0,
-            "owner": "retarfi",
-            "repo": "JFinTEB",
-            "stars": 5,
+            "owner": "SDS-NLP",
+            "repo": "JaFaithSum",
+            "stars": 0,
             "topics": []
           },
-          "first_seen": "2026-11-17T00:17:41.656Z"
+          "first_seen": "2026-11-24T02:56:39.215Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Haas-ASR",
+          "description": "Inference code for Haas, fast and accurate Japanese speech recognition",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Inference code for Haas, fast and accurate Japanese speech recognition",
+            "homepage": "https://huggingface.co/third-intelligence/Haas-ja-v1.0",
+            "id": 1429346946,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-10-30T11:35:57Z",
+            "open_issues": 1,
+            "owner": "third-intelligence",
+            "repo": "Haas-ASR",
+            "stars": 49,
+            "topics": [
+              "asr",
+              "japanese",
+              "speech-recognition",
+              "speech-to-text"
+            ]
+          },
+          "first_seen": "2026-11-24T02:56:39.215Z"
         }
       ],
       "title": "🎉 The latest additions"
@@ -241,7 +267,7 @@
                 "open_issues": 2,
                 "owner": "taishi-i",
                 "repo": "nagisa",
-                "stars": 424,
+                "stars": 425,
                 "topics": [
                   "japanese",
                   "natural-language-processing",
@@ -568,7 +594,7 @@
             {
               "node_type": "item",
               "title": "🔗 sudachi.rs",
-              "description": "📥 374k 📦 77M ⭐ 492 🟢 october",
+              "description": "📥 334k 📦 78M ⭐ 491 🟢 october",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -598,7 +624,7 @@
             {
               "node_type": "item",
               "title": "🔗 Janome",
-              "description": "📥 66k 📦 14M ⭐ 922 🟢 last wednesday",
+              "description": "📥 76k 📦 14M ⭐ 921 🟢 november",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -623,7 +649,7 @@
             {
               "node_type": "item",
               "title": "🔗 mecab-python3",
-              "description": "📥 174k 📦 43M ⭐ 581 🔴 november 2025",
+              "description": "📥 183k 📦 43M ⭐ 579 🔴 november 2025",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -644,7 +670,7 @@
             {
               "node_type": "item",
               "title": "🔗 mecab",
-              "description": "📥 51k 📦 4M ⭐ 274 🔴 october 2024",
+              "description": "📥 58k 📦 4M ⭐ 274 🔴 october 2024",
               "children": [],
               "repo_info": {
                 "archived": true,
@@ -671,7 +697,7 @@
             {
               "node_type": "item",
               "title": "🔗 fugashi",
-              "description": "📥 206k 📦 20M ⭐ 538 🔴 october 2025",
+              "description": "📥 228k 📦 20M ⭐ 537 🔴 october 2025",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -698,7 +724,7 @@
             {
               "node_type": "item",
               "title": "🔗 nagisa",
-              "description": "📥 62k 📦 11M ⭐ 424 🟢 last saturday",
+              "description": "📥 65k 📦 11M ⭐ 425 🟢 november",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -711,7 +737,7 @@
                 "open_issues": 2,
                 "owner": "taishi-i",
                 "repo": "nagisa",
-                "stars": 424,
+                "stars": 425,
                 "topics": [
                   "japanese",
                   "natural-language-processing",
@@ -727,7 +753,7 @@
             {
               "node_type": "item",
               "title": "🔗 pyknp",
-              "description": "📥 522 📦 3M ⭐ 93 🟡 january",
+              "description": "📥 626 📦 3M ⭐ 93 🟡 january",
               "children": [],
               "repo_info": {
                 "archived": true,
@@ -754,7 +780,7 @@
             {
               "node_type": "item",
               "title": "🔗 Mykytea-python",
-              "description": "📥 4k 📦 597k ⭐ 36 🟢 last tuesday",
+              "description": "📥 1k 📦 599k ⭐ 36 🟢 november",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -775,7 +801,7 @@
             {
               "node_type": "item",
               "title": "🔗 konoha",
-              "description": "📥 28k 📦 7M ⭐ 266 🟢 last friday",
+              "description": "📥 25k 📦 7M ⭐ 265 🟢 november",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -806,7 +832,7 @@
             {
               "node_type": "item",
               "title": "🔗 natto-py",
-              "description": "📥 2k 📦 34M ⭐ 95 🔴 november 2023",
+              "description": "📥 3k 📦 34M ⭐ 95 🔴 november 2023",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -827,7 +853,7 @@
             {
               "node_type": "item",
               "title": "🔗 rakutenma-python",
-              "description": "📥 13 📦 28k ⭐ 23 🔴 may 2017",
+              "description": "📥 14 📦 28k ⭐ 23 🔴 may 2017",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -856,7 +882,7 @@
             {
               "node_type": "item",
               "title": "🔗 python-vaporetto",
-              "description": "📥 431 📦 195k ⭐ 22 🟡 may",
+              "description": "📥 329 📦 195k ⭐ 22 🟡 may",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -887,7 +913,7 @@
             {
               "node_type": "item",
               "title": "🔗 dango",
-              "description": "📥 30 📦 28k ⭐ 26 🔴 november 2021",
+              "description": "📥 50 📦 28k ⭐ 26 🔴 november 2021",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -915,7 +941,7 @@
             {
               "node_type": "item",
               "title": "🔗 rhoknp",
-              "description": "📥 9k 📦 2M ⭐ 40 🟢 october",
+              "description": "📥 11k 📦 2M ⭐ 40 🟢 october",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -942,7 +968,7 @@
             {
               "node_type": "item",
               "title": "🔗 python-vibrato",
-              "description": "📥 232 📦 129k ⭐ 46 🟡 may",
+              "description": "📥 320 📦 130k ⭐ 46 🟡 may",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -969,7 +995,7 @@
             {
               "node_type": "item",
               "title": "🔗 jagger-python",
-              "description": "📥 1k 📦 344k ⭐ 13 🔴 march 2024",
+              "description": "📥 2k 📦 346k ⭐ 13 🔴 march 2024",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1076,7 +1102,7 @@
                 "open_issues": 5,
                 "owner": "masashi-y",
                 "repo": "depccg",
-                "stars": 104,
+                "stars": 105,
                 "topics": [
                   "categorial-grammar",
                   "ccg",
@@ -1179,10 +1205,10 @@
                 "language": "Haskell",
                 "license": "BSD-3-Clause",
                 "last_commit": "2026-11-19T07:24:05Z",
-                "open_issues": 98,
+                "open_issues": 99,
                 "owner": "DaisukeBekki",
                 "repo": "lightblue",
-                "stars": 31,
+                "stars": 32,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:35:22.918Z"
@@ -1320,7 +1346,7 @@
             {
               "node_type": "item",
               "title": "🔗 ginza",
-              "description": "📥 11k 📦 3M ⭐ 878 🟢 last friday",
+              "description": "📥 15k 📦 3M ⭐ 878 🟢 november",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1341,7 +1367,7 @@
             {
               "node_type": "item",
               "title": "🔗 cabocha",
-              "description": "📥 52 📦 56k ⭐ 7 🔴 august 2022",
+              "description": "📥 47 📦 56k ⭐ 7 🔴 august 2022",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1362,7 +1388,7 @@
             {
               "node_type": "item",
               "title": "🔗 UniDic2UD",
-              "description": "📥 72 📦 342k ⭐ 38 🟡 december 2025",
+              "description": "📥 255 📦 343k ⭐ 38 🟡 december 2025",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1387,7 +1413,7 @@
             {
               "node_type": "item",
               "title": "🔗 camphr",
-              "description": "📥 104 📦 282k ⭐ 337 🔴 august 2021",
+              "description": "📥 472 📦 282k ⭐ 336 🔴 august 2021",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1411,7 +1437,7 @@
             {
               "node_type": "item",
               "title": "🔗 SuPar-UniDic",
-              "description": "📥 145 📦 126k ⭐ 21 🟡 august",
+              "description": "📥 420 📦 126k ⭐ 21 🟡 august",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1436,7 +1462,7 @@
             {
               "node_type": "item",
               "title": "🔗 depccg",
-              "description": "📥 189 📦 53k ⭐ 104 🟡 august",
+              "description": "📥 208 📦 53k ⭐ 105 🟡 august",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1449,7 +1475,7 @@
                 "open_issues": 5,
                 "owner": "masashi-y",
                 "repo": "depccg",
-                "stars": 104,
+                "stars": 105,
                 "topics": [
                   "categorial-grammar",
                   "ccg",
@@ -1483,7 +1509,7 @@
             {
               "node_type": "item",
               "title": "🔗 esupar",
-              "description": "📥 384 📦 189k ⭐ 56 🟢 september",
+              "description": "📥 729 📦 190k ⭐ 56 🟢 september",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1517,7 +1543,7 @@
             {
               "node_type": "item",
               "title": "🔗 yomikata",
-              "description": "📥 32 📦 51k ⭐ 37 🔴 october 2023",
+              "description": "📥 39 📦 51k ⭐ 37 🔴 october 2023",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1538,7 +1564,7 @@
             {
               "node_type": "item",
               "title": "🔗 jdepp-python",
-              "description": "📥 754 📦 324k ⭐ 4 🔴 february 2024",
+              "description": "📥 2k 📦 327k ⭐ 4 🔴 february 2024",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1559,7 +1585,7 @@
             {
               "node_type": "item",
               "title": "🔗 lightblue",
-              "description": "- - ⭐ 29 🟢 last friday",
+              "description": "- - ⭐ 32 🟢 november",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1569,10 +1595,10 @@
                 "language": "Haskell",
                 "license": "BSD-3-Clause",
                 "last_commit": "2026-11-19T07:24:05Z",
-                "open_issues": 98,
+                "open_issues": 99,
                 "owner": "DaisukeBekki",
                 "repo": "lightblue",
-                "stars": 31,
+                "stars": 32,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:35:22.918Z"
@@ -1601,7 +1627,7 @@
             {
               "node_type": "item",
               "title": "🔗 jdeppy",
-              "description": "📥 18 📦 12k ⭐ 3 🔴 february 2022",
+              "description": "📥 32 📦 12k ⭐ 3 🔴 february 2022",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2075,7 +2101,7 @@
             {
               "node_type": "item",
               "title": "🔗 pykakasi",
-              "description": "📥 686k 📦 45M ⭐ 467 🟡 july",
+              "description": "📥 713k 📦 46M ⭐ 467 🟡 july",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2102,7 +2128,7 @@
             {
               "node_type": "item",
               "title": "🔗 cutlet",
-              "description": "📥 31k 📦 2M ⭐ 390 🟢 november",
+              "description": "📥 29k 📦 2M ⭐ 387 🟢 november",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2127,7 +2153,7 @@
             {
               "node_type": "item",
               "title": "🔗 alphabet2kana",
-              "description": "📥 89 📦 66k ⭐ 15 🟡 february",
+              "description": "📥 86 📦 66k ⭐ 15 🟡 february",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2175,7 +2201,7 @@
             {
               "node_type": "item",
               "title": "🔗 mozcpy",
-              "description": "📥 521 📦 24k ⭐ 49 🟢 october",
+              "description": "📥 509 📦 25k ⭐ 49 🟢 october",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2202,7 +2228,7 @@
             {
               "node_type": "item",
               "title": "🔗 jamorasep",
-              "description": "📥 57 📦 13k ⭐ 11 🟡 february",
+              "description": "📥 384 📦 13k ⭐ 11 🟡 february",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2247,7 +2273,7 @@
             {
               "node_type": "item",
               "title": "🔗 jntajis-python",
-              "description": "📥 987 📦 155k ⭐ 21 🟡 march",
+              "description": "📥 1k 📦 157k ⭐ 21 🟡 march",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2280,7 +2306,7 @@
             {
               "node_type": "item",
               "title": "🔗 wiredify",
-              "description": "📥 27 📦 7k ⭐ 3 🟡 december 2025",
+              "description": "📥 44 📦 7k ⭐ 3 🟡 december 2025",
               "children": [],
               "repo_info": {
                 "archived": true,
@@ -2301,7 +2327,7 @@
             {
               "node_type": "item",
               "title": "🔗 mecab-text-cleaner",
-              "description": "📥 15 📦 5k ⭐ 7 🟢 september",
+              "description": "📥 29 📦 5k ⭐ 7 🟢 september",
               "children": [],
               "repo_info": {
                 "archived": true,
@@ -2340,7 +2366,7 @@
             {
               "node_type": "item",
               "title": "🔗 pynormalizenumexp",
-              "description": "📥 17 📦 16k ⭐ 8 🔴 april 2024",
+              "description": "📥 33 📦 16k ⭐ 8 🔴 april 2024",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2361,7 +2387,7 @@
             {
               "node_type": "item",
               "title": "🔗 Jusho",
-              "description": "📥 312 📦 73k ⭐ 12 🔴 june 2024",
+              "description": "📥 349 📦 73k ⭐ 12 🔴 june 2024",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2387,7 +2413,7 @@
             {
               "node_type": "item",
               "title": "🔗 yurenizer",
-              "description": "📥 127 📦 23k ⭐ 6 🟢 october",
+              "description": "📥 68 📦 23k ⭐ 6 🟢 october",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2408,7 +2434,7 @@
             {
               "node_type": "item",
               "title": "🔗 e2k",
-              "description": "📥 640 📦 48k ⭐ 21 🟢 october",
+              "description": "📥 735 📦 49k ⭐ 21 🟢 october",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2429,7 +2455,7 @@
             {
               "node_type": "item",
               "title": "🔗 alkana.py",
-              "description": "📥 741 📦 88k ⭐ 35 🔴 october 2021",
+              "description": "📥 1k 📦 89k ⭐ 35 🔴 october 2021",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2474,7 +2500,7 @@
             {
               "node_type": "item",
               "title": "🔗 kanjiconv",
-              "description": "📥 5k 📦 44k ⭐ 21 🟢 october",
+              "description": "📥 3k 📦 47k ⭐ 21 🟢 october",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2495,7 +2521,7 @@
             {
               "node_type": "item",
               "title": "🔗 kanjize",
-              "description": "📥 23k 📦 2M ⭐ 70 🔴 june 2025",
+              "description": "📥 29k 📦 2M ⭐ 70 🔴 june 2025",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2729,7 +2755,7 @@
             {
               "node_type": "item",
               "title": "🔗 neologdn",
-              "description": "📥 19k 📦 2M ⭐ 290 🟡 may",
+              "description": "📥 23k 📦 2M ⭐ 290 🟡 may",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2756,7 +2782,7 @@
             {
               "node_type": "item",
               "title": "🔗 jaconv",
-              "description": "📥 998k 📦 91M ⭐ 352 🟡 february",
+              "description": "📥 1M 📦 93M ⭐ 349 🟡 february",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2786,7 +2812,7 @@
             {
               "node_type": "item",
               "title": "🔗 mojimoji",
-              "description": "📥 69k 📦 14M ⭐ 154 🔴 january 2024",
+              "description": "📥 73k 📦 14M ⭐ 154 🔴 january 2024",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2832,7 +2858,7 @@
             {
               "node_type": "item",
               "title": "🔗 HojiChar",
-              "description": "📥 917 📦 1M ⭐ 127 🟢 november",
+              "description": "📥 1k 📦 1M ⭐ 127 🟢 november",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2853,7 +2879,7 @@
             {
               "node_type": "item",
               "title": "🔗 utsuho",
-              "description": "📥 74 📦 27k ⭐ 5 🟡 march",
+              "description": "📥 124 📦 27k ⭐ 5 🟡 march",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2882,7 +2908,7 @@
             {
               "node_type": "item",
               "title": "🔗 python-habachen",
-              "description": "📥 8k 📦 3M ⭐ 6 🔴 october 2025",
+              "description": "📥 7k 📦 3M ⭐ 6 🔴 october 2025",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2903,7 +2929,7 @@
             {
               "node_type": "item",
               "title": "🔗 kairyou",
-              "description": "📥 119 📦 36k ⭐ 6 🟢 november",
+              "description": "📥 244 📦 36k ⭐ 6 🟢 november",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3163,7 +3189,7 @@
             {
               "node_type": "item",
               "title": "🔗 bunkai",
-              "description": "📥 238 📦 126k ⭐ 201 🔴 august 2023",
+              "description": "📥 312 📦 126k ⭐ 201 🔴 august 2023",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3189,7 +3215,7 @@
             {
               "node_type": "item",
               "title": "🔗 japanese-sentence-breaker",
-              "description": "📥 8 📦 7k ⭐ 14 🔴 february 2021",
+              "description": "📥 20 📦 7k ⭐ 14 🔴 february 2021",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3213,7 +3239,7 @@
             {
               "node_type": "item",
               "title": "🔗 sengiri",
-              "description": "📥 46 📦 140k ⭐ 24 🔴 november 2025",
+              "description": "📥 22 📦 140k ⭐ 24 🔴 november 2025",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3239,7 +3265,7 @@
             {
               "node_type": "item",
               "title": "🔗 budoux",
-              "description": "📥 57k 📦 1M ⭐ invalid 🟢 today",
+              "description": "📥 63k 📦 1M ⭐ 1.8k 🟢 last friday",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3265,7 +3291,7 @@
             {
               "node_type": "item",
               "title": "🔗 ja_sentence_segmenter",
-              "description": "📥 4k 📦 307k ⭐ invalid 🟢 october",
+              "description": "📥 5k 📦 312k ⭐ 76 🟢 october",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3292,7 +3318,7 @@
             {
               "node_type": "item",
               "title": "🔗 hasami",
-              "description": "📥 380 📦 49k ⭐ 6 🔴 february 2021",
+              "description": "📥 469 📦 49k ⭐ 6 🔴 february 2021",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3320,7 +3346,7 @@
             {
               "node_type": "item",
               "title": "🔗 kuzukiri",
-              "description": "📥 86 📦 31k ⭐ 6 🔴 june 2025",
+              "description": "📥 79 📦 31k ⭐ 6 🔴 june 2025",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3366,7 +3392,7 @@
             {
               "node_type": "item",
               "title": "🔗 fast-bunkai",
-              "description": "📥 70 📦 11k ⭐ 77 🔴 october 2025",
+              "description": "📥 80 📦 11k ⭐ 77 🔴 october 2025",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3533,7 +3559,7 @@
             {
               "node_type": "item",
               "title": "🔗 oseti",
-              "description": "📥 169 📦 178k ⭐ 99 🔴 august 2025",
+              "description": "📥 129 📦 178k ⭐ 99 🔴 august 2025",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3583,7 +3609,7 @@
             {
               "node_type": "item",
               "title": "🔗 pymlask",
-              "description": "📥 107 📦 68k ⭐ 119 🔴 july 2024",
+              "description": "📥 60 📦 68k ⭐ 119 🔴 july 2024",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3611,7 +3637,7 @@
             {
               "node_type": "item",
               "title": "🔗 asari",
-              "description": "📥 91 📦 84k ⭐ 153 🔴 october 2022",
+              "description": "📥 45 📦 84k ⭐ 153 🔴 october 2022",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3636,7 +3662,7 @@
             {
               "node_type": "item",
               "title": "🔗 kotobacore",
-              "description": "📥 125 📦 7k ⭐ 1 🟢 september",
+              "description": "📥 119 📦 7k ⭐ 1 🟢 september",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3866,7 +3892,7 @@
             {
               "node_type": "item",
               "title": "🔗 plamo-translate-cli",
-              "description": "📥 126 📦 7k ⭐ 364 🟢 november",
+              "description": "📥 95 📦 7k ⭐ 367 🟢 november",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -4152,7 +4178,7 @@
             {
               "node_type": "item",
               "title": "🔗 noyaki",
-              "description": "📥 113 📦 26k ⭐ 5 🔴 august 2022",
+              "description": "📥 185 📦 26k ⭐ 5 🔴 august 2022",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -4215,7 +4241,7 @@
             {
               "node_type": "item",
               "title": "🔗 pygeonlp",
-              "description": "📥 357 📦 33k ⭐ 22 🟡 march",
+              "description": "📥 339 📦 33k ⭐ 22 🟡 march",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -4379,7 +4405,7 @@
                 "open_issues": 13,
                 "owner": "kotaro-kinoshita",
                 "repo": "yomitoku",
-                "stars": 1709,
+                "stars": 1711,
                 "topics": [
                   "deep-learning",
                   "layout-analysis",
@@ -4402,11 +4428,11 @@
                 "id": 1156864297,
                 "language": "Python",
                 "license": "CC-BY-4.0",
-                "last_commit": "2026-11-11T09:28:17Z",
+                "last_commit": "2026-11-24T02:52:58Z",
                 "open_issues": 5,
                 "owner": "ndl-lab",
                 "repo": "ndlocr-lite",
-                "stars": 1395,
+                "stars": 1397,
                 "topics": []
               },
               "first_seen": "2026-11-10T00:17:58.172Z"
@@ -4423,11 +4449,11 @@
                 "id": 1027728791,
                 "language": "Python",
                 "license": "GPL-3.0",
-                "last_commit": "2026-11-21T12:38:30Z",
+                "last_commit": "2026-11-23T18:53:42Z",
                 "open_issues": 14,
                 "owner": "rtr46",
                 "repo": "meikipop",
-                "stars": 736,
+                "stars": 737,
                 "topics": [
                   "dictionary",
                   "japanese",
@@ -4480,7 +4506,7 @@
                 "open_issues": 32,
                 "owner": "blueaxis",
                 "repo": "Poricom",
-                "stars": 448,
+                "stars": 447,
                 "topics": [
                   "manga-ocr",
                   "manga-reader",
@@ -4806,7 +4832,7 @@
             {
               "node_type": "item",
               "title": "🔗 manga-ocr",
-              "description": "📥 3k 📦 422k ⭐ 2.8k 🟡 july",
+              "description": "📥 4k 📦 428k ⭐ 2.8k 🟡 july",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -4835,7 +4861,7 @@
             {
               "node_type": "item",
               "title": "🔗 mokuro",
-              "description": "📥 432 📦 118k ⭐ 1.8k 🟡 july",
+              "description": "📥 459 📦 119k ⭐ 1.8k 🟡 july",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -4941,7 +4967,7 @@
             {
               "node_type": "item",
               "title": "🔗 JMTrans",
-              "description": "- - ⭐ 87 🔴 january 2021",
+              "description": "- - ⭐ 88 🔴 january 2021",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -5033,7 +5059,7 @@
                 "open_issues": 32,
                 "owner": "blueaxis",
                 "repo": "Poricom",
-                "stars": 448,
+                "stars": 447,
                 "topics": [
                   "manga-ocr",
                   "manga-reader",
@@ -5046,7 +5072,7 @@
             {
               "node_type": "item",
               "title": "🔗 owocr",
-              "description": "📥 623 📦 132k ⭐ 317 🟡 march",
+              "description": "📥 521 📦 133k ⭐ 318 🟡 march",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -5067,7 +5093,7 @@
             {
               "node_type": "item",
               "title": "🔗 yomitoku",
-              "description": "📥 2k 📦 144k ⭐ 1.7k 🟢 last tuesday",
+              "description": "📥 2k 📦 146k ⭐ 1.7k 🟢 last thursday",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -5080,7 +5106,7 @@
                 "open_issues": 13,
                 "owner": "kotaro-kinoshita",
                 "repo": "yomitoku",
-                "stars": 1709,
+                "stars": 1711,
                 "topics": [
                   "deep-learning",
                   "layout-analysis",
@@ -5183,7 +5209,7 @@
             {
               "node_type": "item",
               "title": "🔗 MangaOCR",
-              "description": "- - ⭐ 40 🔴 may 2024",
+              "description": "- - ⭐ 41 🔴 may 2024",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -5214,7 +5240,7 @@
             {
               "node_type": "item",
               "title": "🔗 meikiocr",
-              "description": "📥 683 📦 60k ⭐ 103 🟢 september",
+              "description": "📥 910 📦 61k ⭐ 103 🟢 september",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -5250,7 +5276,7 @@
             {
               "node_type": "item",
               "title": "🔗 meikipop",
-              "description": "📥 444 📦 8k ⭐ 734 🟢 last friday",
+              "description": "📥 840 📦 8k ⭐ 736 🟢 last saturday",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -5259,11 +5285,11 @@
                 "id": 1027728791,
                 "language": "Python",
                 "license": "GPL-3.0",
-                "last_commit": "2026-11-21T12:38:30Z",
+                "last_commit": "2026-11-23T18:53:42Z",
                 "open_issues": 14,
                 "owner": "rtr46",
                 "repo": "meikipop",
-                "stars": 736,
+                "stars": 737,
                 "topics": [
                   "dictionary",
                   "japanese",
@@ -5282,7 +5308,7 @@
             {
               "node_type": "item",
               "title": "🔗 ndlocr-lite",
-              "description": "📥 448 📦 448 ⭐ 1.4k 🟢 last wednesday",
+              "description": "📥 119 📦 567 ⭐ 1.4k 🟢 november",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -5291,11 +5317,11 @@
                 "id": 1156864297,
                 "language": "Python",
                 "license": "CC-BY-4.0",
-                "last_commit": "2026-11-11T09:28:17Z",
+                "last_commit": "2026-11-24T02:52:58Z",
                 "open_issues": 5,
                 "owner": "ndl-lab",
                 "repo": "ndlocr-lite",
-                "stars": 1395,
+                "stars": 1397,
                 "topics": []
               },
               "first_seen": "2026-11-10T00:17:58.172Z"
@@ -5340,7 +5366,7 @@
                 "id": 707154704,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-18T04:56:42Z",
+                "last_commit": "2026-11-23T12:09:24Z",
                 "open_issues": 1,
                 "owner": "llm-jp",
                 "repo": "llm-jp-eval",
@@ -6032,7 +6058,7 @@
             {
               "node_type": "item",
               "title": "🔗 ginza-transformers",
-              "description": "📥 425 📦 283k ⭐ 16 🟢 september",
+              "description": "📥 467 📦 284k ⭐ 16 🟢 september",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -6160,7 +6186,7 @@
             {
               "node_type": "item",
               "title": "🔗 allennlp-shiba-model",
-              "description": "📥 26 📦 24k ⭐ 12 🔴 june 2021",
+              "description": "📥 33 📦 24k ⭐ 12 🔴 june 2021",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -6297,7 +6323,7 @@
             {
               "node_type": "item",
               "title": "🔗 nagisa_bert",
-              "description": "📥 46 📦 63k ⭐ 5 🟡 february",
+              "description": "📥 49 📦 63k ⭐ 5 🟡 february",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -6324,7 +6350,7 @@
             {
               "node_type": "item",
               "title": "🔗 jglue-evaluation-scripts",
-              "description": "- - ⭐ 18 🟢 last saturday",
+              "description": "- - ⭐ 18 🟢 november",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -6345,7 +6371,7 @@
             {
               "node_type": "item",
               "title": "🔗 jptranstokenizer",
-              "description": "📥 77 📦 32k ⭐ 5 🔴 february 2024",
+              "description": "📥 85 📦 32k ⭐ 5 🔴 february 2024",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -6523,7 +6549,7 @@
             {
               "node_type": "item",
               "title": "🔗 llm-jp-eval",
-              "description": "- - ⭐ 175 🟢 november",
+              "description": "- - ⭐ 175 🟢 last wednesday",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -6532,7 +6558,7 @@
                 "id": 707154704,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-18T04:56:42Z",
+                "last_commit": "2026-11-23T12:09:24Z",
                 "open_issues": 1,
                 "owner": "llm-jp",
                 "repo": "llm-jp-eval",
@@ -6691,7 +6717,7 @@
             {
               "node_type": "item",
               "title": "🔗 pl-bert-ja",
-              "description": "- - ⭐ 24 🔴 december 2023",
+              "description": "- - ⭐ 23 🔴 december 2023",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -6730,11 +6756,11 @@
                     "id": 1397771878,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2026-11-22T15:53:50Z",
-                    "open_issues": 1,
+                    "last_commit": "2026-11-22T22:38:51Z",
+                    "open_issues": 0,
                     "owner": "nanaism",
                     "repo": "yomiyasu",
-                    "stars": 3441,
+                    "stars": 3469,
                     "topics": [
                       "agent-skills",
                       "ai-writing",
@@ -6770,7 +6796,7 @@
                     "open_issues": 1,
                     "owner": "google",
                     "repo": "mozc-devices",
-                    "stars": 3003,
+                    "stars": 3004,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -6791,7 +6817,7 @@
                     "open_issues": 0,
                     "owner": "coji",
                     "repo": "natural-japanese",
-                    "stars": 2080,
+                    "stars": 2090,
                     "topics": [
                       "agent-skills",
                       "claude",
@@ -6817,8 +6843,8 @@
                     "id": 389985077,
                     "language": "Python",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-11-22T18:37:13Z",
-                    "open_issues": 93,
+                    "last_commit": "2026-11-23T11:38:36Z",
+                    "open_issues": 92,
                     "owner": "VOICEVOX",
                     "repo": "voicevox_engine",
                     "stars": 1787,
@@ -6860,10 +6886,10 @@
                     "language": "Python",
                     "license": "MIT",
                     "last_commit": "2026-11-18T11:48:34Z",
-                    "open_issues": 20,
+                    "open_issues": 19,
                     "owner": "Aratako",
                     "repo": "Irodori-TTS",
-                    "stars": 1662,
+                    "stars": 1672,
                     "topics": [
                       "diffusion-models",
                       "flow-matching",
@@ -7460,7 +7486,7 @@
                     "open_issues": 1,
                     "owner": "digital-go-jp",
                     "repo": "kanjikana-model",
-                    "stars": 121,
+                    "stars": 122,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -8045,6 +8071,27 @@
                 },
                 {
                   "node_type": "item",
+                  "title": "llm-jp-judge",
+                  "description": "生成自動評価を行うためのPythonツール",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "Python tool for automated evaluation of generation",
+                    "homepage": null,
+                    "id": 890510276,
+                    "language": "Python",
+                    "license": "Apache-2.0",
+                    "last_commit": "2026-11-18T03:10:01Z",
+                    "open_issues": 5,
+                    "owner": "llm-jp",
+                    "repo": "llm-jp-judge",
+                    "stars": 65,
+                    "topics": []
+                  },
+                  "first_seen": "2026-08-29T00:35:22.918Z"
+                },
+                {
+                  "node_type": "item",
                   "title": "daaja",
                   "description": "This repository has implementations of data augmentation for NLP for Japanese.",
                   "children": [],
@@ -8090,27 +8137,6 @@
                       "llm",
                       "python"
                     ]
-                  },
-                  "first_seen": "2026-08-29T00:35:22.918Z"
-                },
-                {
-                  "node_type": "item",
-                  "title": "llm-jp-judge",
-                  "description": "生成自動評価を行うためのPythonツール",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "description": "Python tool for automated evaluation of generation",
-                    "homepage": null,
-                    "id": 890510276,
-                    "language": "Python",
-                    "license": "Apache-2.0",
-                    "last_commit": "2026-11-18T03:10:01Z",
-                    "open_issues": 5,
-                    "owner": "llm-jp",
-                    "repo": "llm-jp-judge",
-                    "stars": 64,
-                    "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
                 },
@@ -8256,6 +8282,32 @@
                     ]
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
+                },
+                {
+                  "node_type": "item",
+                  "title": "Haas-ASR",
+                  "description": "Inference code for Haas, fast and accurate Japanese speech recognition",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "Inference code for Haas, fast and accurate Japanese speech recognition",
+                    "homepage": "https://huggingface.co/third-intelligence/Haas-ja-v1.0",
+                    "id": 1429346946,
+                    "language": "Python",
+                    "license": "Apache-2.0",
+                    "last_commit": "2026-10-30T11:35:57Z",
+                    "open_issues": 1,
+                    "owner": "third-intelligence",
+                    "repo": "Haas-ASR",
+                    "stars": 49,
+                    "topics": [
+                      "asr",
+                      "japanese",
+                      "speech-recognition",
+                      "speech-to-text"
+                    ]
+                  },
+                  "first_seen": "2026-11-24T02:56:39.215Z"
                 },
                 {
                   "node_type": "item",
@@ -10871,8 +10923,8 @@
                     "id": 1194181801,
                     "language": "Python",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-11-22T17:22:05Z",
-                    "open_issues": 6,
+                    "last_commit": "2026-11-23T04:34:04Z",
+                    "open_issues": 0,
                     "owner": "llm-jp",
                     "repo": "simple-evals-mm",
                     "stars": 6,
@@ -11729,7 +11781,7 @@
                     "language": "Python",
                     "license": "MIT",
                     "last_commit": "2026-10-15T15:23:42Z",
-                    "open_issues": 0,
+                    "open_issues": 1,
                     "owner": "kojikojikojikoji",
                     "repo": "natural-japanese-writing",
                     "stars": 1,
@@ -11898,7 +11950,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 namedivider-python",
-                  "description": "📥 3k 📦 125k ⭐ 253 🟢 october",
+                  "description": "📥 3k 📦 128k ⭐ 253 🟢 october",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -11919,7 +11971,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 asa-python",
-                  "description": "📥 54 📦 32k ⭐ 11 🔴 february 2019",
+                  "description": "📥 22 📦 32k ⭐ 11 🔴 february 2019",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -11965,7 +12017,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 toiro",
-                  "description": "📥 28 📦 29k ⭐ 122 🔴 november 2025",
+                  "description": "📥 63 📦 29k ⭐ 122 🔴 november 2025",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -11993,7 +12045,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 ja-timex",
-                  "description": "📥 1k 📦 149k ⭐ 140 🔴 november 2023",
+                  "description": "📥 2k 📦 151k ⭐ 140 🔴 november 2023",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -12021,7 +12073,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 JapaneseTokenizers",
-                  "description": "📥 85 📦 182k ⭐ 138 🔴 march 2019",
+                  "description": "📥 137 📦 183k ⭐ 138 🔴 march 2019",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -12052,7 +12104,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 daaja",
-                  "description": "📥 38 📦 27k ⭐ 64 🔴 february 2023",
+                  "description": "📥 84 📦 27k ⭐ 64 🔴 february 2023",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -12077,7 +12129,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 accel-brain-code",
-                  "description": "📥 193 📦 158k ⭐ 328 🔴 december 2023",
+                  "description": "📥 825 📦 159k ⭐ 328 🔴 december 2023",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -12118,7 +12170,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 kyoto-reader",
-                  "description": "📥 1k 📦 76k ⭐ 10 🔴 june 2024",
+                  "description": "📥 1k 📦 77k ⭐ 10 🔴 june 2024",
                   "children": [],
                   "repo_info": {
                     "archived": true,
@@ -12145,7 +12197,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 nlplot",
-                  "description": "📥 98 📦 118k ⭐ 237 🔴 september 2022",
+                  "description": "📥 106 📦 118k ⭐ 237 🔴 september 2022",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -12194,7 +12246,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 jel",
-                  "description": "📥 16 📦 8k ⭐ 12 🔴 july 2021",
+                  "description": "📥 27 📦 9k ⭐ 12 🔴 july 2021",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -12245,7 +12297,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 zunda-python",
-                  "description": "📥 11 📦 6k ⭐ 10 🔴 november 2019",
+                  "description": "📥 6 📦 6k ⭐ 10 🔴 november 2019",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -12287,7 +12339,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 showcase",
-                  "description": "📥 16 📦 8k ⭐ 6 🔴 june 2018",
+                  "description": "📥 9 📦 8k ⭐ 6 🔴 june 2018",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -12355,7 +12407,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 desuwa",
-                  "description": "📥 21 📦 11k ⭐ 6 🔴 may 2022",
+                  "description": "📥 30 📦 11k ⭐ 6 🔴 may 2022",
                   "children": [],
                   "repo_info": {
                     "archived": true,
@@ -12464,7 +12516,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 pyknp-eventgraph",
-                  "description": "📥 52 📦 69k ⭐ 8 🔴 september 2022",
+                  "description": "📥 106 📦 69k ⭐ 8 🔴 september 2022",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -12485,7 +12537,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 ishi",
-                  "description": "📥 10 📦 7k ⭐ 2 🔴 may 2020",
+                  "description": "📥 24 📦 7k ⭐ 2 🔴 may 2020",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -12579,7 +12631,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 negima",
-                  "description": "📥 19 📦 17k ⭐ 14 🔴 august 2018",
+                  "description": "📥 20 📦 17k ⭐ 14 🔴 august 2018",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -12621,7 +12673,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 japanese-numbers-python",
-                  "description": "📥 915 📦 2M ⭐ 21 🔴 april 2020",
+                  "description": "📥 726 📦 2M ⭐ 21 🔴 april 2020",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -12713,7 +12765,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 chirptext",
-                  "description": "📥 8k 📦 466k ⭐ 7 🔴 october 2022",
+                  "description": "📥 5k 📦 473k ⭐ 7 🔴 october 2022",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -12742,7 +12794,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 yubin",
-                  "description": "📥 16 📦 3k ⭐ 3 🔴 october 2019",
+                  "description": "📥 14 📦 3k ⭐ 3 🔴 october 2019",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -12767,7 +12819,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 jawiki-cleaner",
-                  "description": "📥 34 📦 27k ⭐ 6 🔴 february 2021",
+                  "description": "📥 75 📦 27k ⭐ 6 🔴 february 2021",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -12792,7 +12844,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 japanese2phoneme",
-                  "description": "📥 10 📦 5k ⭐ 1 🔴 february 2022",
+                  "description": "📥 13 📦 5k ⭐ 1 🔴 february 2022",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -13063,7 +13115,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 xvector_jtubespeech",
-                  "description": "📥 38 📦 12k ⭐ 47 🔴 november 2023",
+                  "description": "📥 50 📦 12k ⭐ 47 🔴 november 2023",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -13305,7 +13357,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 asr",
-                  "description": "📥 32 📦 5k ⭐ 72 🟢 october",
+                  "description": "📥 30 📦 5k ⭐ 72 🟢 october",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -13383,7 +13435,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 tinysegmenter",
-                  "description": "📥 500 📦 183k ⭐ 53 🔴 november 2015",
+                  "description": "📥 408 📦 184k ⭐ 53 🔴 november 2015",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -13404,7 +13456,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 AugLy-jp",
-                  "description": "📥 93 📦 33k ⭐ 7 🟢 september",
+                  "description": "📥 63 📦 33k ⭐ 7 🟢 september",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -13433,7 +13485,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 furigana4epub",
-                  "description": "📥 30 📦 13k ⭐ 34 🔴 september 2021",
+                  "description": "📥 35 📦 13k ⭐ 34 🔴 september 2021",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -13460,7 +13512,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 PyKatsuyou",
-                  "description": "📥 43 📦 24k ⭐ 13 🔴 march 2025",
+                  "description": "📥 42 📦 24k ⭐ 13 🔴 march 2025",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -13485,7 +13537,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 jageocoder",
-                  "description": "📥 6k 📦 518k ⭐ 109 🟡 march",
+                  "description": "📥 6k 📦 525k ⭐ 109 🟡 march",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -13666,7 +13718,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 jinf",
-                  "description": "📥 264 📦 72k ⭐ 4 🟡 august",
+                  "description": "📥 177 📦 72k ⭐ 4 🟡 august",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -13687,7 +13739,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 kwja",
-                  "description": "📥 327 📦 68k ⭐ 150 🟢 october",
+                  "description": "📥 238 📦 69k ⭐ 150 🟢 october",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -13779,7 +13831,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 cihai",
-                  "description": "📥 351 📦 234k ⭐ 93 🟢 yesterday",
+                  "description": "📥 997 📦 235k ⭐ 93 🟢 yesterday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -13811,7 +13863,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 marine",
-                  "description": "📥 172 📦 18k ⭐ 38 🔴 september 2022",
+                  "description": "📥 212 📦 19k ⭐ 38 🔴 september 2022",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -13874,7 +13926,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 posuto",
-                  "description": "📥 6k 📦 983k ⭐ 236 🟢 november",
+                  "description": "📥 11k 📦 996k ⭐ 236 🟢 november",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -13968,7 +14020,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 chikkarpy",
-                  "description": "📥 160 📦 71k ⭐ 55 🔴 february 2022",
+                  "description": "📥 197 📦 71k ⭐ 55 🔴 february 2022",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -14125,7 +14177,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 JaSPICE",
-                  "description": "📥 5 📦 2k ⭐ 9 🟡 june",
+                  "description": "📥 10 📦 2k ⭐ 9 🟡 june",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -14167,7 +14219,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 pyopenjtalk",
-                  "description": "📥 31k 📦 2M ⭐ 261 🔴 april 2025",
+                  "description": "📥 34k 📦 2M ⭐ 262 🔴 april 2025",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -14188,7 +14240,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 yomigana-ebook",
-                  "description": "📥 26 📦 9k ⭐ 28 🔴 february 2024",
+                  "description": "📥 18 📦 9k ⭐ 28 🔴 february 2024",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -14267,7 +14319,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 pdf-translator",
-                  "description": "- - ⭐ 347 🔴 may 2024",
+                  "description": "- - ⭐ 346 🔴 may 2024",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -14325,7 +14377,7 @@
                     "open_issues": 1,
                     "owner": "google",
                     "repo": "mozc-devices",
-                    "stars": 3003,
+                    "stars": 3004,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -14358,7 +14410,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 ja-law-parser",
-                  "description": "📥 171 📦 16k ⭐ 25 🔴 january 2024",
+                  "description": "📥 123 📦 16k ⭐ 25 🔴 january 2024",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -14421,7 +14473,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 voicevox_engine",
-                  "description": "- - ⭐ 1.8k 🟢 last saturday",
+                  "description": "- - ⭐ 1.8k 🟢 yesterday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -14430,8 +14482,8 @@
                     "id": 389985077,
                     "language": "Python",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-11-22T18:37:13Z",
-                    "open_issues": 93,
+                    "last_commit": "2026-11-23T11:38:36Z",
+                    "open_issues": 92,
                     "owner": "VOICEVOX",
                     "repo": "voicevox_engine",
                     "stars": 1787,
@@ -14678,7 +14730,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 pydomino",
-                  "description": "- - ⭐ 43 🔴 august 2025",
+                  "description": "- - ⭐ 44 🔴 august 2025",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -14741,7 +14793,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 rime-jaroomaji",
-                  "description": "- - ⭐ 58 🟢 last thursday",
+                  "description": "- - ⭐ 59 🟢 november",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -14827,7 +14879,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 mozcdic-ut-jawiki",
-                  "description": "- - ⭐ 33 🟢 november",
+                  "description": "- - ⭐ 34 🟢 november",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -15025,7 +15077,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 text2dataset",
-                  "description": "📥 19 📦 18k ⭐ 33 🔴 january 2025",
+                  "description": "📥 58 📦 18k ⭐ 33 🔴 january 2025",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -15067,7 +15119,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 mecab_controller",
-                  "description": "- - ⭐ 21 🟢 yesterday",
+                  "description": "- - ⭐ 21 🟢 november",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -15308,7 +15360,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 llm-jp-judge",
-                  "description": "- - ⭐ 64 🟢 september",
+                  "description": "- - ⭐ 64 🟢 last wednesday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -15321,7 +15373,7 @@
                     "open_issues": 5,
                     "owner": "llm-jp",
                     "repo": "llm-jp-judge",
-                    "stars": 64,
+                    "stars": 65,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -15355,7 +15407,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 llm-jp-eval-mm",
-                  "description": "📥 81 📦 20k ⭐ 44 🟡 april",
+                  "description": "📥 131 📦 20k ⭐ 44 🟢 last saturday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -15376,7 +15428,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 manga109api",
-                  "description": "📥 801 📦 50k ⭐ 132 🔴 march 2022",
+                  "description": "📥 68 📦 50k ⭐ 132 🔴 march 2022",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -15402,7 +15454,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 fastrtc-jp",
-                  "description": "📥 49 📦 7k ⭐ 6 🔴 may 2025",
+                  "description": "📥 63 📦 7k ⭐ 6 🔴 may 2025",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -15507,7 +15559,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 kanjikana-model",
-                  "description": "- - ⭐ 121 🟡 april",
+                  "description": "- - ⭐ 122 🟡 april",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -15520,7 +15572,7 @@
                     "open_issues": 1,
                     "owner": "digital-go-jp",
                     "repo": "kanjikana-model",
-                    "stars": 121,
+                    "stars": 122,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -15617,7 +15669,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 pyopenjtalk-plus",
-                  "description": "📥 28k 📦 887k ⭐ 69 🟢 last wednesday",
+                  "description": "📥 21k 📦 911k ⭐ 70 🟢 november",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -15673,7 +15725,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 py-kaomoji",
-                  "description": "📥 16 📦 39k ⭐ 6 🔴 december 2018",
+                  "description": "📥 34 📦 39k ⭐ 6 🔴 december 2018",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -15763,7 +15815,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 piper-plus",
-                  "description": "📥 867 📦 18k ⭐ 240 🟢 last saturday",
+                  "description": "📥 684 📦 19k ⭐ 242 🟢 november",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -15802,7 +15854,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 Japanera",
-                  "description": "📥 7k 📦 526k ⭐ 36 🔴 june 2025",
+                  "description": "📥 8k 📦 535k ⭐ 36 🔴 june 2025",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -15853,7 +15905,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 kyujipy",
-                  "description": "📥 53 📦 25k ⭐ 22 🟡 january",
+                  "description": "📥 60 📦 25k ⭐ 22 🟡 january",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -15895,7 +15947,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 ja-icd10",
-                  "description": "📥 23 📦 13k ⭐ 5 🔴 july 2021",
+                  "description": "📥 40 📦 13k ⭐ 5 🔴 july 2021",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -15979,7 +16031,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 marine-plus",
-                  "description": "📥 96 📦 15k ⭐ 9 🟢 last friday",
+                  "description": "📥 115 📦 15k ⭐ 9 🟢 november",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -16111,7 +16163,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 ja-stopword-filter",
-                  "description": "📥 2 📦 7k ⭐ 4 🟡 august",
+                  "description": "📥 8 📦 7k ⭐ 4 🟡 august",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -16168,7 +16220,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 himotoki-py",
-                  "description": "📥 47 📦 7k ⭐ 8 🟢 october",
+                  "description": "📥 173 📦 8k ⭐ 8 🟢 october",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -16282,7 +16334,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 OneCompression",
-                  "description": "📥 846 📦 11k ⭐ 445 🟢 last thursday",
+                  "description": "📥 636 📦 12k ⭐ 446 🟢 last thursday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -16380,7 +16432,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 Irodori-TTS",
-                  "description": "- - ⭐ 1.6k 🟢 november",
+                  "description": "- - ⭐ 1.7k 🟢 last wednesday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -16390,10 +16442,10 @@
                     "language": "Python",
                     "license": "MIT",
                     "last_commit": "2026-11-18T11:48:34Z",
-                    "open_issues": 20,
+                    "open_issues": 19,
                     "owner": "Aratako",
                     "repo": "Irodori-TTS",
-                    "stars": 1662,
+                    "stars": 1672,
                     "topics": [
                       "diffusion-models",
                       "flow-matching",
@@ -16478,7 +16530,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 novel2agent-jp",
-                  "description": "- - ⭐ 108 🟢 september",
+                  "description": "- - ⭐ 111 🟢 september",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -16534,8 +16586,8 @@
                     "id": 1194181801,
                     "language": "Python",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-11-22T17:22:05Z",
-                    "open_issues": 6,
+                    "last_commit": "2026-11-23T04:34:04Z",
+                    "open_issues": 0,
                     "owner": "llm-jp",
                     "repo": "simple-evals-mm",
                     "stars": 6,
@@ -16592,7 +16644,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 llm-jp-moshi",
-                  "description": "- - ⭐ 26 🟡 march",
+                  "description": "- - ⭐ 26 🟢 last friday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -16613,7 +16665,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 shirabe-sdk-python",
-                  "description": "📥 30 📦 1k ⭐ 0 🟡 july",
+                  "description": "📥 27 📦 1k ⭐ 0 🟡 july",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -16646,7 +16698,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 fuseji",
-                  "description": "📥 19 📦 820 ⭐ 1 🟡 june",
+                  "description": "📥 14 📦 837 ⭐ 1 🟡 june",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -16673,7 +16725,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 moine",
-                  "description": "📥 171 📦 15k ⭐ 10 🟢 september",
+                  "description": "📥 85 📦 15k ⭐ 10 🟢 september",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -16723,7 +16775,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 sanoTTS-jp",
-                  "description": "- - ⭐ 71 🟢 november",
+                  "description": "- - ⭐ 72 🟢 november",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -16786,7 +16838,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 yomiyasu",
-                  "description": "- - ⭐ 3.3k 🟢 last thursday",
+                  "description": "- - ⭐ 3.4k 🟢 yesterday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -16795,11 +16847,11 @@
                     "id": 1397771878,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2026-11-22T15:53:50Z",
-                    "open_issues": 1,
+                    "last_commit": "2026-11-22T22:38:51Z",
+                    "open_issues": 0,
                     "owner": "nanaism",
                     "repo": "yomiyasu",
-                    "stars": 3441,
+                    "stars": 3469,
                     "topics": [
                       "agent-skills",
                       "ai-writing",
@@ -16832,7 +16884,7 @@
                     "language": "Python",
                     "license": "MIT",
                     "last_commit": "2026-10-15T15:23:42Z",
-                    "open_issues": 0,
+                    "open_issues": 1,
                     "owner": "kojikojikojikoji",
                     "repo": "natural-japanese-writing",
                     "stars": 1,
@@ -16857,7 +16909,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 TextToVoicevox",
-                  "description": "- - ⭐ 1 🟢 october",
+                  "description": "- - ⭐ 1 🟢 last wednesday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -16909,7 +16961,7 @@
                     "open_issues": 0,
                     "owner": "coji",
                     "repo": "natural-japanese",
-                    "stars": 2080,
+                    "stars": 2090,
                     "topics": [
                       "agent-skills",
                       "claude",
@@ -16956,7 +17008,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 AivisSpeech-Engine",
-                  "description": "- - ⭐ 186 🟢 last saturday",
+                  "description": "- - ⭐ 186 🟢 november",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -17071,11 +17123,37 @@
                     ]
                   },
                   "first_seen": "2026-11-02T23:37:05.449Z"
+                },
+                {
+                  "node_type": "item",
+                  "title": "🔗 Haas-ASR",
+                  "description": "- - ⭐ 48 🟢 october",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "Inference code for Haas, fast and accurate Japanese speech recognition",
+                    "homepage": "https://huggingface.co/third-intelligence/Haas-ja-v1.0",
+                    "id": 1429346946,
+                    "language": "Python",
+                    "license": "Apache-2.0",
+                    "last_commit": "2026-10-30T11:35:57Z",
+                    "open_issues": 1,
+                    "owner": "third-intelligence",
+                    "repo": "Haas-ASR",
+                    "stars": 49,
+                    "topics": [
+                      "asr",
+                      "japanese",
+                      "speech-recognition",
+                      "speech-to-text"
+                    ]
+                  },
+                  "first_seen": "2026-11-24T02:56:39.215Z"
                 }
               ],
               "description": null,
               "node_type": "group",
-              "title": "Show 217 items"
+              "title": "Show 218 items"
             }
           ],
           "description": "General-purpose tools supporting Japanese language processing",
@@ -17404,11 +17482,11 @@
                     "id": 34376625,
                     "language": "C++",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-11-20T17:13:54Z",
-                    "open_issues": 36,
+                    "last_commit": "2026-11-23T15:15:10Z",
+                    "open_issues": 30,
                     "owner": "google",
                     "repo": "mozc",
-                    "stars": 3045,
+                    "stars": 3046,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -17429,7 +17507,7 @@
                     "open_issues": 4,
                     "owner": "t3tra-dev",
                     "repo": "MoZuku",
-                    "stars": 421,
+                    "stars": 422,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -17573,7 +17651,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 aquaskk",
-                  "description": "- - ⭐ 375 🟢 september",
+                  "description": "- - ⭐ 376 🟢 september",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -17598,7 +17676,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 mozc",
-                  "description": "- - ⭐ 3k 🟢 november",
+                  "description": "- - ⭐ 3k 🟢 last friday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -17607,11 +17685,11 @@
                     "id": 34376625,
                     "language": "C++",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-11-20T17:13:54Z",
-                    "open_issues": 36,
+                    "last_commit": "2026-11-23T15:15:10Z",
+                    "open_issues": 30,
                     "owner": "google",
                     "repo": "mozc",
-                    "stars": 3045,
+                    "stars": 3046,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -17661,7 +17739,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 corvusskk",
-                  "description": "- - ⭐ 381 🟢 yesterday",
+                  "description": "- - ⭐ 382 🟢 november",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -17701,7 +17779,7 @@
                     "open_issues": 4,
                     "owner": "t3tra-dev",
                     "repo": "MoZuku",
-                    "stars": 421,
+                    "stars": 422,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -17736,8 +17814,8 @@
                 "id": 235590808,
                 "language": "Rust",
                 "license": "MIT",
-                "last_commit": "2026-11-22T20:15:45Z",
-                "open_issues": 6,
+                "last_commit": "2026-11-24T02:44:37Z",
+                "open_issues": 11,
                 "owner": "lindera",
                 "repo": "lindera",
                 "stars": 709,
@@ -17960,7 +18038,7 @@
             {
               "node_type": "item",
               "title": "🔗 lindera",
-              "description": "- 📦 3.5M ⭐ 708 🟢 today",
+              "description": "- 📦 3.7M ⭐ 709 🟢 today",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -17969,8 +18047,8 @@
                 "id": 235590808,
                 "language": "Rust",
                 "license": "MIT",
-                "last_commit": "2026-11-22T20:15:45Z",
-                "open_issues": 6,
+                "last_commit": "2026-11-24T02:44:37Z",
+                "open_issues": 11,
                 "owner": "lindera",
                 "repo": "lindera",
                 "stars": 709,
@@ -17987,7 +18065,7 @@
             {
               "node_type": "item",
               "title": "🔗 vaporetto",
-              "description": "- 📦 379k ⭐ 302 🟢 november",
+              "description": "- 📦 392k ⭐ 301 🟢 november",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -18042,7 +18120,7 @@
             {
               "node_type": "item",
               "title": "🔗 vibrato",
-              "description": "- 📦 115k ⭐ 430 🟢 october",
+              "description": "- 📦 122k ⭐ 430 🟢 october",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -18138,7 +18216,7 @@
             {
               "node_type": "item",
               "title": "🔗 kanpyo",
-              "description": "- 📦 2.5k ⭐ 108 🟡 february",
+              "description": "- 📦 2.6k ⭐ 108 🟡 february",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -18164,7 +18242,7 @@
             {
               "node_type": "item",
               "title": "🔗 mecrab",
-              "description": "- 📦 574 ⭐ 9 🟡 january",
+              "description": "- 📦 589 ⭐ 9 🟡 january",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -18475,7 +18553,7 @@
             {
               "node_type": "item",
               "title": "🔗 wana_kana_rust",
-              "description": "- 📦 731k ⭐ 91 🟡 may",
+              "description": "- 📦 745k ⭐ 91 🟡 may",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -18557,7 +18635,7 @@
             {
               "node_type": "item",
               "title": "🔗 kanaria",
-              "description": "- 📦 3M ⭐ 21 🟡 february",
+              "description": "- 📦 3.1M ⭐ 21 🟡 february",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -18654,7 +18732,7 @@
             {
               "node_type": "item",
               "title": "🔗 haqumei",
-              "description": "- 📦 2.4k ⭐ 11 🟢 yesterday",
+              "description": "- 📦 2.6k ⭐ 12 🟢 november",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -18791,7 +18869,7 @@
                 "id": 878524225,
                 "language": "Rust",
                 "license": "MIT",
-                "last_commit": "2026-08-08T05:00:59Z",
+                "last_commit": "2026-11-23T13:32:28Z",
                 "open_issues": 0,
                 "owner": "lindera",
                 "repo": "lindera-sqlite",
@@ -18872,7 +18950,7 @@
             {
               "node_type": "item",
               "title": "🔗 lindera-tantivy",
-              "description": "- 📦 248k ⭐ 71 🟢 november",
+              "description": "- 📦 250k ⭐ 71 🟢 yesterday",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -18975,7 +19053,7 @@
                 "id": 878524225,
                 "language": "Rust",
                 "license": "MIT",
-                "last_commit": "2026-08-08T05:00:59Z",
+                "last_commit": "2026-11-23T13:32:28Z",
                 "open_issues": 0,
                 "owner": "lindera",
                 "repo": "lindera-sqlite",
@@ -19005,11 +19083,11 @@
                     "id": 963223041,
                     "language": "Rust",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-11-22T10:11:05Z",
-                    "open_issues": 61,
+                    "last_commit": "2026-11-23T20:58:06Z",
+                    "open_issues": 79,
                     "owner": "koharu-rs",
                     "repo": "koharu",
-                    "stars": 6799,
+                    "stars": 6813,
                     "topics": [
                       "computer-vision",
                       "deep-learning",
@@ -19037,7 +19115,7 @@
                     "id": 401730442,
                     "language": "Rust",
                     "license": "MIT",
-                    "last_commit": "2026-11-22T20:27:17Z",
+                    "last_commit": "2026-11-23T05:37:32Z",
                     "open_issues": 168,
                     "owner": "VOICEVOX",
                     "repo": "voicevox_core",
@@ -19165,7 +19243,7 @@
                     "id": 1337383093,
                     "language": "Rust",
                     "license": "MIT",
-                    "last_commit": "2026-11-21T06:06:30Z",
+                    "last_commit": "2026-11-23T09:49:43Z",
                     "open_issues": 9,
                     "owner": "nwiizo",
                     "repo": "suiko",
@@ -19223,7 +19301,7 @@
                     "id": 141400388,
                     "language": "Rust",
                     "license": null,
-                    "last_commit": "2026-11-21T12:36:06Z",
+                    "last_commit": "2026-11-24T02:26:51Z",
                     "open_issues": 2,
                     "owner": "Asutorufa",
                     "repo": "dictdeck",
@@ -19314,8 +19392,8 @@
                     "id": 579599640,
                     "language": "Rust",
                     "license": "BSD-3-Clause",
-                    "last_commit": "2026-11-22T04:55:12Z",
-                    "open_issues": 17,
+                    "last_commit": "2026-11-23T14:52:34Z",
+                    "open_issues": 16,
                     "owner": "jpreprocess",
                     "repo": "jpreprocess",
                     "stars": 61,
@@ -19343,7 +19421,7 @@
                     "open_issues": 1,
                     "owner": "kimushun1101",
                     "repo": "mikke",
-                    "stars": 49,
+                    "stars": 50,
                     "topics": [
                       "ai-agents",
                       "cli",
@@ -19402,7 +19480,7 @@
                     "open_issues": 15,
                     "owner": "VOICEVOX",
                     "repo": "kanalizer",
-                    "stars": 31,
+                    "stars": 32,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -19667,7 +19745,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 daachorse",
-                  "description": "- 📦 13M ⭐ 286 🟢 october",
+                  "description": "- 📦 14M ⭐ 288 🟢 october",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -19723,7 +19801,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 crawdad",
-                  "description": "- 📦 486k ⭐ 40 🟡 august",
+                  "description": "- 📦 579k ⭐ 40 🟡 august",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -19815,7 +19893,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 voicevox_core",
-                  "description": "- - ⭐ 1.2k 🟢 november",
+                  "description": "- - ⭐ 1.1k 🟢 november",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -19824,7 +19902,7 @@
                     "id": 401730442,
                     "language": "Rust",
                     "license": "MIT",
-                    "last_commit": "2026-11-22T20:27:17Z",
+                    "last_commit": "2026-11-23T05:37:32Z",
                     "open_issues": 168,
                     "owner": "VOICEVOX",
                     "repo": "voicevox_core",
@@ -19836,7 +19914,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 akaza",
-                  "description": "- - ⭐ 266 🟡 june",
+                  "description": "- - ⭐ 267 🟡 june",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -19974,7 +20052,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 jpreprocess",
-                  "description": "- 📦 77k ⭐ 61 🟢 today",
+                  "description": "- 📦 78k ⭐ 61 🟢 yesterday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -19983,8 +20061,8 @@
                     "id": 579599640,
                     "language": "Rust",
                     "license": "BSD-3-Clause",
-                    "last_commit": "2026-11-22T04:55:12Z",
-                    "open_issues": 17,
+                    "last_commit": "2026-11-23T14:52:34Z",
+                    "open_issues": 16,
                     "owner": "jpreprocess",
                     "repo": "jpreprocess",
                     "stars": 61,
@@ -20044,7 +20122,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 kanalizer",
-                  "description": "- - ⭐ 31 🟢 last thursday",
+                  "description": "- - ⭐ 31 🟢 november",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -20057,7 +20135,7 @@
                     "open_issues": 15,
                     "owner": "VOICEVOX",
                     "repo": "kanalizer",
-                    "stars": 31,
+                    "stars": 32,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -20065,7 +20143,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 koharu",
-                  "description": "- 📦 1.8k ⭐ 6.7k 🟢 yesterday",
+                  "description": "- 📦 1.8k ⭐ 6.8k 🟢 yesterday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -20074,11 +20152,11 @@
                     "id": 963223041,
                     "language": "Rust",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-11-22T10:11:05Z",
-                    "open_issues": 61,
+                    "last_commit": "2026-11-23T20:58:06Z",
+                    "open_issues": 79,
                     "owner": "koharu-rs",
                     "repo": "koharu",
-                    "stars": 6799,
+                    "stars": 6813,
                     "topics": [
                       "computer-vision",
                       "deep-learning",
@@ -20162,7 +20240,7 @@
                     "id": 141400388,
                     "language": "Rust",
                     "license": null,
-                    "last_commit": "2026-11-21T12:36:06Z",
+                    "last_commit": "2026-11-24T02:26:51Z",
                     "open_issues": 2,
                     "owner": "Asutorufa",
                     "repo": "dictdeck",
@@ -20218,7 +20296,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 jp-deinflector",
-                  "description": "- 📦 3k ⭐ 8 🟡 july",
+                  "description": "- 📦 3.1k ⭐ 8 🟡 july",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -20253,7 +20331,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 mikke",
-                  "description": "- - ⭐ 49 🟢 last wednesday",
+                  "description": "- - ⭐ 50 🟢 november",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -20266,7 +20344,7 @@
                     "open_issues": 1,
                     "owner": "kimushun1101",
                     "repo": "mikke",
-                    "stars": 49,
+                    "stars": 50,
                     "topics": [
                       "ai-agents",
                       "cli",
@@ -20283,7 +20361,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 suiko",
-                  "description": "- 📦 357 ⭐ 114 🟢 today",
+                  "description": "- 📦 360 ⭐ 115 🟢 last tuesday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -20292,7 +20370,7 @@
                     "id": 1337383093,
                     "language": "Rust",
                     "license": "MIT",
-                    "last_commit": "2026-11-21T06:06:30Z",
+                    "last_commit": "2026-11-23T09:49:43Z",
                     "open_issues": 9,
                     "owner": "nwiizo",
                     "repo": "suiko",
@@ -20369,7 +20447,7 @@
                 "open_issues": 22,
                 "owner": "takuyaa",
                 "repo": "kuromoji.js",
-                "stars": 1008,
+                "stars": 1009,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:35:22.918Z"
@@ -20469,7 +20547,7 @@
             {
               "node_type": "item",
               "title": "🔗 kuromoji.js",
-              "description": "📥 534k/week 📦 15M ⭐ 1k 🔴 november 2018",
+              "description": "📥 602k/week 📦 15M ⭐ 1k 🔴 november 2018",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -20482,7 +20560,7 @@
                 "open_issues": 22,
                 "owner": "takuyaa",
                 "repo": "kuromoji.js",
-                "stars": 1008,
+                "stars": 1009,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:35:22.918Z"
@@ -20490,7 +20568,7 @@
             {
               "node_type": "item",
               "title": "🔗 rakutenma",
-              "description": "📥 19/week 📦 1.4k ⭐ 471 🔴 january 2015",
+              "description": "📥 33/week 📦 1.4k ⭐ 470 🔴 january 2015",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -20511,7 +20589,7 @@
             {
               "node_type": "item",
               "title": "🔗 node-mecab-ya",
-              "description": "📥 106/week 📦 8.2k ⭐ 110 🔴 june 2021",
+              "description": "📥 132/week 📦 8.3k ⭐ 110 🔴 june 2021",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -20532,7 +20610,7 @@
             {
               "node_type": "item",
               "title": "🔗 juman-bin",
-              "description": "📥 7/week 📦 504 ⭐ 3 🔴 may 2017",
+              "description": "📥 13/week 📦 514 ⭐ 3 🔴 may 2017",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -20558,7 +20636,7 @@
             {
               "node_type": "item",
               "title": "🔗 node-mecab-async",
-              "description": "📥 4.5k/week 📦 307k ⭐ 104 🔴 invalid",
+              "description": "📥 2.9k/week 📦 300k ⭐ 104 🔴 october 2017",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -20632,7 +20710,7 @@
                 "language": "TypeScript",
                 "license": "MIT",
                 "last_commit": "2026-11-06T08:14:28Z",
-                "open_issues": 34,
+                "open_issues": 36,
                 "owner": "geolonia",
                 "repo": "normalize-japanese-addresses",
                 "stars": 966,
@@ -20788,7 +20866,7 @@
                 "open_issues": 20,
                 "owner": "geolonia",
                 "repo": "japanese-addresses-v2",
-                "stars": 86,
+                "stars": 87,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:35:22.918Z"
@@ -20984,7 +21062,7 @@
             {
               "node_type": "item",
               "title": "🔗 kuroshiro",
-              "description": "📥 32k/week 📦 1.1M ⭐ 1k 🟢 october",
+              "description": "📥 43k/week 📦 1.1M ⭐ 1k 🟢 october",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -21017,7 +21095,7 @@
             {
               "node_type": "item",
               "title": "🔗 kuroshiro-analyzer-kuromoji",
-              "description": "📥 32k/week 📦 1M ⭐ 73 🟢 october",
+              "description": "📥 43k/week 📦 1.1M ⭐ 73 🟢 october",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -21049,7 +21127,7 @@
             {
               "node_type": "item",
               "title": "🔗 hepburn",
-              "description": "📥 80k/week 📦 7M ⭐ 132 🟢 october",
+              "description": "📥 84k/week 📦 7.1M ⭐ 132 🟢 october",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -21078,7 +21156,7 @@
             {
               "node_type": "item",
               "title": "🔗 japanese-numerals-to-number",
-              "description": "📥 197k/week 📦 4.4M ⭐ 59 🔴 february 2023",
+              "description": "📥 199k/week 📦 4.6M ⭐ 59 🔴 february 2023",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -21099,7 +21177,7 @@
             {
               "node_type": "item",
               "title": "🔗 jslingua",
-              "description": "📥 98/week 📦 9.8k ⭐ 53 🔴 october 2023",
+              "description": "📥 221/week 📦 10k ⭐ 53 🔴 october 2023",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -21140,7 +21218,7 @@
             {
               "node_type": "item",
               "title": "🔗 WanaKana",
-              "description": "📥 144k/week 📦 4.1M ⭐ 945 🟡 june",
+              "description": "📥 150k/week 📦 4.2M ⭐ 946 🟡 june",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -21161,7 +21239,7 @@
             {
               "node_type": "item",
               "title": "🔗 node-romaji-name",
-              "description": "📥 431/week 📦 24k ⭐ 39 🔴 december 2023",
+              "description": "📥 281/week 📦 24k ⭐ 39 🔴 december 2023",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -21182,7 +21260,7 @@
             {
               "node_type": "item",
               "title": "🔗 kyujitai.js",
-              "description": "📥 235/week 📦 4.4k ⭐ 24 🔴 august 2020",
+              "description": "📥 233/week 📦 4.7k ⭐ 24 🔴 august 2020",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -21207,7 +21285,7 @@
             {
               "node_type": "item",
               "title": "🔗 normalize-japanese-addresses",
-              "description": "📥 36k/week 📦 859k ⭐ 965 🟢 november",
+              "description": "📥 43k/week 📦 902k ⭐ 966 🟢 november",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -21217,7 +21295,7 @@
                 "language": "TypeScript",
                 "license": "MIT",
                 "last_commit": "2026-11-06T08:14:28Z",
-                "open_issues": 34,
+                "open_issues": 36,
                 "owner": "geolonia",
                 "repo": "normalize-japanese-addresses",
                 "stars": 966,
@@ -21232,7 +21310,7 @@
             {
               "node_type": "item",
               "title": "🔗 jaconv",
-              "description": "📥 16k/week 📦 705k ⭐ 87 🔴 june 2025",
+              "description": "📥 17k/week 📦 727k ⭐ 87 🔴 june 2025",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -21253,7 +21331,7 @@
             {
               "node_type": "item",
               "title": "🔗 romaji-conv",
-              "description": "📥 1.7k/week 📦 112k ⭐ 25 🟡 february",
+              "description": "📥 1.8k/week 📦 114k ⭐ 25 🟡 february",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -21280,7 +21358,7 @@
             {
               "node_type": "item",
               "title": "🔗 japanese-addresses-v2",
-              "description": "📥 34k/week 📦 728k ⭐ 86 🟢 september",
+              "description": "📥 40k/week 📦 770k ⭐ 87 🟢 september",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -21293,7 +21371,7 @@
                 "open_issues": 20,
                 "owner": "geolonia",
                 "repo": "japanese-addresses-v2",
-                "stars": 86,
+                "stars": 87,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:35:22.918Z"
@@ -21301,7 +21379,7 @@
             {
               "node_type": "item",
               "title": "🔗 jptext-to-emoji",
-              "description": "📥 18/week 📦 643 ⭐ 1 🟡 june",
+              "description": "📥 29/week 📦 671 ⭐ 1 🟡 june",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -21322,7 +21400,7 @@
             {
               "node_type": "item",
               "title": "🔗 japanese.js",
-              "description": "📥 2.3k/week 📦 91k ⭐ 167 🔴 august 2020",
+              "description": "📥 2.2k/week 📦 93k ⭐ 167 🔴 august 2020",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -21351,7 +21429,7 @@
             {
               "node_type": "item",
               "title": "🔗 genshijin",
-              "description": "- - ⭐ 335 🟡 august",
+              "description": "- - ⭐ 336 🟡 august",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -21397,8 +21475,8 @@
                     "id": 389984027,
                     "language": "TypeScript",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-11-21T20:27:46Z",
-                    "open_issues": 361,
+                    "last_commit": "2026-11-23T10:39:06Z",
+                    "open_issues": 359,
                     "owner": "VOICEVOX",
                     "repo": "voicevox",
                     "stars": 3311,
@@ -22083,7 +22161,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 bangumi-data",
-                  "description": "📥 1.7k/week 📦 65k ⭐ 665 🟢 last saturday",
+                  "description": "📥 1.7k/week 📦 67k ⭐ 665 🟢 last tuesday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -22191,7 +22269,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 japanese-toolkit",
-                  "description": "📥 8/week 📦 483 ⭐ 64 🔴 january 2023",
+                  "description": "📥 14/week 📦 497 ⭐ 64 🔴 january 2023",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -22212,7 +22290,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 analyze-desumasu-dearu",
-                  "description": "📥 419k/week 📦 9.5M ⭐ 18 🟡 april",
+                  "description": "📥 426k/week 📦 10M ⭐ 18 🟢 yesterday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -22238,7 +22316,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 hatsuon",
-                  "description": "📥 34/week 📦 3.3k ⭐ 38 🔴 march 2022",
+                  "description": "📥 65/week 📦 3.4k ⭐ 38 🔴 march 2022",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -22293,7 +22371,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 mecab-ipadic-seed",
-                  "description": "📥 575/week 📦 13k ⭐ 8 🔴 july 2016",
+                  "description": "📥 639/week 📦 14k ⭐ 8 🔴 july 2016",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -22356,7 +22434,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 pitch-accent",
-                  "description": "📥 4/week 📦 209 ⭐ 2 🔴 september 2023",
+                  "description": "📥 7/week 📦 218 ⭐ 2 🔴 september 2023",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -22377,7 +22455,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 kana2ipa",
-                  "description": "📥 25/week 📦 1.8k ⭐ 19 🔴 october 2020",
+                  "description": "📥 26/week 📦 1.9k ⭐ 19 🔴 october 2020",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -22398,7 +22476,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 voicevox",
-                  "description": "- - ⭐ 3.3k 🟢 today",
+                  "description": "- - ⭐ 3.3k 🟢 last saturday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -22407,8 +22485,8 @@
                     "id": 389984027,
                     "language": "TypeScript",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-11-21T20:27:46Z",
-                    "open_issues": 361,
+                    "last_commit": "2026-11-23T10:39:06Z",
+                    "open_issues": 359,
                     "owner": "VOICEVOX",
                     "repo": "voicevox",
                     "stars": 3311,
@@ -22419,7 +22497,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 kamiya-codec",
-                  "description": "📥 289/week 📦 6.6k ⭐ 30 🔴 may 2025",
+                  "description": "📥 321/week 📦 6.9k ⭐ 30 🔴 may 2025",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -22440,7 +22518,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 closewords",
-                  "description": "📥 168/week 📦 365k ⭐ 5 🟡 may",
+                  "description": "📥 216/week 📦 357k ⭐ 5 🟡 may",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -22472,7 +22550,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 japanese-analyzer",
-                  "description": "- - ⭐ 800 🟢 last friday",
+                  "description": "- - ⭐ 801 🟢 november",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -22493,7 +22571,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 japanese-furigana-normalize",
-                  "description": "📥 22/week 📦 2.4k ⭐ 8 🔴 july 2024",
+                  "description": "📥 34/week 📦 2.4k ⭐ 8 🔴 july 2024",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -22553,7 +22631,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 kaitai",
-                  "description": "- - ⭐ 1 🟢 last wednesday",
+                  "description": "- - ⭐ 1 🟢 last thursday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -22574,7 +22652,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 tsukeru-furigana-converter",
-                  "description": "- - ⭐ 11 🟢 last saturday",
+                  "description": "- - ⭐ 11 🟢 yesterday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -22607,7 +22685,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 sudachi-synonyms-dictionary",
-                  "description": "📥 11k/week 📦 339k ⭐ 15 🟢 last saturday",
+                  "description": "📥 11k/week 📦 349k ⭐ 15 🟢 november",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -22632,7 +22710,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 qmd-ja",
-                  "description": "📥 16/week 📦 1.7k ⭐ 2 🟢 september",
+                  "description": "📥 20/week 📦 1.7k ⭐ 2 🟢 september",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -22661,7 +22739,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 shirabe-sdk",
-                  "description": "📥 13/week 📦 584 ⭐ 0 🟡 july",
+                  "description": "📥 17/week 📦 609 ⭐ 0 🟡 july",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -22715,7 +22793,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 sys1grep",
-                  "description": "📥 27/week 📦 809 ⭐ 157 🟢 november",
+                  "description": "📥 19/week 📦 825 ⭐ 157 🟢 november",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -22736,7 +22814,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 miteiru",
-                  "description": "- - ⭐ 122 🟢 yesterday",
+                  "description": "- - ⭐ 122 🟢 last saturday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -22827,7 +22905,7 @@
             {
               "node_type": "item",
               "title": "🔗 kagome",
-              "description": "- - ⭐ 988 🟢 last wednesday",
+              "description": "- - ⭐ 988 🟢 november",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -23080,8 +23158,8 @@
                     "id": 1266302957,
                     "language": "Go",
                     "license": "MIT",
-                    "last_commit": "2026-11-22T02:22:14Z",
-                    "open_issues": 0,
+                    "last_commit": "2026-11-24T02:27:33Z",
+                    "open_issues": 1,
                     "owner": "baneido",
                     "repo": "jp-pii-detector",
                     "stars": 5,
@@ -23092,7 +23170,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 ojosama",
-                  "description": "- - ⭐ 388 🟢 october",
+                  "description": "- - ⭐ 388 🟢 last thursday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -23196,7 +23274,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 go-kakasi",
-                  "description": "- - ⭐ 6 🟢 november",
+                  "description": "- - ⭐ 6 🟢 last friday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -23296,7 +23374,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 jp-pii-detector",
-                  "description": "- - ⭐ 5 🟢 today",
+                  "description": "- - ⭐ 5 🟢 yesterday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -23305,8 +23383,8 @@
                     "id": 1266302957,
                     "language": "Go",
                     "license": "MIT",
-                    "last_commit": "2026-11-22T02:22:14Z",
-                    "open_issues": 0,
+                    "last_commit": "2026-11-24T02:27:33Z",
+                    "open_issues": 1,
                     "owner": "baneido",
                     "repo": "jp-pii-detector",
                     "stars": 5,
@@ -23374,7 +23452,7 @@
                 "open_issues": 17,
                 "owner": "WorksApplications",
                 "repo": "Sudachi",
-                "stars": 1040,
+                "stars": 1041,
                 "topics": [
                   "morphological-analysis",
                   "nlp-library",
@@ -23400,7 +23478,7 @@
                 "open_issues": 21,
                 "owner": "WorksApplications",
                 "repo": "SudachiDict",
-                "stars": 318,
+                "stars": 319,
                 "topics": [
                   "morphological-analysis",
                   "nlp-resources",
@@ -23473,7 +23551,7 @@
                 "open_issues": 17,
                 "owner": "WorksApplications",
                 "repo": "Sudachi",
-                "stars": 1040,
+                "stars": 1041,
                 "topics": [
                   "morphological-analysis",
                   "nlp-library",
@@ -23499,7 +23577,7 @@
                 "open_issues": 21,
                 "owner": "WorksApplications",
                 "repo": "SudachiDict",
-                "stars": 318,
+                "stars": 319,
                 "topics": [
                   "morphological-analysis",
                   "nlp-resources",
@@ -24321,7 +24399,7 @@
             {
               "node_type": "item",
               "title": "🔗 aovec",
-              "description": "📥 106 📦 88k ⭐ 3 🔴 january 2023",
+              "description": "📥 121 📦 88k ⭐ 3 🔴 january 2023",
               "children": [],
               "repo_info": {
                 "archived": true,
@@ -25168,7 +25246,7 @@
             {
               "node_type": "item",
               "title": "🔗 bert-japanese",
-              "description": "- - ⭐ 551 🔴 march 2024",
+              "description": "- - ⭐ 550 🔴 march 2024",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -25210,7 +25288,7 @@
             {
               "node_type": "item",
               "title": "🔗 SudachiTra",
-              "description": "📥 427 📦 214k ⭐ 81 🔴 december 2023",
+              "description": "📥 379 📦 214k ⭐ 81 🔴 december 2023",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -25252,7 +25330,7 @@
             {
               "node_type": "item",
               "title": "🔗 shiba",
-              "description": "📥 38 📦 9k ⭐ 89 🔴 november 2023",
+              "description": "📥 19 📦 9k ⭐ 89 🔴 november 2023",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -25967,7 +26045,7 @@
             "open_issues": 0,
             "owner": "pixiv",
             "repo": "ChatVRM",
-            "stars": 848,
+            "stars": 847,
             "topics": []
           },
           "first_seen": "2026-08-29T00:35:22.918Z"
@@ -26478,7 +26556,7 @@
         {
           "node_type": "item",
           "title": "🔗 wanna",
-          "description": "📥 15 📦 22k ⭐ 142 🔴 april 2023",
+          "description": "📥 60 📦 22k ⭐ 142 🔴 april 2023",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -26714,7 +26792,7 @@
             "open_issues": 0,
             "owner": "pixiv",
             "repo": "ChatVRM",
-            "stars": 848,
+            "stars": 847,
             "topics": []
           },
           "first_seen": "2026-08-29T00:35:22.918Z"
@@ -26764,7 +26842,7 @@
         {
           "node_type": "item",
           "title": "🔗 aiavatarkit",
-          "description": "- - ⭐ 704 🟢 october",
+          "description": "- - ⭐ 705 🟢 last saturday",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -26792,7 +26870,7 @@
         {
           "node_type": "item",
           "title": "🔗 jp-azureopenai-samples",
-          "description": "- - ⭐ 278 🟡 march",
+          "description": "- - ⭐ 279 🟡 march",
           "children": [],
           "repo_info": {
             "archived": true,
@@ -26920,7 +26998,7 @@
         {
           "node_type": "item",
           "title": "🔗 generativeai-prompt-sample-japanese",
-          "description": "- - ⭐ 441 🟢 last wednesday",
+          "description": "- - ⭐ 441 🟢 november",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -26989,11 +27067,11 @@
             "id": 1395172468,
             "language": "C#",
             "license": "GPL-3.0",
-            "last_commit": "2026-11-22T15:50:40Z",
-            "open_issues": 394,
+            "last_commit": "2026-11-24T01:38:17Z",
+            "open_issues": 429,
             "owner": "yksr-melt",
             "repo": "Meltype",
-            "stars": 1676,
+            "stars": 1687,
             "topics": [
               "japanese",
               "windows"
@@ -27017,7 +27095,7 @@
             "open_issues": 36,
             "owner": "azooKey",
             "repo": "azooKey-Desktop",
-            "stars": 1104,
+            "stars": 1107,
             "topics": [
               "azookey",
               "ime",
@@ -27045,7 +27123,7 @@
             "open_issues": 16,
             "owner": "MarvNC",
             "repo": "yomitan-dictionaries",
-            "stars": 959,
+            "stars": 960,
             "topics": [
               "cantonese",
               "cantonese-dictionary",
@@ -27081,11 +27159,11 @@
             "id": 581086426,
             "language": "Swift",
             "license": "MIT",
-            "last_commit": "2026-11-21T04:55:46Z",
-            "open_issues": 29,
+            "last_commit": "2026-11-24T00:42:47Z",
+            "open_issues": 31,
             "owner": "azooKey",
             "repo": "azooKey",
-            "stars": 814,
+            "stars": 816,
             "topics": [
               "azookey",
               "ime",
@@ -27202,7 +27280,7 @@
             "id": 51254948,
             "language": "Kotlin",
             "license": "CC-BY-SA-4.0",
-            "last_commit": "2026-11-16T21:33:36Z",
+            "last_commit": "2026-11-23T23:15:43Z",
             "open_issues": 1,
             "owner": "scriptin",
             "repo": "jmdict-simplified",
@@ -27269,11 +27347,11 @@
             "id": 696033236,
             "language": "Kotlin",
             "license": "MIT",
-            "last_commit": "2026-11-20T14:38:08Z",
-            "open_issues": 37,
+            "last_commit": "2026-11-24T00:32:07Z",
+            "open_issues": 38,
             "owner": "KazumaProject",
             "repo": "JapaneseKeyboard",
-            "stars": 374,
+            "stars": 375,
             "topics": [
               "japanese-kana",
               "keyboard"
@@ -27293,11 +27371,11 @@
             "id": 696075636,
             "language": "Python",
             "license": "MIT",
-            "last_commit": "2026-11-22T13:05:34Z",
+            "last_commit": "2026-11-23T15:43:27Z",
             "open_issues": 1,
             "owner": "yomidevs",
             "repo": "jmdict-yomitan",
-            "stars": 332,
+            "stars": 333,
             "topics": [
               "dictionary",
               "japanese",
@@ -27405,7 +27483,7 @@
             "id": 669533784,
             "language": "Swift",
             "license": "MIT",
-            "last_commit": "2026-11-22T13:40:46Z",
+            "last_commit": "2026-11-23T07:07:39Z",
             "open_issues": 15,
             "owner": "azooKey",
             "repo": "AzooKeyKanaKanjiConverter",
@@ -27495,7 +27573,7 @@
             "open_issues": 0,
             "owner": "stephenmk",
             "repo": "yomitan-jlpt-vocab",
-            "stars": 143,
+            "stars": 144,
             "topics": []
           },
           "first_seen": "2026-08-29T00:35:22.918Z"
@@ -27802,7 +27880,7 @@
             "id": 755454455,
             "language": "TypeScript",
             "license": null,
-            "last_commit": "2026-11-22T00:12:29Z",
+            "last_commit": "2026-11-24T00:12:04Z",
             "open_issues": 0,
             "owner": "MarvNC",
             "repo": "pixiv-yomitan",
@@ -28763,7 +28841,7 @@
             "language": "Python",
             "license": "MIT",
             "last_commit": "2026-11-15T06:09:24Z",
-            "open_issues": 42,
+            "open_issues": 48,
             "owner": "KazumaProject",
             "repo": "kotlin-kana-kanji-converter",
             "stars": 7,
@@ -29149,7 +29227,7 @@
         {
           "node_type": "item",
           "title": "🔗 jamdict",
-          "description": "📥 2k 📦 101k ⭐ 172 🔴 june 2021",
+          "description": "📥 2k 📦 103k ⭐ 172 🔴 june 2021",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -29182,7 +29260,7 @@
         {
           "node_type": "item",
           "title": "🔗 unidic-py",
-          "description": "📥 82k 📦 13M ⭐ 114 🔴 february 2025",
+          "description": "📥 88k 📦 13M ⭐ 114 🔴 february 2025",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -29249,7 +29327,7 @@
         {
           "node_type": "item",
           "title": "🔗 jawiki-kana-kanji-dict",
-          "description": "- - ⭐ 65 🟢 november",
+          "description": "- - ⭐ 66 🟢 last friday",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -29322,7 +29400,7 @@
         {
           "node_type": "item",
           "title": "🔗 ipadic-py",
-          "description": "📥 42k 📦 8M ⭐ 25 🔴 october 2021",
+          "description": "📥 50k 📦 8M ⭐ 25 🔴 october 2021",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -29343,7 +29421,7 @@
         {
           "node_type": "item",
           "title": "🔗 unidic-lite",
-          "description": "📥 221k 📦 14M ⭐ 52 🔴 september 2020",
+          "description": "📥 242k 📦 15M ⭐ 52 🔴 september 2020",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -29588,7 +29666,7 @@
         {
           "node_type": "item",
           "title": "🔗 EJDict",
-          "description": "- - ⭐ 278 🟢 october",
+          "description": "- - ⭐ 279 🟢 october",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -29641,7 +29719,7 @@
         {
           "node_type": "item",
           "title": "🔗 genshin-dict",
-          "description": "- - ⭐ 130 🟢 last friday",
+          "description": "- - ⭐ 130 🟢 november",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -29662,7 +29740,7 @@
         {
           "node_type": "item",
           "title": "🔗 jmdict-simplified",
-          "description": "- - ⭐ 403 🟢 november",
+          "description": "- - ⭐ 405 🟢 november",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -29671,7 +29749,7 @@
             "id": 51254948,
             "language": "Kotlin",
             "license": "CC-BY-SA-4.0",
-            "last_commit": "2026-11-16T21:33:36Z",
+            "last_commit": "2026-11-23T23:15:43Z",
             "open_issues": 1,
             "owner": "scriptin",
             "repo": "jmdict-simplified",
@@ -29793,7 +29871,7 @@
         {
           "node_type": "item",
           "title": "🔗 jmdict-yomitan",
-          "description": "- - ⭐ 332 🟡 may",
+          "description": "- - ⭐ 333 🟢 last wednesday",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -29802,11 +29880,11 @@
             "id": 696075636,
             "language": "Python",
             "license": "MIT",
-            "last_commit": "2026-11-22T13:05:34Z",
+            "last_commit": "2026-11-23T15:43:27Z",
             "open_issues": 1,
             "owner": "yomidevs",
             "repo": "jmdict-yomitan",
-            "stars": 332,
+            "stars": 333,
             "topics": [
               "dictionary",
               "japanese",
@@ -29823,7 +29901,7 @@
         {
           "node_type": "item",
           "title": "🔗 yomitan-jlpt-vocab",
-          "description": "- - ⭐ 142 🔴 august 2025",
+          "description": "- - ⭐ 144 🔴 august 2025",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -29836,7 +29914,7 @@
             "open_issues": 0,
             "owner": "stephenmk",
             "repo": "yomitan-jlpt-vocab",
-            "stars": 143,
+            "stars": 144,
             "topics": []
           },
           "first_seen": "2026-08-29T00:35:22.918Z"
@@ -29886,7 +29964,7 @@
         {
           "node_type": "item",
           "title": "🔗 pixiv-yomitan",
-          "description": "- - ⭐ 73 🟢 september",
+          "description": "- - ⭐ 74 🟢 last wednesday",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -29895,7 +29973,7 @@
             "id": 755454455,
             "language": "TypeScript",
             "license": null,
-            "last_commit": "2026-11-22T00:12:29Z",
+            "last_commit": "2026-11-24T00:12:04Z",
             "open_issues": 0,
             "owner": "MarvNC",
             "repo": "pixiv-yomitan",
@@ -29937,7 +30015,7 @@
         {
           "node_type": "item",
           "title": "🔗 yomitan-dictionaries",
-          "description": "- - ⭐ 951 🟡 march",
+          "description": "- - ⭐ 959 🟡 march",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -29950,7 +30028,7 @@
             "open_issues": 16,
             "owner": "MarvNC",
             "repo": "yomitan-dictionaries",
-            "stars": 959,
+            "stars": 960,
             "topics": [
               "cantonese",
               "cantonese-dictionary",
@@ -30159,7 +30237,7 @@
         {
           "node_type": "item",
           "title": "🔗 azooKey",
-          "description": "- - ⭐ 809 🟢 november",
+          "description": "- - ⭐ 815 🟢 last saturday",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -30168,11 +30246,11 @@
             "id": 581086426,
             "language": "Swift",
             "license": "MIT",
-            "last_commit": "2026-11-21T04:55:46Z",
-            "open_issues": 29,
+            "last_commit": "2026-11-24T00:42:47Z",
+            "open_issues": 31,
             "owner": "azooKey",
             "repo": "azooKey",
-            "stars": 814,
+            "stars": 816,
             "topics": [
               "azookey",
               "ime",
@@ -30191,7 +30269,7 @@
         {
           "node_type": "item",
           "title": "🔗 azooKey-Desktop",
-          "description": "- - ⭐ 1.1k 🟢 october",
+          "description": "- - ⭐ 1.1k 🟢 yesterday",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -30204,7 +30282,7 @@
             "open_issues": 36,
             "owner": "azooKey",
             "repo": "azooKey-Desktop",
-            "stars": 1104,
+            "stars": 1107,
             "topics": [
               "azookey",
               "ime",
@@ -30219,7 +30297,7 @@
         {
           "node_type": "item",
           "title": "🔗 hazkey",
-          "description": "- - ⭐ 254 🟡 february",
+          "description": "- - ⭐ 255 🟡 february",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -30249,7 +30327,7 @@
         {
           "node_type": "item",
           "title": "🔗 mozcdic-ut-place-names",
-          "description": "- - ⭐ 25 🟢 november",
+          "description": "- - ⭐ 26 🟢 november",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -30270,7 +30348,7 @@
         {
           "node_type": "item",
           "title": "🔗 AzooKeyKanaKanjiConverter",
-          "description": "- - ⭐ 177 🟢 november",
+          "description": "- - ⭐ 182 🟢 yesterday",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -30279,7 +30357,7 @@
             "id": 669533784,
             "language": "Swift",
             "license": "MIT",
-            "last_commit": "2026-11-22T13:40:46Z",
+            "last_commit": "2026-11-23T07:07:39Z",
             "open_issues": 15,
             "owner": "azooKey",
             "repo": "AzooKeyKanaKanjiConverter",
@@ -30437,7 +30515,7 @@
         {
           "node_type": "item",
           "title": "🔗 kotlin-kana-kanji-converter",
-          "description": "- - ⭐ 7 🟢 yesterday",
+          "description": "- - ⭐ 7 🟢 november",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -30447,7 +30525,7 @@
             "language": "Python",
             "license": "MIT",
             "last_commit": "2026-11-15T06:09:24Z",
-            "open_issues": 42,
+            "open_issues": 48,
             "owner": "KazumaProject",
             "repo": "kotlin-kana-kanji-converter",
             "stars": 7,
@@ -30534,7 +30612,7 @@
         {
           "node_type": "item",
           "title": "🔗 colloquial-kansai-dictionary",
-          "description": "- - ⭐ 10 🟡 august",
+          "description": "- - ⭐ 10 🟢 last thursday",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -30564,7 +30642,7 @@
         {
           "node_type": "item",
           "title": "🔗 jisho-open",
-          "description": "- - ⭐ 70 🟡 july",
+          "description": "- - ⭐ 72 🟡 july",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -30800,7 +30878,7 @@
         {
           "node_type": "item",
           "title": "🔗 mozcdic-ut-personal-names",
-          "description": "- - ⭐ 28 🟢 november",
+          "description": "- - ⭐ 29 🟢 november",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -30821,7 +30899,7 @@
         {
           "node_type": "item",
           "title": "🔗 mozcdic-ut-sudachidict",
-          "description": "- - ⭐ 24 🟢 october",
+          "description": "- - ⭐ 25 🟢 october",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -30873,7 +30951,7 @@
         {
           "node_type": "item",
           "title": "🔗 kagome-dict",
-          "description": "- - ⭐ 15 🟢 october",
+          "description": "- - ⭐ 15 🟢 last saturday",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -30940,7 +31018,7 @@
         {
           "node_type": "item",
           "title": "🔗 jitendex",
-          "description": "- - ⭐ 550 🟡 august",
+          "description": "- - ⭐ 553 🟢 last friday",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -30968,7 +31046,7 @@
         {
           "node_type": "item",
           "title": "🔗 karukan",
-          "description": "- - ⭐ 791 🟢 last saturday",
+          "description": "- - ⭐ 798 🟢 last saturday",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -31000,7 +31078,7 @@
         {
           "node_type": "item",
           "title": "🔗 shitto-mania-dic",
-          "description": "- - ⭐ 0 🟡 august",
+          "description": "- - ⭐ 0 🟢 last tuesday",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -31051,7 +31129,7 @@
         {
           "node_type": "item",
           "title": "🔗 jmdict-fst",
-          "description": "- - ⭐ 7 🟡 may",
+          "description": "- - ⭐ 8 🟡 may",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -31108,7 +31186,7 @@
         {
           "node_type": "item",
           "title": "🔗 japanesekeyboard",
-          "description": "- - ⭐ 372 🟢 today",
+          "description": "- - ⭐ 375 🟢 last friday",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -31117,11 +31195,11 @@
             "id": 696033236,
             "language": "Kotlin",
             "license": "MIT",
-            "last_commit": "2026-11-20T14:38:08Z",
-            "open_issues": 37,
+            "last_commit": "2026-11-24T00:32:07Z",
+            "open_issues": 38,
             "owner": "KazumaProject",
             "repo": "JapaneseKeyboard",
-            "stars": 374,
+            "stars": 375,
             "topics": [
               "japanese-kana",
               "keyboard"
@@ -31153,7 +31231,7 @@
         {
           "node_type": "item",
           "title": "🔗 rakukan",
-          "description": "- - ⭐ 46 🟢 october",
+          "description": "- - ⭐ 47 🟢 last saturday",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -31183,7 +31261,7 @@
         {
           "node_type": "item",
           "title": "🔗 JMdictSQLite",
-          "description": "- - ⭐ 5 🟢 today",
+          "description": "- - ⭐ 5 🟢 yesterday",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -31212,7 +31290,7 @@
         {
           "node_type": "item",
           "title": "🔗 Meltype",
-          "description": "- - ⭐ 1.6k 🟢 today",
+          "description": "- - ⭐ 1.7k 🟢 today",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -31221,11 +31299,11 @@
             "id": 1395172468,
             "language": "C#",
             "license": "GPL-3.0",
-            "last_commit": "2026-11-22T15:50:40Z",
-            "open_issues": 394,
+            "last_commit": "2026-11-24T01:38:17Z",
+            "open_issues": 429,
             "owner": "yksr-melt",
             "repo": "Meltype",
-            "stars": 1676,
+            "stars": 1687,
             "topics": [
               "japanese",
               "windows"
@@ -31620,7 +31698,7 @@
             {
               "node_type": "item",
               "title": "🔗 UD_Japanese-GSDLUW",
-              "description": "- - ⭐ 5 🟢 last tuesday",
+              "description": "- - ⭐ 5 🟢 november",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -31641,7 +31719,7 @@
             {
               "node_type": "item",
               "title": "🔗 ud_japanese-bccwj",
-              "description": "- - ⭐ 27 🟢 last tuesday",
+              "description": "- - ⭐ 27 🟢 november",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -32705,7 +32783,7 @@
             {
               "node_type": "item",
               "title": "🔗 llm-japanese-dataset",
-              "description": "- - ⭐ 91 🔴 january 2024",
+              "description": "- - ⭐ 92 🔴 january 2024",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -32726,7 +32804,7 @@
             {
               "node_type": "item",
               "title": "🔗 kokorochat",
-              "description": "- - ⭐ 27 🟡 may",
+              "description": "- - ⭐ 27 🟢 last tuesday",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -32907,8 +32985,8 @@
                     "id": 6981206,
                     "language": "Ruby",
                     "license": "MIT",
-                    "last_commit": "2026-11-09T22:54:05Z",
-                    "open_issues": 4,
+                    "last_commit": "2026-11-23T22:54:06Z",
+                    "open_issues": 6,
                     "owner": "willnet",
                     "repo": "gimei",
                     "stars": 425,
@@ -32934,7 +33012,7 @@
                     "open_issues": 13,
                     "owner": "reazon-research",
                     "repo": "ReazonSpeech",
-                    "stars": 407,
+                    "stars": 406,
                     "topics": [
                       "asr",
                       "nlp"
@@ -33173,7 +33251,7 @@
                     "open_issues": 1,
                     "owner": "AsPJT",
                     "repo": "PAX_SAPIENTICA",
-                    "stars": 197,
+                    "stars": 198,
                     "topics": [
                       "abm",
                       "agent-based-modeling",
@@ -33452,7 +33530,7 @@
                     "open_issues": 9,
                     "owner": "komutan",
                     "repo": "NMeCab",
-                    "stars": 106,
+                    "stars": 107,
                     "topics": [
                       "c-sharp",
                       "dotnet",
@@ -33521,7 +33599,7 @@
                     "id": 113324715,
                     "language": "TypeScript",
                     "license": "MIT",
-                    "last_commit": "2026-10-06T22:03:31Z",
+                    "last_commit": "2026-11-23T21:17:30Z",
                     "open_issues": 0,
                     "owner": "yamachig",
                     "repo": "Lawtext",
@@ -33596,7 +33674,7 @@
                     "open_issues": 0,
                     "owner": "hingston",
                     "repo": "japanese",
-                    "stars": 92,
+                    "stars": 94,
                     "topics": [
                       "japanese",
                       "japanese-characters",
@@ -34533,7 +34611,7 @@
                     "open_issues": 0,
                     "owner": "Aratako",
                     "repo": "Japanese-RP-Bench",
-                    "stars": 25,
+                    "stars": 26,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -34992,7 +35070,7 @@
                     "id": 474831645,
                     "language": null,
                     "license": null,
-                    "last_commit": "2026-11-22T20:52:45Z",
+                    "last_commit": "2026-11-24T01:52:13Z",
                     "open_issues": 0,
                     "owner": "kissge",
                     "repo": "elaws-history",
@@ -36717,6 +36795,27 @@
                 },
                 {
                   "node_type": "item",
+                  "title": "cadel",
+                  "description": "CADEL: Corpus of Administrative Web Documents for Japanese Entity Linking (Version 1.0)",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": null,
+                    "homepage": null,
+                    "id": 917960852,
+                    "language": "Python",
+                    "license": "NOASSERTION",
+                    "last_commit": "2026-04-03T02:39:42Z",
+                    "open_issues": 0,
+                    "owner": "shigashiyama",
+                    "repo": "cadel",
+                    "stars": 2,
+                    "topics": []
+                  },
+                  "first_seen": "2026-11-24T02:56:39.215Z"
+                },
+                {
+                  "node_type": "item",
                   "title": "kokkosho_data",
                   "description": "車両不具合情報に関するデータセット",
                   "children": [],
@@ -37253,6 +37352,27 @@
                 },
                 {
                   "node_type": "item",
+                  "title": "JaFaithSum",
+                  "description": "A Japanese Faithfulness Evaluation Dataset for LLM Summarization",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": null,
+                    "homepage": null,
+                    "id": 1215297796,
+                    "language": "Python",
+                    "license": null,
+                    "last_commit": "2026-04-27T23:26:48Z",
+                    "open_issues": 0,
+                    "owner": "SDS-NLP",
+                    "repo": "JaFaithSum",
+                    "stars": 0,
+                    "topics": []
+                  },
+                  "first_seen": "2026-11-24T02:56:39.215Z"
+                },
+                {
+                  "node_type": "item",
                   "title": "🔗 jrte-corpus",
                   "description": "- - ⭐ 78 🔴 june 2023",
                   "children": [],
@@ -37281,7 +37401,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 kanji-data",
-                  "description": "- - ⭐ 243 🟡 february",
+                  "description": "- - ⭐ 246 🟡 february",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -37538,7 +37658,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 japanese",
-                  "description": "- - ⭐ 92 🔴 september 2018",
+                  "description": "- - ⭐ 94 🔴 september 2018",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -37551,7 +37671,7 @@
                     "open_issues": 0,
                     "owner": "hingston",
                     "repo": "japanese",
-                    "stars": 92,
+                    "stars": 94,
                     "topics": [
                       "japanese",
                       "japanese-characters",
@@ -37759,7 +37879,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 house-of-representatives",
-                  "description": "- - ⭐ 184 🟢 yesterday",
+                  "description": "- - ⭐ 184 🟢 last tuesday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -37780,7 +37900,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 STAIR-captions",
-                  "description": "- - ⭐ 90 🔴 invalid",
+                  "description": "- - ⭐ 90 🔴 july 2018",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -38149,7 +38269,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 hirakanadic",
-                  "description": "📥 31 📦 15k ⭐ 7 🔴 july 2023",
+                  "description": "📥 59 📦 15k ⭐ 7 🔴 july 2023",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -38299,7 +38419,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 phishurl-list",
-                  "description": "- - ⭐ 215 🟢 october",
+                  "description": "- - ⭐ 216 🟢 october",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -38421,7 +38541,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 NMeCab",
-                  "description": "- - ⭐ 106 🔴 march 2024",
+                  "description": "- - ⭐ 107 🔴 march 2024",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -38434,7 +38554,7 @@
                     "open_issues": 9,
                     "owner": "komutan",
                     "repo": "NMeCab",
-                    "stars": 106,
+                    "stars": 107,
                     "topics": [
                       "c-sharp",
                       "dotnet",
@@ -38560,7 +38680,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 PAX_SAPIENTICA",
-                  "description": "- - ⭐ 198 🟡 december 2025",
+                  "description": "- - ⭐ 197 🟡 december 2025",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -38573,7 +38693,7 @@
                     "open_issues": 1,
                     "owner": "AsPJT",
                     "repo": "PAX_SAPIENTICA",
-                    "stars": 197,
+                    "stars": 198,
                     "topics": [
                       "abm",
                       "agent-based-modeling",
@@ -39178,7 +39298,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 kanji-data-media",
-                  "description": "- - ⭐ 438 🟢 september",
+                  "description": "- - ⭐ 440 🟢 september",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -39209,7 +39329,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 reazonspeech",
-                  "description": "- - ⭐ 406 🟡 june",
+                  "description": "- - ⭐ 407 🟡 june",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -39222,7 +39342,7 @@
                     "open_issues": 13,
                     "owner": "reazon-research",
                     "repo": "ReazonSpeech",
-                    "stars": 407,
+                    "stars": 406,
                     "topics": [
                       "asr",
                       "nlp"
@@ -39583,7 +39703,7 @@
                     "id": 113324715,
                     "language": "TypeScript",
                     "license": "MIT",
-                    "last_commit": "2026-10-06T22:03:31Z",
+                    "last_commit": "2026-11-23T21:17:30Z",
                     "open_issues": 0,
                     "owner": "yamachig",
                     "repo": "Lawtext",
@@ -39751,7 +39871,7 @@
                     "id": 474831645,
                     "language": null,
                     "license": null,
-                    "last_commit": "2026-11-22T20:52:45Z",
+                    "last_commit": "2026-11-24T01:52:13Z",
                     "open_issues": 0,
                     "owner": "kissge",
                     "repo": "elaws-history",
@@ -39767,7 +39887,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 Japanese-RP-Bench",
-                  "description": "- - ⭐ 25 🔴 september 2024",
+                  "description": "- - ⭐ 26 🔴 september 2024",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -39780,7 +39900,7 @@
                     "open_issues": 0,
                     "owner": "Aratako",
                     "repo": "Japanese-RP-Bench",
-                    "stars": 25,
+                    "stars": 26,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:35:22.918Z"
@@ -39788,7 +39908,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 hdic",
-                  "description": "- - ⭐ 45 🟢 november",
+                  "description": "- - ⭐ 45 🟢 last friday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -40099,8 +40219,8 @@
                     "id": 6981206,
                     "language": "Ruby",
                     "license": "MIT",
-                    "last_commit": "2026-11-09T22:54:05Z",
-                    "open_issues": 4,
+                    "last_commit": "2026-11-23T22:54:06Z",
+                    "open_issues": 6,
                     "owner": "willnet",
                     "repo": "gimei",
                     "stars": 425,
@@ -40162,7 +40282,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 kanji",
-                  "description": "- - ⭐ 31 🟢 november",
+                  "description": "- - ⭐ 31 🟢 yesterday",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -40628,7 +40748,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 osworld-jp",
-                  "description": "- - ⭐ 3 🟢 last thursday",
+                  "description": "- - ⭐ 3 🟢 november",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -41227,7 +41347,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 Kokoro-Speech-Dataset",
-                  "description": "- - ⭐ 76 🟡 april",
+                  "description": "- - ⭐ 77 🟡 april",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -41337,7 +41457,7 @@
                 {
                   "node_type": "item",
                   "title": "🔗 doctrine-corpus",
-                  "description": "- - ⭐ 2 🟢 yesterday",
+                  "description": "- - ⭐ 2 🟢 november",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -41679,11 +41799,53 @@
                     "topics": []
                   },
                   "first_seen": "2026-11-17T00:17:41.656Z"
+                },
+                {
+                  "node_type": "item",
+                  "title": "🔗 cadel",
+                  "description": "- - ⭐ 2 🟡 april",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": null,
+                    "homepage": null,
+                    "id": 917960852,
+                    "language": "Python",
+                    "license": "NOASSERTION",
+                    "last_commit": "2026-04-03T02:39:42Z",
+                    "open_issues": 0,
+                    "owner": "shigashiyama",
+                    "repo": "cadel",
+                    "stars": 2,
+                    "topics": []
+                  },
+                  "first_seen": "2026-11-24T02:56:39.215Z"
+                },
+                {
+                  "node_type": "item",
+                  "title": "🔗 JaFaithSum",
+                  "description": "- - ⭐ 0 🟡 april",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": null,
+                    "homepage": null,
+                    "id": 1215297796,
+                    "language": "Python",
+                    "license": null,
+                    "last_commit": "2026-04-27T23:26:48Z",
+                    "open_issues": 0,
+                    "owner": "SDS-NLP",
+                    "repo": "JaFaithSum",
+                    "stars": 0,
+                    "topics": []
+                  },
+                  "first_seen": "2026-11-24T02:56:39.215Z"
                 }
               ],
               "description": null,
               "node_type": "group",
-              "title": "Show 192 items"
+              "title": "Show 194 items"
             }
           ],
           "description": "Corpora for tasks such as question answering or entailment recognition",
@@ -42163,7 +42325,7 @@
             "id": 900699377,
             "language": "Jupyter Notebook",
             "license": "MIT",
-            "last_commit": "2026-11-20T10:29:22Z",
+            "last_commit": "2026-11-23T23:45:40Z",
             "open_issues": 57,
             "owner": "yuiseki",
             "repo": "NLP2025-tutorial-2",
@@ -42212,7 +42374,7 @@
             "id": 801281158,
             "language": "Jupyter Notebook",
             "license": "MIT",
-            "last_commit": "2026-11-22T16:09:40Z",
+            "last_commit": "2026-11-23T23:17:43Z",
             "open_issues": 0,
             "owner": "mamorlis",
             "repo": "nlpbook",
@@ -42714,7 +42876,7 @@
         {
           "node_type": "item",
           "title": "🔗 deep-learning-with-pytorch-ja",
-          "description": "- - ⭐ 146 🔴 may 2021",
+          "description": "- - ⭐ 147 🔴 may 2021",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -42848,7 +43010,7 @@
         {
           "node_type": "item",
           "title": "🔗 nlpbook",
-          "description": "- - ⭐ 14 🟢 today",
+          "description": "- - ⭐ 14 🟢 yesterday",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -42857,7 +43019,7 @@
             "id": 801281158,
             "language": "Jupyter Notebook",
             "license": "MIT",
-            "last_commit": "2026-11-22T16:09:40Z",
+            "last_commit": "2026-11-23T23:17:43Z",
             "open_issues": 0,
             "owner": "mamorlis",
             "repo": "nlpbook",
@@ -42970,7 +43132,7 @@
             "id": 900699377,
             "language": "Jupyter Notebook",
             "license": "MIT",
-            "last_commit": "2026-11-20T10:29:22Z",
+            "last_commit": "2026-11-23T23:45:40Z",
             "open_issues": 57,
             "owner": "yuiseki",
             "repo": "NLP2025-tutorial-2",
@@ -43254,8 +43416,8 @@
             "id": 664157329,
             "language": "TypeScript",
             "license": "Apache-2.0",
-            "last_commit": "2026-11-22T11:22:02Z",
-            "open_issues": 2,
+            "last_commit": "2026-11-23T12:12:09Z",
+            "open_issues": 1,
             "owner": "llm-jp",
             "repo": "awesome-japanese-llm",
             "stars": 1446,
@@ -43528,7 +43690,7 @@
         {
           "node_type": "item",
           "title": "🔗 awesome-japanese-llm",
-          "description": "- - ⭐ 1.4k 🟢 november",
+          "description": "- - ⭐ 1.4k 🟢 yesterday",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -43537,8 +43699,8 @@
             "id": 664157329,
             "language": "TypeScript",
             "license": "Apache-2.0",
-            "last_commit": "2026-11-22T11:22:02Z",
-            "open_issues": 2,
+            "last_commit": "2026-11-23T12:12:09Z",
+            "open_issues": 1,
             "owner": "llm-jp",
             "repo": "awesome-japanese-llm",
             "stars": 1446,
@@ -43588,7 +43750,7 @@
             "open_issues": 12,
             "owner": "vaaaaanquish",
             "repo": "Awesome-Rust-MachineLearning",
-            "stars": 2263,
+            "stars": 2264,
             "topics": [
               "awasome",
               "deep-learning",
@@ -43634,7 +43796,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-22T21:53:41.552Z",
+    "last_updated": "2026-11-24T02:56:39.215Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of resources for Japanese natural language processing (NLP): Python libraries, LLMs, dictionaries, corpora, and datasets. Includes Claude Code and Codex skills to search resources.",
@@ -43642,11 +43804,11 @@
       "id": 501192860,
       "language": null,
       "license": "CC0-1.0",
-      "last_commit": "2026-11-21T17:15:37Z",
-      "open_issues": 4,
+      "last_commit": "2026-11-23T14:48:31Z",
+      "open_issues": 5,
       "owner": "taishi-i",
       "repo": "awesome-japanese-nlp-resources",
-      "stars": 1031,
+      "stars": 1032,
       "topics": [
         "agent-skills",
         "awesome",
@@ -43660,7 +43822,7 @@
         "nlp-library"
       ]
     },
-    "original_repository_sha": "4988c7947104b2f6c0d484b1fe3c9109f9c5543e",
+    "original_repository_sha": "bc1e0db5823f71e719362016647f41981b3351b9",
     "enhanced_repository": "enhansome/enhansome-japanese-nlp-resources",
     "enhanced_repository_description": null,
     "title": "awesome-japanese-nlp-resources with stars"
